@@ -1,0 +1,36 @@
+h1 {
+    width: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+
+#lista {
+    background-color: darkslategray;
+}
+
+.cor-p-ul {
+    background-color: darkslategray;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 40px;
+    text-align:center;
+    text-decoration:underline;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+body {
+    font-size: 16px;
+}
+
+#amarelo {
+    background-color: yellow;
+}
+#vermelho {
+    background-color: red;
+}
+#marrom {
+    background-color: brown;
+}
