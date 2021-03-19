@@ -1,0 +1,34 @@
+div.primaria {
+    background-color:#4ea8de;
+}
+
+div.secundaria {
+    background-color: #5390d9;
+}
+div.complementar {
+    background-color: #5e60ce;
+    padding: 60px 0px;;
+}
+
+div.escura {
+    background-color:#6930c3;
+}
+
+div.clara {
+    background-color: #7400b8;
+}
+
+.names-color {
+    color: #80ffdb;
+    text-align: center;
+    font-size:x-large;
+}
+
+.primary {
+    font-style:italic;
+}
+
+div:hover {
+    border-style: solid;
+    border-color: #56cfe1;
+}
