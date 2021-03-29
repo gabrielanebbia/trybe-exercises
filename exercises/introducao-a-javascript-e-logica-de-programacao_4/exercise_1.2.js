@@ -7,5 +7,4 @@ let info = {
     recorrente: 'Sim',
   };
 
-  console.log(info.recorrente);
-  
+  console.log(info);
