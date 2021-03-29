@@ -1,3 +1,5 @@
+//Cria um programa que converte notas em porcentagem para conceitos de A a F.
+
 let nota = 75;
 
 if(nota >= 90) {
