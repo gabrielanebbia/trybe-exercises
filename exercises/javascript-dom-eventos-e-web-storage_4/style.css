@@ -31,6 +31,7 @@ body {
 .text {
     text-align: justify;
     margin: 50px 100px;
+    line-height: 1;
 }
 
 .reference {
