@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+    font-family: 'Times New Roman, sans-serif';
+    color: black;
+    font-size: medium;    
+}
+
+.tituloPage {
+    text-align: center;
+}
+
+.preferences {
+    text-align: center;
+    margin: 50px 100px;
+}
+
+.titleText {
+    text-align: center;
+    margin: 0px 100px;
+}
+
+.text {
+    text-align: justify;
+    margin: 50px 100px;
+}
+
+.reference {
+    text-align: center;
+}
