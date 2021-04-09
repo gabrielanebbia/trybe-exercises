@@ -73,26 +73,31 @@ window.onload = function() {
 function backgroundColor(color) {
     let background = document.querySelector('body');
     backgroundColor.style.backgroundColor = color;
+    localStorage.setItem('backgroundColor', color);
 }
 
 function textColor(color) {
     let textColor = document.querySelector('body');
     textColor.style.color = color;
+    localStorage.setItem('textColor', color);
 }
 
 function fontSize(size) {
     let fontSize = document.querySelector('body');
     fontSize.style.fontSize = size;
+    localStorage.setItem('fontSize', size);
 
 }
 function lineHeight(height) {
     let lineHeight = document.querySelector('.text');
     lineHeight.style.lineHeight = height;
+    localStorage.setItem('lineHeight', height);
 }
 
 function fontFamily(family) {
     let fontFamily = document.querySelector('body');
     fontFamily.style.fontFamily = family;
+    localStorage.setItem('fontFamily', family);
 }
 </script>
 
