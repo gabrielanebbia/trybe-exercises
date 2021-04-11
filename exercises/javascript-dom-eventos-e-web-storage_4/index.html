@@ -74,7 +74,7 @@ function backgroundColor(color) {
     let background = document.querySelector('body');
     backgroundColor.style.backgroundColor = color;
     localStorage.setItem('backgroundColor', color);
-}
+}  
 
 function textColor(color) {
     let textColor = document.querySelector('body');
@@ -83,11 +83,12 @@ function textColor(color) {
 }
 
 function fontSize(size) {
-    let fontSize = document.querySelector('body');
+    let fontSize = document.querySelector('.text');
     fontSize.style.fontSize = size;
     localStorage.setItem('fontSize', size);
 
 }
+
 function lineHeight(height) {
     let lineHeight = document.querySelector('.text');
     lineHeight.style.lineHeight = height;
@@ -98,6 +99,43 @@ function fontFamily(family) {
     let fontFamily = document.querySelector('body');
     fontFamily.style.fontFamily = family;
     localStorage.setItem('fontFamily', family);
+}
+
+//
+
+let buttonBackgroundColor = document.querySelector('body');
+    for (let index = 0; index < buttonBackgroundColor.length; index += 1) {
+        buttonBackgroundColor[index].addEventListener("click", function(){
+        backgroundColor()
+    })
+}
+
+let buttonTextColor = document.querySelector('body');
+    for (let index = 0; index < buttonTextColor.length; index += 1) {
+        buttonTextColor[index].addEventListener("click", function(){
+        TextColor()
+    })
+}
+
+let buttonfontSize = document.querySelector('.text')
+    for (let index = 0; index < buttonfontSize.length; index += 1) {
+        buttonfontSize[index].addEventListener("click", function(){
+        fontSize()
+    })
+}
+
+let buttonlineHeight = document.querySelector('.text');
+    for (let index = 0; index < buttonlineHeight.length; index += 1) {
+        buttonlineHeight[index].addEventListener("click", function(){
+        lineHeight()
+    })
+}
+
+let buttonfontFamily = document.querySelector
+    for (let index = 0; index < buttonfontFamily.length; index += 1) {
+        buttonfontFamily[index].addEventListener("click", function(){
+        fontFamily()
+    })
 }
 </script>
 
