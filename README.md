@@ -1,4 +1,4 @@
-## Aqui você encontra informações sobre o que estou desenvolvendo durante o curso da Trybe
+### Aqui você encontra informações sobre o que estou desenvolvendo durante o curso :computer: :books:
 
 # Trybe
 
