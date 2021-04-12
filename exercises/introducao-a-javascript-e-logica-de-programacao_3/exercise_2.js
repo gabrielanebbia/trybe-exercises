@@ -12,11 +12,11 @@ n = 5
  */
 
 
-let quadrado = [];
+let quadrado = '';
 let numero = 5;
 let asteristico = "*";
 
 for (let index = 1; index <= numero; index += 1) {
-   quadrado.push(asteristico);
    console.log(quadrado);
+   quadrado = quadrado + asteristico;
 }
