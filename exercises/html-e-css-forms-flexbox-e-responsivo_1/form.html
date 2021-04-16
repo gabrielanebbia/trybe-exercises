@@ -8,6 +8,43 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <h1>Formulário de Currículo</h1>
+
+  <form action="" method="GET"></form>
+
+    <fieldset>
+      <legend>Cadastro de Currículo</legend>
+      <p>Nome</p>
+      <input type="text" id="fullName" name="name" maxlength="40" required>
+      <label for="fullName"></label>
+
+      <p>Email</p>
+      <input type="text" id="userEmail" name="email" maxlength="50" required>
+      <label for="UserEmail"></label>
+
+      <p>CPF</p>
+      <input type="text" id="userCpf" name="cpf" maxlength="11" required>
+      <label for="userCpf"></label>
+
+      <p>Endereço</p>
+      <input type="text" id="userEndereco" name="endereco" maxlength="200" required>
+      <label for="userEndereco"></label>
+
+      <p>Cidade</p>
+      <input type="text" id="userCidade" name="cidade" maxlength="28" required>
+      <label for="userCidade"></label>
+
+      <p>Estado</p>
+      <select id="userEstado" name="estado"></select required>
+      <label for="userEstado"></label>
+
+      <p>Tipo de moradia</p>
+      <label for="userTipo"required></label>
+      <input type="radio" id="userTipoCasa" name="tipo" value="casa">Casa
+      <input type="radio" id="userTipoApartamento" name="tipo" value="apartamento">Apartamento
+      
+
+    </fieldset>
   <script src="script.js"></script>
 </body>
 </html>

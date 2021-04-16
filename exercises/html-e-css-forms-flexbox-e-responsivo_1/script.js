@@ -1,0 +1,9 @@
+let estados = ['Selecione','Acre', 'Alagoas', 'Amapá', 'Amazonas', 'Bahia', 'Ceará', 'Distrito Federal',  'Espírito Santo', 'Goiás', 'Maranhão', 'Mato Grosso', 'Mato Grosso do Sul', 'Minas Gerais', 'Pará', 'Paraíba', 'Pernambuco', 'Piauí', 'Rio de Janeiro', 'Rio Grande do Norte', 'Rio Grande do Sul', 'Rondônia', 'Roraima', 'Santa Catarina', 'São Paulo', 'Sergipe', 'Tocantins'];
+
+let secaoEstado = document.querySelector('#userEstado');
+
+for (let index = 0; index < estados.length; index += 1) {
+  let novoEstado = document.createElement('option');
+  novoEstado.innerText = estados[index];
+  secaoEstado.appendChild(novoEstado);
+}
