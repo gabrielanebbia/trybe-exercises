@@ -10,7 +10,7 @@
 <body>
   <h1>Formulário de Currículo</h1>
 
-  <form action="" method="GET"></form>
+  <form id="forms" action="" method="GET">
 
     <fieldset>
 
@@ -62,7 +62,10 @@
       <p>Data de início</p>
       <input type="text" id="userDataInicio" name="dataInicio" placeholder="dd-mm-aaaa" onkeyup="testDataInicial()" maxlength="8" required>
     </fieldset>
+
+    <button type="submit" id="buttonCriar">Criar</button>
     
+  </form>
   <script src="script.js"></script>
 </body>
 </html>

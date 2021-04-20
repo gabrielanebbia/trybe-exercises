@@ -29,3 +29,12 @@ let dataInput = document.getElementById('userDataInicio').value;
 testDataInicial();
 
 dataInput.addEventListener('keyup', testDataInicial);
+
+// Botão para criar uma div com o conteúdo inserido no formulário
+// Referência: https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
+
+let forms = document.getElementById('forms');
+
+forms.addEventListener('submit', function(event) {
+  event.preventDefault();
+});
