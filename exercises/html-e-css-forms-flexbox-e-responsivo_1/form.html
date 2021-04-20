@@ -12,7 +12,7 @@
 
   <form id="forms" action="" method="GET">
 
-    <fieldset>
+    <fieldset id="part1">
 
       <legend>Cadastro de Currículo</legend>
 
@@ -46,8 +46,8 @@
       <input type="radio" id="userTipoApartamento" name="tipo" value="apartamento">Apartamento
 
     </fieldset>
-<br>
-    <fieldset>
+  <br>
+    <fieldset id="part2">
       <legend>Dados do seu último emprego</legend>
 
       <p>Resumo do currículo</p>
@@ -64,8 +64,11 @@
     </fieldset>
 
     <button type="submit" id="buttonCriar">Criar</button>
-    
+
   </form>
+
+  <div id="curriculo"></div>
+
   <script src="script.js"></script>
 </body>
 </html>

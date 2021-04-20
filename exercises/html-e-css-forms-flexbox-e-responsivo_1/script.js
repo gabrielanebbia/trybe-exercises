@@ -31,10 +31,25 @@ testDataInicial();
 dataInput.addEventListener('keyup', testDataInicial);
 
 // Botão para criar uma div com o conteúdo inserido no formulário
-// Referência: https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
+// Referência: https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener e https://developer.mozilla.org/pt-BR/docs/Web/API/Event/preventDefault
 
 let forms = document.getElementById('forms');
+let criar = document.getElementById('buttonCriar');
 
-forms.addEventListener('submit', function(event) {
+forms.addEventListener('submit', function (event) {
   event.preventDefault();
+  let valid = false;
+
+  if (valid = true) {
+    criar.addEventListener('click', createCurriculo ())
+  }
 });
+
+function createCurriculo() {
+  let curriculo = document.querySelector('#curriculo');
+  let part1 = document.createElement('div');
+  curriculo.appendChild(part1);
+
+}
+
+criar.addEventListener('click', createCurriculo);
