@@ -49,5 +49,5 @@ Estilize o primeiro capítulo do livro: Alice no País das Maravilhas.
 Utilizando a abordagem mobile first e media queries, crie três versões de layout diferentes para essa página. 
 
 - [x] layout pequeno - até 600px
-- [ ] layout médio - a partir de 600px
+- [x] layout médio - a partir de 600px
 - [ ] layout grande - a partir de 1000px
