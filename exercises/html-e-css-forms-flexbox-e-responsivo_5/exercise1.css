@@ -34,3 +34,25 @@ figure {
         text-align: center;
     }
 }
+
+@media screen and (min-width: 1300px) {
+    body {
+      background-color: brown;
+      font-size: x-large;
+      margin: 2.5em;
+      max-width: 80%;
+    }
+
+    h1 {
+        font-size: xx-large;
+        text-align: center;
+    }
+
+    figcaption {
+        font-size: large;
+    }
+
+    .box-columns {
+        display: flex;
+    }
+}
