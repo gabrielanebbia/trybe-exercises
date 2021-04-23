@@ -67,5 +67,5 @@ Especificamente:
 - [x] O elemento com id aside deve desaparecer;
 - [x] O elemento body não deve ter padding;
 - [x] As imagens não devem exceder a largura da tela;
-- [ ] Os itens dentro do elemento navigation devem aparecer cada um em sua própria linha;
+- [x] Os itens dentro do elemento navigation devem aparecer cada um em sua própria linha;
 - [x] O elemento com id header deve ser fixo, de forma que ele fique aparecendo sempre no topo da tela mesmo após o usuário rolar a página.
