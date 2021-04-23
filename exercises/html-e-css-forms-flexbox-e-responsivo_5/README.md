@@ -64,8 +64,8 @@ Adicione uma media query no arquivo CSS e as regras necessárias para que a pág
 Adicione uma media query no arquivo CSS para quando a tela for redimensionada para larguras de tela pequena(240x320) e tela de smartphone(360x640).
 
 Especificamente:
-- [ ] O elemento com id aside deve desaparecer;
-- [ ] O elemento body não deve ter padding;
-- [ ] As imagens não devem exceder a largura da tela;
+- [x] O elemento com id aside deve desaparecer;
+- [x] O elemento body não deve ter padding;
+- [x] As imagens não devem exceder a largura da tela;
 - [ ] Os itens dentro do elemento navigation devem aparecer cada um em sua própria linha;
-- [ ] O elemento com id header deve ser fixo, de forma que ele fique aparecendo sempre no topo da tela mesmo após o usuário rolar a página.
+- [x] O elemento com id header deve ser fixo, de forma que ele fique aparecendo sempre no topo da tela mesmo após o usuário rolar a página.
