@@ -28,4 +28,8 @@ figure {
     .box-columns {
         display: flex;
     }
+
+    h1 {
+        text-align: center;
+    }
 }
