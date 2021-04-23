@@ -61,7 +61,7 @@ Adicione uma media query no arquivo CSS e as regras necessárias para que a pág
 - [x] Os elementos com id header, navigation e footer devem desaparecer;
 - [x] O elemento com id aside deve ser mostrado abaixo do conteúdo principal.
 
-Adicione uma media query no arquivo CSS para quando a tela for redimensionada para larguras menores de (240x320) e (360x640).
+Adicione uma media query no arquivo CSS para quando a tela for redimensionada para larguras de tela pequena(240x320) e tela de smartphone(360x640).
 
 Especificamente:
 - [ ] O elemento com id aside deve desaparecer;
