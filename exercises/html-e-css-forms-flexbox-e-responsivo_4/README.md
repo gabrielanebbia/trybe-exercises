@@ -5,10 +5,10 @@
 
 Vamos praticando com a continuação do header:
 
-- [ ] Adicione uma propriedade que defina o tamanho Flexbox base para o container da imagem 268px e para o container do menu 500px.
-- [ ] Adicione uma propriedade Flexbox que modifique a ordem em que a logomarca e os itens do menu aparecem na tela.
-- [ ] Adicione uma propriedade Flexbox que modifique o tamanho padrão do container do menu quando a largura da página for maior que 768px.
-- [ ] Utilize a propriedade align-self no elemento correto para que o header da página tenha o comportamento de um item ao lado do outro e centralizados.
+- [x] Adicione uma propriedade que defina o tamanho Flexbox base para o container da imagem 268px e para o container do menu 500px.
+- [x] Adicione uma propriedade Flexbox que modifique a ordem em que a logomarca e os itens do menu aparecem na tela.
+- [x] Adicione uma propriedade Flexbox que modifique o tamanho padrão do container do menu quando a largura da página for maior que 768px.
+- [x] Utilize a propriedade align-self no elemento correto para que o header da página tenha o comportamento de um item ao lado do outro e centralizados.
 
 
 ### Parte 2
