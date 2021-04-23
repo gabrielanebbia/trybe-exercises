@@ -15,11 +15,11 @@ Vamos praticando com a continuação do header:
 
 Vamos continuar praticando com a continuação do header realizado no exercício acima e construir um main com o restante de sua página:
 
-- [ ] Aplique uma base de 350px para seu container aside.
-- [ ] Aplique um alinhamento para centralizar e outro para expandir.
-- [ ] Adicione uma propriedade que faça com que seu container de filmes tenha uma base de 700px e outra base de 16% para as div do container de seu card.
-- [ ] Aplique uma propridade com o valor 10 que expanda o container de filmes.
-- [ ] Adicione uma propriedade com o valor 1 que faça com que suas div do container de filmes ocupe todo o espaço em branco.
+- [x] Aplique uma base de 350px para seu container aside.
+- [x] Aplique um alinhamento para centralizar e outro para expandir.
+- [x] Adicione uma propriedade que faça com que seu container de filmes tenha uma base de 700px e outra base de 16% para as div do container de seu card.
+- [x] Aplique uma propridade com o valor 10 que expanda o container de filmes.
+- [x] Adicione uma propriedade com o valor 1 que faça com que suas div do container de filmes ocupe todo o espaço em branco.
 
 #### Parte 3 (opcional)
 
