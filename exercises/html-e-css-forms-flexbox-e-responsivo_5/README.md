@@ -3,7 +3,7 @@
 
 Os requisitos do exercícios são:
 
-### Parte I - Criar uma página para uma tela pequena
+### Parte I
 
 #### A - Comece o exercício analisando a página em uma tela de tamanho pequeno, para simular como ela pode parecer em um dispositivo móvel. (mobile first)
 
@@ -41,3 +41,13 @@ Realize os seguintes ajustes dentro do breakpoint:
 - [x] Ajuste o tamanho da fonte;
 - [x] Ajuste as margens da página;
 - [x] Adicione a propriedade max-width à página, para garantir que a largura das linhas não fique muito grande.
+
+### Parte II
+
+Estilize o primeiro capítulo do livro: Alice no País das Maravilhas.
+
+Utilizando a abordagem mobile first e media queries, crie três versões de layout diferentes para essa página. 
+
+- [x] layout pequeno - até 600px
+- [ ] layout médio - a partir de 600px
+- [ ] layout grande - a partir de 1000px
