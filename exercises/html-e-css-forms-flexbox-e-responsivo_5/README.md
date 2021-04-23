@@ -10,10 +10,10 @@ Os requisitos do exercícios são:
 Agora você vai ajustar o CSS para melhorar a visualização da página.
 
 Realize as seguintes tarefas:
-- [ ] Faça o tamanho da fonte ser maior;
-- [ ] Faça o tamanho da fonte dos elementos h1 ser menor;
-- [ ] Aumente o espaçamento entre as figuras;
-- [ ] Adicione um pouco de margin na página.
+- [x] Faça o tamanho da fonte ser maior;
+- [x] Faça o tamanho da fonte dos elementos h1 ser menor;
+- [x] Aumente o espaçamento entre as figuras;
+- [x] Adicione um pouco de margin na página.
 
 #### B - Comece a expandir a largura da sua tela. Faça isso até chegar em um ponto onde o design atual da página não funciona mais.
 
