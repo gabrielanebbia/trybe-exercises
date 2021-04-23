@@ -54,6 +54,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-basis: 700px;
+  flex-grow: 10;
 }
 
 .movie-container h2 {
@@ -96,5 +97,4 @@ body {
 .aside-container p {
   margin: 10px 0;
   text-align: justify;
-  
 }
