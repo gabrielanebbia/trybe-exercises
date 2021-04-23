@@ -17,3 +17,15 @@ figure {
     margin: 0.5em;
     padding-bottom: 1em;
 }
+
+@media screen and (min-width: 800px) {
+    body {
+      background-color: darkgoldenrod;
+      font-size: larger;
+      margin: 3em;
+    }
+
+    .box-columns {
+        display: flex;
+    }
+}
