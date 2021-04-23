@@ -50,4 +50,4 @@ Utilizando a abordagem mobile first e media queries, crie três versões de layo
 
 - [x] layout pequeno - até 600px
 - [x] layout médio - a partir de 600px
-- [ ] layout grande - a partir de 1000px
+- [x] layout grande - a partir de 1000px
