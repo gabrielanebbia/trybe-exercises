@@ -5,7 +5,7 @@
 
 1 - Fazendo as modificações necessárias na função:
 - [x] Faz com que seu comportamento respeite o escopo no qual cada variável foi declarada.
-- [ ] Modica a estrutura da função para que ela seja uma arrow function.
+- [x] Modica a estrutura da função para que ela seja uma arrow function.
 - [ ] Modica as concatenações para template literals.
 
 2 - Faz uma função que retorne o array oddsAndEvens em ordem crescente.
