@@ -3,7 +3,8 @@
 
 #### Parte I
 
-1 - Fazendo as modificações necessárias na função para que o seu comportamento respeite o escopo no qual cada variável foi declarada.
+1 - Fazendo as modificações necessárias na função:
+- [x] Faz com que seu comportamento respeite o escopo no qual cada variável foi declarada.
 - [ ] Modica a estrutura da função para que ela seja uma arrow function.
 - [ ] Modica as concatenações para template literals.
 
