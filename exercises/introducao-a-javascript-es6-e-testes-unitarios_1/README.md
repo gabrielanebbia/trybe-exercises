@@ -10,6 +10,6 @@
 
 2 - Faz uma função que retorne o array oddsAndEvens em ordem crescente.
 
-- [ ] Utilize template literals para que a chamada console.log(oddsAndEvens); 
-- [ ] Retorna "Os números 2,3,4,7,10,13 se encontram ordenados de forma crescente!".
-- [ ] Bônus (opcional): Faz o mesmo exercício utilizando o método array.sort(). 
+- [x] Utilize template literals para que a chamada console.log(oddsAndEvens); 
+- [x] Retorna "Os números 2,3,4,7,10,13 se encontram ordenados de forma crescente!".
+- [x] Bônus (opcional): Faz o mesmo exercício utilizando o método array.sort(). 
