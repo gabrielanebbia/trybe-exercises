@@ -43,6 +43,6 @@ Dado os testes unitários escreva as funções de forma a passar nos testes.
 - [x]Escreva a função addOne para passar nos testes já implementados.
 - [x]Escreva a função wordLengths para passar nos testes já implementados.
 - [x]Escreva a função sumAllNumbers para passar nos testes já implementados.
-- [ ]Escreva a função findTheNeedle para passar nos testes já implementados.
+- [x]Escreva a função findTheNeedle para passar nos testes já implementados.
 
 
