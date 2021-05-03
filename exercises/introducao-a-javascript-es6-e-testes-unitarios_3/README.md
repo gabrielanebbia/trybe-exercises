@@ -1,7 +1,8 @@
 ## Bloco 7 - Introdução à JavaScript ES6 e Testes Unitários
 ### 7.3 - Testes unitários em JavaScript
 
-## Parte 1
+## Parte 1 - Praticando a implementação de testes
+
 #### Exercício 1
 A função sum(a, b) retorna a soma do parâmetro a com o b
 
@@ -37,7 +38,7 @@ A função myFizzBuzz(num) recebe um número num e retorna "fizzbuzz" se o núme
 #### Exercício 5
 - [x]Compare dois objetos (JSON) para verificar se são idênticos ou não;
 
-## Parte II
+## Parte II - Praticando TDD
 Dado os testes unitários escreva as funções de forma a passar nos testes.
 
 - [x]Escreva a função addOne para passar nos testes já implementados.
@@ -45,4 +46,5 @@ Dado os testes unitários escreva as funções de forma a passar nos testes.
 - [x]Escreva a função sumAllNumbers para passar nos testes já implementados.
 - [x]Escreva a função findTheNeedle para passar nos testes já implementados.
 
-
+## Parte III - Reescrevendo funções utilizando TDD
+Temos uma função pronta (e feita de forma errada, ou seja, sem funcionar direito), os parâmetros que devem ser passados a ela e a resposta esperada. Escreva testes de modo a entender e testar o comportamento da função e, depois, altere-a para que passe nos testes.
