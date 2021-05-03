@@ -47,4 +47,5 @@ Dado os testes unitários escreva as funções de forma a passar nos testes.
 - [x]Escreva a função findTheNeedle para passar nos testes já implementados.
 
 ## Parte III - Reescrevendo funções utilizando TDD
-Temos uma função pronta (e feita de forma errada, ou seja, sem funcionar direito), os parâmetros que devem ser passados a ela e a resposta esperada. Escreva testes de modo a entender e testar o comportamento da função e, depois, altere-a para que passe nos testes.
+Temos uma função pronta (e feita de forma errada, ou seja, sem funcionar direito), os parâmetros que devem ser passados a ela e a resposta esperada. 
+Escreva testes de modo a entender e testar o comportamento da função e, depois, altere-a para que passe nos testes.
