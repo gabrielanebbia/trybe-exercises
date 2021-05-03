@@ -33,3 +33,6 @@ A função myFizzBuzz(num) recebe um número num e retorna "fizzbuzz" se o núme
 - [x]Faça uma chamada com um número divisível por 5 e verifique se o retorno é o esperado;
 - [x]Faça uma chamada com um número que não é divisível por 3 ou 5 e verifique se o retorno é o esperado;
 - [x]Faça uma chamada com um parâmetro que não é um número e verifique se o retorno é o esperado;
+
+#### Exercício 5
+- [x]Compare dois objetos (JSON) para verificar se são idênticos ou não;
