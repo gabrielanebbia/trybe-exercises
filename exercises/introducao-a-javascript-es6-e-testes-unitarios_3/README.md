@@ -1,7 +1,7 @@
 ## Bloco 7 - Introdução à JavaScript ES6 e Testes Unitários
 ### 7.3 - Testes unitários em JavaScript
 
-
+## Parte 1
 #### Exercício 1
 A função sum(a, b) retorna a soma do parâmetro a com o b
 
@@ -36,3 +36,13 @@ A função myFizzBuzz(num) recebe um número num e retorna "fizzbuzz" se o núme
 
 #### Exercício 5
 - [x]Compare dois objetos (JSON) para verificar se são idênticos ou não;
+
+## Parte II
+Dado os testes unitários escreva as funções de forma a passar nos testes.
+
+- [ ]Escreva a função addOne para passar nos testes já implementados.
+- [ ]Escreva a função wordLengths para passar nos testes já implementados.
+- [ ]Escreva a função sumAllNumbers para passar nos testes já implementados.
+- [ ]Escreva a função findTheNeedle para passar nos testes já implementados.
+
+
