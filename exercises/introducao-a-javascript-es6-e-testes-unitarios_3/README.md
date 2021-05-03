@@ -23,4 +23,4 @@ A função myRemoveWithoutCopy(arr, item) recebe um array arr e retorna o própr
 - [x]Verifique se a chamada myRemoveWithoutCopy([1, 2, 3, 4], 3) retorna o array esperado;
 - [x]Verifique se a chamada myRemoveWithoutCopy([1, 2, 3, 4], 3) não retorna o array [1, 2, 3, 4];
 - [x]Faça uma chamada para a função myRemoveWithoutCopy e verifique se o array passado por parâmetro sofreu alterações;
-- [ ]Verifique se a chamada myRemoveWithoutCopy([1, 2, 3, 4], 5) retorna o array esperado;
+- [x]Verifique se a chamada myRemoveWithoutCopy([1, 2, 3, 4], 5) retorna o array esperado;

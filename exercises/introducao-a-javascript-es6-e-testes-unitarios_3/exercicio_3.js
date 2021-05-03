@@ -20,3 +20,5 @@ assert.notDeepStrictEqual(myRemoveWithoutCopy([1, 2, 3, 4], 3), [1, 2, 3, 4]);
 const newArr = [5, 6, 7, 8];
 myRemoveWithoutCopy(newArr, 5);
 assert.strictEqual(newArr.length, 3);
+
+assert.deepStrictEqual(myRemoveWithoutCopy([1, 2, 3, 4], 5), [1, 2, 3, 4]);
