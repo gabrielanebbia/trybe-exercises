@@ -26,3 +26,12 @@ const dragonDamage = () => {
 };
 
 console.log(dragonDamage(dragon));
+
+const warriorDamage = () => {
+  const warriorMin = warrior.strength;
+  const warriorMax = warrior.strength * warrior.weaponDmg;
+  const numberWarriorDamage = Math.floor(Math.random() * (warriorMax - warriorMin)) + warriorMin;
+  return numberWarriorDamage;
+};
+
+console.log(warriorDamage(warrior));
