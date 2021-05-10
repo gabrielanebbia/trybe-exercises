@@ -11,7 +11,7 @@
 O array é ordenado por idade, ou seja, da pessoa mais jovem para a mais velha considerando suas idades quando o livro foi lançado.
 
 #### Exercício 3
-- [ ] Cria um array com todos os objetos que possuem gênero ficção científica ou fantasia.
+- [x] Cria um array com todos os objetos que possuem gênero ficção científica ou fantasia.
 
 #### Exercício 4
 - [ ] Cria um array ordenado pelos livros com mais de 60 anos de publicação e ordena-o pelo livro mais velho.
