@@ -66,7 +66,11 @@ const books = [
 const expectedResult = 'O Senhor dos Anéis';
 
 function authorWith3DotsOnName() {
-  // escreva seu código aqui
-}
+  return books.find((book) => (
+    book.author.name.split(' ').filter((dot) => dot.endsWith('.')).length === 3
+    )).name;
+};
+
+ //separa os nomes dos autores em palavras , filtra as palavras que terminam com ponto e os que possuem tamanho igual a 3
 
 assert.deepStrictEqual(authorWith3DotsOnName(), expectedResult);

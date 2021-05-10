@@ -23,4 +23,4 @@ O array é ordenado por idade, ou seja, da pessoa mais jovem para a mais velha c
 - [x] Cria um array com o nome de todos os livros com mais de 60 anos de publicação.
 
 #### Exercício 7
-- [ ] Encontra o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais.
+- [x] Encontra o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais, cada inicial termina com um ponto.
