@@ -1,8 +1,11 @@
 ## Bloco 8 - Higher Order Functions do JavaScript ES6
 ### 8.2 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 
+#### Nos exercícios a seguir, se trabalhou com uma estrutura de dados representando uma lista de livros, contendo informações como: nome do livro, gênero, pessoa autora do livro e data de lançamento.
+#### Em cada exercício, foi pedido que se encontrasse ou produzisse alguma informação a respeito dessa lista utilizando as funções HOF.
+
 #### Exercício 1
-- [ ] Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
+- [x] Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
 
 #### Exercício 2
 - [ ] Retorne o nome do livro de menor nome.
