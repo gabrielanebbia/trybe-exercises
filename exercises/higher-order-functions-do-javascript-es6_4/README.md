@@ -7,7 +7,7 @@
 - [x] Dada uma matriz de matrizes, transforma em uma única matriz.
 
 #### Exercício 2
-- [] Cria uma string com os nomes de todas as pessoas autoras.
+- [x] Cria uma string com os nomes de todas as pessoas autoras.
 
 #### Exercício 3
 - [] Calcula a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.

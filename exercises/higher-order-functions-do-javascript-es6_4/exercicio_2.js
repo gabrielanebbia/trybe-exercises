@@ -64,8 +64,15 @@ const books = [
   },
 ];
 
+const namesAuthors = (acc, book, index, array) => {
+  if (index === array.length - 1) {
+    return `${acc} ${book.author.name}.`; // Se o elemento for o ultimo retorna com o ponto
+  } 
+  return `${acc} ${book.author.name},`; // Se não retorna com virgula
+};
+
 function allNames() {
-  // escreva seu código aqui
-}
+  return books.reduce(namesAuthors, 'Nomes:');
+};
 
 assert.deepStrictEqual(allNames(), 'Nomes: George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.');
