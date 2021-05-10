@@ -10,7 +10,7 @@
 - [x] Cria uma string com os nomes de todas as pessoas autoras.
 
 #### Exercício 3
-- [] Calcula a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.
+- [x] Calcula a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.
 
 #### Exercício 4
 - [] Encontra o livro com o maior nome.
