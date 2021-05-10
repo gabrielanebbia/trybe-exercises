@@ -11,7 +11,7 @@
 - [x] Retorne o nome do livro de menor nome.
 
 #### Exercício 3
-- [ ] Encontre o primeiro livro cujo nome possui 26 caracteres.
+- [x] Encontre o primeiro livro cujo nome possui 26 caracteres.
 
 #### Exercício 4
 - [ ] Ordene os livros por data de lançamento em ordem decrescente.
