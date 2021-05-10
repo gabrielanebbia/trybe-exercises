@@ -4,7 +4,7 @@
 ### os exercícios a seguir, se trabalhou com uma estrutura de dados representando uma lista de livros, contendo informações como: nome do livro, gênero, pessoa autora do livro e data de lançamento. Em cada exercício, foi pedido que se encontrasse ou produzisse alguma informação a respeito dessa lista utilizando as funções HOF.
 
 #### Exercício 1
-- [ ] Cria um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA.
+- [x] Cria um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA.
 
 #### Exercício 2
 - [ ] Construe um array de objetos a partir do array de livros. Cada objeto contém uma propriedade author, com o nome da pessoa autora do livro, e uma propriedade age com a idade dessa pessoa quando o livro foi lançado. 
