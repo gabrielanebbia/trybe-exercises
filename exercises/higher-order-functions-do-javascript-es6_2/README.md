@@ -8,7 +8,7 @@
 - [x] Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
 
 #### Exercício 2
-- [ ] Retorne o nome do livro de menor nome.
+- [x] Retorne o nome do livro de menor nome.
 
 #### Exercício 3
 - [ ] Encontre o primeiro livro cujo nome possui 26 caracteres.
