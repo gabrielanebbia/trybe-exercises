@@ -17,7 +17,7 @@
 - [x] Ordene os livros por data de lançamento em ordem decrescente.
 
 #### Exercício 5
-- [ ] Faça uma função que retorne true , se todas as pessoas autoras nasceram no século XX, ou false , caso contrário.
+- [x] Faça uma função que retorne true , se todas as pessoas autoras nasceram no século XX, ou false , caso contrário.
 
 #### Exercício 6
 - [ ] Faça uma função que retorne true , se algum livro foi lançado na década de 80, e false , caso contrário.
