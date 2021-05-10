@@ -17,7 +17,7 @@ O array é ordenado por idade, ou seja, da pessoa mais jovem para a mais velha c
 - [x] Cria um array ordenado pelos livros com mais de 60 anos de publicação e ordena-o pelo livro mais velho.
 
 #### Exercício 5
-- [ ] Cria um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
+- [x] Cria um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
 
 #### Exercício 6
 - [ ] Cria um array com o nome de todos os livros com mais de 60 anos de publicação.
