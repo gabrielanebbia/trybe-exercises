@@ -88,7 +88,9 @@ const expectedResult = [
 ];
 
 function oldBooks() {
-  // escreva seu código aqui
-}
+  return books
+  .filter((book) => (book.releaseYear < 1961))
+  .sort((a, b) => a.releaseYear - b.releaseYear);
+};
 
 assert.deepStrictEqual(oldBooks(), expectedResult);
