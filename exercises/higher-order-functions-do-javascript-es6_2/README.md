@@ -23,4 +23,4 @@
 - [x] Faça uma função que retorne true , se algum livro foi lançado na década de 80, e false , caso contrário.
 
 #### Exercício 7
-- [ ] Faça uma função que retorne true , caso nenhum author tenha nascido no mesmo ano, e false , caso contrário. 
+- [x] Faça uma função que retorne true , caso nenhum author tenha nascido no mesmo ano, e false , caso contrário. 
