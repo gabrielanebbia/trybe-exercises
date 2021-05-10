@@ -4,7 +4,7 @@
 ### os exercícios a seguir, se trabalhou com uma estrutura de dados representando uma lista de livros, contendo informações como: nome do livro, gênero, pessoa autora do livro e data de lançamento. Em cada exercício, foi pedido que se encontrasse ou produzisse alguma informação a respeito dessa lista utilizando as funções HOF.
 
 #### Exercício 1
-- [] Dada uma matriz de matrizes, transforma em uma única matriz.
+- [x] Dada uma matriz de matrizes, transforma em uma única matriz.
 
 #### Exercício 2
 - [] Cria uma string com os nomes de todas as pessoas autoras.
