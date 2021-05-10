@@ -14,7 +14,7 @@
 - [x] Encontre o primeiro livro cujo nome possui 26 caracteres.
 
 #### Exercício 4
-- [ ] Ordene os livros por data de lançamento em ordem decrescente.
+- [x] Ordene os livros por data de lançamento em ordem decrescente.
 
 #### Exercício 5
 - [ ] Faça uma função que retorne true , se todas as pessoas autoras nasceram no século XX, ou false , caso contrário.
