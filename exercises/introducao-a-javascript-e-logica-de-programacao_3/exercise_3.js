@@ -28,5 +28,3 @@ for (let index = 0; index < numero; index += 1) {
   espaco = '';
   posicao -= 1;
 }
-
-

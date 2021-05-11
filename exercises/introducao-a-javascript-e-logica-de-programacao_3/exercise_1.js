@@ -22,4 +22,4 @@ for (let index = 0; index < numero; index += 1) {
 
 for (let index = 0; index < numero; index += 1) {
       console.log(quadrado);
-};
+}
