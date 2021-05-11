@@ -22,7 +22,7 @@ Os requisitos do exercí­cio são:
 
 
 **Exercício 5**
-- [ ] Após fazer uma função que envia a temperatura de Marte, envia para o robô Curiosity o que você deseja fazer, uma vez obtida com sucesso a temperatura em Marte. Logo, adiciona-se a função sendMarsTemperature um callback que contenha as ações a serem tomadas em cima da temperatura.
+- [x] Após fazer uma função que envia a temperatura de Marte, envia para o robô Curiosity o que você deseja fazer, uma vez obtida com sucesso a temperatura em Marte. Logo, adiciona-se a função sendMarsTemperature um callback que contenha as ações a serem tomadas em cima da temperatura.
 
 **Exercício 6**
 - [ ] Por fim, o robô Curiosity tem uma taxa de sucesso de envio de mensagem de 60% devido ao fato de o robô já estar muito ocupado com outras operações. Logo, adiciona-se a função sendMarsTemperature um outro callback que contenha as ações a serem tomadas em caso de falha.
