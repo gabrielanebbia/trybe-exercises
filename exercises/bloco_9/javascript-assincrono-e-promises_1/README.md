@@ -15,7 +15,7 @@ Os requisitos do exercí­cio são:
 - [x] Dado um código, aponta qual a ordem de finalização de execução das linhas comentadas.
 
 **Exercício 3**
-- [ ] Dado a função getPlanet que imprime o planeta Marte de forma síncrona. Modifica getPlanet, de forma que Marte seja impresso assincronamente, depois de 4 segundos.
+- [x] Dado a função getPlanet que imprime o planeta Marte de forma síncrona. Modifica getPlanet, de forma que Marte seja impresso assincronamente, depois de 4 segundos.
 
 **Exercício 4**
 - [ ] Simula uma mensagem enviada do robô Curiosity de Marte para a Terra. O Curiosity envia para a Terra a temperatura atual em Marte, gastando um tempo variável de até 5 segundos para que termine o envio. Cria-se a função sendMarsTemperature, que imprime a temperatura em Marte.

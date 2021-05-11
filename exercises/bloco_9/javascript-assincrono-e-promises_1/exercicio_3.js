@@ -6,7 +6,7 @@ const getPlanet = () => {
       measurementUnit: "kilometers",
     },
   };
-  console.log("Returned planet: ", mars);
+  console.log("Returned planet: ", mars); // O setTimeout poderia ser dentro da função
 };
 
-getPlanet(); // imprime Marte depois de 4 segundos
+setTimeout(() => getPlanet(), 4000); // imprime Marte depois de 4 segundos
