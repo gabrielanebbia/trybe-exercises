@@ -9,10 +9,10 @@ O objetivo dos exercícios desse dia foi colocar em prática o uso correto de:
 Os requisitos do exercí­cio são:
 
 **Exercício 1**
-- [ ] Dado um código, aponta qual a ordem de finalização de execução das linhas comentadas.
+- [x] Dado um código, aponta qual a ordem de finalização de execução das linhas comentadas.
 
 **Exercício 2**
-- [ ] Dado um código, aponta qual a ordem de finalização de execução das linhas comentadas.
+- [x] Dado um código, aponta qual a ordem de finalização de execução das linhas comentadas.
 
 **Exercício 3**
 - [ ] Dado a função getPlanet que imprime o planeta Marte de forma síncrona. Modifica getPlanet, de forma que Marte seja impresso assincronamente, depois de 4 segundos.
