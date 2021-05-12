@@ -7,5 +7,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 
 Os requisitos do exercí­cio são:
 
+Criar um site simples com um gerador de piadas ruins
+
 **Exercício 1**
-Cria um site simples com um gerador de piadas ruins
+- [x] Faz a piada aparecer no DOM da página.
