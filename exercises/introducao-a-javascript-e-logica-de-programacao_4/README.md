@@ -25,16 +25,16 @@ Os requisitos do exercí­cio são:
 #### Parte 2 - Funções
 
 **Exercício 1**
-- [ ] Cria uma função que recebe uma string e retorna true se for um palíndromo, ou false, se não for.
+- [x] Cria uma função que recebe uma string e retorna true se for um palíndromo, ou false, se não for.
 
 **Exercício 2**
-- [ ] Cria uma função que recebe um array de inteiros e retorna o índice do maior valor.
+- [x] Cria uma função que recebe um array de inteiros e retorna o índice do maior valor.
 
 **Exercício 3**
-- [ ] Cria uma função que recebe um array de inteiros e retorna o índice do menor valor.
+- [x] Cria uma função que recebe um array de inteiros e retorna o índice do menor valor.
 
 **Exercício 4**
-- [ ] Cria uma função que recebe um array de nomes e retorna o nome com a maior quantidade de caracteres.
+- [x] Cria uma função que recebe um array de nomes e retorna o nome com a maior quantidade de caracteres.
 
 **Exercício 5**
 - [ ] Cria uma função que recebe um array de inteiros e retorna o inteiro que mais se repete.
