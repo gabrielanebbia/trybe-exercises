@@ -1,4 +1,4 @@
-function highestValueIndex (integerArray) {
+function highestValueIndex(integerArray) {
   let higherNumber = 0;
   for (let index in integerArray) {
     if (integerArray[higherNumber] < integerArray[index]){
