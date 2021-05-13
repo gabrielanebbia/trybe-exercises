@@ -40,15 +40,15 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
-- [ ] 5-1: _JavaScript - DOM e seletores_
-- [ ] 5-2: _JavaScript - Trabalhando com elementos_
-- [ ] 5-3: _JavaScript - Eventos_
-- [ ] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _[Projeto - Meme Generator]()_
-- [ ] 5-6: _[Projeto - Arte com Pixels]()_
-- [ ] 5-7: _[Projeto - Lista de tarefas]()_
-- [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
-- [ ] 5-7: _[Projeto - Carta Misteriosa]()_
+- [x] 5-1: _JavaScript - DOM e seletores_
+- [x] 5-2: _JavaScript - Trabalhando com elementos_
+- [x] 5-3: _JavaScript - Eventos_
+- [x] 5-4: _JavaScript - Web Storage_
+- [x] 5-5: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-011-project-pixels-art/pull/56)_ :eight_pointed_black_star:
+- [x] 5-6: _[Projeto - Lista de tarefas](https://github.com/tryber/sd-011-project-todo-list/pull/80)_ :eight_pointed_black_star:
+- [x] 5-7: _[Projeto Bônus - Meme Generator](https://github.com/tryber/sd-011-project-meme-generator/pull/46)_ :eight_pointed_black_star:
+- [x] 5-8: _[Projeto Bônus - Adivinhe a Cor](https://github.com/tryber/sd-011-project-color-guess/pull/34)_ :eight_pointed_black_star:
+- [x] 5-9: _[Projeto Bônus - Carta Misteriosa](https://github.com/tryber/sd-011-project-mistery-letter/pull/26)_ :eight_pointed_black_star:
 
 ##### Bloco 6: HTML & CSS avançado
 
