@@ -1,5 +1,5 @@
 ## Bloco 7 - Introdução à JavaScript ES6 e Testes Unitários
-   ### 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
+   ### Dia 1 - JavaScript ES6 - let, const, arrow functions e template literals
 
 #### Parte I
 
@@ -9,7 +9,6 @@
 - [x] Modica as concatenações para template literals.
 
 2 - Faz uma função que retorne o array oddsAndEvens em ordem crescente.
-
 - [x] Utilize template literals para que a chamada console.log(oddsAndEvens); 
 - [x] Retorna "Os números 2,3,4,7,10,13 se encontram ordenados de forma crescente!".
 - [x] Bônus (opcional): Faz o mesmo exercício utilizando o método array.sort(). 
@@ -20,7 +19,7 @@
 1 - Cria algoritmos seguindo as especificações abaixo:
 - [ ] Uma função que receba um número e retorne seu fatorial.
 
-Na matemática, o fatorial de um número não negativo N , com a notação N! , é o produto de todos os inteiros menores ou iguais a N . Exemplo: 4! = 4 * 3 * 2 * 1 = 24.
+Na matemática, o fatorial de um número não negativo N, com a notação N!, é o produto de todos os inteiros menores ou iguais a N. Exemplo: 4! = 4 * 3 * 2 * 1 = 24.
 
 - [ ] Bônus (opcional): Faz o mesmo exercício de forma recursiva em uma linha usando ternary operator.
 
@@ -46,3 +45,4 @@ Exemplo: longestWord("Antônio foi no banheiro e não sabemos o que aconteceu") 
       Exemplo: "Tryber x aqui! Minhas cinco principais habilidades são:
          JavaScript;
           HTML; ... #goTrybe".
+          
