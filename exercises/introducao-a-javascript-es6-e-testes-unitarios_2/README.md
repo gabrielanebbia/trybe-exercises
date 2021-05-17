@@ -1,5 +1,5 @@
 ## Bloco 7 - Introdução à JavaScript ES6 e Testes Unitários
-### 7.2 JavaScript ES6 - Objects
+### Dia 2 JavaScript ES6 - Objects
 
 Exercícios para fixação do conteúdo aprendido sobre objetos:
 
