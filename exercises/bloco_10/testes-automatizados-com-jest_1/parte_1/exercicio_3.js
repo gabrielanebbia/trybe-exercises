@@ -13,7 +13,7 @@ function myRemoveWithoutCopy(arr, item) {
 }
 
 // implemente seus testes aqui
-
+// Testes unitários em JavaScript:
 assert.deepStrictEqual(myRemoveWithoutCopy([1, 2, 3, 4], 3), [1, 2, 4]);
 assert.notDeepStrictEqual(myRemoveWithoutCopy([1, 2, 3, 4], 3), [1, 2, 3, 4]);
 
@@ -22,3 +22,5 @@ myRemoveWithoutCopy(newArr, 5);
 assert.strictEqual(newArr.length, 3);
 
 assert.deepStrictEqual(myRemoveWithoutCopy([1, 2, 3, 4], 5), [1, 2, 3, 4]);
+
+// Testes automatizados com Jest:
