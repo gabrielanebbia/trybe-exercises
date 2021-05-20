@@ -33,7 +33,7 @@ A função myFizzBuzz(num) recebe um número num e retorna "fizzbuzz" se o núme
 - [x]Faz uma chamada com um parâmetro que não é um número e verifica se o retorno é o esperado;
 
 **Exercício 5**
-- [ ]Compara dois objetos (JSON) para verifica se são idênticos ou não;
+- [x]Compara dois objetos (JSON) para verifica se são idênticos ou não;
 
 ## Parte II - Trabalhar com os testes para algumas funções criadas anteriormente no projeto Playground functions.
 
