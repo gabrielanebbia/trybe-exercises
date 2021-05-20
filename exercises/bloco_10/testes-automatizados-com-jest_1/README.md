@@ -46,10 +46,10 @@ Para as funções encode e decode cria os seguintes testes:
 - [x]Testa se a string que é retornada pelas funções têm o mesmo número de caracteres que a string passada como parâmetro.
 
 **Exercício 2**
-- [x]Implementa refatoração da função techList a partir dos testes no arquivo. 
+- [x]Implementa a refatoração da função techList a partir dos testes no arquivo. 
 
 **Exercício 3**
-- [ ]Implementa a função hydrate a partir dos testes no arquivo.
+- [x]Implementa a refatoração da função hydrate a partir dos testes no arquivo.
 
 ## Bônus
 Praticar o desenvolvimento orientado a testes implementando:
