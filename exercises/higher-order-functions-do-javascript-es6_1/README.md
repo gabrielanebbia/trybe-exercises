@@ -1,18 +1,22 @@
 ## Bloco 8 - Higher Order Functions do JavaScript ES6
-### 8.1 - JavaScript ES6 - Introdução a Higher Order Functions
+### Dia 1 - JavaScript ES6 - Introdução a Higher Order Functions
 
-#### Exercício 1
+O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre Higher Order Functions.
+
+Os requisitos do exercí­cio são:
+
+**Exercício 1**
 
 - [x] Crie uma função de primeira classe que retorna um objeto { nomeCompleto, email } de uma nova pessoa contratada.
 - [x] Passe sua função como parâmetro da HOF newEmployees para criar cada pessoa contratada em seu respctivo id. A sua função deve receber como parâmetro o nome completo da pessoa funcionária e a partir dele gerar automaticamente um email no formato nome_da_pessoa@trybe.com .
 
-#### Exercício 2
+**Exercício 2**
 
 - [x] Desenvolva uma HOF que retorna o resultado de um sorteio. 
 Esta HOF irá gerar um número aleatório entre 1 e 5 recebendo como parâmetros o número apostado e uma função que checa se o número apostado é igual ao número sorteado. O retorno da sua HOF deve ser uma string (Ex: "Tente novamente" ou "Parabéns você ganhou").
 
 
-#### Bônus 1
+**Bônus 1**
 Nestes exercícios você irá implementar HOFs que simulam um turno de batalha em um jogo. 
 Você irá criar funções que calculam dano, atualizam status, e ao final, retornam os resultados da rodada.
 
@@ -27,7 +31,7 @@ O dano será um número aleatório entre o valor do atributo intelligence (dano 
 A mana consumida por turno é 15. Além disto a função deve ter uma condicional, caso o mago tenha menos de 15 de mana o valor de dano recebe uma mensagem (Ex: "Não possui mana suficiente") e a mana gasta é 0.
 
 
-#### Bônus 2
+**Bônus 2**
 Agora que você já possui a implementação das funções relativas aos três exercícios anteriores, passe-as como parâmetro para outras funções que irão compor um objeto gameActions.
  O objeto será composto por ações do jogo e cada ação é por denifição uma HOF, pois neste caso, são funções que recebem como parâmetro outra função.
 
