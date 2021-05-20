@@ -25,3 +25,5 @@ function encode(lowercaseVowels) {
 }
 
 console.log(encode('hi there!'));
+
+module.exports = encode;

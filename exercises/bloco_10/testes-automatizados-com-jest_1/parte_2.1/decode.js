@@ -25,3 +25,5 @@ function decode(uppercaseVowels) {
 }
 
 console.log(decode('h3 th2r2!'));
+
+module.exports = decode;

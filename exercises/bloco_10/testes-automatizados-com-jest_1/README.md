@@ -39,11 +39,11 @@ A função myFizzBuzz(num) recebe um número num e retorna "fizzbuzz" se o núme
 
 **Exercício 1**
 Para as funções encode e decode cria os seguintes testes:
-- [ ]Testa se encode e decode são funções;
-- [ ]Para a função encode testa se as vogais a, e, i, o, u são convertidas em 1, 2, 3, 4 e 5, respectivamente;
+- [x]Testa se encode e decode são funções;
+- [x]Para a função encode testa se as vogais a, e, i, o, u são convertidas em 1, 2, 3, 4 e 5, respectivamente;
 - Para a função decode testa se os números 1, 2, 3, 4 e 5 são convertido nas vogais a, e, i, o, u, respectivamente;
-- [ ]Testa se as demais letras/números não são convertidos para cada caso;
-- [ ]Testa se a string que é retornada pelas funções têm o mesmo número de caracteres que a string passada como parâmetro.
+- [x]Testa se as demais letras/números não são convertidos para cada caso;
+- [x]Testa se a string que é retornada pelas funções têm o mesmo número de caracteres que a string passada como parâmetro.
 
 **Exercício 2**
 - [ ]Implementa a função techList a partir dos testes no arquivo. 
