@@ -1,4 +1,4 @@
-const assert = require('assert');
+// const assert = require('assert');
 
 function myFizzBuzz(num) {
   if (typeof num !== 'number') return false;
@@ -10,10 +10,11 @@ function myFizzBuzz(num) {
 
 // implemente seus testes aqui
 // Testes unitários em JavaScript:
-assert.strictEqual(myFizzBuzz(15), 'fizzbuzz');
+/* assert.strictEqual(myFizzBuzz(15), 'fizzbuzz');
 assert.strictEqual(myFizzBuzz(3), 'fizz');
 assert.strictEqual(myFizzBuzz(5), 'buzz');
 assert.strictEqual(myFizzBuzz(17), 17);
-assert.strictEqual(myFizzBuzz('cinco'), false);
+assert.strictEqual(myFizzBuzz('cinco'), false); */
 
 // Testes automatizados com Jest:
+module.exports = myFizzBuzz;
