@@ -19,10 +19,10 @@ A função myRemove(arr, item) recebe um array arr e retorna uma cópia desse ar
 
 **Exercício 3**
 A função myRemoveWithoutCopy(arr, item) recebe um array arr e retorna o próprio array sem o elemento item caso ele exista no array.
-- [ ]Verifica se a chamada myRemoveWithoutCopy([1, 2, 3, 4], 3) retorna o array esperado;
-- [ ]Verifica se a chamada myRemoveWithoutCopy([1, 2, 3, 4], 3) não retorna o array [1, 2, 3, 4];
-- [ ]Faz uma chamada para a função myRemoveWithoutCopy e verifica se o array passado por parâmetro sofreu alterações;
-- [ ]Verifica se a chamada myRemoveWithoutCopy([1, 2, 3, 4], 5) retorna o array esperado;
+- [x]Verifica se a chamada myRemoveWithoutCopy([1, 2, 3, 4], 3) retorna o array esperado;
+- [x]Verifica se a chamada myRemoveWithoutCopy([1, 2, 3, 4], 3) não retorna o array [1, 2, 3, 4];
+- [x]Faz uma chamada para a função myRemoveWithoutCopy e verifica se o array passado por parâmetro sofreu alterações;
+- [x]Verifica se a chamada myRemoveWithoutCopy([1, 2, 3, 4], 5) retorna o array esperado;
 
 **Exercício 4**
 A função myFizzBuzz(num) recebe um número num e retorna "fizzbuzz" se o número for divisível por 3 e 5 , retorna "fizz" se for divisível apenas por 3 , retorna "buzz" se divisível apenas por 5 , retorna o próprio número caso não seja divisível por 3 ou 5 e retorna false caso num não seja um número.
