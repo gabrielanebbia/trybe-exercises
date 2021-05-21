@@ -1,6 +1,8 @@
 ## Bloco 10 - Testes automatizados com Jest
 ### Dia 1 - Primeiros passos no Jest
 
+O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre testes automatizados com Jest.
+
 ## Parte 1 - Refazendo os exercícios 1 a 5 do conteúdo de Testes unitários em JavaScript, dessa vez utilizando Jest.
 
 **Exercício 1**
