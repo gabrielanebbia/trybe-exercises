@@ -1,12 +1,12 @@
 ## Bloco 10 - Testes automatizados com Jest
 ### Dia 2 - Jest - Testes Assíncronos
 
-O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre Jest.
+O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre testes automatizados com Jest.
 
 Os requisitos do exercí­cio são:
 
 **Exercício 1**
-- [ ] Escreve um teste que verifica a chamada do callback de uma função uppercase, que transforma as letras de uma palavra em letras maiúsculas, com atenção aos falso-positivos em testes assíncronos.
+- [ ] Escreve um teste que verifica a chamada do callback da função uppercase, que transforma as letras de uma palavra em letras maiúsculas, com atenção aos falso-positivos em testes assíncronos.
 
 **Exercício 2**
 Utilizando a sintaxe de Promise:
