@@ -2,7 +2,6 @@
 ### Dia 1 - JavaScript Assíncrono e Callbacks
 
 O objetivo dos exercícios desse dia foi colocar em prática o uso correto de:
-
 - Operações assíncronas
 - Callbacks
 
