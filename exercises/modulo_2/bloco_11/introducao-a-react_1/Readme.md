@@ -8,6 +8,6 @@ Os requisitos do exercí­cio foram:
 **Exercício 1**
 Iniciando um novo projeto com React:
 
-- [ ] Cria uma lista de tarefas simples.
-- [ ] Cria uma array de compromissos
-- [ ] Com a função map faz com que cada item do array apareça como um item de lista no componente App.
+- [x] Cria uma lista de tarefas simples.
+- [x] Cria uma array de compromissos
+- [x] Com a função map faz com que cada item do array apareça como um item de lista no componente App.

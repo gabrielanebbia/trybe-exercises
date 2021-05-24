@@ -7,6 +7,8 @@ const Task = (value) => {
   );
 }
 
+const listTasks = ['Acordar', 'Tomar café', 'Começar estudos', 'Jogar', 'Descansar'];
+
 function App() {
   return (
     <div className="App">
@@ -15,7 +17,7 @@ function App() {
       </header>
       <body className="App-body">
       <h2>My List</h2>
-      <ol>{ Task() }</ol>
+      <ol className="App-ol">{ listTasks.map((item) => Task(item)) }</ol>
       </body>
     </div>
   );
