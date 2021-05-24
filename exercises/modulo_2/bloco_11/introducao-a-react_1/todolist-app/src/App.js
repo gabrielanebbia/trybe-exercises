@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+
+const Task = (value) => {
+  return (
+    <li>{value}</li>
+  );
+}
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <h1>To Do List</h1>
       </header>
+      <body className="App-body">
+      <h2>My List</h2>
+      <ol>{ Task() }</ol>
+      </body>
     </div>
   );
 }
