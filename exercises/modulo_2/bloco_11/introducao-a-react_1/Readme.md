@@ -21,7 +21,7 @@ Completa os desafios do site freeCodeCamp:
 - [x]Add Comments in JSX
 - [x]Render HTML Elements to the DOM
 - [x]Define an HTML Class in JSX
-- [ ]Learn About Self-Closing JSX Tags
+- [x]Learn About Self-Closing JSX Tags
 - [ ]Create a Stateless Functional Component
 - [ ]Create a React Component
 - [ ]Create a Component with Composition
