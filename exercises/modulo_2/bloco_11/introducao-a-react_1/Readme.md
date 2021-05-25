@@ -11,3 +11,17 @@ Iniciando um novo projeto com React:
 - [x] Cria uma lista de tarefas simples.
 - [x] Cria uma array de compromissos
 - [x] Com a função map faz com que cada item do array apareça como um item de lista no componente App.
+
+**Exercício 2**
+Completa os desafios do site freeCodeCamp:
+> https://www.freecodecamp.org/learn/front-end-libraries/react/
+
+- [x]Create a Simple JSX Element
+- [ ]Create a Complex JSX Element
+- [ ]Add Comments in JSX
+- [ ]Render HTML Elements to the DOM
+- [ ]Define an HTML Class in JSX
+- [ ]Learn About Self-Closing JSX Tags
+- [ ]Create a Stateless Functional Component
+- [ ]Create a React Component
+- [ ]Create a Component with Composition
