@@ -17,7 +17,7 @@ Completa os desafios do site freeCodeCamp:
 > https://www.freecodecamp.org/learn/front-end-libraries/react/
 
 - [x]Create a Simple JSX Element
-- [ ]Create a Complex JSX Element
+- [x]Create a Complex JSX Element
 - [ ]Add Comments in JSX
 - [ ]Render HTML Elements to the DOM
 - [ ]Define an HTML Class in JSX
