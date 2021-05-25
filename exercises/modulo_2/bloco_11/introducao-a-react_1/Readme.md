@@ -18,7 +18,7 @@ Completa os desafios do site freeCodeCamp:
 
 - [x]Create a Simple JSX Element
 - [x]Create a Complex JSX Element
-- [ ]Add Comments in JSX
+- [x]Add Comments in JSX
 - [ ]Render HTML Elements to the DOM
 - [ ]Define an HTML Class in JSX
 - [ ]Learn About Self-Closing JSX Tags
