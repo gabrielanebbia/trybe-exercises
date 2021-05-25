@@ -16,12 +16,14 @@ Iniciando um novo projeto com React:
 Completa os desafios do site freeCodeCamp:
 > https://www.freecodecamp.org/learn/front-end-libraries/react/
 
-- [x]Create a Simple JSX Element
-- [x]Create a Complex JSX Element
-- [x]Add Comments in JSX
-- [x]Render HTML Elements to the DOM
-- [x]Define an HTML Class in JSX
-- [x]Learn About Self-Closing JSX Tags
-- [x]Create a Stateless Functional Component
-- [x]Create a React Component
-- [ ]Create a Component with Composition
+Introduction to the React Challenges
+
+- [x]1 - Create a Simple JSX Element
+- [x]2 - Create a Complex JSX Element
+- [x]3 - Add Comments in JSX
+- [x]4 - Render HTML Elements to the DOM
+- [x]5 - Define an HTML Class in JSX
+- [x]6 - Learn About Self-Closing JSX Tags
+- [x]7 - Create a Stateless Functional Component
+- [x]8 - Create a React Component
+- [x]9 - Create a Component with Composition
