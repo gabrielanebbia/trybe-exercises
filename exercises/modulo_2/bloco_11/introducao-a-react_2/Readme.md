@@ -19,5 +19,5 @@ Faz o componente retornar as seguintes informações:
 - [x] Imagem do Pokémon
 
 **Exercício 2**
-- [ ] Cria o componente <Pokedex />
+- [x] Cria o componente <Pokedex />
 Obs: Esse componente recebe como entrada uma lista a enciclopédia de Pokémon.
