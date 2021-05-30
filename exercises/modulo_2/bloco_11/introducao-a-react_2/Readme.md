@@ -10,13 +10,13 @@ Criar um novo projeto chamado my-pokedex para implementar de forma simplificada 
 A aplicação foi criada para mostrar todos os Pokémons presentes no arquivo data.js.
 
 **Exercício 1**
-- [ ] Cria um componente <Pokemon />
+- [x] Cria um componente <Pokemon />
 
 Faz o componente retornar as seguintes informações:
-- [ ] Nome do Pokémon
-- [ ] Tipo do Pokémon
-- [ ] Peso médio do Pokémon e sua medida
-- [ ] Imagem do Pokémon
+- [x] Nome do Pokémon
+- [x] Tipo do Pokémon
+- [x] Peso médio do Pokémon e sua medida
+- [x] Imagem do Pokémon
 
 **Exercício 2**
 - [ ] Cria o componente <Pokedex />
