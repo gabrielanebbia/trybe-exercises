@@ -7,7 +7,7 @@ function verificaPalindrome(word) {
     }
   }
   return palindrome;
-};
+}
 
 // Outra forma de resolver (Gabarito):
 

@@ -6,6 +6,6 @@ function biggestName(word) {
     }
   }
   return biggestWord;
-};
+}
 
 console.log(biggestName(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'])); // Fernanda
