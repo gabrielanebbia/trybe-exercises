@@ -3,7 +3,7 @@
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre
 
-Os requisitos do exercí­cio são:
+Os requisitos do exercí­cio foram:
 
 #### Parte 1 - Objetos e For/In
 
