@@ -40,7 +40,7 @@ Os requisitos do exercí­cio foram:
 - [x] Cria uma função que recebe um array de inteiros e retorna o inteiro que mais se repete.
 
 **Exercício 6**
-- [ ] Cria uma função que recebe um número inteiro N e retorna o somatório de todos os números de 1 até N.
+- [x] Cria uma função que recebe um número inteiro N e retorna o somatório de todos os números de 1 até N.
 
 **Exercício 7**
 - [ ] Cria uma função que recebe uma string word e outra string ending. 

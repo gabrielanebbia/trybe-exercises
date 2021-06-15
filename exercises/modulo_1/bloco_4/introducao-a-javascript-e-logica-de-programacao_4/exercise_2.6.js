@@ -1,5 +1,9 @@
-function sumOfAllNumbers () {
-
+function sumOfAllNumbers(numbers) {
+  let total = 0;
+  for (let index = 1; index <= numbers; index +=1) {
+    total += index;
+  }
+  return total
 };
 
-sumOfAllNumbers(5); // 15
+console.log(sumOfAllNumbers(5)); // 15
