@@ -36,7 +36,7 @@ Os requisitos do exercí­cio foram:
 - [x] Ordena o array numbers em ordem crescente e imprime seus valores;
 
 **Exercício Bônus 2**
-- [ ] Ordena o array numbers em ordem decrescente e imprime seus valores;
+- [x] Ordena o array numbers em ordem decrescente e imprime seus valores;
 
 **Exercício Bônus 3**
 - [ ] Cria um novo array a partir do array numbers, sem perdê-lo. Cada valor do novo array é igual ao valor correspondente no array numbers multiplicado pelo seguinte. 
