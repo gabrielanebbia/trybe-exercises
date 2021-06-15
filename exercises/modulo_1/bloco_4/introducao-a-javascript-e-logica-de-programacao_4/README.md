@@ -37,7 +37,7 @@ Os requisitos do exercí­cio foram:
 - [x] Cria uma função que recebe um array de nomes e retorna o nome com a maior quantidade de caracteres.
 
 **Exercício 5**
-- [ ] Cria uma função que recebe um array de inteiros e retorna o inteiro que mais se repete.
+- [x] Cria uma função que recebe um array de inteiros e retorna o inteiro que mais se repete.
 
 **Exercício 6**
 - [ ] Cria uma função que recebe um número inteiro N e retorna o somatório de todos os números de 1 até N.
