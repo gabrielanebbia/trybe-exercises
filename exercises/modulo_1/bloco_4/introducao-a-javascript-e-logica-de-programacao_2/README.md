@@ -3,7 +3,7 @@
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre Array e loop For.
 
-Os requisitos do exercí­cio são:
+Os requisitos do exercí­cio foram:
 
 **Exercício 1**
 - [x] Percorre o array imprimindo todos os valores nele contidos com a função console.log().
