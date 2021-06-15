@@ -46,3 +46,5 @@ Os requisitos do exercí­cio foram:
 - [x] Cria uma função que recebe uma string word e outra string ending. 
   - Verifica se a string ending é o final da string word. 
   - Considera se a string ending sempre será menor que a string word.
+
+**Bônus**
