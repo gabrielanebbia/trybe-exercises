@@ -1,5 +1,3 @@
-//Exercicio 3 - Faça um programa que, dado um valor n qualquer, seja n > 1 , imprima na tela um triângulo retângulo com 5 asteriscos de base invertido.
-
 /* 
 n = 5
 
@@ -12,7 +10,7 @@ n = 5
 */
 
 let numero = 5;
-let asteristico = '*';
+let asterisco = '*';
 let espaco = '';
 let posicao = numero;
 
@@ -21,7 +19,7 @@ for (let index = 0; index < numero; index += 1) {
     if (index2 < posicao) {
       espaco = espaco + ' ';
     } else {
-      espaco = espaco + asteristico;
+      espaco = espaco + asterisco;
     }
   }
   console.log(espaco);
