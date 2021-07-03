@@ -60,28 +60,34 @@
 
       let body = document.querySelector('body');
 
-      let tituloExercicio = document.createElement('h1');
-        tituloExercicio.innerText = 'Exercício 5.2 - JavaScript DOM';
-        body.appendChild(tituloExercicio);
+      let titleExercise = document.createElement('h1');
+        titleExercise.innerText = 'Exercício 5.2 - JavaScript DOM';
+        body.appendChild(titleExercise);
       
-     let mainContent = document.createElement('div');
+      let mainContent = document.createElement('div');
           mainContent.className = 'main-content';
           body.appendChild(mainContent);
-    let centerContent = document.createElement('div');
+
+      let centerContent = document.createElement('div');
         centerContent.className = 'center-content';
         mainContent.appendChild(centerContent);
     
-    let paragraph = document.createElement('p');
+      let paragraph = document.createElement('p');
         centerContent.appendChild(paragraph);
         paragraph.innerText = 'Incluindo algum texto para teste.';
     
-    let leftContent = document.createElement('div');
+      let leftContent = document.createElement('div');
         leftContent.className = 'left-content';
         mainContent.appendChild(leftContent);
 
-    let rightContent = document.createElement('div');
+      let rightContent = document.createElement('div');
         rightContent.className = 'right-content';
         mainContent.appendChild(rightContent);
+
+      let image = document.createElement('img');
+        image.src = 'https://picsum.photos/200';
+        image.className = 'small-image';
+        image.appendChild(leftContent);
         
     </script>
   </body>
