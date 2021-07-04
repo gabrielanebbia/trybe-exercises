@@ -9,7 +9,7 @@
 - [x] 4 - Definindo um action creator
 - [x] 5 - Enviando uma action para um reducer
 - [x] 6 - Criando um Reducer para receber e manipular uma action
-- [ ] 7 - Criando um reducer que aceita actions de tipos distintos
+- [x] 7 - Criando um reducer que aceita actions de tipos distintos
 - [ ] 8 - Usando const para os action types
 - [ ] 9 - Registrando um listener para no store
 - [ ] 10 - Combinando múltiplos reducers
