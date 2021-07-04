@@ -4,7 +4,7 @@
 **Exercícios propostos pelo site [freecodecamp](https://www.freecodecamp.org/learn/), sobre os conceitos no Redux.**
 
 - [x] 1 - Criando um redux store
-- [ ] 2 - Pegando o estado do redux store
+- [x] 2 - Pegando o estado do redux store
 - [ ] 3 - Definindo uma redux action
 - [ ] 4 - Definindo um action creator
 - [ ] 5 - Enviando uma action para um reducer
