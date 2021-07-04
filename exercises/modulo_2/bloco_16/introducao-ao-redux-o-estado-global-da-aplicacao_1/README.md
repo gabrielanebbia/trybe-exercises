@@ -6,7 +6,7 @@
 - [x] 1 - Criando um redux store
 - [x] 2 - Pegando o estado do redux store
 - [x] 3 - Definindo uma redux action
-- [ ] 4 - Definindo um action creator
+- [x] 4 - Definindo um action creator
 - [ ] 5 - Enviando uma action para um reducer
 - [ ] 6 - Criando um Reducer para receber e manipular uma action
 - [ ] 7 - Criando um reducer que aceita actions de tipos distintos
