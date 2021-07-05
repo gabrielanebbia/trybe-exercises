@@ -27,6 +27,7 @@
     const INITIAL_STATE = {
       contador: 0,
       clickCount: 0,
+      array: [],
     }
 
     const store = Redux.createStore(
@@ -41,11 +42,13 @@
           return {
             contador: state.contador + action.value,
             clickCount: state.clickCount + action.click,
+            array: [...state.array, action.value]
           }
         case 'DECREMENT':
           return {
-            contador: state.contador - action.value,
+            contador: state.contador + action.value,
             clickCount: state.clickCount + action.click,
+            array: [...state.array, action.value]
           }
         default:
           return state
@@ -63,7 +66,7 @@
     document.getElementById('decrement').addEventListener('click', () => {
       store.dispatch({
         type: 'DECREMENT',
-        value: 1,
+        value: -1,
         click: 1,
       })
       console.log(store.getState());
@@ -80,7 +83,7 @@
     function decrementBy10() {
       store.dispatch({
         type: 'DECREMENT',
-        value: 10,
+        value: -10,
         click: 1,
       })
     }
