@@ -11,7 +11,7 @@
 - [x] 6 - Criando um Reducer para receber e manipular uma action
 - [x] 7 - Criando um reducer que aceita actions de tipos distintos
 - [x] 8 - Usando const para os action types
-- [ ] 9 - Registrando um listener para no store
+- [x] 9 - Registrando um listener para no store
 - [ ] 10 - Combinando múltiplos reducers
 - [ ] 11 - Enviando dados através das actions
 - [ ] 12 - Usando middleware para lidar com ações assíncronas
