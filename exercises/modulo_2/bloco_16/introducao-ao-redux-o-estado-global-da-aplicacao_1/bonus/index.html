@@ -13,9 +13,11 @@
   <div>
     Clicou <span id="value"></span> vezes.
     <br />
-    <button onclick="incrementBy10()">+10</button>
+    <input type="number" id="input" />
     <button id="increment">+</button>
     <button id="decrement">-</button>
+    <br>
+    <button onclick="incrementBy10()">+10</button>
     <button onclick="decrementBy10()">-10</button>
     <br>
     Número de cliques:<span id='click'></span>
@@ -23,7 +25,7 @@
 
   <script>
     //um arquivo store.js
-    
+
     const INITIAL_STATE = {
       contador: 0,
       clickCount: 0,
@@ -56,20 +58,39 @@
     }
 
     document.getElementById('increment').addEventListener('click', () => {
-      store.dispatch({
-        type: 'INCREMENT',
-        value: 1,
-        click: 1,
-      })
+      const { value } = document.getElementById('input'); // https://medium.com/jaguaribetech/introdu%C3%A7%C3%A3o-ao-redux-usando-apenas-javascript-6d6d55bd9be4
+      if (value !== '' && value >= 0) {
+        store.dispatch({
+          type: 'INCREMENT',
+          value: Number(value),
+          click: 1,
+        })
+      }
+      if (value === '') {
+        store.dispatch({
+          type: 'INCREMENT',
+          value: 1,
+          click: 1,
+        })
+      }
     })
 
     document.getElementById('decrement').addEventListener('click', () => {
-      store.dispatch({
-        type: 'DECREMENT',
-        value: -1,
-        click: 1,
-      })
-      console.log(store.getState());
+      const { value } = document.getElementById('input');
+      if (value !== '' && value < 0) {
+        store.dispatch({
+          type: 'DECREMENT',
+          value: Number(value),
+          click: 1,
+        })
+      }
+      if (value === '') {
+        store.dispatch({
+          type: 'DECREMENT',
+          value: -1,
+          click: 1,
+        })
+      }
     })
 
     function incrementBy10() {
@@ -81,12 +102,21 @@
     }
 
     function decrementBy10() {
+      const { value } = document.getElementById('input');
+      if (value === '') {
+        store.dispatch({
+          type: 'DECREMENT',
+          value: -10,
+          click: 1,
+        })
+      }
       store.dispatch({
         type: 'DECREMENT',
-        value: -10,
+        value: Number(value),
         click: 1,
       })
     }
+
     // Non existe no react
     store.subscribe(() => {
       document.getElementById('value').innerHTML = store.getState().contador;
@@ -97,4 +127,4 @@
   </script>
 </body>
 
-</html> 
+</html>
