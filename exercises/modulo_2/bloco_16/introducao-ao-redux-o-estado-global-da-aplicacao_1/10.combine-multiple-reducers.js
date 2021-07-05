@@ -53,3 +53,4 @@ const rootReducer = Redux.combineReducers({
 const store = Redux.createStore(rootReducer);
 
 // There are counterReducer() and authReducer() functions provided in the code editor, along with a Redux store. Finish writing the rootReducer() function using the Redux.combineReducers() method. Assign counterReducer to a key called count and authReducer to a key called auth.
+// https://www.freecodecamp.org/learn/front-end-libraries/redux/combine-multiple-reducers

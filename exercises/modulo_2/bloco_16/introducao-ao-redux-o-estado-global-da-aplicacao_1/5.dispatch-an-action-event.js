@@ -20,4 +20,4 @@ const loginAction = () => {
 store.dispatch(loginAction());
 
 // The Redux store in the code editor has an initialized state that's an object containing a login property currently set to false. There's also an action creator called loginAction() which returns an action of type LOGIN. Dispatch the LOGIN action to the Redux store by calling the dispatch method, and pass in the action created by loginAction().
-
+// https://www.freecodecamp.org/learn/front-end-libraries/redux/dispatch-an-action-event

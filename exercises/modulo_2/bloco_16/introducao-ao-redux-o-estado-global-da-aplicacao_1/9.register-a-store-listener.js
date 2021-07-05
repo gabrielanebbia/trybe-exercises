@@ -31,4 +31,4 @@ store.dispatch({type: ADD});
 console.log(count);
 
 // Write a callback function that increments the global variable count every time the store receives an action, and pass this function in to the store.subscribe() method. You'll see that store.dispatch() is called three times in a row, each time directly passing in an action object. Watch the console output between the action dispatches to see the updates take place.
-
+// https://www.freecodecamp.org/learn/front-end-libraries/redux/register-a-store-listener

@@ -11,4 +11,4 @@ function actionCreator() {
 }
 
 // Define a function named actionCreator() that returns the action object when called.
-
+// https://www.freecodecamp.org/learn/front-end-libraries/redux/define-an-action-creator

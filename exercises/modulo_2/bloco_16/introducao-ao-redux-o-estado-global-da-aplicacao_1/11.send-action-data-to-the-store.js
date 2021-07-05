@@ -34,3 +34,4 @@ console.log(store.getState());
 // Next, finish writing the switch statement in the notesReducer(). You need to add a case that handles the addNoteText() actions. This case should be triggered whenever there is an action of type ADD_NOTE and it should return the text property on the incoming action as the new state.
 
 // The action is dispatched at the bottom of the code. Once you're finished, run the code and watch the console. That's all it takes to send action-specific data to the store and use it when you update store state.
+// https://www.freecodecamp.org/learn/front-end-libraries/redux/send-action-data-to-the-store
