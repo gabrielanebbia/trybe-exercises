@@ -17,6 +17,6 @@
 - [x] 12 - Usando middleware para lidar com ações assíncronas
 - [x] 13 - Criando um contador com Redux
 - [x] 14 - Por que nunca modificar um state?
-- [ ] 15 - Utilizando o spread operator como ferramenta para manter a imutabilidade do state
+- [x] 15 - Utilizando o spread operator como ferramenta para manter a imutabilidade do state
 - [ ] 16 - Removendo itens de um array preservando a imutabilidade
 - [ ] 17 - Trabalhando com Object.assign
