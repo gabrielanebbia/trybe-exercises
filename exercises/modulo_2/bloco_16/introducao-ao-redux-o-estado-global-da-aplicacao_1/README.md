@@ -19,4 +19,4 @@
 - [x] 14 - Por que nunca modificar um state?
 - [x] 15 - Utilizando o spread operator como ferramenta para manter a imutabilidade do state
 - [x] 16 - Removendo itens de um array preservando a imutabilidade
-- [ ] 17 - Trabalhando com Object.assign
+- [x] 17 - Trabalhando com Object.assign
