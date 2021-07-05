@@ -17,56 +17,79 @@
     <button id="increment">+</button>
     <button id="decrement">-</button>
     <button onclick="decrementBy10()">-10</button>
+    <br>
+    Número de cliques:<span id='click'></span>
   </div>
 
   <script>
     //um arquivo store.js
-    const store = Redux.createStore(contadorReducer)
+    
+    const INITIAL_STATE = {
+      contador: 0,
+      clickCount: 0,
+    }
+
+    const store = Redux.createStore(
+      contadorReducer,
+      window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+    );
 
     // outro arquivo /reducers/contador.js
-    function contadorReducer(state = 0, action) {
+    function contadorReducer(state = INITIAL_STATE, action) {
       switch (action.type) {
         case 'INCREMENT':
-          return state + action.value
-          break;
+          return {
+            contador: state.contador + action.value,
+            clickCount: state.clickCount + action.click,
+          }
         case 'DECREMENT':
-          return state - action.value
+          return {
+            contador: state.contador - action.value,
+            clickCount: state.clickCount + action.click,
+          }
         default:
           return state
-          break;
       }
     }
 
     document.getElementById('increment').addEventListener('click', () => {
       store.dispatch({
         type: 'INCREMENT',
-        value: 1
+        value: 1,
+        click: 1,
       })
     })
 
     document.getElementById('decrement').addEventListener('click', () => {
       store.dispatch({
         type: 'DECREMENT',
-        value: 1
+        value: 1,
+        click: 1,
       })
+      console.log(store.getState());
     })
 
     function incrementBy10() {
       store.dispatch({
         type: 'INCREMENT',
-        value: 10
+        value: 10,
+        click: 1,
       })
     }
 
     function decrementBy10() {
       store.dispatch({
         type: 'DECREMENT',
-        value: 10
+        value: 10,
+        click: 1,
       })
     }
     // Non existe no react
-    store.subscribe(() => document.getElementById('value').innerHTML =
-      store.getState())
+    store.subscribe(() => {
+      document.getElementById('value').innerHTML = store.getState().contador;
+      document.getElementById('click').innerHTML = store.getState().clickCount;
+      console.log(store.getState());
+    })
 
   </script>
 </body>
