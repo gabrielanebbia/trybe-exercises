@@ -25,7 +25,7 @@
 
 O objetivo foi adicionar funcionalidades ao código feito durante a [aula 16.1.](https://github.com/tryber/sd-011-live-lectures/pull/41)
 
-- [ ] Faz um campo que recebe um valor e esse será o valor aplicado ao botão incremento.
-- [ ] Faz um campo que recebe um valor e esse será o valor aplicado ao botão decremento.
+- [x] Faz um campo que recebe um valor e esse será o valor aplicado ao botão incremento.
+- [x] Faz um campo que recebe um valor e esse será o valor aplicado ao botão decremento.
 - [ ] Armazena um outro valor no state, chamado clickCount. Este campo conta o número de vezes que qualquer botão na tela foi clicado.
 - [ ] Armazena um array no state que guarda o valor individual que foi adicionado a cada click em qualquer um dos três botões.

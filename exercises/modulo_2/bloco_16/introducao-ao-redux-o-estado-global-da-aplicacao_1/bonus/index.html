@@ -13,9 +13,10 @@
   <div>
     Clicou <span id="value"></span> vezes.
     <br />
+    <button onclick="incrementBy10()">+10</button>
     <button id="increment">+</button>
     <button id="decrement">-</button>
-    <button onclick="incrementBy10()">+10</button>
+    <button onclick="decrementBy10()">-10</button>
   </div>
 
   <script>
@@ -57,6 +58,12 @@
       })
     }
 
+    function decrementBy10() {
+      store.dispatch({
+        type: 'DECREMENT',
+        value: 10
+      })
+    }
     // Non existe no react
     store.subscribe(() => document.getElementById('value').innerHTML =
       store.getState())
