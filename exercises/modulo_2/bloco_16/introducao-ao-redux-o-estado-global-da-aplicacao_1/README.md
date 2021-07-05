@@ -20,3 +20,12 @@
 - [x] 15 - Utilizando o spread operator como ferramenta para manter a imutabilidade do state
 - [x] 16 - Removendo itens de um array preservando a imutabilidade
 - [x] 17 - Trabalhando com Object.assign
+
+**Exercício Bônus**
+
+O objetivo foi adicionar funcionalidades ao código feito durante a [aula 16.1.](https://github.com/tryber/sd-011-live-lectures/pull/41)
+
+- [ ] Faz um campo que recebe um valor e esse será o valor aplicado ao botão incremento.
+- [ ] Faz um campo que recebe um valor e esse será o valor aplicado ao botão decremento.
+- [ ] Armazena um outro valor no state, chamado clickCount. Este campo conta o número de vezes que qualquer botão na tela foi clicado.
+- [ ] Armazena um array no state que guarda o valor individual que foi adicionado a cada click em qualquer um dos três botões.
