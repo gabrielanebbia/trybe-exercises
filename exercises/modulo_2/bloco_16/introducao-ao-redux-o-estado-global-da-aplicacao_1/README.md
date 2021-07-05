@@ -12,7 +12,7 @@
 - [x] 7 - Criando um reducer que aceita actions de tipos distintos
 - [x] 8 - Usando const para os action types
 - [x] 9 - Registrando um listener para no store
-- [ ] 10 - Combinando múltiplos reducers
+- [x] 10 - Combinando múltiplos reducers
 - [ ] 11 - Enviando dados através das actions
 - [ ] 12 - Usando middleware para lidar com ações assíncronas
 - [ ] 13 - Criando um contador com Redux
