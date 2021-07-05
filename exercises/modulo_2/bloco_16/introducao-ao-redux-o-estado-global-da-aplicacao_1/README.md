@@ -18,5 +18,5 @@
 - [x] 13 - Criando um contador com Redux
 - [x] 14 - Por que nunca modificar um state?
 - [x] 15 - Utilizando o spread operator como ferramenta para manter a imutabilidade do state
-- [ ] 16 - Removendo itens de um array preservando a imutabilidade
+- [x] 16 - Removendo itens de um array preservando a imutabilidade
 - [ ] 17 - Trabalhando com Object.assign
