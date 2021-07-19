@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redux sem React</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.1.0/redux.min.js"></script>
+</head>
+
+<body>
+  <div>
+    Clicou <span id="value"></span> vezes.
+    <br />
+    <input type="number" id="input" />
+    <button id="increment">+</button>
+    <button id="decrement">-</button>
+    <br>
+    <button onclick="incrementBy10()">+10</button>
+    <button onclick="decrementBy10()">-10</button>
+    <br>
+    Número de cliques:<span id='click'></span>
+  </div>
+
+  <script>
+    //um arquivo store.js
+
+    const INITIAL_STATE = {
+      contador: 0,
+      clickCount: 0,
+      array: [],
+    }
+
+    const store = Redux.createStore(
+      contadorReducer,
+      window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+    );
+
+    // outro arquivo /reducers/contador.js
+    function contadorReducer(state = INITIAL_STATE, action) {
+      switch (action.type) {
+        case 'INCREMENT':
+          return {
+            contador: state.contador + action.value,
+            clickCount: state.clickCount + action.click,
+            array: [...state.array, action.value]
+          }
+        case 'DECREMENT':
+          return {
+            contador: state.contador + action.value,
+            clickCount: state.clickCount + action.click,
+            array: [...state.array, action.value]
+          }
+        default:
+          return state
+      }
+    }
+
+    document.getElementById('increment').addEventListener('click', () => {
+      const { value } = document.getElementById('input'); // https://medium.com/jaguaribetech/introdu%C3%A7%C3%A3o-ao-redux-usando-apenas-javascript-6d6d55bd9be4
+      if (value !== '' && value >= 0) {
+        store.dispatch({
+          type: 'INCREMENT',
+          value: Number(value),
+          click: 1,
+        })
+      }
+      if (value === '') {
+        store.dispatch({
+          type: 'INCREMENT',
+          value: 1,
+          click: 1,
+        })
+      }
+    })
+
+    document.getElementById('decrement').addEventListener('click', () => {
+      const { value } = document.getElementById('input');
+      if (value !== '' && value < 0) {
+        store.dispatch({
+          type: 'DECREMENT',
+          value: Number(value),
+          click: 1,
+        })
+      }
+      if (value === '') {
+        store.dispatch({
+          type: 'DECREMENT',
+          value: -1,
+          click: 1,
+        })
+      }
+    })
+
+    function incrementBy10() {
+      store.dispatch({
+        type: 'INCREMENT',
+        value: 10,
+        click: 1,
+      })
+    }
+
+    function decrementBy10() {
+      const { value } = document.getElementById('input');
+      if (value === '') {
+        store.dispatch({
+          type: 'DECREMENT',
+          value: -10,
+          click: 1,
+        })
+      }
+      store.dispatch({
+        type: 'DECREMENT',
+        value: Number(value),
+        click: 1,
+      })
+    }
+
+    // Non existe no react
+    store.subscribe(() => {
+      document.getElementById('value').innerHTML = store.getState().contador;
+      document.getElementById('click').innerHTML = store.getState().clickCount;
+      console.log(store.getState());
+    })
+
+  </script>
+</body>
+
+</html>
