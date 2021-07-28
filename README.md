@@ -103,10 +103,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 13: React
 
-- [ ] 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
-- [ ] 13-2: _Ciclo de vida de componentes em React_
-- [ ] 13-3: _React Router_
-- [ ] 13-4: _[Projeto - Movie Cards Library CRUD](https://github.com/tryber/sd-011-project-movie-card-library-crud/pull/91)_ :eight_pointed_black_star:
+- [x] 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
+- [x] 13-2: _Ciclo de vida de componentes em React_
+- [x] 13-3: _React Router_
+- [x] 13-4: _[Projeto - Movie Cards Library CRUD](https://github.com/tryber/sd-011-project-movie-card-library-crud/pull/91)_ :eight_pointed_black_star:
 
 ##### Bloco 14: Metodologias Ágeis
 
