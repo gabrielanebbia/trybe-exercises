@@ -172,24 +172,27 @@ function createDaysOfTheWeek() {
     let getList = document.querySelector('.task-list');
 
     getInput.addEventListener('keyup', function(event) {
-      if (event.length === 10) {
-      let li = document.createElement('li');
-      li.innerText = getInput.value;
-      getList.appendChild(li);
-      getInput.value = '';
-      }
-    })
-
-    getAddButton.addEventListener('click', function() {
-      if(getInput.value.length === 0) {
-        alert('Erro: Digite um compromisso')
-      } else {
+      if (event.value.length > 0) {
         let li = document.createElement('li');
         li.innerText = getInput.value;
   
         getList.appendChild(li);
         getInput.value = '';
       }
+    });
+
+    
+    getAddButton.addEventListener('click', function() {
+      if (getInput.value.length > 0) {
+        let li = document.createElement('li');
+        li.innerText = getInput.value;
+        
+        getList.appendChild(li);
+        getInput.value = '';
+      } else {
+        alert('Error: Campo obrigatório');
+      }
     })
-  }
+  };
+  
   newAppointment();
