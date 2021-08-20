@@ -39,9 +39,9 @@ Implementa uma função que adiciona uma tarefa personalizada ao calendário.
 
 **Exercício 8**
 Implementa uma função que adiciona uma legenda com cor para a tarefa criada no exercício anterior.
-- [ ] Esta função recebe como parâmetro uma string ("cor") e cria dinamicamente um elemento de tag <div> com a classe task.
-- [ ] O parâmetro cor é utilizado como cor de fundo da <div> criada.
-- [ ] O elemento criado é adicionado como filho/filha da tag <div> que possui a classe "my-tasks".
+- [x] Esta função recebe como parâmetro uma string ("cor") e cria dinamicamente um elemento de tag <div> com a classe task.
+- [x] O parâmetro cor é utilizado como cor de fundo da <div> criada.
+- [x] O elemento criado é adicionado como filho/filha da tag <div> que possui a classe "my-tasks".
 
 **Exercício 9**
 - [ ] Implementa uma função que adiciona um evento que, ao clicar no elemento com a tag <div> referente a cor da sua tarefa, atribui a este elemento a classe task selected, para indicar que ela foi selecionada.
