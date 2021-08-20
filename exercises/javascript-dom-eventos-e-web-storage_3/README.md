@@ -48,8 +48,8 @@ Implementa uma função que adiciona uma legenda com cor para a tarefa criada no
 - [x] Ao clicar novamente no elemento, a sua classe volta a ser somente task, indicando que esta tarefa está deixando de ser uma tarefa selecionada.
 
 **Exercício 10**
-- [ ] Implementa uma função que adiciona um evento que, ao clicar em um dia do mês no calendário, atribui a este dia a cor da legenda da sua tarefa selecionada.
-- [ ] Ao clicar novamente no dia, a sua cor volta à configuração inicial rgb(119,119,119).
+- [x] Implementa uma função que adiciona um evento que, ao clicar em um dia do mês no calendário, atribui a este dia a cor da legenda da sua tarefa selecionada.
+- [x] Ao clicar novamente no dia, a sua cor volta à configuração inicial rgb(119,119,119).
 
 **Exercício Bônus*
 - [ ] Implementa uma função que, ao digitar um compromisso na caixa de texto "COMPROMISSOS" e clicar no botão "ADICIONAR" adiciona o item à lista "MEUS COMPROMISSOS".

@@ -104,7 +104,6 @@ function createDaysOfTheWeek() {
     getDays.addEventListener('mouseover', function(event) {
       event.target.style.fontSize = '50px';
       event.target.style.fontWeight = '700';
-      event.target.style.color = 'green';
     })
   }
   dayZoomIn();
@@ -114,7 +113,6 @@ function createDaysOfTheWeek() {
     getDays.addEventListener('mouseout', function(event) {
       event.target.style.fontSize = '20px';
       event.target.style.fontWeight = '250';
-      event.target.style.color = 'rgb(119, 119, 119)';
     })
   }
   dayZoomOut();
@@ -151,3 +149,20 @@ function createDaysOfTheWeek() {
     })
   }
   classSelectedTask();
+
+  function dayColor() {
+    let getDays = document.querySelector('#days');
+    let selectedTask = document.getElementsByClassName('selected');
+    let taskDiv = document.querySelector('.task');
+    
+    getDays.addEventListener('click', function(event){
+      if (event.target.style.color !== taskDiv.style.backgroundColor) {
+        let color = selectedTask[0].style.backgroundColor;
+        event.target.style.color = color;
+      } else if (event.target.color === taskDiv.style.backgroundColor) {
+        event.target.style.color = 'rgb(119,119,119)';
+      }
+    });
+  };
+  dayColor();
+  
