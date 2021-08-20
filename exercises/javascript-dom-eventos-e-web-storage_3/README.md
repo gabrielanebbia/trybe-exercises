@@ -17,7 +17,7 @@ Desenvolve uma função que cria dinamicamente cada dia do calendário
   
 **Exercício 3**
 - [x] Implementa uma função que adiciona ao botão "Feriados" um evento de "click" que muda a cor de fundo dos dias que possuem a classe "holiday" .
-- [ ] Implementa a lógica inversa, na qual ao clicar novamente no botão ele retorna à configuração inicial com a cor "rgb(238,238,238)".
+- [x] Implementa a lógica inversa, na qual ao clicar novamente no botão ele retorna à configuração inicial com a cor "rgb(238,238,238)".
 
 **Exercício 4**
 - [ ] Implementa uma função que recebe como parâmetro a string "Sexta-feira" e cria dinamicamente um botão com o nome "Sexta-feira".

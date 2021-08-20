@@ -62,8 +62,13 @@ function createDaysOfTheWeek() {
 
     getHolidayButton.addEventListener('click', function() {
       for (let index = 0; index < getHolidays.length; index += 1) {
-        getHolidays[index].style.backgroundColor = 'orange';
+        if (getHolidays[index].style.backgroundColor === 'rgb(238,238,238)') {
+          getHolidays[index].style.backgroundColor = 'orange';
+        } else {
+          getHolidays[index].style.backgroundColor = 'orange';
+        }
       };
     });
   }
   displayHolydays();
+  
