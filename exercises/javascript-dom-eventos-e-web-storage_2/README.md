@@ -11,8 +11,8 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 - [x] Adiciona a tag div com a classe left-content como filho da tag div criada no passo 2;
 - [x] Adiciona a tag div com a classe right-content como filho da tag div criada no passo 2;
 - [x] Adiciona uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image. Esse elemento é filho do div criado no passo 5;
-- [ ] Adiciona uma lista não ordenada com os valores de 1 a 10 por extenso como valores da lista. Essa lista é filha do div criado no passo 6;
-- [ ] Adiciona 3 tags h3, todas sendo filhas do div criado no passo 2.
+- [x] Adiciona uma lista não ordenada com os valores de 1 a 10 por extenso como valores da lista. Essa lista é filha do div criado no passo 6;
+- [x] Adiciona 3 tags h3, todas sendo filhas do div criado no passo 2.
 
 
 #### Part 2 - Alterando e removendo elementos:
