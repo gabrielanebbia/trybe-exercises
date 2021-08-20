@@ -55,4 +55,15 @@ function createDaysOfTheWeek() {
     getButtonsContainer.appendChild(holidayButton);
   }
   createHolidaysButtons('Feriados');
-  
+
+  function displayHolydays() {
+    let getHolidayButton = document.getElementById('btn-holiday');
+    let getHolidays = document.querySelectorAll('.holiday');
+
+    getHolidayButton.addEventListener('click', function() {
+      for (let index = 0; index < getHolidays.length; index += 1) {
+        getHolidays[index].style.backgroundColor = 'orange';
+      };
+    });
+  }
+  displayHolydays();

@@ -16,7 +16,7 @@ Desenvolve uma função que cria dinamicamente cada dia do calendário
 - [x] Adiciona este botão como filho/filha da tag <div> com classe "buttons-container".
   
 **Exercício 3**
-- [ ] Implementa uma função que adiciona ao botão "Feriados" um evento de "click" que muda a cor de fundo dos dias que possuem a classe "holiday" .
+- [x] Implementa uma função que adiciona ao botão "Feriados" um evento de "click" que muda a cor de fundo dos dias que possuem a classe "holiday" .
 - [ ] Implementa a lógica inversa, na qual ao clicar novamente no botão ele retorna à configuração inicial com a cor "rgb(238,238,238)".
 
 **Exercício 4**
