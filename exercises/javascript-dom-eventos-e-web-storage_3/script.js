@@ -118,3 +118,13 @@ function createDaysOfTheWeek() {
     })
   }
   dayZoomOut();
+
+  function addNewTask(task) {
+    let tasksContainer = document.querySelector('.my-tasks');
+    let createTask = document.createElement('span');
+
+    createTask.innerText = task;
+    tasksContainer.appendChild(createTask);
+  }
+  addNewTask('Cozinhar');
+  

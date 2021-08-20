@@ -34,8 +34,8 @@ Implementa duas funções que criem um efeito de "zoom".
 
 **Exercício 7**
 Implementa uma função que adiciona uma tarefa personalizada ao calendário. 
-- [ ] A função recebe como parâmetro a string com o nome da tarefa (ex: "cozinhar") e cria dinamicamente um elemento com a tag <span> contendo a tarefa.
-- [ ] O elemento criado é adicionado como filho/filha da tag <div> que possui a classe "my-tasks".
+- [x] A função recebe como parâmetro a string com o nome da tarefa (ex: "cozinhar") e cria dinamicamente um elemento com a tag <span> contendo a tarefa.
+- [x] O elemento criado é adicionado como filho/filha da tag <div> que possui a classe "my-tasks".
 
 **Exercício 8**
 Implementa uma função que adiciona uma legenda com cor para a tarefa criada no exercício anterior.
