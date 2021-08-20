@@ -16,7 +16,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 
 
 #### Part 2 - Alterando e removendo elementos:
-- [ ] Adiciona a classe title na tag h1 criada;
+- [x] Adiciona a classe title na tag h1 criada;
 - [ ] Adiciona a classe description nas 3 tags h3 criadas;
 - [ ] Remove o div criado no passo 5 (aquele que possui a classe left-content). Utiliza a função .removeChild();
 - [ ] Centraliza o div criado no passo 6 (aquele que possui a classe right-content).
