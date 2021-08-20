@@ -52,6 +52,6 @@ Implementa uma função que adiciona uma legenda com cor para a tarefa criada no
 - [x] Ao clicar novamente no dia, a sua cor volta à configuração inicial rgb(119,119,119).
 
 **Exercício Bônus*
-- [ ] Implementa uma função que, ao digitar um compromisso na caixa de texto "COMPROMISSOS" e clicar no botão "ADICIONAR" adiciona o item à lista "MEUS COMPROMISSOS".
+- [x] Implementa uma função que, ao digitar um compromisso na caixa de texto "COMPROMISSOS" e clicar no botão "ADICIONAR" adiciona o item à lista "MEUS COMPROMISSOS".
 - [ ] Se nenhum caractere for inserido no campo input, a função retorna um alert com uma mensagem de erro ao clicar em "ADICIONAR".
 - [ ] Ao pressionar a tecla "enter" o evento anterior também é disparado.

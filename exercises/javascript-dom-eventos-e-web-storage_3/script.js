@@ -165,4 +165,27 @@ function createDaysOfTheWeek() {
     });
   };
   dayColor();
-  
+
+  function newAppointment() {
+    let getInput = document.querySelector('#task-input');
+    let getAddButton = document.querySelector('#btn-add');
+    let getList = document.querySelector('.task-list');
+
+    getInput.addEventListener('keyup', function(event) {
+      if (event.length === 10) {
+      let li = document.createElement('li');
+      li.innerText = getInput.value;
+      getList.appendChild(li);
+      getInput.value = '';
+      }
+    })
+
+    getAddButton.addEventListener('click', function() {
+      let li = document.createElement('li');
+      li.innerText = getInput.value;
+
+      getList.appendChild(li);
+      getInput.value = '';
+    })
+  }
+  newAppointment();
