@@ -20,9 +20,9 @@ Desenvolve uma função que cria dinamicamente cada dia do calendário
 - [x] Implementa a lógica inversa, na qual ao clicar novamente no botão ele retorna à configuração inicial com a cor "rgb(238,238,238)".
 
 **Exercício 4**
-- [ ] Implementa uma função que recebe como parâmetro a string "Sexta-feira" e cria dinamicamente um botão com o nome "Sexta-feira".
-- [ ] Adiciona ao botão o ID "btn-friday".
-- [ ] Adiciona este botão como filho/filha da tag <div> com classe "buttons-container".
+- [x] Implementa uma função que recebe como parâmetro a string "Sexta-feira" e cria dinamicamente um botão com o nome "Sexta-feira".
+- [x] Adiciona ao botão o ID "btn-friday".
+- [x] Adiciona este botão como filho/filha da tag <div> com classe "buttons-container".
 
 **Exercício 5**
 - [ ] Implementa uma função que adiciona ao botão "Sexta-feira" um evento de "click" que modifica o texto exibido nos dias que são Sexta-feira.

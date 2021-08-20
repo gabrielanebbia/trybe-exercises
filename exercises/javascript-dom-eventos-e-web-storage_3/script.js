@@ -71,4 +71,13 @@ function createDaysOfTheWeek() {
     });
   }
   displayHolydays();
-  
+
+  function friday(buttonName) {
+    let getButtonsContainer = document.querySelector('.buttons-container');
+    let fridayButton = document.createElement('button');
+
+    fridayButton.innerText = buttonName;
+    fridayButton.id = 'btn-friday';
+    getButtonsContainer.appendChild(fridayButton);
+  }
+  friday('Sexta-feira');
