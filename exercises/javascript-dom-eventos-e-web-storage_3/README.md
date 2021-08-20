@@ -44,8 +44,8 @@ Implementa uma função que adiciona uma legenda com cor para a tarefa criada no
 - [x] O elemento criado é adicionado como filho/filha da tag <div> que possui a classe "my-tasks".
 
 **Exercício 9**
-- [ ] Implementa uma função que adiciona um evento que, ao clicar no elemento com a tag <div> referente a cor da sua tarefa, atribui a este elemento a classe task selected, para indicar que ela foi selecionada.
-- [ ] Ao clicar novamente no elemento, a sua classe volta a ser somente task, indicando que esta tarefa está deixando de ser uma tarefa selecionada.
+- [x] Implementa uma função que adiciona um evento que, ao clicar no elemento com a tag <div> referente a cor da sua tarefa, atribui a este elemento a classe task selected, para indicar que ela foi selecionada.
+- [x] Ao clicar novamente no elemento, a sua classe volta a ser somente task, indicando que esta tarefa está deixando de ser uma tarefa selecionada.
 
 **Exercício 10**
 - [ ] Implementa uma função que adiciona um evento que, ao clicar em um dia do mês no calendário, atribui a este dia a cor da legenda da sua tarefa selecionada.

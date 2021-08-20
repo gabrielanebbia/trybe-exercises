@@ -138,3 +138,16 @@ function createDaysOfTheWeek() {
     tasksContainer.appendChild(createTaskDiv);
   }
   addNewTaskDiv('yellow');
+
+  function classSelectedTask() {
+    let tasks = document.querySelector('.task');
+    
+    tasks.addEventListener('click', function(event) {
+      if (event.target.classNamgit e === 'task selected') {
+        event.target.classList.remove('selected');
+      } else {
+        event.target.classList.add('selected');
+      }
+    })
+  }
+  classSelectedTask();
