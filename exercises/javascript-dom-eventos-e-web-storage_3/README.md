@@ -5,8 +5,8 @@ O objetivo dos exercícios desse dia eram colocar em pratica o que aprendi sobre
 
 **Exercício 1**
 Desenvolve uma função que cria dinamicamente cada dia do calendário
-- [ ] Adiciona os dias como filhos/filhas da tag <ul> com ID "days".
-- [ ] Os dias devem estar contidos em uma tag <li> , e todos devem ter a classe day.
+- [x] Adiciona os dias como filhos/filhas da tag <ul> com ID "days".
+- [x] Os dias devem estar contidos em uma tag <li> , e todos devem ter a classe day.
 - [ ] Os dias 24, 25 e 31 são feriados e, além da classe day, devem conter também a classe holiday.
 - [ ] Os dias 4, 11, 18 e 25 são Sexta-feira. Eles devem conter a classe day e a classe friday.
 
