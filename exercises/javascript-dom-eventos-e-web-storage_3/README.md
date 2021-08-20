@@ -11,9 +11,9 @@ Desenvolve uma função que cria dinamicamente cada dia do calendário
 - [x] Os dias 4, 11, 18 e 25 são Sexta-feira. Eles devem conter a classe day e a classe friday.
 
 **Exercício 2**
-- [ ] Implementa uma função que recebe como parâmetro a string "Feriados" e cria dinamicamente um botão com o nome "Feriados".
-- [ ] Adiciona este botão a ID "btn-holiday".
-- [ ] Adiciona este botão como filho/filha da tag <div> com classe "buttons-container".
+- [x] Implementa uma função que recebe como parâmetro a string "Feriados" e cria dinamicamente um botão com o nome "Feriados".
+- [x] Adiciona este botão a ID "btn-holiday".
+- [x] Adiciona este botão como filho/filha da tag <div> com classe "buttons-container".
   
 **Exercício 3**
 - [ ] Implementa uma função que adiciona ao botão "Feriados" um evento de "click" que muda a cor de fundo dos dias que possuem a classe "holiday" .

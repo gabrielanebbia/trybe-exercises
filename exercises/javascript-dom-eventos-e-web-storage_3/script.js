@@ -43,6 +43,16 @@ function createDaysOfTheWeek() {
       }
     };
   }
-  
   createDaysOfTheMonth();
+  
+  function createHolidaysButtons(nameHoliday) {
+    let holidayButton = document.createElement('button');
+
+    holidayButton.innerHTML = 'Feriados';
+    holidayButton.id = 'btn-holiday';
+
+    let getButtonsContainer = document.querySelector('.buttons-container');
+    getButtonsContainer.appendChild(holidayButton);
+  }
+  createHolidaysButtons('Feriados');
   
