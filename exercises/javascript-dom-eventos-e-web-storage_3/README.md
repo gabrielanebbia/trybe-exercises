@@ -25,8 +25,8 @@ Desenvolve uma função que cria dinamicamente cada dia do calendário
 - [x] Adiciona este botão como filho/filha da tag <div> com classe "buttons-container".
 
 **Exercício 5**
-- [ ] Implementa uma função que adiciona ao botão "Sexta-feira" um evento de "click" que modifica o texto exibido nos dias que são Sexta-feira.
-- [ ] Implementa a lógica inversa, na qual ao clicar no botão novamente ele retorna à configuração inicial exibindo os dias.
+- [x] Implementa uma função que adiciona ao botão "Sexta-feira" um evento de "click" que modifica o texto exibido nos dias que são Sexta-feira.
+- [x] Implementa a lógica inversa, na qual ao clicar no botão novamente ele retorna à configuração inicial exibindo os dias.
 
 **Exercício 6**
 Implementa duas funções que criem um efeito de "zoom". 

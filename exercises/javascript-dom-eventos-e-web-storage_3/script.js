@@ -81,3 +81,21 @@ function createDaysOfTheWeek() {
     getButtonsContainer.appendChild(fridayButton);
   }
   friday('Sexta-feira');
+
+  function displayFridays() {
+    let getFridayButton = document.querySelector('#btn-friday');
+    let fridays = document.getElementsByClassName('friday');
+    let fridayList = [4, 11, 18, 25];
+
+    getFridayButton.addEventListener('click', function() {
+      for (let index = 0; index < fridays.length; index += 1) {
+        if(fridays[index].innerText !== 'Sexta-feira') {
+          fridays[index].innerText = 'Sexta-feira';
+        } else {
+          fridays[index].innerText = fridayList[index];
+        }
+      };
+    });
+  }
+  displayFridays();
+  
