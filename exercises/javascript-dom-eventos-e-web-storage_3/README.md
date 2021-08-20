@@ -7,8 +7,8 @@ O objetivo dos exercícios desse dia eram colocar em pratica o que aprendi sobre
 Desenvolve uma função que cria dinamicamente cada dia do calendário
 - [x] Adiciona os dias como filhos/filhas da tag <ul> com ID "days".
 - [x] Os dias devem estar contidos em uma tag <li> , e todos devem ter a classe day.
-- [ ] Os dias 24, 25 e 31 são feriados e, além da classe day, devem conter também a classe holiday.
-- [ ] Os dias 4, 11, 18 e 25 são Sexta-feira. Eles devem conter a classe day e a classe friday.
+- [x] Os dias 24, 25 e 31 são feriados e, além da classe day, devem conter também a classe holiday.
+- [x] Os dias 4, 11, 18 e 25 são Sexta-feira. Eles devem conter a classe day e a classe friday.
 
 **Exercício 2**
 - [ ] Implementa uma função que recebe como parâmetro a string "Feriados" e cria dinamicamente um botão com o nome "Feriados".
