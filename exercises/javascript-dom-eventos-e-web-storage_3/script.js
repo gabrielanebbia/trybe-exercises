@@ -143,7 +143,7 @@ function createDaysOfTheWeek() {
     let tasks = document.querySelector('.task');
     
     tasks.addEventListener('click', function(event) {
-      if (event.target.classNamgit e === 'task selected') {
+      if (event.target.className === 'task selected') {
         event.target.classList.remove('selected');
       } else {
         event.target.classList.add('selected');
