@@ -101,6 +101,8 @@
         ulList.appendChild(li);
       }
       rightContent.appendChild(ulList);
+      ulList.lastChild.remove();
+      ulList.lastChild.remove();
 
       for(let index = 1; index <= 3; index += 1 ) {
         let h3 = document.createElement('h3');
