@@ -181,11 +181,15 @@ function createDaysOfTheWeek() {
     })
 
     getAddButton.addEventListener('click', function() {
-      let li = document.createElement('li');
-      li.innerText = getInput.value;
-
-      getList.appendChild(li);
-      getInput.value = '';
+      if(getInput.value.length === 0) {
+        alert('Erro: Digite um compromisso')
+      } else {
+        let li = document.createElement('li');
+        li.innerText = getInput.value;
+  
+        getList.appendChild(li);
+        getInput.value = '';
+      }
     })
   }
   newAppointment();
