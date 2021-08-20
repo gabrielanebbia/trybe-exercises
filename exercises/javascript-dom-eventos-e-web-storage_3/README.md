@@ -30,7 +30,7 @@ Desenvolve uma função que cria dinamicamente cada dia do calendário
 
 **Exercício 6**
 Implementa duas funções que criem um efeito de "zoom". 
--[ ] Ao passar o ponteiro do mouse em um dia do mês no calendário, o texto desse dia aumenta e, quando o ponteiro do mouse sair do dia, o texto retorna ao tamanho original.
+-[x] Ao passar o ponteiro do mouse em um dia do mês no calendário, o texto desse dia aumenta e, quando o ponteiro do mouse sair do dia, o texto retorna ao tamanho original.
 
 **Exercício 7**
 Implementa uma função que adiciona uma tarefa personalizada ao calendário. 

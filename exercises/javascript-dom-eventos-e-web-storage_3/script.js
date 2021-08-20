@@ -98,4 +98,23 @@ function createDaysOfTheWeek() {
     });
   }
   displayFridays();
-  
+
+  function dayZoomIn() {
+    let getDays = document.getElementById('days');
+    getDays.addEventListener('mouseover', function(event) {
+      event.target.style.fontSize = '50px';
+      event.target.style.fontWeight = '700';
+      event.target.style.color = 'green';
+    })
+  }
+  dayZoomIn();
+
+  function dayZoomOut() {
+    let getDays = document.getElementById('days');
+    getDays.addEventListener('mouseout', function(event) {
+      event.target.style.fontSize = '20px';
+      event.target.style.fontWeight = '250';
+      event.target.style.color = 'rgb(119, 119, 119)';
+    })
+  }
+  dayZoomOut();
