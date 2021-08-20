@@ -19,6 +19,6 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 - [x] Adiciona a classe title na tag h1 criada;
 - [x] Adiciona a classe description nas 3 tags h3 criadas;
 - [x] Remove o div criado no passo 5 (aquele que possui a classe left-content). Utiliza a função .removeChild();
-- [ ] Centraliza o div criado no passo 6 (aquele que possui a classe right-content).
+- [x] Centraliza o div criado no passo 6 (aquele que possui a classe right-content).
 - [ ] Troca a cor de fundo do elemento pai da div criada no passo 3 (aquela que possui a classe center-content) para a cor verde;
 - [ ] Remove os dois últimos elementos (nove e dez) da lista criada no passo 8.
