@@ -73,8 +73,8 @@
         mainContent.appendChild(centerContent);
     
       let paragraph = document.createElement('p');
-        centerContent.appendChild(paragraph);
         paragraph.innerText = 'Incluindo algum texto para teste.';
+        centerContent.appendChild(paragraph);
     
       let leftContent = document.createElement('div');
         leftContent.className = 'left-content';
@@ -87,7 +87,7 @@
       let image = document.createElement('img');
         image.src = 'https://picsum.photos/200';
         image.className = 'small-image';
-        image.appendChild(leftContent);
+        leftContent.appendChild(image);
         
     </script>
   </body>
