@@ -6,6 +6,6 @@ Exercícios com o objetivo de:
 - Verificar o status e enviar sinais a processos UNIX
 
 ### Dia 2 - Parte 2
-- [ ] Parte I - Comandos de Input e Output
+- [x] Parte I - Comandos de Input e Output
 - [ ] Parte II - Permissões
 - [ ] Parte III - Processos & Jobs
