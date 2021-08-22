@@ -53,7 +53,7 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 - [ ] _Bloco 14: Metodologias Ágeis_
   - _Projeto Frontend Online Store_
 
-- [ ] _Bloco 15: Testes automatizados com React Testing Library_
+- [ ] _Bloco 15: Testes Automatizados com React Testing Library_
   - _Projeto Testes em React_
 
 - [ ] _Bloco 16: Introdução ao Redux - Gerenciamento de Estado_
