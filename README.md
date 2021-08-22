@@ -36,7 +36,7 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 - [x] 5-3: _JavaScript - Eventos_
 - [x] 5-4: _JavaScript - Web Storage_
 - [x] 5-5: _Projeto - Arte com Pixels_
-- [x] 5-6: _Projeto - Lista de tarefas]_
+- [x] 5-6: _Projeto - Lista de tarefas_
 - [x] 5-7: _Projeto Bônus - Meme Generator_
 - [x] 5-8: _Projeto Bônus - Adivinhe a Cor_
 - [x] 5-9: _Projeto Bônus - Carta Misteriosa_ 
