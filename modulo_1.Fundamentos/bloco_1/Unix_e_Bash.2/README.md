@@ -8,4 +8,4 @@ Exercícios com o objetivo de:
 ### Dia 2 - Parte 2
 - [x] Parte I - Comandos de Input e Output
 - [x] Parte II - Permissões
-- [ ] Parte III - Processos & Jobs
+- [x] Parte III - Processos & Jobs
