@@ -8,6 +8,6 @@ O objetivo dos exercícios desse dia foram colocar em prática os primeiros apre
 - [x] 2. Banco de dados PiecesProviders
 - [x] 3. [w3schools](https://www.w3schools.com/sql/exercise.asp?filename=exercise_where1)
 - [x] 4. [SQLBolt](https://sqlbolt.com/lesson/select_queries_with_constraints)
-- [ ] 5. [SQLCourse](http://www.sqlcourse.com/intro.html)
+- [x] 5. [SQLCourse](http://www.sqlcourse.com/intro.html)
 - [ ] 6. [SQLzoo](https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial)
   
