@@ -6,7 +6,9 @@ WHERE Name LIKE '%e%';
 
 -- 2. Escreva uma query para exibir o nome de todos os projetos cujo o código inicie com a letra A. 
 -- Ordene o resultado em ordem alfabética.
-
+SELECT Name FROM Scientists.Projects
+WHERE code LIKE 'A%'
+ORDER BY Name ASC;
 
 -- 3. Escreva uma query para exibir o código e nome de todos os projetos que possuam em seu código o número 3. 
 -- Ordene o resultado em ordem alfabética.
