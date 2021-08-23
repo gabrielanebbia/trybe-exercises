@@ -3,6 +3,9 @@ SELECT Piece, Price FROM Provides
 WHERE Provider = 'RBT';
 
 -- 2. Escreva uma query para exibir todas as informações das cinco peças com os maiores preços.
+SELECT * FROM Provides 
+ORDER BY price DESC 
+LIMIT 5;
 
 -- 3. Escreva uma query para exibir o nome das empresas e preço das peças com os quatro maiores 
 -- preços, começando a lista a partir do 3º item.
