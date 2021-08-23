@@ -6,14 +6,14 @@ SELECT 1 AS 'Primeiro', 2 AS 'Segundo', 3 AS 'Terceiro';
 SELECT 10 + 15;
 -- 4.Escreva uma query para exibir o resultado de uma expressão aritmética qualquer.
 SELECT 2 + 2 - 2 * 2 / 2;
--- 5.Escreva uma query para exibir todas as informações de todos os cientistas.
-
+--- 5.Escreva uma query para exibir todas as informações de todos os cientistas.
+SELECT * FROM Scientists.Scientists;
 -- 6.Escreva uma query para exibir o nome como "Nome do Projeto" e as horas como "Tempo de Trabalho" de cada projeto.
-
+SELECT Name AS 'Nome do Projeto', Hours AS 'Tempo de Trabalho' FROM Scientists.Projects;
 -- 7.Escreva uma query para exibir o nome dos cientistas em ordem alfabética.
-
+SELECT name FROM Scientists.Scientists ORDER BY name ASC;
 -- 8.Escreva uma query para exibir o nome dos Projetos em ordem alfabética descendente.
-
+SELECT Name FROM Scientists.Projects ORDER BY Name DESC;
 -- 9.Escreva uma query que exiba a string "O projeto Name precisou de Hours horas para ser concluído." para cada projeto.
 
 -- 10.Escreva uma query para exibir o nome e as horas dos três projetos com a maior quantidade de horas.
