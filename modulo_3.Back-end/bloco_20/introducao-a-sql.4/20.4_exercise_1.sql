@@ -33,7 +33,48 @@ WHERE title = 'ratatui';
 	-- Monsters SA, classificado em 8.5, lucrou 300 milhões no mercado interno e 250 milhões no mercado internacional.
 	-- Os Incríveis, classificado em 7.4, lucrou 460 milhões no mercado interno e 510 milhões no mercado internacional.
 	-- WALL-E, classificado em 9.9, lucrou 290 milhões no mercado interno e 280 milhões no mercado internacional.
+INSERT INTO Pixar.BoxOffice(movie_id, rating, domestic_sales, international_sales)
+  VALUES (8, 8.5, 300000000, 250000000),
+         (10, 7.4, 460000000, 510000000),
+         (11, 9.9, 290000000, 280000000);
+         
+-- para atualizar as classificações da lista
+UPDATE Pixar.BoxOffice
+SET rating = 8.5, domestic_sales = 300000000, international_sales = 250000000
+WHERE movie_id = 8;
 
+UPDATE Pixar.BoxOffice
+SET rating = 7.4, domestic_sales = 460000000, international_sales = 510000000
+WHERE movie_id = 10;
+
+UPDATE Pixar.BoxOffice
+SET rating = 9.9, domestic_sales = 290000000, international_sales = 280000000
+WHERE movie_id = 11;
+
+ -- outra forma
+UPDATE Pixar.BoxOffice
+SET rating = (
+CASE movie_id WHEN 8 THEN 8.5
+              WHEN 10 THEN 7.4
+              WHEN 11 THEN 9.9
+          ELSE rating
+END);
+
+UPDATE Pixar.BoxOffice
+SET domestic_sales = (
+CASE movie_id WHEN 8 THEN 300000000
+              WHEN 10 THEN 460000000
+              WHEN 11 THEN 290000000
+          ELSE domestic_sales
+END);
+
+UPDATE Pixar.BoxOffice
+SET international_sales = (
+CASE movie_id WHEN 8 THEN 250000000
+              WHEN 10 THEN 510000000
+              WHEN 11 THEN 280000000
+          ELSE international_sales
+END);
 
 -- Exercício 6: Exclua da tabela Movies o filme "WALL-E".
 
