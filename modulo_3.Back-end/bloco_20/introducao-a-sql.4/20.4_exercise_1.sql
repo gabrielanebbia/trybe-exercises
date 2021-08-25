@@ -77,7 +77,8 @@ CASE movie_id WHEN 8 THEN 250000000
 END);
 
 -- Exercício 6: Exclua da tabela Movies o filme "WALL-E".
-
+DELETE FROM Pixar.Movies
+WHERE title = 'WALL-E';
 
 -- Exercício 7: Exclua da tabela Movies todos os filmes dirigidos por "Andrew Staton".
 
