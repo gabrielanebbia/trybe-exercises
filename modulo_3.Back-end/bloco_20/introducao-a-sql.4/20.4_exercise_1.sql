@@ -18,7 +18,9 @@ INSERT INTO Pixar.BoxOffice(movie_id, rating, domestic_sales, international_sale
 
 -- Exercício 3: O diretor do filme "Procurando Nemo" está incorreto, na verdade ele foi dirigido por 
 -- Andrew Staton. Corrija esse dado utilizando o UPDATE.
-
+UPDATE Pixar.Movies
+SET director = 'Andrew Staton'
+WHERE title = 'Procurando Nemo';
 
 -- Exercício 4: O título do filme "Ratatouille" esta escrito de forma incorreta na tabela Movies, 
 -- além disso, o filme foi lançado em 2007 e não em 2010. Corrija esses dados utilizando o UPDATE.
