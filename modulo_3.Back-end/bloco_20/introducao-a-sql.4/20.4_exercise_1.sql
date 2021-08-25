@@ -81,4 +81,5 @@ DELETE FROM Pixar.Movies
 WHERE title = 'WALL-E';
 
 -- Exercício 7: Exclua da tabela Movies todos os filmes dirigidos por "Andrew Staton".
-
+DELETE FROM Pixar.Movies
+WHERE director = 'Andrew Staton';
