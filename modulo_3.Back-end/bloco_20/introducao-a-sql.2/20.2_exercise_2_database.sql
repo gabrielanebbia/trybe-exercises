@@ -1,4 +1,4 @@
--- Exercício 2: 
+-- Exercício parte 2: 
 -- Para realizar as tarefas foi restaurado o seguinte banco de dados:
 
 DROP SCHEMA IF EXISTS PiecesProviders;

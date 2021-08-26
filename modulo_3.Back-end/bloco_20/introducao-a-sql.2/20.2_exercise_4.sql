@@ -1,4 +1,4 @@
--- Exercício 4: Aplicando Restrições
+-- Exercício parte 4: Aplicando Restrições
 -- Realiza os exercícios do site SQLBolt
 -- https://sqlbolt.com/lesson/select_queries_with_constraints
 

@@ -1,4 +1,4 @@
--- Exercício 3: Usando WHERE
+-- Exercício parte 3: Usando WHERE
 -- Realiza os exercícios do site w3schools
 -- https://www.w3schools.com/sql/exercise.asp?filename=exercise_where1
 

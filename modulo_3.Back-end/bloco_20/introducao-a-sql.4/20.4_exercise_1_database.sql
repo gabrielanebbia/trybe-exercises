@@ -1,4 +1,4 @@
--- Exercício 1: 
+-- Exercício parte 1: 
 -- Para realizar as tarefas foi restaurado o seguinte banco de dados:
 
 DROP SCHEMA IF EXISTS Pixar;

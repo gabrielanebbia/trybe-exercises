@@ -1,4 +1,4 @@
--- Exercício 6: Comparação de valores. 
+-- Exercício parte 6: Comparação de valores
 -- Realiza os exercícios do site SQLzoo
 -- https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial
 

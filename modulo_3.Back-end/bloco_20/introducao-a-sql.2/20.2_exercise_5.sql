@@ -1,4 +1,4 @@
--- Exercícios 5: 
+-- Exercício parte 5: 
 -- Realiza os exercícios das páginas 1 a 3, do site SQLCourse
 -- http://www.sqlcourse.com/intro.html
 

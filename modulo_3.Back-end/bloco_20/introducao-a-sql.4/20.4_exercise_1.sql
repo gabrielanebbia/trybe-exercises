@@ -1,3 +1,4 @@
+-- Parte 1
 -- Exercício 1: Insira as produções da Pixar abaixo na tabela Movies:
 	-- Monstros SA, de Pete Docter, lançado em 2001, com 92 minutos de duração.
 	-- Procurando Nemo, de John Lasseter, lançado em 2003, com 107 minutos de duração.
