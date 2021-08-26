@@ -43,7 +43,7 @@ GROUP BY JOB_ID
 HAVING JOB_ID = 'IT_PROG';
 
 -- 9. Escreva uma query que exiba em ordem decrescente a média salarial de todos os cargos, exceto 
--- das pessoas programadoras ( IT_PROG ).
+-- das pessoas programadoras(IT_PROG).
 SELECT JOB_ID, AVG(SALARY) AS average_of_wages
 FROM hr.employees
 GROUP BY JOB_ID
@@ -70,7 +70,7 @@ SELECT * FROM hr.employees
 WHERE LENGTH(FIRST_NAME) >= 8;
 
 -- 13. Escreva uma query que exiba as seguintes informações de cada funcionário: id, primeiro nome 
--- e ano no qual foi contratado (exiba somente o ano).
+-- e ano no qual foi contratado(exiba somente o ano).
 SELECT EMPLOYEE_ID, 
 FIRST_NAME, 
 YEAR(HIRE_DATE) AS HIRE_DAY
@@ -84,7 +84,7 @@ RIGHT(HIRE_DATE, 2) AS HIRE_DAY
 FROM hr.employees;
 
 -- 15. Escreva uma query que exiba as seguintes informações de cada funcionário: id, primeiro nome 
--- e mês no qual foi contratado (exiba somente o mês).
+-- e mês no qual foi contratado(exiba somente o mês).
 SELECT EMPLOYEE_ID, 
 FIRST_NAME, 
 MONTH(HIRE_DATE) AS HIRE_MONTH
@@ -101,5 +101,8 @@ WHERE MONTH(HIRE_DATE) = 7
 AND YEAR(HIRE_DATE) = 1987;
 
 -- 18: Escreva uma query que exiba as seguintes informações de cada funcionário: nome, sobrenome, 
--- tempo que trabalha na empresa (em dias).
-
+-- tempo que trabalha na empresa(em dias).
+SELECT FIRST_NAME, 
+LAST_NAME, 
+DATEDIFF(CURRENT_DATE(), HIRE_DATE) AS time_working
+FROM hr.employees;
