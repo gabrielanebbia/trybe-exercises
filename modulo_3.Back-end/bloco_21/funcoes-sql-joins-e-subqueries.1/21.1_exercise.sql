@@ -31,7 +31,7 @@ WHERE JOB_ID = 'IT_PROG';
 
 -- 7. Escreva uma query que exiba a quantidade de dinheiro necessária para efetuar o pagamento de 
 -- cada profissão(JOB_ID).
-SELECT JOB_ID, COUNT(*) AS 'total_payments'
+SELECT JOB_ID, SUM(SALARY) AS 'total_payments'
 FROM hr.employees
 GROUP BY JOB_ID;
 
