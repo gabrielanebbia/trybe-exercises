@@ -95,7 +95,10 @@ SELECT UPPER(CONCAT(FIRST_NAME, ' ', LAST_NAME)) FROM hr.employees;
 
 -- 17: Escreva uma query que exiba o sobrenome e a data de contratação de todos os funcionário 
 -- contratados em julho de 1987.
-
+SELECT LAST_NAME, HIRE_DATE
+FROM hr.employees
+WHERE MONTH(HIRE_DATE) = 7 
+AND YEAR(HIRE_DATE) = 1987;
 
 -- 18: Escreva uma query que exiba as seguintes informações de cada funcionário: nome, sobrenome, 
 -- tempo que trabalha na empresa (em dias).
