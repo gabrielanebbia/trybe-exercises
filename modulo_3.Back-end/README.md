@@ -8,7 +8,7 @@
 - [x] 20-5: _Projeto All For One_
 
 #### `Bloco 21: Bancos de dados relacionais - Funções SQL, Joins e Subqueries`
-- [ ] 21-1: _Funções mais usadas no SQL_
+- [x] 21-1: _Funções mais usadas no SQL_
 - [ ] 21-2: _Descomplicando JOINs e UNIONs_
 - [ ] 21-3: _Stored Routines & Subqueries_
 - [ ] 21-4: _Projeto Vocabulary Booster_
