@@ -52,9 +52,22 @@ RIGHT JOIN  Pixar.Movies AS m
 ON t.id = m.theater_id
 ORDER BY t.name ASC;
 
--- Exercício 6: Faça duas buscas, uma utilizando SUBQUERY e outra utilizando INNER JOIN , que retornem os títulos 
+-- Exercício 6: Faça duas buscas, uma utilizando SUBQUERY e outra utilizando INNER JOIN, que retornem os títulos 
 -- dos filmes que possuem avaliação maior que 7.5.
 
+-- Usando SUBQUERY
+SELECT title FROM Pixar.Movies
+WHERE id IN (
+	SELECT movie_id 
+    FROM Pixar.BoxOffice
+    WHERE rating > 7.5);
+    
+-- Usando INNER JOIN
+SELECT m.title
+FROM Pixar.Movies AS m
+INNER JOIN  Pixar.BoxOffice AS b
+ON m.id = b.movie_id
+WHERE b.rating > 7.5;
 
 -- Exercício 7: Faça duas buscas, uma utilizando SUBQUERY e outra utilizando INNER JOIN , que retornem as 
 -- avaliações dos filmes lançados depois de 2009.
