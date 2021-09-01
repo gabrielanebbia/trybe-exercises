@@ -1,12 +1,17 @@
-## Bloco 5 - JavaScript: DOM, Eventos e Web Storage
+### Bloco 5 - JavaScript: DOM, Eventos e Web Storage
 ### Dia 4 - Web Storage
 
-Desenvolver uma página que servirá como um leitor de conteúdo escrito
+O objetivo dos exercícios desse dia foi colocar em prática os aprendizados sobre Web Storage e seus mecanismos pra salvar dados dos usuários no browser de forma mais segura que os cookies e com maior capacidade de armazenamento.
 
-- [ ] Cor de fundo da tela;
-- [ ] Cor do texto;
-- [ ] Tamanho da fonte;
-- [ ] Espaçamento entre as linhas do texto;
-- [ ] Tipo da fonte ( Font family ).
+Os requisitos do exercí­cio foram: 
 
-- [ ] Essas preferências podem ser salvas de forma que, ao retornar à página, as preferências que foram previamente configuradas possam ser aplicadas na tela.
+**Exercícios - Parte 1**
+Desenvolve uma página que serve como um leitor de conteúdo escrito, sendo possível alterar:
+- [ ] Cor de fundo da tela
+- [ ] Cor do texto
+- [ ] Tamanho da fonte
+- [ ] Espaçamento entre as linhas do texto
+- [ ] Tipo da fonte (Font family)
+
+**Exercícios - Parte 2**
+- [ ] Essas preferências podem ser salvas de forma que, ao retornar à página, as preferências que foram previamente configuradas são aplicadas na tela.
