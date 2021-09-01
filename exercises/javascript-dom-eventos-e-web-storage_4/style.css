@@ -1,40 +1,38 @@
-body {
-    background-color: white;
-    font-family: 'Times New Roman, sans-serif';
-    color: black;
-    font-size: medium;
+.main {
+  background-color: white;
 }
 
-.tituloPage {
-    text-align: center;
-    margin: 50px;
+.titlePage {
+  text-align: center;
+  margin: 50px;
 }
 
 .preferences {
-    border-style: solid;
-    text-align: center;
+  border-style: solid;
+  text-align: center;
 }
 .preferences div {
-    text-align: center;
-    margin: 0%;
-    padding: 30px;
-    display: inline-block;
-    
+  display: inline-block; 
+  margin: 0%;
+  padding: 30px;
+  text-align: center;
 }
 
-.titleText {
-    text-align: center;
-    margin: 10px 100px;
-    margin-top: 100px;
+.title {
+  margin: 10px 100px;
+  margin-top: 100px;
+  text-align: center;
 }
 
-.text {
-    text-align: justify;
-    margin: 50px 100px;
-    line-height: 1;
-    font-size: medium;
+.paragraph {
+  color: black;
+  font-family: Times New Roman;
+  font-size: medium;
+  line-height: 1;
+  margin: 50px 100px;
+  text-align: justify;
 }
 
-.reference {
-    text-align: center;
+.footer {
+  text-align: center;
 }

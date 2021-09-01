@@ -1,67 +1,62 @@
 window.onload = function() {
-
-  function backgroundColor(color) {
-      let background = document.querySelector('body');
-      background.style.backgroundColor = color;
-      localStorage.setItem('backgroundColor', color);
+  
+  function setBackgroundColor(color) {
+    let background = document.querySelector('.main');
+    background.style.backgroundColor = color;
   }  
   
-  function textColor(color) {
-      let textColor = document.querySelector('body');
-      textColor.style.color = color;
-      localStorage.setItem('textColor', color);
+  function setFontColor(color) {
+    let fontColor = document.querySelectorAll('.paragraph');
+    fontColor.style.color = color;
   }
   
-  function fontSize(size) {
-    let fontSize = document.querySelector('.text');
+  function setFontSize(size) {
+    let fontSize = document.querySelector('.paragraph');
     fontSize.style.fontSize = size;
-    localStorage.setItem('fontSize', size);
   }
   
-  function lineHeight(height) {
-    let lineHeight = document.querySelector('.text');
+  function setLineHeight(height) {
+    let lineHeight = document.querySelector('.paragraph');
     lineHeight.style.lineHeight = height;
-    localStorage.setItem('lineHeight', height);
   }
   
-  function fontFamily(family) {
-    let fontFamily = document.querySelector('body');
+  function setFontFamily(family) {
+    let fontFamily = document.querySelectorAll('.paragraph');
     fontFamily.style.fontFamily = family;
-    localStorage.setItem('fontFamily', family);
   }
   
-  let buttonBackgroundColor = document.querySelector('body');
-  for (let index = 0; index < buttonBackgroundColor.length; index += 1) {
-    buttonBackgroundColor[index].addEventListener("click", function(){
-    backgroundColor()
+  let backgroundColorButtons = document.querySelectorAll('.backgroundColor>button');
+  for (let index = 0; index < backgroundColorButtons.length; index += 1) {
+    backgroundColorButtons[index].addEventListener("click", function(event){
+    setBackgroundColor(event.target.innerText)
   })
   }
   
-  let buttonTextColor = document.querySelector('body');
-  for (let index = 0; index < buttonTextColor.length; index += 1) {
-    buttonTextColor[index].addEventListener("click", function(){
-    TextColor()
+  let fontColorButtons = document.querySelectorAll('.fontColor>button');
+  for (let index = 0; index < fontColorButtons.length; index += 1) {
+    fontColorButtons[index].addEventListener("click", function(event){
+    setFontColor(event.target.innerText)
   })
   }
   
-  let buttonFontSize = document.querySelector('.text')
-  for (let index = 0; index < buttonFontSize.length; index += 1) {
-    buttonFontSize[index].addEventListener("click", function(){
-    fontSize()
+  let fontSizeButtons = document.querySelectorAll('.fontSize>button');
+  for (let index = 0; index < fontSizeButtons.length; index += 1) {
+    fontSizeButtons[index].addEventListener("click", function(event){
+    setFontSize(event.target.innerText)
   })
   }
   
-  let buttonLineHeight = document.querySelector('.text');
-  for (let index = 0; index < buttonLineHeight.length; index += 1) {
-    buttonLineHeight[index].addEventListener("click", function(){
-    lineHeight()
+  let lineHeightButtons = document.querySelectorAll('.lineHeight>button');
+  for (let index = 0; index < lineHeightButtons.length; index += 1) {
+    lineHeightButtons[index].addEventListener("click", function(event){
+    setLineHeight(event.target.innerText)
   })
   }
   
-  let buttonFontFamily = document.querySelector()
-  for (let index = 0; index < buttonFontFamily.length; index += 1) {
-    buttonFontFamily[index].addEventListener("click", function(){
-    fontFamily()
+  let fontFamilyButtons = document.querySelectorAll('.fontFamily>button');
+  for (let index = 0; index < fontFamilyButtons.length; index += 1) {
+    fontFamilyButtons[index].addEventListener("click", function(event){
+    setFontFamily(event.target.innerText)
   })
   }
 }
