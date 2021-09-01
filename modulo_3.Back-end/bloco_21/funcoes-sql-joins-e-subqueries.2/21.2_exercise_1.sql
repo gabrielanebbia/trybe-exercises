@@ -60,7 +60,8 @@ SELECT title FROM Pixar.Movies
 WHERE id IN (
 	SELECT movie_id 
     FROM Pixar.BoxOffice
-    WHERE rating > 7.5);
+    WHERE rating > 7.5
+);
     
 -- Usando INNER JOIN
 SELECT m.title
@@ -77,7 +78,8 @@ SELECT rating FROM Pixar.BoxOffice
 WHERE movie_id IN (
 	SELECT id 
     FROM Pixar.Movies
-    WHERE year > 2009);
+    WHERE year > 2009
+);
     
 -- Usando INNER JOIN
 SELECT b.rating
@@ -91,7 +93,13 @@ SELECT t.name, t.location
 FROM Pixar.Theater AS t
 WHERE EXISTS(
 	SELECT * FROM Pixar.Movies AS m
-  WHERE m.theater_id = t.id);
+  WHERE m.theater_id = t.id
+);
 
 -- Exercício 9: Utilizando o EXISTS, selecione o nome e localização dos cinemas que não possuem filmes em cartaz.
-
+SELECT t.name, t.location
+FROM Pixar.Theater AS t
+WHERE NOT EXISTS(
+	SELECT * FROM Pixar.Movies AS m
+  WHERE m.theater_id = t.id
+);
