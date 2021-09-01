@@ -14,7 +14,7 @@ function createDaysOfTheWeek() {
   createDaysOfTheWeek();
   
   // Escreva seu código abaixo.
-
+  // Exercício 1
   const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
   
   function createDaysOfTheMonth() {
@@ -45,6 +45,7 @@ function createDaysOfTheWeek() {
   }
   createDaysOfTheMonth();
   
+  // Exercício 2
   function createHolidaysButtons(nameHoliday) {
     let holidayButton = document.createElement('button');
 
@@ -56,6 +57,7 @@ function createDaysOfTheWeek() {
   }
   createHolidaysButtons('Feriados');
 
+  // Exercício 3
   function displayHolydays() {
     let getHolidayButton = document.getElementById('btn-holiday');
     let getHolidays = document.querySelectorAll('.holiday');
@@ -72,6 +74,7 @@ function createDaysOfTheWeek() {
   }
   displayHolydays();
 
+  // Exercício 4
   function friday(buttonName) {
     let getButtonsContainer = document.querySelector('.buttons-container');
     let fridayButton = document.createElement('button');
@@ -82,6 +85,7 @@ function createDaysOfTheWeek() {
   }
   friday('Sexta-feira');
 
+  // Exercício 5
   function displayFridays() {
     let getFridayButton = document.querySelector('#btn-friday');
     let fridays = document.getElementsByClassName('friday');
@@ -99,6 +103,7 @@ function createDaysOfTheWeek() {
   }
   displayFridays();
 
+  // Exercício 6
   function dayZoomIn() {
     let getDays = document.getElementById('days');
     getDays.addEventListener('mouseover', function(event) {
@@ -117,6 +122,7 @@ function createDaysOfTheWeek() {
   }
   dayZoomOut();
 
+  // Exercício 7
   function addNewTask(task) {
     let tasksContainer = document.querySelector('.my-tasks');
     let createTask = document.createElement('span');
@@ -126,6 +132,7 @@ function createDaysOfTheWeek() {
   }
   addNewTask('Cozinhar');
   
+  // Exercício 8
   function addNewTaskDiv(color) {
     let tasksContainer = document.querySelector('.my-tasks');
     let createTaskDiv = document.createElement('div');
@@ -137,6 +144,7 @@ function createDaysOfTheWeek() {
   }
   addNewTaskDiv('yellow');
 
+  // Exercício 9
   function classSelectedTask() {
     let tasks = document.querySelector('.task');
     
@@ -150,6 +158,7 @@ function createDaysOfTheWeek() {
   }
   classSelectedTask();
 
+  // Exercício 10
   function dayColor() {
     let getDays = document.querySelector('#days');
     let selectedTask = document.getElementsByClassName('selected');
@@ -166,6 +175,7 @@ function createDaysOfTheWeek() {
   };
   dayColor();
 
+  // Exercício Bônus 1
   function newAppointment() {
     let getInput = document.querySelector('#task-input');
     let getAddButton = document.querySelector('#btn-add');
@@ -182,7 +192,7 @@ function createDaysOfTheWeek() {
       }
     });
 
-    
+    // Exercício Bônus 2 e 3
     getAddButton.addEventListener('click', function() {
       if (getInput.value.length > 0) {
         let li = document.createElement('li');
@@ -198,5 +208,6 @@ function createDaysOfTheWeek() {
   
   newAppointment();
 
-// Referência: https://developer.mozilla.org/en-US/docs/Web/API/Document/keyup_event
+// Referências para o exercício bonus 3: 
+// https://developer.mozilla.org/en-US/docs/Web/API/Document/keyup_event
 // https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent
