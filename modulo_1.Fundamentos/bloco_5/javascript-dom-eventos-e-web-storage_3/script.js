@@ -172,7 +172,8 @@ function createDaysOfTheWeek() {
     let getList = document.querySelector('.task-list');
 
     getInput.addEventListener('keyup', function(event) {
-      if (event.value.length > 0) {
+      let keyName = event.key;
+      if (getInput.value.length > 0 && keyName === 'Enter') {
         let li = document.createElement('li');
         li.innerText = getInput.value;
   
@@ -196,3 +197,6 @@ function createDaysOfTheWeek() {
   };
   
   newAppointment();
+
+// Referência: https://developer.mozilla.org/en-US/docs/Web/API/Document/keyup_event
+// https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent
