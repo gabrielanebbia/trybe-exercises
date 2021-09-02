@@ -418,6 +418,8 @@ Response:
 ```
 
 20. Download the Twitter homepage (https://twitter.com) in Spanish by setting the Accept-Language: es-ES header.
-
+```
+curl -H 'Accept-Language: es-ES' https://twitter.com
+```
 
 21. Make a request to the Stripe API with curl. (see https://stripe.com/docs/development for how, they give you a test API key). Try making exactly the same request to https://httpbin.org/anything.
