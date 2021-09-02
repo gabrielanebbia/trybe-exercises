@@ -392,6 +392,30 @@ access-control-allow-credentials: true
 ```
 
 19. Request https://httpbin.org/anything and set a username and password (with -u username:password)
+```
+curl -u username:secret https://httpbin.org/anything
+```
+```
+Response:
+
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Authorization": "Basic dXNlcm5hbWU6c2VjcmV0", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.68.0", 
+    "X-Amzn-Trace-Id": "Root=1-613076f6-5ee666962b434cbe1931d31d"
+  }, 
+  "json": null, 
+  "method": "GET", 
+  "origin": "189.60.105.53", 
+  "url": "https://httpbin.org/anything"
+}
+```
 
 20. Download the Twitter homepage (https://twitter.com) in Spanish by setting the Accept-Language: es-ES header.
 
