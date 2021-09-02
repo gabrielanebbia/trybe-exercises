@@ -265,6 +265,9 @@ Response:
 ```
 
 12. Put a bunch of a JSON in a file and then make a POST request to https://httpbin.org/anything with the JSON in that file as the body
+```
+curl -X POST https://httpbin.org/anythin --data @data.json
+```
 
 13. Make a request to https://httpbin.org/image and set the header ‘Accept: image/png’. Save the output to a PNG file and open the file in an image viewer. Try the same thing with different Accept: headers.
 
