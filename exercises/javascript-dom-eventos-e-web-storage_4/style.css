@@ -17,9 +17,6 @@
 }
 
 .paragraph {
-  color: black;
-  font-size: medium;
-  line-height: 1;
   margin: 50px 100px;
   text-align: justify;
 }

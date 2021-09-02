@@ -14,4 +14,4 @@ Desenvolve uma página que serve como um leitor de conteúdo escrito, sendo poss
 - [x] Tipo da fonte (Font family)
 
 **Exercícios - Parte 2**
-- [ ] Essas preferências podem ser salvas de forma que, ao retornar à página, as preferências que foram previamente configuradas são aplicadas na tela.
+- [x] Essas preferências podem ser salvas de forma que, ao retornar à página, as preferências que foram previamente configuradas são aplicadas na tela.
