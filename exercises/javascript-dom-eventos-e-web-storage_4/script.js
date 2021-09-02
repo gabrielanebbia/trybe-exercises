@@ -16,9 +16,21 @@ window.onload = function() {
   }  
   
   function setFontColor(color) {
-    let paragraph = document.querySelector('.paragraph');
-    paragraph.style.color = color;
-  }
+    let text = document.querySelectorAll('.text');
+    for (let index = 0; index < text.length; index += 1) {
+      switch(color) {
+        case 'Branco':
+          text[index].style.color = 'white';
+          break;
+        case 'Amarelo':
+          text[index].style.color = 'yellow';
+          break;
+        case 'Preto':
+          text[index].style.color = 'black';
+          break;
+      }
+    }
+}
   
   function setFontSize(size) {
     let paragraph = document.querySelector('.paragraph');
