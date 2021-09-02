@@ -360,6 +360,36 @@ Response:
 ```
 
 18. Request https://httpbin.org/status/404 and https://httpbin.org/status/200. Request them again and get curl to show the response headers.
+```
+curl https://httpbin.org/status/404
+curl -i https://httpbin.org/status/404
+```
+```
+Response:
+
+HTTP/2 404 
+date: Thu, 02 Sep 2021 06:59:58 GMT
+content-type: text/html; charset=utf-8
+content-length: 0
+server: gunicorn/19.9.0
+access-control-allow-origin: *
+access-control-allow-credentials: true
+```
+```
+curl https://httpbin.org/status/200
+curl -i https://httpbin.org/status/200
+```
+```
+Response:
+
+HTTP/2 200 
+date: Thu, 02 Sep 2021 07:00:19 GMT
+content-type: text/html; charset=utf-8
+content-length: 0
+server: gunicorn/19.9.0
+access-control-allow-origin: *
+access-control-allow-credentials: true
+```
 
 19. Request https://httpbin.org/anything and set a username and password (with -u username:password)
 
