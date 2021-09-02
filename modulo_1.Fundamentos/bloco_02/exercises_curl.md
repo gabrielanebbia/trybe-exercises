@@ -334,6 +334,30 @@ x-connection-hash: 9d63f999de6e9162d4df0ea7b824f8097a48b6224d3d5a5750c7b86840015
 ```
 
 17. Make any request to https://httpbin.org/anything and just set some nonsense headers (like panda: elephant)
+```
+curl -H 'Panda: Elephant' https://httpbin.org/anything
+```
+```
+Response:
+
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Host": "httpbin.org", 
+    "Panda": "Elephant", 
+    "User-Agent": "curl/7.68.0", 
+    "X-Amzn-Trace-Id": "Root=1-61307605-6fb7fec11164523c636adcfa"
+  }, 
+  "json": null, 
+  "method": "GET", 
+  "origin": "189.60.105.53", 
+  "url": "https://httpbin.org/anything"
+}
+```
 
 18. Request https://httpbin.org/status/404 and https://httpbin.org/status/200. Request them again and get curl to show the response headers.
 
