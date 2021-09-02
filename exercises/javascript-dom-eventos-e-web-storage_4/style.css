@@ -1,20 +1,16 @@
-.main {
-  background-color: white;
-}
-
-.titlePage {
+h1 {
   text-align: center;
-  margin: 50px;
 }
 
 .preferences {
   border-style: solid;
   text-align: center;
 }
+
 .preferences div {
   display: inline-block; 
   margin: 0%;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
 }
 

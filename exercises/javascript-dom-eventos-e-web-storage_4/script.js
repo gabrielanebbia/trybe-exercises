@@ -1,28 +1,38 @@
 window.onload = function() {
   
   function setBackgroundColor(color) {
-    let background = document.querySelector('.main');
-    background.style.backgroundColor = color;
+    let background = document.querySelector('body');
+    switch(color) {
+      case 'Branco':
+        background.style.backgroundColor = 'white';
+        break;
+      case 'Cinza':
+        background.style.backgroundColor = 'grey';
+        break;
+      case 'Preto':
+        background.style.backgroundColor = 'black';
+        break;
+    }
   }  
   
   function setFontColor(color) {
-    let fontColor = document.querySelectorAll('.paragraph');
-    fontColor.style.color = color;
+    let paragraph = document.querySelector('.paragraph');
+    paragraph.style.color = color;
   }
   
   function setFontSize(size) {
-    let fontSize = document.querySelector('.paragraph');
-    fontSize.style.fontSize = size;
+    let paragraph = document.querySelector('.paragraph');
+    paragraph.style.fontSize = size;
   }
   
   function setLineHeight(height) {
-    let lineHeight = document.querySelector('.paragraph');
-    lineHeight.style.lineHeight = height;
+    let paragraph = document.querySelector('.paragraph');
+    paragraph.style.lineHeight = height;
   }
   
   function setFontFamily(family) {
-    let fontFamily = document.querySelectorAll('.paragraph');
-    fontFamily.style.fontFamily = family;
+    let paragraph = document.querySelector('.paragraph');
+    paragraph.style.fontFamily = family;
   }
   
   let backgroundColorButtons = document.querySelectorAll('.backgroundColor>button');

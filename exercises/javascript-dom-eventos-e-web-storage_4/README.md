@@ -7,7 +7,7 @@ Os requisitos do exercí­cio foram:
 
 **Exercícios - Parte 1**
 Desenvolve uma página que serve como um leitor de conteúdo escrito, sendo possível alterar:
-- [ ] Cor de fundo da tela
+- [x] Cor de fundo da tela
 - [ ] Cor do texto
 - [ ] Tamanho da fonte
 - [ ] Espaçamento entre as linhas do texto
