@@ -4,7 +4,7 @@
 
 1.  Request https://httpbin.org
 ```
-
+curl https://httpbin.org
 ```
 
 2. Request https://httpbin.org/anything. httpbin.org/anything will look at the request you made, parse it, and echo back to you what you requested. curl’s default is to make a GET request.
