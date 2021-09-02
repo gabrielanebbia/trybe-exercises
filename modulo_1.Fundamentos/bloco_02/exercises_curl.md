@@ -210,6 +210,33 @@ Response:
 ```
 
 10. Make the same POST request as the previous exercise, but set the Content-Type header to application/json (because POST requests need to have a content type that matches their body). Look at the json field in the response to see the difference from the previous one.
+```
+curl -X POST -H "Content-Type: application/json" https://httpbin.org/anything --data '{"value": "panda"}'
+```
+```
+Response:
+
+{
+  "args": {}, 
+  "data": "{\"value\": \"panda\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Content-Length": "18", 
+    "Content-Type": "application/json", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.68.0", 
+    "X-Amzn-Trace-Id": "Root=1-61306698-6aa36c4c7fd1faa11dc8d282"
+  }, 
+  "json": {
+    "value": "panda"
+  }, 
+  "method": "POST", 
+  "origin": "189.60.105.53", 
+  "url": "https://httpbin.org/anything"
+}
+```
 
 11. Make a GET request to https://httpbin.org/anything and set the header Accept-Encoding: gzip (what happens? why?)
 
