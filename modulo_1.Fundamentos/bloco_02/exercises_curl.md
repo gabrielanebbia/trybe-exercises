@@ -32,6 +32,28 @@ Response:
 ```
 
 3. Make a POST request to https://httpbin.org/anything
+```
+curl -X POST https://httpbin.org/anything
+```
+```
+Response:
+
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.68.0", 
+    "X-Amzn-Trace-Id": "Root=1-61305fd0-2b3944ab1e76a7b53b69b75b"
+  }, 
+  "json": null, 
+  "method": "POST", 
+  "origin": "189.60.105.53", 
+  "url": "https://httpbin.org/anything"
+```
 
 4. Make a GET request to https://httpbin.org/anything, but this time add some query parameters (set value=panda).
 
