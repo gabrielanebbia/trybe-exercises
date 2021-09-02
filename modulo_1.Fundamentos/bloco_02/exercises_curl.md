@@ -270,6 +270,13 @@ curl -X POST https://httpbin.org/anythin --data @data.json
 ```
 
 13. Make a request to https://httpbin.org/image and set the header ‘Accept: image/png’. Save the output to a PNG file and open the file in an image viewer. Try the same thing with different Accept: headers.
+```
+curl -H 'Accept: image/png' https://httpbin.org/image -o image.png
+```
+```
+Response:
+```
+![Response exercise 13](image.png)
 
 14. Make a PUT request to https://httpbin.org/anything
 
