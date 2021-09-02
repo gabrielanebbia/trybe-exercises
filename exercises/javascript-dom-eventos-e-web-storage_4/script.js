@@ -55,42 +55,51 @@ window.onload = function() {
   }
   
   function setFontFamily(family) {
-    let paragraph = document.querySelector('.paragraph');
-    paragraph.style.fontFamily = family;
+    let text = document.querySelectorAll('.text');
+    for (let index = 0; index < text.length; index += 1) {
+      switch(family) {
+        case 'Times New Roman':
+          text[index].style.fontFamily = 'Times New Roman';
+          break;
+        case 'Arial':
+          text[index].style.fontFamily = 'Arial';
+          break;
+      }
+    }
   }
   
   let backgroundColorButtons = document.querySelectorAll('.backgroundColor>button');
   for (let index = 0; index < backgroundColorButtons.length; index += 1) {
-    backgroundColorButtons[index].addEventListener("click", function(event){
-    setBackgroundColor(event.target.innerText)
-  })
+    backgroundColorButtons[index].addEventListener("click", function(event) {
+      setBackgroundColor(event.target.innerText)
+    })
   }
   
   let fontColorButtons = document.querySelectorAll('.fontColor>button');
   for (let index = 0; index < fontColorButtons.length; index += 1) {
-    fontColorButtons[index].addEventListener("click", function(event){
-    setFontColor(event.target.innerText)
-  })
+    fontColorButtons[index].addEventListener("click", function(event) {
+      setFontColor(event.target.innerText)
+    })
   }
   
   let fontSizeButtons = document.querySelectorAll('.fontSize>button');
   for (let index = 0; index < fontSizeButtons.length; index += 1) {
-    fontSizeButtons[index].addEventListener("click", function(event){
-    setFontSize(event.target.innerText)
-  })
+    fontSizeButtons[index].addEventListener("click", function(event) {
+      setFontSize(event.target.innerText)
+    })
   }
   
   let lineHeightButtons = document.querySelectorAll('.lineHeight>button');
   for (let index = 0; index < lineHeightButtons.length; index += 1) {
-    lineHeightButtons[index].addEventListener("click", function(event){
-    setLineHeight(event.target.innerText)
-  })
+    lineHeightButtons[index].addEventListener("click", function(event) {
+      setLineHeight(event.target.innerText)
+    })
   }
   
   let fontFamilyButtons = document.querySelectorAll('.fontFamily>button');
   for (let index = 0; index < fontFamilyButtons.length; index += 1) {
-    fontFamilyButtons[index].addEventListener("click", function(event){
-    setFontFamily(event.target.innerText)
-  })
+    fontFamilyButtons[index].addEventListener("click", function(event) {
+      setFontFamily(event.target.innerText)
+    })
   }
 }
