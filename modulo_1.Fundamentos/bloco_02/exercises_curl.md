@@ -313,6 +313,25 @@ Response:
 ![Response exercise 15](image2.jpeg)
 
 16. Request https://www.twitter.com. You’ll get an empty response. Get curl to show you the response headers too, and try to figure out why the response was empty.
+```
+curl -i https://www.twitter.com
+```
+```
+Response:
+
+Because was pass on a "Transfer-Encoding: chunked" header when doing the request, will make curl send the data using chunked encoding. This can lead to the header being sent to other hosts than the original host.
+
+HTTP/2 301 
+date: Thu, 02 Sep 2021 06:36:58 UTC
+server: tsa_b
+location: https://twitter.com/
+set-cookie: personalization_id="v1_7xC7dmZBW4kU7NY5Si0I/A=="; Max-Age=63072000; Expires=Sat, 02 Sep 2023 06:36:58 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+set-cookie: guest_id=v1%3A163056461822315044; Max-Age=63072000; Expires=Sat, 02 Sep 2023 06:36:58 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+cache-control: no-cache, no-store, max-age=0
+content-length: 0
+strict-transport-security: max-age=631138519
+x-connection-hash: 9d63f999de6e9162d4df0ea7b824f8097a48b6224d3d5a5750c7b8684001525c
+```
 
 17. Make any request to https://httpbin.org/anything and just set some nonsense headers (like panda: elephant)
 
