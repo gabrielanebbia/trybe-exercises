@@ -9,7 +9,7 @@ Os requisitos do exercí­cio foram:
 Desenvolve uma página que serve como um leitor de conteúdo escrito, sendo possível alterar:
 - [x] Cor de fundo da tela
 - [x] Cor do texto
-- [ ] Tamanho da fonte
+- [x] Tamanho da fonte
 - [ ] Espaçamento entre as linhas do texto
 - [ ] Tipo da fonte (Font family)
 

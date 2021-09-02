@@ -33,8 +33,20 @@ window.onload = function() {
 }
   
   function setFontSize(size) {
-    let paragraph = document.querySelector('.paragraph');
-    paragraph.style.fontSize = size;
+    let textSize = document.querySelectorAll('.size');
+    for (let index = 0; index < textSize.length; index += 1) {
+      switch(size) {
+        case 'Pequena':
+          textSize[index].style.fontSize = 'small';
+          break;
+        case 'Média':
+          textSize[index].style.fontSize = 'medium';
+          break;
+        case 'Grande':
+          textSize[index].style.fontSize= 'larger';
+          break;
+      }
+    }
   }
   
   function setLineHeight(height) {
