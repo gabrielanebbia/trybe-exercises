@@ -1,6 +1,6 @@
-#### Parte I - Criação de arquivos e diretórios
+### Parte I - Criação de arquivos e diretórios
 
-> Utilizando o terminal:
+### Utilizando o terminal:
 
 1. Crie um diretório chamado unix_tests e navegue até ele
 ```
@@ -55,7 +55,7 @@ rm -rd backup
 ```
 clear
 ```
-> Para os exercícios 14 e 15, crie de forma manual, um arquivo de texto com o conteúdo abaixo, chamado skills.txt:
+### Para os exercícios 14 e 15, crie de forma manual, um arquivo de texto com o conteúdo abaixo, chamado skills.txt:
 ```
 Internet
 Unix

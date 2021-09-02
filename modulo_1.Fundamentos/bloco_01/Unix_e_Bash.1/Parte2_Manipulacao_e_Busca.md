@@ -1,6 +1,6 @@
-#### Parte II - Manipulação & Busca
+### Parte II - Manipulação & Busca
 
-> Na pasta unix_tests, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl:
+### Na pasta unix_tests, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl:
 ```
 curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
 ```
@@ -27,7 +27,7 @@ grep Brazil countries.txt
 grep -i brazil countries.txt
 ```
 
-> Para os próximos exercícios, crie um novo arquivo chamado phrases.txt e adicione algumas frases à sua escolha.
+### Para os próximos exercícios, crie um novo arquivo chamado phrases.txt e adicione algumas frases à sua escolha.
 
 6. Busque pelas frases que não contenham a palavra fox
 ```
