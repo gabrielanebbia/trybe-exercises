@@ -181,6 +181,33 @@ access-control-allow-credentials: true
 ```
 
 9.  Make a POST request to https://httpbin.org/anything with the JSON body {"value": "panda"}
+```
+curl -X POST https://httpbin.org/anything --data '{"value": "panda"}'
+```
+```
+Response:
+
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "{\"value\": \"panda\"}": ""
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Content-Length": "18", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.68.0", 
+    "X-Amzn-Trace-Id": "Root=1-61306603-32e7f9456278b85b49f8fa0a"
+  }, 
+  "json": null, 
+  "method": "POST", 
+  "origin": "189.60.105.53", 
+  "url": "https://httpbin.org/anything"
+}
+```
 
 10. Make the same POST request as the previous exercise, but set the Content-Type header to application/json (because POST requests need to have a content type that matches their body). Look at the json field in the response to see the difference from the previous one.
 
