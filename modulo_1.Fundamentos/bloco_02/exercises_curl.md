@@ -304,6 +304,13 @@ Response:
 ```
 
 15. Request https://httpbin.org/image/jpeg, save it to a file, and open that file in your image editor.
+```
+curl -o image2.jpeg https://httpbin.org/image/jpeg
+```
+```
+Response:
+```
+![Response exercise 15](image2.jpeg)
 
 16. Request https://www.twitter.com. You’ll get an empty response. Get curl to show you the response headers too, and try to figure out why the response was empty.
 
