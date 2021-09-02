@@ -279,6 +279,29 @@ Response:
 ![Response exercise 13](image.png)
 
 14. Make a PUT request to https://httpbin.org/anything
+```
+curl -X PUT https://httpbin.org/anything
+```
+```
+Response:
+
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.68.0", 
+    "X-Amzn-Trace-Id": "Root=1-61306fd7-22c4851d69d0e50c644eae54"
+  }, 
+  "json": null, 
+  "method": "PUT", 
+  "origin": "189.60.105.53", 
+  "url": "https://httpbin.org/anything"
+}
+```
 
 15. Request https://httpbin.org/image/jpeg, save it to a file, and open that file in your image editor.
 
