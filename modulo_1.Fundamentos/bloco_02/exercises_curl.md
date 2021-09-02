@@ -148,6 +148,37 @@ Response:
 ```
 
 8. Request https://httpbin.org/anything and also get the response headers
+```
+curl -i https://httpbin.org/anything
+```
+```
+Response:
+
+HTTP/2 200 
+date: Thu, 02 Sep 2021 05:38:04 GMT
+content-type: application/json
+content-length: 343
+server: gunicorn/19.9.0
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.68.0", 
+    "X-Amzn-Trace-Id": "Root=1-6130633c-2ce824b913c68619428d320e"
+  }, 
+  "json": null, 
+  "method": "GET", 
+  "origin": "189.60.105.53", 
+  "url": "https://httpbin.org/anything"
+}
+```
 
 9.  Make a POST request to https://httpbin.org/anything with the JSON body {"value": "panda"}
 
