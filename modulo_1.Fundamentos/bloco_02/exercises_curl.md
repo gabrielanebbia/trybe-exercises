@@ -423,3 +423,12 @@ curl -H 'Accept-Language: es-ES' https://twitter.com
 ```
 
 21. Make a request to the Stripe API with curl. (see https://stripe.com/docs/development for how, they give you a test API key). Try making exactly the same request to https://httpbin.org/anything.
+```
+Since you need create an account and login to get a test API key, so i use a fake one for the exercise.
+
+curl https://httpbin.org/anything
+-u sk_test_000000000000000000
+
+Reference: 
+https://stripe.com/docs/api
+```
