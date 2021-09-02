@@ -123,6 +123,29 @@ https://everything.curl.dev/http/requests#user-agent
 ```
 
 7. Make a DELETE request to https://httpbin.org/anything
+```
+curl -X DELETE https://httpbin.org/anything
+```
+```
+Response:
+
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.68.0", 
+    "X-Amzn-Trace-Id": "Root=1-61306307-2dcb7379665d82fd02d6178a"
+  }, 
+  "json": null, 
+  "method": "DELETE", 
+  "origin": "189.60.105.53", 
+  "url": "https://httpbin.org/anything"
+}
+```
 
 8. Request https://httpbin.org/anything and also get the response headers
 
