@@ -91,6 +91,36 @@ curl www.google.com/robots.txt
 ```
 
 6. Make a GET request to https://httpbin.org/anything and set the header User-Agent: elephant.
+```
+curl https://httpbin.org/anything --user-agent elephant
+```
+or
+```
+curl -H 'User-agent: elephant' https://httpbin.org/anything 
+```
+```
+Response:
+
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Host": "httpbin.org", 
+    "User-Agent": "elephant", 
+    "X-Amzn-Trace-Id": "Root=1-6130629b-4c0569314ad85a612bcd0007"
+  }, 
+  "json": null, 
+  "method": "GET", 
+  "origin": "189.60.105.53", 
+  "url": "https://httpbin.org/anything"
+}
+
+Reference:
+https://everything.curl.dev/http/requests#user-agent
+```
 
 7. Make a DELETE request to https://httpbin.org/anything
 
