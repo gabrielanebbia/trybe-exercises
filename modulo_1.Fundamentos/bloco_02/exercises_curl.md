@@ -56,6 +56,34 @@ Response:
 ```
 
 4. Make a GET request to https://httpbin.org/anything, but this time add some query parameters (set value=panda).
+```
+curl -X GET --data "value=panda" "https://httpbin.org/anything"
+```
+```
+Response:
+
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "value": "panda"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Content-Length": "11", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.68.0", 
+    "X-Amzn-Trace-Id": "Root=1-61306485-3b7813e47aed8cfb5b43ffe4"
+  }, 
+  "json": null, 
+  "method": "GET", 
+  "origin": "189.60.105.53", 
+  "url": "https://httpbin.org/anything"
+}
+
+```
 
 5. Request google’s robots.txt file (www.google.com/robots.txt)
 
