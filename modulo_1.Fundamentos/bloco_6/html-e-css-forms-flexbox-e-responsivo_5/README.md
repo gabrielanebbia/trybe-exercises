@@ -1,4 +1,4 @@
-## Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo
+### Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo
 ### Dia 5 - CSS Responsivo - Mobile First
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre:
@@ -7,7 +7,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 
 Os requisitos do exercícios são:
 
-### Parte I
+#### Parte I
 
 #### A - Comece o exercício analisando a página em uma tela de tamanho pequeno, para simular como ela pode parecer em um dispositivo móvel. (mobile first)
 
@@ -46,7 +46,7 @@ Realize os seguintes ajustes dentro do breakpoint:
 - [x] Ajusta as margens da página;
 - [x] Adiciona a propriedade max-width à página, para garantir que a largura das linhas não fique muito grande.
 
-### Parte II
+#### Parte II
 
 Estilize o primeiro capítulo do livro: Alice no País das Maravilhas.
 
@@ -56,7 +56,7 @@ Utilizando a abordagem mobile first e media queries, cria três versões de layo
 - [x] layout médio - a partir de 600px
 - [x] layout grande - a partir de 1000px
 
-### Parte III
+#### Parte III
 
 O objetivo deste exercício é usar media queries para fazer a página parecer diferente na hora da impressão e em diferentes tamanhos de tela.
 
