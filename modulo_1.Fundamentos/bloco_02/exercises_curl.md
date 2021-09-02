@@ -86,6 +86,9 @@ Response:
 ```
 
 5. Request google’s robots.txt file (www.google.com/robots.txt)
+```
+curl www.google.com/robots.txt
+```
 
 6. Make a GET request to https://httpbin.org/anything and set the header User-Agent: elephant.
 
