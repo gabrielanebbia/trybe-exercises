@@ -1,6 +1,34 @@
 // Utilizando a coleção bios, construa queries para retornar os seguintes itens:
 
 // Exercício 1: Retorne o documento com o _id igual a 8.
+db.bios.find({_id: 8 })
+
+// Resultado:
+[
+  {
+    "_id": 8,
+    "name": {
+      "first": "Yukihiro",
+      "aka": "Matz",
+      "last": "Matsumoto"
+    },
+    "birth": {
+      "$date": {
+        "$numberLong": "-148852800000"
+      }
+    },
+    "contribs": [
+      "Ruby"
+    ],
+    "awards": [
+      {
+        "award": "Award for the Advancement of Free Software",
+        "year": "2011",
+        "by": "Free Software Foundation"
+      }
+    ]
+  }
+]
 
 // Exercício 2: Retorne o documento com o _id igual a 8, mas só exiba os atributos: _id e name.
 
