@@ -6,9 +6,9 @@ O objetivo dos exercícios desse dia foi colocar em pratica as ferramentas Store
 **STORED PROCEDURES**
 
 Utilizando o banco de dados sakila:
-- [ ] 1.Monta uma procedure que exibe os 10 atores mais populares, baseado em sua quantidade de filmes.
-- [ ] 2.Monta uma procedure que recebe como parâmetro de entrada o nome da categoria desejada em uma string e exibe o id do filme, seu titulo, o id de sua categoria e o nome da categoria selecionada.
-- [ ] 3.Monta uma procedure que recebe o email de um cliente como parâmetro de entrada e diz se o cliente está ou não ativo, através de um parâmetro de saída.
+- [x] 1.Monta uma procedure que exibe os 10 atores mais populares, baseado em sua quantidade de filmes.
+- [x] 2.Monta uma procedure que recebe como parâmetro de entrada o nome da categoria desejada em uma string e exibe o id do filme, seu titulo, o id de sua categoria e o nome da categoria selecionada.
+- [x] 3.Monta uma procedure que recebe o email de um cliente como parâmetro de entrada e diz se o cliente está ou não ativo, através de um parâmetro de saída.
 
 **STORED FUNCTIONS**
 
