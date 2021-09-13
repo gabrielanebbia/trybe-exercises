@@ -1,3 +1,6 @@
+-- Exercícios:
+-- Para realizar as tarefas foi restaurado o banco de dados abaixo.
+
 -- MySQL dump 10.13  Distrib 5.6.33, for debian-linux-gnu (x86_64)
 --
 -- Host: localhost    Database: w3resour_hr

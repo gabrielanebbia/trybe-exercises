@@ -2,6 +2,7 @@
 
 -- 10. Utilizando o INNER JOIN, selecione todas as informações dos filmes com avaliação maior que 8 
 -- e que estejam em cartaz.
+
 SELECT *
 FROM Pixar.Movies AS m
 INNER JOIN  Pixar.BoxOffice AS b
@@ -10,6 +11,7 @@ WHERE b.rating > 8
 AND m.theater_id IS NOT NULL;
 
 -- 11. Utilizando o SELF JOIN, selecione os títulos e duração dos filmes que possuem o mesmo diretor.
+
 SELECT m1.title, m1.length_minutes, m2.title, m2.length_minutes
 FROM Pixar.Movies AS m1,
 Pixar.Movies AS m2

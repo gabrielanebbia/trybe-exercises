@@ -10,8 +10,8 @@
 #### `Bloco 21: Bancos de dados relacionais - Funções SQL, Joins e Subqueries`
 - [x] 21-1: _Funções mais usadas no SQL_
 - [x] 21-2: _Descomplicando JOINs e UNIONs_
-- [ ] 21-3: _Stored Routines & Subqueries_
-- [ ] 21-4: _Projeto Vocabulary Booster_
+- [x] 21-3: _Stored Routines & Subqueries_
+- [x] 21-4: _Projeto Vocabulary Booster_
 
 #### `Bloco 22: Bancos de dados relacionais - Normalização e Modelagem de Bancos de Dados`
 - [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
