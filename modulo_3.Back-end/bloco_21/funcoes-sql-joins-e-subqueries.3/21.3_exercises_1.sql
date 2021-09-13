@@ -30,6 +30,19 @@ DELIMITER ;
 -- Adicionalmente, insira um novo registro na tabela movies_logs, contendo informações sobre o registro alterado 
 -- (movie_id, executed_action e log_date).
 
+USE BeeMovies;
+DELIMITER $$
+
+CREATE TRIGGER trigger_update_movie
+	BEFORE UPDATE ON movies
+    FOR EACH ROW
+BEGIN
+	SET NEW.ticket_price_estimation = IF(NEW.ticket_price > OLD.ticket_price, 'Increasing', 'Decreasing');
+	INSERT INTO movies_logs(movie_id , executed_action, log_date)
+    VALUES(NEW.movie_id, 'UPDATE', NOW());
+END $$
+
+DELIMITER ;
 
 -- 3. Crie um Trigger na tabela movies que, ao ter algum de seus registros excluídos, deve enviar uma informação 
 -- para a tabela movies_logs, onde devem ser guardados a data da exclusão, a executed_action 'DELETE' e o id do 

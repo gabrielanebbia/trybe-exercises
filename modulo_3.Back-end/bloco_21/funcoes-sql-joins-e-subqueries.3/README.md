@@ -6,5 +6,5 @@ O objetivo dos exercícios desse dia foi colocar em pratica o uso dos TRIGGERS, 
 **TRIGGERS**
 
 - [x] 1.Cria um Trigger para INSERT
-- [ ] 2.Cria um Trigger para UPDATE
+- [x] 2.Cria um Trigger para UPDATE
 - [ ] 3.Cria um Trigger para DELETE
