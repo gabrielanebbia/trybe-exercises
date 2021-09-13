@@ -15,11 +15,10 @@
 Bônus
 - [x] Refaz o exercício anterior utilizando o método array.sort()
 
-
 #### Parte II
 
 1 - Cria algoritmos seguindo as especificações abaixo:
-- [ ] Uma função que receba um número e retorne seu fatorial.
+- [x] Uma função que receba um número e retorne seu fatorial.
 
 Na matemática, o fatorial de um número não negativo N, com a notação N!, é o produto de todos os inteiros menores ou iguais a N. Exemplo: 4! = 4 * 3 * 2 * 1 = 24.
 
