@@ -1,4 +1,4 @@
--- Exercício parte 1:
+-- Exercício parte 1 (TRIGGER):
 -- 1. Crie um Trigger para INSERT que deve definir o valor do campo release_year da tabela movies como o ano atual 
 -- de forma dinâmica, sem haver a necessidade de digitar manualmente o valor do ano. Além disso, crie um outro 
 -- Trigger para INSERT que adiciona um novo registro na tabela movies_logs, informando o movie_id do filme que 

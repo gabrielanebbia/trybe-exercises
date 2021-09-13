@@ -1,4 +1,4 @@
--- Exercício parte 1:
+-- Exercício parte 3 (TRIGGER):
 -- Para realizar as tarefas foi restaurado o banco de dados abaixo.
 
 CREATE DATABASE IF NOT EXISTS BeeMovies;
