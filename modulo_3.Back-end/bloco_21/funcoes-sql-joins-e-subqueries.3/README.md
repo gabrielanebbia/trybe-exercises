@@ -14,8 +14,8 @@ Utilizando o banco de dados sakila:
 
 Utilizando o banco de dados sakila:
 - [x] 1.Monta uma function que retorna a quantidade total de pagamentos feitos até o momento por um determinado customer_id.
-- [ ] 2.Cria uma function que, dado o parâmetro de entrada inventory_id, retorna o nome do filme vinculado ao registro de inventário com esse id.
-- [ ] 3.Cria uma function que receba uma determinada categoria de filme em formato de texto e retorna a quantidade total de filmes registrados nessa categoria.
+- [x] 2.Cria uma function que, dado o parâmetro de entrada inventory_id, retorna o nome do filme vinculado ao registro de inventário com esse id.
+- [x] 3.Cria uma function que receba uma determinada categoria de filme em formato de texto e retorna a quantidade total de filmes registrados nessa categoria.
 
 **TRIGGERS**
 

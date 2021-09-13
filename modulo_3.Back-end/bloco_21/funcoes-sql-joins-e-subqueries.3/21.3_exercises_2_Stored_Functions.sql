@@ -45,3 +45,23 @@ SELECT film_by_id_inventory(1);
 
 -- 3.Crie uma function que receba uma determinada categoria de filme em formato de texto (ex: 'Action', 
 -- 'Horror') e retorna a quantidade total de filmes registrados nessa categoria.
+
+USE sakila;
+DELIMITER $$
+
+CREATE FUNCTION film_by_category(category VARCHAR(50))
+RETURNS INT READS SQL DATA
+BEGIN
+	DECLARE total_films INT;
+    SELECT COUNT(*) 
+    FROM film_category AS fc
+    INNER JOIN category AS c
+    ON fc.category_id = c.category_id
+    WHERE c.name = category INTO total_films;
+    RETURN total_films;
+END $$
+
+DELIMITER ;
+
+-- Testando:
+SELECT film_by_category('Action');
