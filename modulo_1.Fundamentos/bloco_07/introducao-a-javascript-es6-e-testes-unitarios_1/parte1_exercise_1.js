@@ -1,4 +1,5 @@
-// Original (sem alterações)
+/* Exercício 1:
+
 function testingScope(escopo) {
   if (escopo === true) {
     var ifScope = 'Não devo ser utilizada fora do meu escopo (if)';
@@ -11,9 +12,20 @@ function testingScope(escopo) {
   console.log(ifScope + ' o que estou fazendo aqui ? :O'); // Se necessário esta linha pode ser removida.
 }
 
-testingScope(true);
+testingScope(true); 
+
+*/
 
 // Resultado
-const testingScope = (escopo) => (escopo === true ? `Não devo ser utilizada fora do meu escopo (if) ótimo, fui utilizada no escopo !` : `Não devo ser utilizada fora meu escopo (else)`);
+const testingScope = escopo => { 
+  if (escopo === true) { 
+    let ifScope = 'Não devo ser utilizada fora do meu escopo (if)';
+    ifScope = `${ifScope} ótimo, fui utilizada no escopo !`;
+    console.log(ifScope);
+  } else {
+    const elseScope = 'Não devo ser utilizada fora meu escopo (else)';
+    console.log(elseScope);
+  }
+}
 
-console.log(testingScope(true));
+testingScope(true);

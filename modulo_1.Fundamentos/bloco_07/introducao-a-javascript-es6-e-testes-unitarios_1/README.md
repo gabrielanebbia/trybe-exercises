@@ -1,17 +1,19 @@
-## Bloco 7 - Introdução à JavaScript ES6 e Testes Unitários
-   ### Dia 1 - JavaScript ES6 - let, const, arrow functions e template literals
+### Bloco 7 - Introdução à JavaScript ES6 e Testes Unitários
+### Dia 1 - JavaScript ES6 - let, const, arrow functions e template literals
 
 #### Parte I
 
 1 - Fazendo as modificações necessárias na função:
-- [x] Faz com que seu comportamento respeite o escopo no qual cada variável foi declarada.
-- [x] Modica a estrutura da função para que ela seja uma arrow function.
-- [x] Modica as concatenações para template literals.
+- [x] Faz com que seu comportamento respeite o escopo no qual cada variável foi declarada
+- [x] Modica a estrutura da função para que ela seja uma arrow function
+- [x] Modica as concatenações para template literals
 
-2 - Faz uma função que retorne o array oddsAndEvens em ordem crescente.
-- [x] Utilize template literals para que a chamada console.log(oddsAndEvens); 
-- [x] Retorna "Os números 2,3,4,7,10,13 se encontram ordenados de forma crescente!".
-- [x] Bônus (opcional): Faz o mesmo exercício utilizando o método array.sort(). 
+2 - Faz uma função que retorne:
+- [x] O array oddsAndEvens em ordem crescente
+- [x] A chamada console.log(oddsAndEvens) utilizando template literals
+
+Bônus
+- [x] Refaz o exercício anterior utilizando o método array.sort()
 
 
 #### Parte II
