@@ -45,3 +45,24 @@ CALL movie_by_category('Games');
 
 -- 3.Monte uma procedure que receba o email de um cliente como parâmetro de entrada e diga se o cliente 
 -- está ou não ativo, através de um parâmetro de saída.
+
+USE sakila;
+DELIMITER $$
+
+CREATE PROCEDURE status_client(
+	IN client_email VARCHAR(50), 
+    OUT isActive BOOL
+)
+BEGIN
+        SELECT active INTO isActive
+        FROM sakila.customer
+        WHERE email = client_email;
+END $$
+
+DELIMITER ;
+
+-- Testando:
+CALL status_client('AARON.SELBY@sakilacustomer.org', @status_client);
+SELECT @status_client;
+CALL status_client('JIMMIE.EGGLESTON@sakilacustomer.org', @status_client);
+SELECT @status_client;
