@@ -48,3 +48,15 @@ DELIMITER ;
 -- para a tabela movies_logs, onde devem ser guardados a data da exclusão, a executed_action 'DELETE' e o id do 
 -- filme excluído.
 
+USE BeeMovies;
+DELIMITER $$
+
+CREATE TRIGGER trigger_delete_movie
+	BEFORE UPDATE ON movies
+    FOR EACH ROW
+BEGIN
+	INSERT INTO movies_logs(movie_id , executed_action, log_date)
+    VALUES(OLD.movie_id, 'DELETE', NOW());
+END $$
+
+DELIMITER ;
