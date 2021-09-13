@@ -22,5 +22,26 @@ SELECT payments(1);
 -- 2.Crie uma function que, dado o parâmetro de entrada inventory_id, retorna o nome do filme vinculado 
 -- ao registro de inventário com esse id.
 
+USE sakila;
+DELIMITER $$
+
+CREATE FUNCTION film_by_id_inventory(inventory INT)
+RETURNS VARCHAR(100) READS SQL DATA
+BEGIN
+	DECLARE movie VARCHAR(100);
+    SELECT title 
+    FROM inventory AS i
+    INNER JOIN film AS f
+    ON i.film_id = f.film_id
+    WHERE i.inventory_id = inventory INTO movie;
+    RETURN movie;
+END $$
+
+DELIMITER ;
+
+-- Testando:
+SELECT film_by_id_inventory(1);
+
+
 -- 3.Crie uma function que receba uma determinada categoria de filme em formato de texto (ex: 'Action', 
 -- 'Horror') e retorna a quantidade total de filmes registrados nessa categoria.
