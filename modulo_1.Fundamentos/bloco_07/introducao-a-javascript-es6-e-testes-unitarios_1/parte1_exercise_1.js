@@ -1,4 +1,4 @@
-/* Exercício 1:
+/* Exercício 1.1:
 
 function testingScope(escopo) {
   if (escopo === true) {
