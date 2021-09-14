@@ -19,3 +19,10 @@ const lesson3 = {
   professor: 'Maria Clara',
   turno: 'noite',
 };
+
+function addShift(lesson, shift, value) {
+  lesson[shift] = value;
+}
+
+addTurn(lesson2, 'turno', 'noite');
+console.log(lesson2);

@@ -15,7 +15,7 @@ Note que o parâmetro da função já está sendo passado na chamada da função
 
 #### Parte 2
 
-- [ ] Cria uma função para adicionar o turno da manhã na lesson2. Essa função possui três parâmetros, sendo eles: o objeto a ser modificado, a chave que deverá ser adicionada e o valor dela.
+- [x] Cria uma função para adicionar o turno da manhã na lesson2. Essa função possui três parâmetros, sendo eles: o objeto a ser modificado, a chave que deverá ser adicionada e o valor dela.
 - [ ] Cria uma função para listar as keys de um objeto. Essa função recebe um objeto como parâmetro.
 - [ ] Cria uma função para mostrar o tamanho de um objeto.
 - [ ] Cria uma função para listar os valores de um objeto. Essa função recebe um objeto como parâmetro.
