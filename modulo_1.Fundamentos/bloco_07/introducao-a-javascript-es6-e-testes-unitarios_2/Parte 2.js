@@ -60,3 +60,17 @@ const getValueByNumber = (obj, position) => {
  return Object.values(obj)[position];
 }
 console.log(getValueByNumber(lesson1, 0));
+
+function verifyPair(obj, key, value) {
+  const array = Object.entries(obj);
+
+  let result = false;
+  for (let index in array) {
+    if(array[index][0] === key && array[index][1] === value) {
+      result = true;
+    }
+  }
+  return result;
+}
+console.log(verifyPair(lesson3, 'turno', 'noite'));
+console.log(verifyPair(lesson3, 'materia', 'Maria Clara'));
