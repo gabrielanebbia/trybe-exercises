@@ -35,3 +35,8 @@ const objectLength = (obj) => {
   console.log(Object.keys(obj).length);
 }
 objectLength(lesson1);
+
+const listValues = (obj) => {
+  console.log(Object.values(obj));
+}
+listValues(lesson3);
