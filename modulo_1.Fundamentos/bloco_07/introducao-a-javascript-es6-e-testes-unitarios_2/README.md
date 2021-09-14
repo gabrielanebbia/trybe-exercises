@@ -9,9 +9,9 @@ Exercícios para fixação do conteúdo aprendido sobre objetos:
 
 Note que o parâmetro da função já está sendo passado na chamada da função.
 
-- [ ] Completa a função orderModifier() para que seu retorno seja similar a "Olá Luiz Silva, o total do seu pedido de muzzarella, calabresa e Coca-Cola Zero é R$ 50,00."
-- [ ] Modifica o nome da pessoa compradora.
-- [ ] Modifica o valor total da compra para R$ 50,00.
+- [x] Completa a função orderModifier() para que seu retorno seja similar a "Olá Luiz Silva, o total do seu pedido de muzzarella, calabresa e Coca-Cola Zero é R$ 50,00."
+- [x] Modifica o nome da pessoa compradora.
+- [x] Modifica o valor total da compra para R$ 50,00.
 
 #### Parte 2
 
