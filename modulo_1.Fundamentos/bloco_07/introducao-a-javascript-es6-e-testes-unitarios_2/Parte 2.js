@@ -24,5 +24,11 @@ function addShift(lesson, shift, value) {
   lesson[shift] = value;
 }
 
-addTurn(lesson2, 'turno', 'noite');
+addShift(lesson2, 'turno', 'noite');
 console.log(lesson2);
+
+function listKeys(obj) {
+ console.log(Object.keys(obj))
+}
+
+console.log(listKeys(lesson2));

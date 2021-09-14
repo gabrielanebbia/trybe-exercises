@@ -11,7 +11,7 @@ Exercícios para fixação do conteúdo aprendido sobre objetos:
 #### Parte 2
 
 - [x] 1. Cria uma função para adicionar o turno da manhã na lesson2. Essa função possui três parâmetros, sendo eles: o objeto a ser modificado, a chave que deverá ser adicionada e o valor dela.
-- [ ] 2. Cria uma função para listar as keys de um objeto. Essa função recebe um objeto como parâmetro.
+- [x] 2. Cria uma função para listar as keys de um objeto. Essa função recebe um objeto como parâmetro.
 - [ ] 3. Cria uma função para mostrar o tamanho de um objeto.
 - [ ] 4. Cria uma função para listar os valores de um objeto. Essa função recebe um objeto como parâmetro.
 - [ ] 5. Cria um objeto de nome allLessons, que agrupa todas as aulas através do Object.assign. Cada chave desse novo objeto é uma aula, sendo essas chaves: lesson1 , lesson2 e lesson3.
