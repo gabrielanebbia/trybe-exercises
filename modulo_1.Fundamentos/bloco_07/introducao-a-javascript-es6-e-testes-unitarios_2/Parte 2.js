@@ -23,12 +23,15 @@ const lesson3 = {
 function addShift(lesson, shift, value) {
   lesson[shift] = value;
 }
-
 addShift(lesson2, 'turno', 'noite');
 console.log(lesson2);
 
 function listKeys(obj) {
  console.log(Object.keys(obj))
 }
+listKeys(lesson2);
 
-console.log(listKeys(lesson2));
+const objectLength = (obj) => {
+  console.log(Object.keys(obj).length);
+}
+objectLength(lesson1);
