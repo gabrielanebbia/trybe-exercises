@@ -11,7 +11,6 @@
 2 - Faz uma função que retorne:
 - [x] O array oddsAndEvens em ordem crescente
 - [x] A chamada console.log(oddsAndEvens) utilizando template literals
-
 Bônus
 - [x] Faz o exercício anterior utilizando o método array.sort()
 
@@ -22,7 +21,7 @@ Bônus
 - [x] Bônus: Faz o exercício anterior de forma recursiva em uma linha usando ternary operator
 
 2 - Cria algoritmos seguindo as especificações abaixo:
-- [ ] Uma função que receba uma frase e retorne qual a maior palavra
+- [x] Uma função que receba uma frase e retorne qual a maior palavra
 
 3 - Cria uma página que contenha:
 - [ ] Um botão ao qual será associado um event listener
