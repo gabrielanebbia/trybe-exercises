@@ -40,3 +40,6 @@ const listValues = (obj) => {
   console.log(Object.values(obj));
 }
 listValues(lesson3);
+
+const allLessons = Object.assign({lesson1, lesson2, lesson3});
+console.log(allLessons);
