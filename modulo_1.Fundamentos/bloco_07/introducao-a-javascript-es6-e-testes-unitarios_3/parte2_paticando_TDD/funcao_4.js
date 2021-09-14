@@ -1,5 +1,4 @@
 const assert = require('assert');
-// escreva a função findTheNeedle aqui
 
 function findTheNeedle(array, word) {
   let position = array.indexOf(word);

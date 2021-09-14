@@ -1,5 +1,5 @@
 const assert = require('assert');
-// escreva a função wordLengths aqui
+
 function wordLengths(word) {
  const sizeWords = [];
  for(let index = 0; index < word.length; index += 1) {
