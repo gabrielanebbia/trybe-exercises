@@ -24,9 +24,9 @@ Bônus
 - [x] Uma função que receba uma frase e retorne qual a maior palavra
 
 3 - Cria uma página que contenha:
-- [ ] Um botão ao qual será associado um event listener
-- [ ] Uma variável clickCount no arquivo JavaScript que acumule o número de clicks no botão
-- [ ] Um campo no HTML que vá atualizando a quantidade de clicks no botão conforme a variável clickCount é atualizada
+- [x] Um botão ao qual será associado um event listener
+- [x] Uma variável clickCount no script, que acumule o número de clicks no botão
+- [x] Um campo no HTML que vá atualizando a quantidade de clicks no botão conforme a variável clickCount é atualizada
 
 4 - Cria um código JavaScript com a seguinte especificação usando template literals:
 Função 1: 
