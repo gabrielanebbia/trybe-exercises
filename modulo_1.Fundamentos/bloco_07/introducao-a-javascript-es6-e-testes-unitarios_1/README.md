@@ -16,11 +16,11 @@ Bônus
 
 #### Parte II
 
-1 - Cria algoritmos seguindo as especificações abaixo:
+1 - Cria funções seguindo as especificações abaixo:
 - [x] Uma função que receba um número e retorne seu fatorial
 - [x] Bônus: Faz o exercício anterior de forma recursiva em uma linha usando ternary operator
 
-2 - Cria algoritmos seguindo as especificações abaixo:
+2 - Cria funções seguindo as especificações abaixo:
 - [x] Uma função que receba uma frase e retorne qual a maior palavra
 
 3 - Cria uma página que contenha:
@@ -28,10 +28,10 @@ Bônus
 - [x] Uma variável clickCount no script, que acumule o número de clicks no botão
 - [x] Um campo no HTML que vá atualizando a quantidade de clicks no botão conforme a variável clickCount é atualizada
 
-4 - Cria um código JavaScript com a seguinte especificação usando template literals:
+4 - Cria funções com a seguinte especificação utilizando template literals:
 Função 1: 
-- [ ] Escreve uma função que recebe uma string como parâmetro e procura pela letra x em uma string qualquer que você determinar e substituir pela string que você passou como parâmetro
-- [ ] Escreve um array com escopo global contendo cinco strings com suas principais skills
+- [x] Escreve uma função que recebe uma string como parâmetro e procura pela letra x em uma string qualquer que você determinar e substituir pela string que você passou como parâmetro
+- [x] Escreve um array com escopo global contendo cinco strings com suas principais skills
 Função 2: 
-- [ ] Escreva uma função que vai receber a string retornada da Função 1 como parâmetro. Essa função deve concatenar as skills do array global à string que foi passada para a Função 2 via parâmetro. Você deve ordenar os skills em ordem alfabética.
+- [x] Escreva uma função que vai receber a string retornada da Função 1 como parâmetro. Essa função deve concatenar as skills do array global à string que foi passada para a Função 2 via parâmetro. Você deve ordenar os skills em ordem alfabética.
           
