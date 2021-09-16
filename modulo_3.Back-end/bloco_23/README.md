@@ -9,7 +9,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 - [x] 3. Retorne apenas os atributos name e birth do documento com o _id igual a 8.
 - [x] 4. Retorna todos os documentos em que o atributo name.first é igual a John, utilizando o método pretty().
 - [x] 5. Retorna os 3 primeiros documentos da coleção bios utilizando o método pretty().
-- [ ] 6. Retorna 2 documentos da coleção bios pulando os 5 primeiros documentos.
+- [x] 6. Retorna 2 documentos da coleção bios pulando os 5 primeiros documentos.
 
 `Parte II - Coleção books`
 - [ ] 7. Retorna a quantidade de documentos da coleção books.
