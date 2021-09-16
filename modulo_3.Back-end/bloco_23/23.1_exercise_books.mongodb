@@ -9,8 +9,10 @@ db.books.countDocuments();
 431
 
 // Exercício 8: Conte quantos livros existem com o status = "PUBLISH".
+db.books.countDocuments({ status: "PUBLISH" });
 
-
+// Resultado:
+363
 // Exercício 9: Exiba os atributos title, isbn e pageCount dos 3 primeiros livros. NÃO retorne o atributo _id.
 
 
