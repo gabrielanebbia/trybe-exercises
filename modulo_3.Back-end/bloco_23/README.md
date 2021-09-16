@@ -14,5 +14,5 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 `Parte II - Coleção books`
 - [x] 7. Retorna a quantidade de documentos da coleção books.
 - [x] 8. Conta quantos livros existem com o status = "PUBLISH".
-- [ ] 9. Exibe os atributos title, isbn e pageCount dos 3 primeiros livros não retornando o atributo _id.
+- [x] 9. Exibe os atributos title, isbn e pageCount dos 3 primeiros livros não retornando o atributo _id.
 - [ ] 10. Pula 5 documentos e exibe os atributos _id, title, authors e status dos livros com o status = "MEAP", limitando-se a 10 documentos.
