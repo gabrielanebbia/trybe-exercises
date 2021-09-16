@@ -1,4 +1,5 @@
 // https://docs.mongodb.com/manual/reference/bios-example-collection/
+
 db.bios.insertMany([
    {
        "_id" : 1,
