@@ -7,7 +7,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 - [x] 1. Retorna o documento com o _id igual a 8.
 - [x] 2. Retorna o documento com o _id igual a 8, mas só exibindo os atributo. _id e name.
 - [x] 3. Retorne apenas os atributos name e birth do documento com o _id igual a 8.
-- [ ] 4. Retorna todos os documentos em que o atributo name.first é igual a John, utilizando o método pretty().
+- [x] 4. Retorna todos os documentos em que o atributo name.first é igual a John, utilizando o método pretty().
 - [ ] 5. Retorna os 3 primeiros documentos da coleção bios utilizando o método pretty().
 - [ ] 6. Retorna 2 documentos da coleção bios pulando os 5 primeiros documentos.
 
