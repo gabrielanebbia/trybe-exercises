@@ -42,7 +42,15 @@ db.bios.find({ _id: 8 }, { _id: 1, name: 1 });
 ]
 
 // Exercício 3: Retorne apenas os atributos name e birth do documento com o _id igual a 8.
+db.bios.find({ _id: 8 }, { _id: 0, name: 1, birth: 1 });
 
+// Resultado:
+[
+  {
+    name: { first: 'Yukihiro', aka: 'Matz', last: 'Matsumoto' },
+    birth: ISODate("1965-04-14T04:00:00.000Z")
+  }
+]
 
 // Exercício 4: Retorne todos os documentos em que o atributo name.first seja igual a John, utilizando o método pretty().
 
