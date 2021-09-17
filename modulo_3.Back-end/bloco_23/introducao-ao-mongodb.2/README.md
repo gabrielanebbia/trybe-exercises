@@ -19,7 +19,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 - [x] 6. Retorna o total de super-heróis com 2.00m ou mais.
 - [x] 7. Seleciona todos os super-heróis que têm olhos verdes.
 - [x] 8. Retorna o total de super-heróis com olhos azuis.
-- [ ] 9. Utilizando o operador $in, seleciona todos os super-heróis com cabelos pretos ou carecas("No Hair").
+- [x] 9. Utilizando o operador $in, seleciona todos os super-heróis com cabelos pretos ou carecas("No Hair").
 - [ ] 10. Retorna o total de super-heróis com cabelos pretos ou carecas("No Hair").
 - [ ] 11. Retorna o total de super-heróis que não tenham cabelos pretos ou não sejam carecas.
 - [ ] 12. Utilizando o operador $not, retorna o total de super-heróis que não tenham mais de 1.80m de altura.
