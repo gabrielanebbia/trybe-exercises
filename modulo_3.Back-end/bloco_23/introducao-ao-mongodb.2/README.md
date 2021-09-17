@@ -11,7 +11,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
   
 `Banco de dados - superheroes`
 
-- [ ] 1. Inspeciona um documento para se familiarizar com a estrutura. Entende os seus atributos e os níveis existentes.
+- [x] 1. Inspeciona um documento para se familiarizar com a estrutura. Entende os seus atributos e os níveis existentes.
 - [ ] 2. Seleciona todos os super-heróis com menos de 1.80m de altura.
 - [ ] 3. Retorna o total de super-heróis menores que 1.80m.
 - [ ] 4. Retorna o total de super-heróis com até 1.80m.

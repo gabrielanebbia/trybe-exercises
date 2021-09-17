@@ -1,4 +1,25 @@
 // Exercício 1: Inspecione um documento para que você se familiarize com a estrutura. Entenda os atributos e os níveis existentes.
+use class;
+db.superheroes.count();
+// 734
+
+db.superheroes.findOne();
+// Resultado:
+{
+    "_id" : ObjectId("5e4ed2b2866be74b5b26ebf1"),
+    "name" : "Abin Sur",
+    "alignment" : "good",
+    "gender" : "Male",
+    "race" : "Ungaran",
+    "aspects" : {
+        "eyeColor" : "blue",
+        "hairColor" : "No Hair",
+        "skinColor" : "red",
+        "height" : 185,
+        "weight" : 40.82
+    },
+    "publisher" : "DC Comics"
+}
 
 // Exercício 2: Selecione todos os super-heróis com menos de 1.80m de altura. Lembre-se de que essa informação está em centímetros.
 
