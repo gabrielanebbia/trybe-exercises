@@ -111,6 +111,8 @@ db.superheroes.find(
 );
 
 // Exercício 16: Retorne o total de documentos que não contêm o campo race.
+db.superheroes.count( { race: { $exists: false } });
+// Resultado: 304
 
 // Exercício 17: Retorne o total de documentos que contêm o campo hairColor.
 
