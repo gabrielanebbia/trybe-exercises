@@ -15,7 +15,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 - [x] 2. Seleciona todos os super-heróis com menos de 1.80m de altura.
 - [x] 3. Retorna o total de super-heróis menores que 1.80m.
 - [x] 4. Retorna o total de super-heróis com até 1.80m.
-- [ ] 5. Seleciona um super-herói com 2.00m ou mais de altura.
+- [x] 5. Seleciona um super-herói com 2.00m ou mais de altura.
 - [ ] 6. Retorna o total de super-heróis com 2.00m ou mais.
 - [ ] 7. Seleciona todos os super-heróis que têm olhos verdes.
 - [ ] 8. Retorna o total de super-heróis com olhos azuis.

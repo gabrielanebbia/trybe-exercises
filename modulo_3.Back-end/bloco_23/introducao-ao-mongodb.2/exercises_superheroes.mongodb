@@ -33,6 +33,18 @@ db.superheroes.count({ "aspects.height": { $lte: 180 } });
 // Resultado: 459
 
 // Exercício 5: Selecione um super-herói com 2.00m ou mais de altura.
+db.superheroes.findOne({ "aspects.height": { $gte: 200 } });
+
+// Resultado:
+{
+  _id: ObjectId("6143e87544314b52c5cd3e87"),
+  name: 'Abomination',
+  alignment: 'bad',
+  gender: 'Male',
+  race: 'Human / Radiation',
+  aspects: { eyeColor: 'green', hairColor: 'No Hair', height: 203, weight: 200 },
+  publisher: 'Marvel Comics'
+}
 
 // Exercício 6: Retorne o total de super-heróis com 2.00m ou mais.
 
