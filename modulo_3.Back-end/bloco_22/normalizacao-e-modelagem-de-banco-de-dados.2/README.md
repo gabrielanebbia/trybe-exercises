@@ -17,6 +17,10 @@ Resultado:
 
 ![Tabela convertida para a 2 Forma Normal](tabelas_normalizadas/exercicio_2.png)
   
-- [ ] Exercício 3: Converte a tabela abaixo, que já está nos moldes das duas primeiras formas, para a 3ª Forma Normal.
+- [x] Exercício 3: Converte a tabela abaixo, que já está nos moldes das duas primeiras formas, para a 3ª Forma Normal.
 
 ![Tabela do exercício 3](./tabelas_desnomalizadas/exercicio_3.png)
+
+Resultado:
+
+![Tabela convertida para a 3 Forma Normal](tabelas_normalizadas/exercicio_3.png)
