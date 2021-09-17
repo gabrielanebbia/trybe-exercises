@@ -25,7 +25,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 - [x] 12. Utilizando o operador $not, retorna o total de super-heróis que não tenham mais de 1.80m de altura.
 - [x] 13. Seleciona todos os super-heróis que não sejam humanos nem sejam maiores do que 1.80m.
 - [x] 14. Seleciona todos os super-heróis com 1.80m ou 2.00m de altura e que sejam publicados pela Marvel Comics.
-- [ ] 15. Seleciona todos os super-heróis que pesem entre 80kg e 100kg, sejam Humanos ou Mutantes e não sejam publicados pela DC Comics.
+- [x] 15. Seleciona todos os super-heróis que pesem entre 80kg e 100kg, sejam Humanos ou Mutantes e não sejam publicados pela DC Comics.
 - [ ] 16. Retorna o total de documentos que não contêm o campo race.
 - [ ] 17. Retorna o total de documentos que contêm o campo hairColor.
 - [ ] 18. Remove apenas um documento publicado pela Sony Pictures.
