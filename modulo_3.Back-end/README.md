@@ -1,6 +1,6 @@
 ## Módulo 3 - Desenvolvimento Back-end :hourglass_flowing_sand:
 
-#### Bloco 20: Introdução - Bancos de dados relacionais - SQL
+#### `Bloco 20: Introdução - Bancos de dados relacionais - SQL`
 - [x] 20-1: _Banco de dados SQL_
 - [x] 20-2: _Encontrando dados em um banco de dados_
 - [x] 20-3: _Filtrando dados de forma específica_
