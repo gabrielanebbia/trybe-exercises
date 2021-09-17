@@ -28,5 +28,5 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 - [x] 15. Seleciona todos os super-heróis que pesem entre 80kg e 100kg, sejam Humanos ou Mutantes e não sejam publicados pela DC Comics.
 - [x] 16. Retorna o total de documentos que não contêm o campo race.
 - [x] 17. Retorna o total de documentos que contêm o campo hairColor.
-- [ ] 18. Remove apenas um documento publicado pela Sony Pictures.
+- [x] 18. Remove apenas um documento publicado pela Sony Pictures.
 - [ ] 19. Remove todos os documentos publicados pelo George Lucas.
