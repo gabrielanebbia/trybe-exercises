@@ -29,4 +29,4 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 - [x] 16. Retorna o total de documentos que não contêm o campo race.
 - [x] 17. Retorna o total de documentos que contêm o campo hairColor.
 - [x] 18. Remove apenas um documento publicado pela Sony Pictures.
-- [ ] 19. Remove todos os documentos publicados pelo George Lucas.
+- [x] 19. Remove todos os documentos publicados pelo George Lucas.

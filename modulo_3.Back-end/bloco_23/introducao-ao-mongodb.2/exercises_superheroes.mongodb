@@ -126,3 +126,8 @@ db.superheroes.count();
 // 733
 
 // Exercício 19: Remova todos os documentos publicados pelo George Lucas.
+db.superheroes.deleteMany({ publisher: "George Lucas" });
+db.superheroes.count();
+// Resultado:
+{ acknowledged: true, deletedCount: 14 }
+// 719
