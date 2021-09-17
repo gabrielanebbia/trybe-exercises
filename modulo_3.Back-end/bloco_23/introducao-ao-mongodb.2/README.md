@@ -23,7 +23,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 - [x] 10. Retorna o total de super-heróis com cabelos pretos ou carecas("No Hair").
 - [x] 11. Retorna o total de super-heróis que não tenham cabelos pretos ou não sejam carecas.
 - [x] 12. Utilizando o operador $not, retorna o total de super-heróis que não tenham mais de 1.80m de altura.
-- [ ] 13. Seleciona todos os super-heróis que não sejam humanos nem sejam maiores do que 1.80m.
+- [x] 13. Seleciona todos os super-heróis que não sejam humanos nem sejam maiores do que 1.80m.
 - [ ] 14. Seleciona todos os super-heróis com 1.80m ou 2.00m de altura e que sejam publicados pela Marvel Comics.
 - [ ] 15. Seleciona todos os super-heróis que pesem entre 80kg e 100kg, sejam Humanos ou Mutantes e não sejam publicados pela DC Comics.
 - [ ] 16. Retorna o total de documentos que não contêm o campo race.
