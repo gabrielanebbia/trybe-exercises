@@ -15,7 +15,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 - [x] Completa o código de forma que seja impressa a área dos 3 retângulos. O código deve retornar em sequência 2, 15 e 54.
 
 **Exercício 2**
-- [ ] Cria uma função sum que dado um número variável de elementos retorna a soma desses elementos.
+- [x] Cria uma função sum que dado um número variável de elementos retorna a soma desses elementos.
 
 **Exercício 3**
 - [ ] Escreve a função personLikes, que dado um objeto de parâmetro que representa uma pessoa, retorna todos os gostos daquela pessoa.
