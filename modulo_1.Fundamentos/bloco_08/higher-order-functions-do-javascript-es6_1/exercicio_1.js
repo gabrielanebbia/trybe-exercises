@@ -1,27 +1,20 @@
-/* const newEmployees = () => {
-  const employees = {
-    id1: // Nome: Pedro Guerra -> Chame sua função passando o nome Pedro Guerra como parâmetro
-    id2: // Nome: Luiza Drumond -> Chame sua função passando o nome Luiza Drumond como parâmetro
-    id3: // Nome: Carla Paiva -> Chame sua função passando o nome Carla Paiva como parâmetro
-  }
-  return employees;
-}; */
+// Exercício 1: 
 
-const pessoaContratada = (nomeCompleto) => {
-  const pessoa = {
-    nomeCompleto: `${nomeCompleto}`,
-    email: `${nomeCompleto.toLowerCase().split(' ').join('_')}@trybe.com`
+const employeeData = (fullName) => {
+  const employee = {
+    Nome: `${fullName}`,
+    email: `${fullName.toLowerCase().split(' ').join('_')}@trybe.com`
   };
-  return pessoa;
+  return employee;
 };
 
-const newEmployees = (pessoaContratada) => {
+const newEmployees = (employeeData) => {
   const employees = {
-    id1: pessoaContratada('Pedro Guerra'), 
-    id2: pessoaContratada('Luiza Drumond'),
-    id3: pessoaContratada('Carla Paiva'),
+    id1: employeeData('Pedro Guerra'), 
+    id2: employeeData('Luiza Drumond'),
+    id3: employeeData('Carla Paiva'),
   };
   return employees;
 };
 
-console.log(newEmployees(pessoaContratada));
+console.log(newEmployees(employeeData));

@@ -21,7 +21,7 @@ const dragon = {
 const battleMembers = { mage, warrior, dragon };
 
 const dragonDamage = () => {
-  const numberDragonDamage = Math.floor(Math.random() * (dragon.strength - 15)) + 15;
+  const numberDragonDamage = Math.floor(Math.random() * (dragon.strength - 15 + 1)) + 15;
   return `Dragon => Ataque de ${numberDragonDamage}xp`;
 };
 
@@ -30,7 +30,7 @@ console.log(dragonDamage(dragon));
 const warriorDamage = () => {
   const warriorMin = warrior.strength;
   const warriorMax = warrior.strength * warrior.weaponDmg;
-  const numberWarriorDamage = Math.floor(Math.random() * (warriorMax - warriorMin)) + warriorMin;
+  const numberWarriorDamage = Math.floor(Math.random() * (warriorMax - warriorMin + 1)) + warriorMin;
   return `Warrior => Ataque de ${numberWarriorDamage}xp`;
 };
 
@@ -47,7 +47,7 @@ const mageDamageAndMana = () => {
   };
 
   if (totalMana > consumedMana) {
-    const numberMageDamage = Math.floor(Math.random() * (mageMax - mageMin)) + mageMin;
+    const numberMageDamage = Math.floor(Math.random() * (mageMax - mageMin + 1)) + mageMin;
     turn.manaSpent = 15;
     turn.damage = numberMageDamage;
     return `Mago => Ataque de ${turn.damage}xp e ${turn.manaSpent} mana`;

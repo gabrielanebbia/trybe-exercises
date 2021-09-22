@@ -1,3 +1,5 @@
+// Exercício 2:
+
 const checkResult = (game, numberRandom) => {
   game === numberRandom;
 };
