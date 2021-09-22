@@ -18,7 +18,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 - [x] Encontra o livro com o maior nome.
 
 **Exercício 5**
-- [ ] Dada o array de nomes, retorna a quantidade de vezes em que aparecem a letra a maiúscula ou minúscula.
+- [x] Dada o array de nomes, retorna a quantidade de vezes em que aparecem a letra a maiúscula ou minúscula.
 
 **Exercício 6**
 - [ ] Cria um novo array de objetos, onde cada objeto terá o formato { name: nome do aluno, average: media das notas }. Para isso vamos assumir que a posição 0 de notas refere-se ao aluno na posição 0 de alunos.
