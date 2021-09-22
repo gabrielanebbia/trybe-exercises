@@ -1,11 +1,9 @@
-## Bloco 4 - Introdução à JavaScript e Lógica de Programação
-### Dia 3 - JavaScript - Lógica de Programação e Algoritmos
+### `Bloco 4 - Introdução à JavaScript e Lógica de Programação`
+### ``Dia 3 - JavaScript - Lógica de Programação e Algoritmos``
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre:
 - Quebrar grandes problemas em pequenos
 - Utilizar a lógica de programação na resolução de problemas
-
-Os requisitos do exercí­cio foram:
 
 **Exercício 1**
 - [x] Cria um programa que, dado um valor n qualquer, seja n > 1, imprime na tela um quadrado feito de asteriscos de lado de tamanho n.

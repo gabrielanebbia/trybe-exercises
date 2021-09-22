@@ -1,9 +1,7 @@
-## Bloco 4 - Introdução à JavaScript e Lógica de Programação
-### Dia 2 - JavaScript - Array e loop For
+### `Bloco 4 - Introdução à JavaScript e Lógica de Programação`
+### `Dia 2 - JavaScript - Array e loop For`
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre Array e loop For.
-
-Os requisitos do exercí­cio foram:
 
 **Exercício 1**
 - [x] Percorre o array imprimindo todos os valores nele contidos com a função console.log().
@@ -21,7 +19,7 @@ Os requisitos do exercí­cio foram:
 - [x] Utiliza o for para descobrir qual o maior valor contido no array e imprime-o.
 
 **Exercício 6**
-- [x] Descubre quantos valores ímpares existem no array e imprime o resultado. Caso não exista nenhum, imprime a mensagem: "nenhum valor ímpar encontrado".
+- [x] Descobre quantos valores ímpares existem no array e imprime o resultado. Caso não exista nenhum, imprime a mensagem: "nenhum valor ímpar encontrado".
 
 **Exercício 7**
 - [x] Utiliza o for para descobrir qual o menor valor contido no array e imprime-o.
