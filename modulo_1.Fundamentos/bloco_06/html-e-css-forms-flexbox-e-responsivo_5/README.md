@@ -1,11 +1,9 @@
-### Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo
-### Dia 5 - CSS Responsivo - Mobile First
+### `Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo`
+### `Dia 5 - CSS Responsivo - Mobile First`
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre:
 - Criar regras CSS específicas para serem aplicadas a dispositivos móveis.
 - Construir páginas que alteram o seu layout de acordo com a orientação da tela.
-
-Os requisitos do exercícios são:
 
 #### Parte I
 
