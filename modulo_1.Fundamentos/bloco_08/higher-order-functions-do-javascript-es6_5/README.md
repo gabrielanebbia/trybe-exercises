@@ -27,7 +27,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 - [x] Escreve a função swap, que dado um array de 3 elementos, retorna um novo array com o primeiro e terceiro elementos trocados.
 
 **Exercício 6**
-- [ ] Cria uma função toObject que, dada uma lista, retorna um objeto representando o carro.
+- [x] Cria uma função toObject que, dada uma lista, retorna um objeto representando o carro.
 
 **Exercício 7**
 - [ ] Escreve uma função shipLength que, dado um objeto representando um navio, retorna o comprimento dele, mostrando também a devida unidade de comprimento.
