@@ -63,9 +63,29 @@ const books = [
   },
 ];
 
-function authorBornIn1947() {
- const verifyAuthor = books.find((book) => book.author.birthYear === 1947);
- return verifyAuthor.author.name;
+const expectedResult = false;
+
+// É verdade que nenhum author nasceu no mesmo ano? 
+// Resposta esperada: false
+
+function authorUnique() {
+  return books.every((book) =>
+    books.every((book2) =>
+      (book2.author.birthYear === book.author.birthYear)
+      && (book2.author.name !== book.author.name)));
 };
 
-assert.strictEqual(authorBornIn1947(), 'Stephen King');
+// Outra forma de escrever usando o some e o operador lógico not
+
+function authorUnique() {
+  return books.every((book) =>
+    !books.some((bookSome) =>
+      (bookSome.author.birthYear === book.author.birthYear)
+      && (bookSome.author.name !== book.author.name)));
+};
+
+// Algum item atende a condição? ou seja, o ano de nascimento de algum autor é igual ao outro? True
+// Como o enunciado pede True para o caso de nenhum autor ter nascido no mesmo ano devemos inverter a lógica booleana (!books.some)
+// Referencia: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT
+
+assert.strictEqual(authorUnique(), expectedResult);
