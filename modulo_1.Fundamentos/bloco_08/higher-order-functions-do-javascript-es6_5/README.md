@@ -21,7 +21,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 - [x] Escreve a função personLikes, que dado um objeto de parâmetro que representa uma pessoa, retorna todos os gostos daquela pessoa.
 
 **Exercício 4**
-- [ ] Escreve uma função filterPeople que, dada uma lista de pessoas, retorna todas as pessoas australianas que nasceram no século 20.
+- [x] Escreve uma função filterPeople que, dada uma lista de pessoas, retorna todas as pessoas australianas que nasceram no século 20.
 
 **Exercício 5**
 - [ ] Escreve a função swap, que dado um array de 3 elementos, retorna um novo array com o primeiro e terceiro elementos trocados.
