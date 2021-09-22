@@ -1,12 +1,18 @@
-### Bloco 8 - Higher Order Functions do JavaScript ES6
-#### Dia 5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+### `Bloco 8 - Higher Order Functions do JavaScript ES6`
+### `Dia 5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais`
 
-O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre Higher Order Functions.
+O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre as features do ES6 que contribuem para melhorar a escrita do seu código.
 
-Os requisitos do exercí­cio são:
+- spread operator
+- parâmetro rest
+- object destructuring
+- array destructuring
+- default destructuring
+- abbreviation object literal
+- default params
 
 **Exercício 1**
-- [ ] Completa o código de forma que seja impressa a área dos 3 retângulos. O código deve retornar em sequência 2 , 15 e 54.
+- [x] Completa o código de forma que seja impressa a área dos 3 retângulos. O código deve retornar em sequência 2, 15 e 54.
 
 **Exercício 2**
 - [ ] Cria uma função sum que dado um número variável de elementos retorna a soma desses elementos.
