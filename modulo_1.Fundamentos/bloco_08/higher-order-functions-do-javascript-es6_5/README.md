@@ -18,7 +18,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 - [x] Cria uma função sum que dado um número variável de elementos retorna a soma desses elementos.
 
 **Exercício 3**
-- [ ] Escreve a função personLikes, que dado um objeto de parâmetro que representa uma pessoa, retorna todos os gostos daquela pessoa.
+- [x] Escreve a função personLikes, que dado um objeto de parâmetro que representa uma pessoa, retorna todos os gostos daquela pessoa.
 
 **Exercício 4**
 - [ ] Escreve uma função filterPeople que, dada uma lista de pessoas, retorna todas as pessoas australianas que nasceram no século 20.
