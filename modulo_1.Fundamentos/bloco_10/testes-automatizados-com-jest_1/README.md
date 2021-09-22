@@ -58,4 +58,4 @@ Praticar o desenvolvimento orientado a testes implementando:
 - A função;
 - Os testes para essa função;
 - [x] Cria uma função que receba dois parâmetros: o id do funcionário e a informação disponível sobre ele (firstName, lastName, specialities). 
-- [ ] Cria os testes para essa função que deverá então retornar os resultados da busca pelo id para aquele funcionário e a informação consultada. Caso o id não conste no quadro de funcionários, a função retorna o erro "ID não identificada". Se a informação que se quer acessar não existir, a função retorna o erro "Informação indisponível".
+- [x] Cria os testes para essa função que deverá então retornar os resultados da busca pelo id para aquele funcionário e a informação consultada. Caso o id não conste no quadro de funcionários, a função retorna o erro "ID não identificada". Se a informação que se quer acessar não existir, a função retorna o erro "Informação indisponível".
