@@ -33,4 +33,4 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 - [x] Escreve uma função shipLength que, dado um objeto representando um navio, retorna o comprimento dele, mostrando também a devida unidade de comprimento.
 
 **Exercício 8**
-- [ ] Escreve uma função greet que, dado o nome de uma pessoa, retorna uma mensagem de cumprimento.
+- [x] Escreve uma função greet que, dado o nome de uma pessoa, retorna uma mensagem de cumprimento.

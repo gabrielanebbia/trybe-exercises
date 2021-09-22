@@ -18,7 +18,7 @@ const gunnar = {
 // const personLikes = () => `${name} is ${age} years old and likes ${likes.join(', ')}.`;
 
 const personLikes = ({ name, age, likes }) => {
-  `${name} is ${age} years old and likes ${likes.join(', ')}.`
+  return `${name} is ${age} years old and likes ${likes.join(', ')}.`
 };
 
 assert.strictEqual(personLikes(alex), 'Alex is 26 years old and likes fly fishing.');
