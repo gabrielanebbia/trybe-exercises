@@ -71,6 +71,4 @@ function authorWith3DotsOnName() {
     )).name;
 };
 
- //separa os nomes dos autores em palavras , filtra as palavras que terminam com ponto e os que possuem tamanho igual a 3
-
 assert.deepStrictEqual(authorWith3DotsOnName(), expectedResult);
