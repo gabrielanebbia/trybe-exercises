@@ -11,9 +11,7 @@
   <h1>Formulário de Currículo</h1>
 
   <form id="forms" action="" method="GET">
-
     <fieldset id="part1">
-
       <legend>Cadastro de Currículo</legend>
 
       <p>Nome</p>
@@ -41,12 +39,11 @@
       <label for="userEstado"></label>
 
       <p>Tipo de moradia</p>
-      <label for="userTipo"required></label>
+      <label for="userTipo" required></label>
       <input type="radio" id="userTipoCasa" name="tipo" value="casa">Casa
       <input type="radio" id="userTipoApartamento" name="tipo" value="apartamento">Apartamento
 
     </fieldset>
-  <br>
     <fieldset id="part2">
       <legend>Dados do seu último emprego</legend>
 
@@ -60,10 +57,11 @@
       <input type="text" id="userDescricao" name="descricao" maxlength="500" required>
 
       <p>Data de início</p>
-      <input type="text" id="userDataInicio" name="dataInicio" placeholder="dd-mm-aaaa" onkeyup="testDataInicial()" maxlength="8" required>
+      <input type="text" id="userDataInicio" name="dataInicio" placeholder="dd-mm-aaaa" onkeyup="testDataInicial()"
+        maxlength="8" required>
     </fieldset>
 
-    <button type="submit" id="buttonCriar">Criar</button>
+    <button type="submit" id="buttonCriar">Enviar</button>
 
   </form>
 

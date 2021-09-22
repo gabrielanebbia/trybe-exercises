@@ -41,7 +41,7 @@ forms.addEventListener('submit', function (event) {
   let valid = false;
 
   if (valid = true) {
-    criar.addEventListener('click', createCurriculo ())
+    criar.addEventListener('click', createCurriculo())
   }
 });
 

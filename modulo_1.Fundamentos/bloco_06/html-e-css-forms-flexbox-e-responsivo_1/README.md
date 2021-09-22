@@ -1,9 +1,9 @@
-## Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo
-### Dia 1 - HTML & CSS - Forms
+### `Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo`
+### `Dia 1 - HTML & CSS - Forms`
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre criar formulários em HTML com as tags: input, button, textarea, select, form.
 
-Os requisitos do exercí­cio são criar um formulário de currículo com as especificações a seguir:
+Para o exercício foi criado um formulário de currículo com as seguintes especificações:
 
 **Exercício 1**
 Cria um <fieldset> para os seguintes dados pessoais: 
@@ -30,24 +30,24 @@ Campo obrigatório
 Casa, Apartamento
 Campo obrigatório
 
-**Exercíci 2**
+**Exercício 2**
 Cria outro <fieldset> para dados do seu último emprego:
 - [x] Resumo do currículo - TextArea
-Limite de 1000 caracteres
-Campo obrigatório
+        Limite de 1000 caracteres
+        Campo obrigatório
 - [x] Cargo - Texto
-Limite de 40 caracteres
-Campo obrigatório
+        Limite de 40 caracteres
+        Campo obrigatório
 - [x] Descrição do cargo - Texto
-Limite de 500 caracteres
-Campo obrigatório
+        Limite de 500 caracteres
+        Campo obrigatório
 - [x] Data de início - Texto
-Verificar o formato da data dd/mm/aaaa .
-O dia deve ser > 0 e <= 31.
-O mês deve ser > 0 e <= 12.
-O ano não pode ser negativo.
-Caso alguma das condições seja inválida no momento do envio do formulário, exibir via alert uma mensagem de erro contextualizada.
-Campo obrigatório
+        Verificar o formato da data dd/mm/aaaa
+        O dia deve ser > 0 e <= 31
+        O mês deve ser > 0 e <= 12
+        O ano não pode ser negativo
+        Caso alguma das condições seja inválida no momento do envio do formulário, exibe via alert uma mensagem de erro contextualizada
+        Campo obrigatório
 
 **Exercício 3**
 Logo abaixo do formulário, cria um botão que:
