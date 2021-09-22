@@ -1,5 +1,5 @@
-## Bloco 5 - JavaScript: DOM, Eventos e Web Storage
-### Dia 3 - Eventos
+### `Bloco 5 - JavaScript: DOM, Eventos e Web Storage`
+### `Dia 3 - Eventos`
 
 O objetivo dos exercícios desse dia eram colocar em pratica o que aprendi sobre DOM, seletores, manipulação de elementos HTML e Eventos em JavaScript.
 
