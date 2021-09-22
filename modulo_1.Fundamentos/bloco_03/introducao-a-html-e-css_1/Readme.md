@@ -1,5 +1,5 @@
-## Bloco 3 - Introdução à HTML e CSS
-### Dia 1 - HTML & CSS - Estruturas de página
+### `Bloco 3 - Introdução à HTML e CSS`
+### `Dia 1 - HTML & CSS - Estruturas de página`
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre estruturas de página na introdução à HTML e CSS.
 

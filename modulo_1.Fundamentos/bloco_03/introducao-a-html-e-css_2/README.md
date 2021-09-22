@@ -1,9 +1,8 @@
-## Bloco 3 - Introdução à HTML e CSS
-### Dia 2 - HTML & CSS - Primeiros passos em CSS
+### `Bloco 3 - Introdução à HTML e CSS`
+### `Dia 2 - HTML & CSS - Primeiros passos em CSS`
 
-O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre HTML & CSS.
+O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre HTML e CSS.
 
-Os requisitos do exercí­cio foram:
 **Exercícios - Parte I**
 - [x] Modifica o tamanho do h1 para 65 pixels.
 - [x] Modifica a cor do texto do h1 para laranja.
