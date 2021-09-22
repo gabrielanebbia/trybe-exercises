@@ -63,17 +63,14 @@ const books = [
   },
 ];
 
-const expectedResult = [
-  'As Crônicas de Gelo e Fogo - Fantasia - George R. R. Martin',
-  'O Senhor dos Anéis - Fantasia - J. R. R. Tolkien',
-  'Fundação - Ficção Científica - Isaac Asimov',
-  'Duna - Ficção Científica - Frank Herbert',
-  'A Coisa - Terror - Stephen King',
-  'O Chamado de Cthulhu - Terror - H. P. Lovecraft',
-];
+const expectedResult = 'O Senhor dos Anéis';
 
-function formatedBookNames() {
-  return books.map((book) => `${book.name} - ${book.genre} - ${book.author.name}`)
+function authorWith3DotsOnName() {
+  return books.find((book) => (
+    book.author.name.split(' ').filter((dot) => dot.endsWith('.')).length === 3
+    )).name;
 };
 
-assert.deepStrictEqual(formatedBookNames(), expectedResult);
+ //separa os nomes dos autores em palavras , filtra as palavras que terminam com ponto e os que possuem tamanho igual a 3
+
+assert.deepStrictEqual(authorWith3DotsOnName(), expectedResult);

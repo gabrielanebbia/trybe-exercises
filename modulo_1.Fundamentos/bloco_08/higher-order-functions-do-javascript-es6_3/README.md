@@ -1,11 +1,9 @@
-## Bloco 8 - Higher Order Functions do JavaScript ES6
-### Dia 3 - JavaScript ES6 - Higher Order Functions - map e filter
+### `Bloco 8 - Higher Order Functions do JavaScript ES6`
+### `Dia 3 - JavaScript ES6 - Higher Order Functions - map e filter`
 
-O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre Higher Order Functions.
+O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre Higher Order Functions e o seu poder de facilitar a manipulação e criação de arrays, resultando em um código mais legível, conciso e expressivo.
 
 ### os exercícios a seguir, se trabalhou com uma estrutura de dados representando uma lista de livros, contendo informações como: nome do livro, gênero, pessoa autora do livro e data de lançamento. Em cada exercício, foi pedido que se encontrasse ou produzisse alguma informação a respeito dessa lista utilizando as funções HOF.
-
-Os requisitos do exercí­cio são:
 
 **Exercício 1**
 - [x] Cria um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA.
