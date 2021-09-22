@@ -1,3 +1,5 @@
+// Bônus - PARTE 1
+
 const mage = {
   healthPoints: 130,
   intelligence: 45,
