@@ -1,11 +1,9 @@
-## Bloco 9 - JavaScript Assíncrono e Promises
-### Dia 1 - JavaScript Assíncrono e Callbacks
+### `Bloco 9 - JavaScript Assíncrono e Promises`
+### `Dia 1 - JavaScript Assíncrono e Callbacks`
 
 O objetivo dos exercícios desse dia foi colocar em prática o uso correto de:
-- Operações assíncronas
-- Callbacks
-
-Os requisitos do exercí­cio são:
+  - Operações assíncronas
+  - Callbacks
 
 **Exercício 1**
 - [x] Dado um código, aponta qual a ordem de finalização de execução das linhas comentadas.
@@ -18,7 +16,6 @@ Os requisitos do exercí­cio são:
 
 **Exercício 4**
 - [x] Simula uma mensagem enviada do robô Curiosity de Marte para a Terra. O Curiosity envia para a Terra a temperatura atual em Marte, gastando um tempo variável de até 5 segundos para que termine o envio. Cria-se a função sendMarsTemperature, que imprime a temperatura em Marte.
-
 
 **Exercício 5**
 - [x] Após fazer uma função que envia a temperatura de Marte, envia para o robô Curiosity o que você deseja fazer, uma vez obtida com sucesso a temperatura em Marte. Logo, adiciona-se a função sendMarsTemperature um callback que contenha as ações a serem tomadas em cima da temperatura.

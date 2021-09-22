@@ -29,6 +29,5 @@ console.log(planetDistanceFromSun(mars)); // A
 console.log(planetDistanceFromSun(venus)); // B
 console.log(planetDistanceFromSun(jupiter)); // C
 
-
 // Qual a ordem de finalização de execução das linhas comentadas?
 // R: A, B e C 
