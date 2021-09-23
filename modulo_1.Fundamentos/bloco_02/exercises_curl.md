@@ -276,7 +276,7 @@ curl -H 'Accept: image/png' https://httpbin.org/image -o image.png
 ```
 Response:
 ```
-![Response exercise 13](image.png)
+![Response exercise 13](./images/image.png)
 
 14. Make a PUT request to https://httpbin.org/anything
 ```
@@ -310,7 +310,7 @@ curl -o image2.jpeg https://httpbin.org/image/jpeg
 ```
 Response:
 ```
-![Response exercise 15](image2.jpeg)
+![Response exercise 15](./images/image2.jpeg)
 
 16. Request https://www.twitter.com. You’ll get an empty response. Get curl to show you the response headers too, and try to figure out why the response was empty.
 ```
