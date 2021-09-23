@@ -1,5 +1,5 @@
-## Bloco 11 - Introdução à React
-### Dia 2 - Componentes React
+### `Bloco 11 - Introdução à React`
+### `Dia 2 - Componentes React`
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre componentes do React.
 
