@@ -1,15 +1,14 @@
 ### `Bloco 8 - Higher Order Functions do JavaScript ES6`
 ### `Dia 5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais`
 
-O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre as features do ES6 que contribuem para melhorar a escrita do seu código.
-
-- spread operator
-- parâmetro rest
-- object destructuring
-- array destructuring
-- default destructuring
-- abbreviation object literal
-- default params
+O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre as features do ES6 que contribuem para melhorar a escrita do seu código. São elas:
+  - spread operator
+  - parâmetro rest
+  - object destructuring
+  - array destructuring
+  - default destructuring
+  - abbreviation object literal
+  - default params
 
 **Exercício 1**
 - [x] Completa o código de forma que seja impressa a área dos 3 retângulos. O código deve retornar em sequência 2, 15 e 54.
