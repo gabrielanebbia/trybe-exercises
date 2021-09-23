@@ -1,9 +1,7 @@
-### Bloco 5 - JavaScript: DOM, Eventos e Web Storage
-### Dia 4 - Web Storage
+### `Bloco 5 - JavaScript: DOM, Eventos e Web Storage`
+### `Dia 4 - Web Storage`
 
 O objetivo dos exercícios desse dia foi colocar em prática os aprendizados sobre Web Storage e seus mecanismos pra salvar dados dos usuários no browser de forma mais segura que os cookies e com maior capacidade de armazenamento.
-
-Os requisitos do exercí­cio foram: 
 
 **Exercícios - Parte 1**
 Desenvolve uma página que serve como um leitor de conteúdo escrito, sendo possível alterar:

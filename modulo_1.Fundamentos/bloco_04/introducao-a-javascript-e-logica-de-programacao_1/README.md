@@ -1,9 +1,10 @@
-## Bloco 4 - Introdução à JavaScript e Lógica de Programação
-### Dia 1 - Introdução - JavaScript
+### `Bloco 4 - Introdução à JavaScript e Lógica de Programação`
+### `Dia 1 - Introdução - JavaScript`
 
-O objetivo dos exercícios desse dia foi colocar em prática o que aprendi sobre 
-
-Os requisitos do exercí­cio são:
+O objetivo dos exercícios desse dia foi colocar em prática os primeiros aprendizados em JavaScript para implementar lógica nas páginas tornando-as interativas e dinâmicas.
+  - Escrever códigos em JavaScript que usam variáveis, constantes e tipos primitivos;
+  - Utilizar conceitos da linguagem como a tipagem dinâmica e operadores lógicos/aritméticos/de atribuição no seu código;
+  - Criar códigos que usam estruturas condicionais, como o if/else
 
 **Exercício 1**
 - [x] Cria cinco programas, um para cada operação aritmética básica. Contendo duas variáveis (a e b).
@@ -25,14 +26,13 @@ Os requisitos do exercí­cio são:
 
 **Exercício 7**
 - [x] Cria um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. O programa retorna uma mensagem de erro e encerra se a nota passada for menor que 0 ou maior que 100.
-
 Regras:
-Porcentagem >= 90 -> A
-Porcentagem >= 80 -> B
-Porcentagem >= 70 -> C
-Porcentagem >= 60 -> D
-Porcentagem >= 50 -> E
-Porcentagem < 50 -> F
+  Porcentagem >= 90 -> A
+  Porcentagem >= 80 -> B
+  Porcentagem >= 70 -> C
+  Porcentagem >= 60 -> D
+  Porcentagem >= 50 -> E
+  Porcentagem < 50 -> F
 
 **Exercício 8**
 - [x] Cria um programa que define três números em variáveis e retorna true se pelo menos uma das três for par. Caso contrário, ele retorna false.
@@ -56,17 +56,17 @@ Informações para o calculo:
 - A notação para um salário de R$1500,10, por exemplo, deve ser 1500.10. Para as faixas de impostos, use as seguintes referências:
 
 INSS (Instituto Nacional do Seguro Social)
-Salário bruto até R$ 1.556,94: alíquota de 8%
-Salário bruto de R$ 1.556,95 a R$ 2.594,92: alíquota de 9%
-Salário bruto de R$ 2.594,93 a R$ 5.189,82: alíquota de 11%
-Salário bruto acima de R$ 5.189,82: alíquota máxima de R$ 570,88
+  Salário bruto até R$ 1.556,94: alíquota de 8%
+  Salário bruto de R$ 1.556,95 a R$ 2.594,92: alíquota de 9%
+  Salário bruto de R$ 2.594,93 a R$ 5.189,82: alíquota de 11%
+  Salário bruto acima de R$ 5.189,82: alíquota máxima de R$ 570,88
 
 IR (Imposto de Renda)
-Até R$ 1.903,98: isento de imposto de renda
-De R$ 1.903,99 a 2.826,65: alíquota de 7,5% e parcela de R$ 142,80 a deduzir do imposto
-De R$ 2.826,66 a R$ 3.751,05: alíquota de 15% e parcela de R$ 354,80 a deduzir do imposto
-De R$ 3.751,06 a R$ 4.664,68: alíquota de 22,5% e parcela de R$ 636,13 a deduzir do imposto
-Acima de R$ 4.664,68: alíquota de 27,5% e parcela de R$ 869,36 a deduzir do imposto.
+  Até R$ 1.903,98: isento de imposto de renda
+  De R$ 1.903,99 a 2.826,65: alíquota de 7,5% e parcela de R$ 142,80 a deduzir do imposto
+  De R$ 2.826,66 a R$ 3.751,05: alíquota de 15% e parcela de R$ 354,80 a deduzir do imposto
+  De R$ 3.751,06 a R$ 4.664,68: alíquota de 22,5% e parcela de R$ 636,13 a deduzir do imposto
+  Acima de R$ 4.664,68: alíquota de 27,5% e parcela de R$ 869,36 a deduzir do imposto.
 
 - Exemplo: 
 Uma pessoa possui o salário bruto de R$ 3.000,00. O cálculo será:

@@ -1,5 +1,5 @@
-### 5 - JavaScript - Trabalhando com elementos
-### Dia 2 - JavaScript - Trabalhando com elementos
+### `Bloco 5 - JavaScript - Trabalhando com elementos`
+### `Dia 2 - JavaScript - Trabalhando com elementos`
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre trabalhar com elementos (buscar, criar e remover) utilizando JavaScript.
 
@@ -13,7 +13,6 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 - [x] Adiciona uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image. Esse elemento é filho do div criado no passo 5;
 - [x] Adiciona uma lista não ordenada com os valores de 1 a 10 por extenso como valores da lista. Essa lista é filha do div criado no passo 6;
 - [x] Adiciona 3 tags h3, todas sendo filhas do div criado no passo 2.
-
 
 #### Part 2 - Alterando e removendo elementos:
 - [x] Adiciona a classe title na tag h1 criada;

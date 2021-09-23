@@ -1,9 +1,7 @@
-## Bloco 4 - Introdução à JavaScript e Lógica de Programação
-### Dia 4 - JavaScript - Objetos e funções
+### `Bloco 4 - Introdução à JavaScript e Lógica de Programação`
+### `Dia 4 - JavaScript - Objetos e funções`
 
-O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre
-
-Os requisitos do exercí­cio foram:
+O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre manipular objetos, utilizar o comando for/in e utilizar funções para organizar e estruturar o código.
 
 #### Parte 1 - Objetos e For/In
 
@@ -46,5 +44,3 @@ Os requisitos do exercí­cio foram:
 - [x] Cria uma função que recebe uma string word e outra string ending. 
   - Verifica se a string ending é o final da string word. 
   - Considera se a string ending sempre será menor que a string word.
-
-**Bônus**

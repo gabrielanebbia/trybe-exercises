@@ -1,12 +1,9 @@
-### Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo
-### Dia 4 - CSS Flexbox - Parte 2
+### `Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo`
+### `Dia 4 - CSS Flexbox - Parte 2`
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre:
-
 - Utilizar CSS Flexbox para criar layouts flexíveis.
 - Utilizar CSS Flexbox para alterar o comportamento de items.
-
-Os requisitos dos exercícios são:
 
 ### Parte 1 - Header:
 - [x] 1 - Adiciona uma propriedade que defina o tamanho Flexbox base para o container da imagem 268px e para o container do menu 500px.
