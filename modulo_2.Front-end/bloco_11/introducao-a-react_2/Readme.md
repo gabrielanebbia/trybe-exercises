@@ -3,9 +3,9 @@
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre componentes do React.
 
-Os requisitos do exercí­cio foram:
+Cria um novo projeto chamado my-pokedex para implementar de forma simplificada uma Pokédex.
 
-Criar um novo projeto chamado my-pokedex para implementar de forma simplificada uma Pokédex.
+![app-my-pokedex-result](images/app-my-pokedex.png)
 
 A aplicação foi criada para mostrar todos os Pokémons presentes no arquivo data.js.
 
