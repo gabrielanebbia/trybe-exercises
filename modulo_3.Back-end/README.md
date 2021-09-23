@@ -1,39 +1,39 @@
 ## Módulo 3 - Desenvolvimento Back-end :hourglass_flowing_sand:
 
 #### Bloco 20: Introdução - Bancos de dados relacionais - SQL
-- [ ] 20-1: _Banco de dados SQL_
-- [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma específica_
-- [ ] 20-4: _Manipulando tabelas_
-- [ ] 20-5: _Projeto All For One_
+- [x] 20-1: _Banco de dados SQL_
+- [x] 20-2: _Encontrando dados em um banco de dados_
+- [x] 20-3: _Filtrando dados de forma específica_
+- [x] 20-4: _Manipulando tabelas_
+- [x] 20-5: _Projeto All For One_
 
 #### Bloco 21: Bancos de dados relacionais - Funções SQL, Joins e Subqueries
-- [ ] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs e UNIONs_
-- [ ] 21-3: _Stored Routines & Subqueries_
-- [ ] 21-4: _Projeto Vocabulary Booster_
+- [x] 21-1: _Funções mais usadas no SQL_
+- [x] 21-2: _Descomplicando JOINs e UNIONs_
+- [x] 21-3: _Stored Routines & Subqueries_
+- [x] 21-4: _Projeto Vocabulary Booster_
 
 #### Bloco 22: Bancos de dados relacionais - Normalização e Modelagem de Bancos de Dados
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _Normalização, Formas Normais e Dumps_
-- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 22-3: _Projeto One For All_
+- [x] 22-1: _Transformando ideias em um modelo de banco de dados_
+- [x] 22-2: _Normalização, Formas Normais e Dumps_
+- [x] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [x] 22-3: _Projeto One For All_
 
 #### Bloco 23: Introdução - NoSQL - MongoDB
-- [ ] 23-1: _MongoDB - Introdução_
-- [ ] 23-2: _Filter Operators_
-- [ ] 23-3: _Projeto Data Flights_
+- [x] 23-1: _MongoDB - Introdução_
+- [x] 23-2: _Filter Operators_
+- [x] 23-3: _Projeto Data Flights_
 
 #### Bloco 24: MongoDB: Updates simples e Complexos
-- [ ] 24-1: _Updates Simples_
-- [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 24-4: _Projeto Commerce_
+- [x] 24-1: _Updates Simples_
+- [x] 24-2: _Updates Complexos - Arrays - Parte 1_
+- [x] 24-3: _Updates Complexos - Arrays - Parte 2_
+- [x] 24-4: _Projeto Commerce_
 
 #### Bloco 25: MongoDB: Aggregation Framework
-- [ ] 25-1: _Aggregation Framework - Part 1_
-- [ ] 25-2: _Aggregation Framework - Part 2_
-- [ ] 25-3: _Projeto Aggregations_
+- [x] 25-1: _Aggregation Framework - Part 1_
+- [x] 25-2: _Aggregation Framework - Part 2_
+- [x] 25-3: _Projeto Aggregations_
 
 #### Bloco 26: Introdução ao desenvolvimento WEB com NodeJS
 - [ ] 26-1: _NodeJS - Introdução_
