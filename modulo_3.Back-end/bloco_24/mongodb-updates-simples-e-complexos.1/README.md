@@ -15,8 +15,8 @@ Após cada execução foi utilizado o método find() para conferir as alteraçõ
 - [x] 1. Altera o imdbRating para 7.7 no filme Batman 
 - [x] 2. Altera budget para 1 no filme Godzilla 
 - [x] 3. Altera budget para 15 e imdbRating para 5.5 no filme Home Alone
-- [ ] 4. Aumenta em 2 o imdbRating do filme Batman
-- [ ] 5. Aumenta em 5 o budget do filme Home Alone
+- [x] 4. Aumenta em 2 o imdbRating do filme Batman
+- [x] 5. Aumenta em 5 o budget do filme Home Alone
 - [ ] 6. Multiplica por 4 o imdbRating do filme Batman
 - [ ] 7. Renomeia o campo budget para estimatedBudget do filme Batman
 - [ ] 8. Utiliza o operador $min para alterar o budget para 5 do filme Home Alone
