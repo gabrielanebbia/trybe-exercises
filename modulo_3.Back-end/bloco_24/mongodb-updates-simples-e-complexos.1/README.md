@@ -24,4 +24,4 @@ Após cada execução foi utilizado o método find() para conferir as alteraçõ
 - [x] 10. Utilizando o operador $currentDate, cria um campo chamado lastUpdated com o tipo timestamp no filme Home Alone
 - [x] 11. Utilizando uma única operação, cria um campo chamado sequels e atribua a ele o valor 0 em todos os documentos
 - [x] 12. Utilizando uma única operação, remove os campos budget e estimatedBudget em todos os documentos
-- [ ] 13. Para os filmes Batman ou Home Alone, atribui a imdbRating o valor 17, caso o valor de imdbRating seja menor que 17
+- [x] 13. Para os filmes Batman ou Home Alone, atribui a imdbRating o valor 17, caso o valor de imdbRating seja menor que 17
