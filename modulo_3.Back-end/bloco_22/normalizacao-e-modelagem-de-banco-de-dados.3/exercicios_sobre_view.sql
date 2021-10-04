@@ -26,7 +26,12 @@ CREATE VIEW film_info AS
 
 -- 3. Crie uma view chamada address_info que faça uso das tabelas address e city, exibindo o address_id, o address, 
 -- o district, o city_id e a city. Os resultados devem ser ordenados pelo nome das cidades.
-
+CREATE VIEW address_info AS
+    SELECT a.address_id, a.address, a.district, a.city_id, c.city
+    FROM sakila.address AS a
+    INNER JOIN sakila.city AS c 
+    ON c.city_id = a.city_id
+    ORDER BY c.city;
 
 -- 4. Crie uma view chamada movies_languages, usando as tabelas film e language, exibindo o título do filme, o id do 
 -- idioma e o idioma do filme.
