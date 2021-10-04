@@ -18,7 +18,7 @@ Após cada execução foi utilizado o método find() para conferir as alteraçõ
 - [x] 4. Aumenta em 2 o imdbRating do filme Batman
 - [x] 5. Aumenta em 5 o budget do filme Home Alone
 - [x] 6. Multiplica por 4 o imdbRating do filme Batman
-- [ ] 7. Renomeia o campo budget para estimatedBudget do filme Batman
+- [x] 7. Renomeia o campo budget para estimatedBudget do filme Batman
 - [ ] 8. Utiliza o operador $min para alterar o budget para 5 do filme Home Alone
 - [ ] 9. Utiliza o operador $max para alterar o imdbRating para 8.6 do filme Godzilla. Além disso, altera a categoria "adventure" para "thriller" do filme Godzilla
 - [ ] 10. Utilizando o operador $currentDate, cria um campo chamado lastUpdated com o tipo timestamp no filme Home Alone
