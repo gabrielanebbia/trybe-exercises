@@ -21,6 +21,6 @@ _Exercícios sobre INDEX_
 - [x] 2. Verifica o impacto de um INDEX na tabela address (banco de dados sakila), adicionando-o na coluna postal_code. Após ter adicionado o índice, mensura o custo da query utilizando o execution plan. Após ter criado e mensurado o custo da query, exclui o índice e mensura novamente esse custo.
 
 _Exercícios sobre ALTER TABLE_
-- [ ] 1. Escreve uma query SQL para alterar na tabela localtions o nome da coluna street_address para address, mantendo o mesmo tipo e tamanho de dados.
+- [x] 1. Escreve uma query SQL para alterar na tabela localtions o nome da coluna street_address para address, mantendo o mesmo tipo e tamanho de dados.
 - [ ] 2. Escreve uma query SQL para alterar o nome da coluna region_name para region, mantendo o mesmo tipo e tamanho de dados.
 - [ ] 3. Escreve uma query SQL para alterar o nome da coluna country_name para country, mantendo o mesmo tipo e tamanho de dados.
