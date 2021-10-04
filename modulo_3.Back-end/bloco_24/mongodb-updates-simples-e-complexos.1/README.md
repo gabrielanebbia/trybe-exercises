@@ -22,6 +22,6 @@ Após cada execução foi utilizado o método find() para conferir as alteraçõ
 - [x] 8. Utiliza o operador $min para alterar o budget para 5 do filme Home Alone
 - [x] 9. Utiliza o operador $max para alterar o imdbRating para 8.6 do filme Godzilla. Além disso, altera a categoria "adventure" para "thriller" do filme Godzilla
 - [x] 10. Utilizando o operador $currentDate, cria um campo chamado lastUpdated com o tipo timestamp no filme Home Alone
-- [ ] 11. Utilizando uma única operação, cria um campo chamado sequels e atribua a ele o valor 0 em todos os documentos
+- [x] 11. Utilizando uma única operação, cria um campo chamado sequels e atribua a ele o valor 0 em todos os documentos
 - [ ] 12. Utilizando uma única operação, remove os campos budget e estimatedBudget em todos os documentos
 - [ ] 13. Para os filmes Batman ou Home Alone, atribui a imdbRating o valor 17, caso o valor de imdbRating seja menor que 17
