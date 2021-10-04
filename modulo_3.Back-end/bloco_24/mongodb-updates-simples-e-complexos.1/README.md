@@ -36,4 +36,4 @@ Após todas as alterações realizadas foi atualizado o campo lastUpdate, que ar
 - [x] 17. Produz uma query onde os mutantes class gama passam a ter seu poder de 300 somente se seu poder for maior que 300.
 - [x] 18. Decrementa em 100 o poder dos mutantes que não possuem a propriedade class.
 - [x] 19. Em apenas uma query adiciona o campo areas com o seguinte array como valor: ["Students Room"] a todos os mutantes que são Senior Staff que tenham poder acima de 100 e para todos os Junior Staff com poder acima de 200.
-- [ ] 20. Em apenas uma query, adiciona o campo areas com ["Outside"] a todos os Junior Staff que não tenham o campo areas definido.
+- [x] 20. Em apenas uma query, adiciona o campo areas com ["Outside"] a todos os Junior Staff que não tenham o campo areas definido.
