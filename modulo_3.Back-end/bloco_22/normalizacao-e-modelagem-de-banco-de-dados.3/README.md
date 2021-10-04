@@ -18,7 +18,7 @@ _Exercícios sobre VIEW_
 
 _Exercícios sobre INDEX_
 - [x] 1. Verifica o impacto de um FULLTEXT INDEX na tabela category (banco de dados sakila), adicionando-o na coluna name. Após adicionar o índice, mensura o custo da query utilizando o execution plan. Após ter criado e mensurado o custo da query, exclui o índice e mensura novamente esse custo.
-- [ ] 2. Verifica o impacto de um INDEX na tabela address (banco de dados sakila), adicionando-o na coluna postal_code. Após ter adicionado o índice, mensura o custo da query utilizando o execution plan. Após ter criado e mensurado o custo da query, exclui o índice e mensura novamente esse custo.
+- [x] 2. Verifica o impacto de um INDEX na tabela address (banco de dados sakila), adicionando-o na coluna postal_code. Após ter adicionado o índice, mensura o custo da query utilizando o execution plan. Após ter criado e mensurado o custo da query, exclui o índice e mensura novamente esse custo.
 
 _Exercícios sobre ALTER TABLE_
 - [ ] 1. Escreve uma query SQL para alterar na tabela localtions o nome da coluna street_address para address, mantendo o mesmo tipo e tamanho de dados.
