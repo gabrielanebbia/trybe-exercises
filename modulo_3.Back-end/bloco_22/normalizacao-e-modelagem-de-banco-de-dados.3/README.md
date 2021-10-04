@@ -22,5 +22,5 @@ _Exercícios sobre INDEX_
 
 _Exercícios sobre ALTER TABLE_
 - [x] 1. Escreve uma query SQL para alterar na tabela localtions o nome da coluna street_address para address, mantendo o mesmo tipo e tamanho de dados.
-- [ ] 2. Escreve uma query SQL para alterar o nome da coluna region_name para region, mantendo o mesmo tipo e tamanho de dados.
+- [x] 2. Escreve uma query SQL para alterar o nome da coluna region_name para region, mantendo o mesmo tipo e tamanho de dados.
 - [ ] 3. Escreve uma query SQL para alterar o nome da coluna country_name para country, mantendo o mesmo tipo e tamanho de dados.
