@@ -9,11 +9,10 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
   - Remover campos
 
 Para os exercícios foi utilizada a coleção movies do banco de dados class.
-
-**Exercícios**
 Após cada execução foi utilizado o método find() para conferir as alterações nos documentos.
 
-- [ ] 1. Altera o imdbRating para 7.7 no filme Batman 
+**Exercícios**
+- [x] 1. Altera o imdbRating para 7.7 no filme Batman 
 - [ ] 2. Altera budget para 1 no filme Godzilla 
 - [ ] 3. Altera budget para 15 e imdbRating para 5.5 no filme Home Alone
 - [ ] 4. Aumenta em 2 o imdbRating do filme Batman
