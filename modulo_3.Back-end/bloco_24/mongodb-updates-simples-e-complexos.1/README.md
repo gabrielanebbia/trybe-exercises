@@ -8,10 +8,10 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
   - Renomear campos
   - Remover campos
 
+**Exercícios**
 Para os exercícios foi utilizada a coleção movies do banco de dados class.
 Após cada execução foi utilizado o método find() para conferir as alterações nos documentos.
 
-**Exercícios**
 - [x] 1. Altera o imdbRating para 7.7 no filme Batman 
 - [x] 2. Altera budget para 1 no filme Godzilla 
 - [x] 3. Altera budget para 15 e imdbRating para 5.5 no filme Home Alone
@@ -25,3 +25,15 @@ Após cada execução foi utilizado o método find() para conferir as alteraçõ
 - [x] 11. Utilizando uma única operação, cria um campo chamado sequels e atribua a ele o valor 0 em todos os documentos
 - [x] 12. Utilizando uma única operação, remove os campos budget e estimatedBudget em todos os documentos
 - [x] 13. Para os filmes Batman ou Home Alone, atribui a imdbRating o valor 17, caso o valor de imdbRating seja menor que 17
+
+**Exercícios Bônus**
+Para os exercícios foi utilizada a coleção xmen do banco de dados class.
+Após todas as alterações realizadas foi atualizado o campo lastUpdate, que armazena a data da última alteração com o tipo timestamp.
+
+- [ ] 14. Remove o campo class dos documentos que possuem esse campo com o valor unknown.
+- [ ] 15. Produz uma query que renomeie os campos de name para hero_name, e de true_name para full_name. Adiciona o campo power com valor 100, em todos os documentos.
+- [ ] 16. Produz uma query onde os mutantes class omega ou gama passam a ter seu poder de 500 somente se seu poder for menor que 500.
+- [ ] 17. Produz uma query onde os mutantes class gama passam a ter seu poder de 300 somente se seu poder for maior que 300.
+- [ ] 18. Decrementa em 100 o poder dos mutantes que não possuem a propriedade class.
+- [ ] 19. Em apenas uma query adiciona o campo areas com o seguinte array como valor: ["Students Room"] a todos os mutantes que são Senior Staff que tenham poder acima de 100 e para todos os Junior Staff com poder acima de 200.
+- [ ] 20. Em apenas uma query, adiciona o campo areas com ["Outside"] a todos os Junior Staff que não tenham o campo areas definido.
