@@ -30,7 +30,7 @@ Após cada execução foi utilizado o método find() para conferir as alteraçõ
 Para os exercícios foi utilizada a coleção xmen do banco de dados class.
 Após todas as alterações realizadas foi atualizado o campo lastUpdate, que armazena a data da última alteração com o tipo timestamp.
 
-- [ ] 14. Remove o campo class dos documentos que possuem esse campo com o valor unknown.
+- [x] 14. Remove o campo class dos documentos que possuem esse campo com o valor unknown.
 - [ ] 15. Produz uma query que renomeie os campos de name para hero_name, e de true_name para full_name. Adiciona o campo power com valor 100, em todos os documentos.
 - [ ] 16. Produz uma query onde os mutantes class omega ou gama passam a ter seu poder de 500 somente se seu poder for menor que 500.
 - [ ] 17. Produz uma query onde os mutantes class gama passam a ter seu poder de 300 somente se seu poder for maior que 300.
