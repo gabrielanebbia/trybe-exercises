@@ -37,7 +37,7 @@ Para os exercícios foi utilizado o dataset que contém três coleções: client
   "uf": "SP"
 }
 ```
-- [ ] 13. Encontra qual foi o total de vendas e a média de vendas de cada uf no ano de 2019. Ordena os resultados pelo nome da uf. Retorna os documentos no seguinte formato:
+- [x] 13. Encontra qual foi o total de vendas e a média de vendas de cada uf no ano de 2019. Ordena os resultados pelo nome da uf. Retorna os documentos no seguinte formato:
 ```
 {
   "_id": "MG",
