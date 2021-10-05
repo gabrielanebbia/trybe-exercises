@@ -19,7 +19,7 @@ Após cada execução foi utilizado o método find() para conferir as alteraçõ
 - [x] 3. Adiciona um array chamado ratings ao filme Batman com os seguintes valores: [85, 100, 102, 105].
 - [x] 4. Adiciona um array chamado ratings ao filme Godzilla com os seguintes valores: [78, 52, 95, 102].
 - [x] 5. Adiciona um array chamado ratings ao filme Home Alone com os seguintes valores: [200, 99, 65].
-- [ ] 6. Retorna todos os filmes com ratings maior do que 103, exibindo apenas os campos title e ratings.
+- [x] 6. Retorna todos os filmes com ratings maior do que 103, exibindo apenas os campos title e ratings.
 - [ ] 7. Retorna todos os filmes com ratings entre 100 e 105, exibindo apenas os campos title e ratings.
 - [ ] 8. Retorna todos os filmes com ratings entre 64 e 105 e divisíveis por 9, exibindo apenas os campos title e ratings.
 - [ ] 9. Retorna os filmes da categoria adventure e com ratings maior do que 103 , exibindo apenas os campos title, ratings e category.
