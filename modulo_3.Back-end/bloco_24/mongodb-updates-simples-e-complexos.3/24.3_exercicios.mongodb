@@ -2,7 +2,7 @@
 db.movies.find(
   {
     category: {
-      $all: ["action", "adventure"]
+      $all: ["action", "adventure"],
     }
   }
 );
@@ -11,7 +11,7 @@ db.movies.find(
 db.movies.find(
   {
     category: {
-      $all: ["action"]
+      $all: ["action"],
     },
     imdbRating: { $gt: 7 }
   }
@@ -23,7 +23,7 @@ db.movies.updateOne(
   {
     $push: {
       ratings: {
-        $each: [85, 100, 102, 105]
+        $each: [85, 100, 102, 105],
       }
     }
   }
@@ -35,14 +35,23 @@ db.movies.updateOne(
   {
     $push: {
       ratings: {
-        $each: [78, 52, 95, 102]
+        $each: [78, 52, 95, 102],
       }
     }
   }
 );
 
 // Exercício 5 - Adicione um array chamado ratings ao filme Home Alone com os seguintes valores: [200, 99, 65].
-
+db.movies.updateOne(
+  { title: "Home Alone" },
+  {
+    $push: {
+      ratings: {
+        $each: [200, 99, 65],
+      }
+    }
+  }
+);
 
 // Exercício 6 - Retorne todos os filmes com ratings maior do que 103 , exibindo apenas os campos title e ratings.
 
