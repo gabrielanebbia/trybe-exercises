@@ -22,7 +22,7 @@ Após cada execução foi utilizado o método find() para conferir as alteraçõ
 - [x] 6. Retorna todos os filmes com ratings maior do que 103, exibindo apenas os campos title e ratings.
 - [x] 7. Retorna todos os filmes com ratings entre 100 e 105, exibindo apenas os campos title e ratings.
 - [x] 8. Retorna todos os filmes com ratings entre 64 e 105 e divisíveis por 9, exibindo apenas os campos title e ratings.
-- [ ] 9. Retorna os filmes da categoria adventure e com ratings maior do que 103 , exibindo apenas os campos title, ratings e category.
+- [x] 9. Retorna os filmes da categoria adventure e com ratings maior do que 103 , exibindo apenas os campos title, ratings e category.
 - [ ] 10. Retorna somente o título de todos os filmes com dois elementos no array category.
 - [ ] 11. Retorna somente o título de todos os filmes com quatro elementos no array ratings.
 - [ ] 12. Busca os filmes em que o módulo 5 do campo budget seja 0 e que o array category tenha tamanho 2.
