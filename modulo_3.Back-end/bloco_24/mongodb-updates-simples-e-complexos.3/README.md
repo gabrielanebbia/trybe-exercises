@@ -16,7 +16,7 @@ Após cada execução foi utilizado o método find() para conferir as alteraçõ
 
 - [x] 1. Utilizando o operador $all, retorna todos os filmes que contenham action e adventure no array category.
 - [x] 2. Retorna os filmes que contenham action no array category e possuem nota do IMDB maior do que 7.
-- [ ] 3. Adiciona um array chamado ratings ao filme Batman com os seguintes valores: [85, 100, 102, 105].
+- [x] 3. Adiciona um array chamado ratings ao filme Batman com os seguintes valores: [85, 100, 102, 105].
 - [ ] 4. Adiciona um array chamado ratings ao filme Godzilla com os seguintes valores: [78, 52, 95, 102].
 - [ ] 5. Adiciona um array chamado ratings ao filme Home Alone com os seguintes valores: [200, 99, 65].
 - [ ] 6. Retorna todos os filmes com ratings maior do que 103, exibindo apenas os campos title e ratings.
