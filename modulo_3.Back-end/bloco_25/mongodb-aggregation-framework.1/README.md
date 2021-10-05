@@ -12,7 +12,7 @@ O objetivo dos exercícios desse dia foi colocar em prática os aprendizados sob
 **Exercícios**
 Para os exercícios foi utilizado o dataset que contém três coleções: clientes, produtos e vendas, do banco erp.
 
-- [ ] 1. Utilizando o estágio $match, escreve uma agregação para retornar somente os clientes do sexo "MASCULINO".
+- [x] 1. Utilizando o estágio $match, escreve uma agregação para retornar somente os clientes do sexo "MASCULINO".
 - [ ] 2. Utilizando o estágio $match, escreve uma agregação para retornar somente os clientes do sexo "FEMININO" e com data de nascimento entre os anos de 1995 e 2005.
 - [ ] 3. Utilizando o estágio $match, escreve uma agregação para retornar somente os clientes do sexo "FEMININO" e com data de nascimento entre os anos de 1995 e 2005, limitando a quantidade de documentos retornados em 5.
 - [ ] 4. Conta quantos clientes do estado SC existem na coleção. Retorna um documento em que o campo _id contenha a UF e outro campo com o total.
