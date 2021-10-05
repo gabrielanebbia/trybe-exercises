@@ -12,7 +12,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 - [x] 2. Utilizando o modificador $each, adiciona as categorias "villain" e "comic-based" ao filme Batman.
 - [x] 3. Remove a categoria "action" do filme Batman.
 - [x] 4. Remove o primeiro elemento do array category do filme Batman.
-- [ ] 5. Remove o último elemento do array category do filme Batman.
+- [x] 5. Remove o último elemento do array category do filme Batman.
 - [ ] 6. Adiciona o elemento "action" ao array category do filme Batman, garantindo que esse valor não se duplique.
 - [ ] 7. Adiciona a categoria "90's" aos filmes Batman e Home Alone.
 - [ ] 8. Cria um array de documentos chamado cast para o filme Home Alone com os seguintes dados:
