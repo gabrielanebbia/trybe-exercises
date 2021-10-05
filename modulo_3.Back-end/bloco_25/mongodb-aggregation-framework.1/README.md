@@ -18,7 +18,7 @@ Para os exercícios foi utilizado o dataset que contém três coleções: client
 - [x] 4. Conta quantos clientes do estado SC existem na coleção. Retorna um documento em que o campo _id contenha a UF e outro campo com o total.
 - [x] 5. Agrupa os clientes por sexo. Retorna o total de clientes de cada sexo no campo total.
 - [x] 6. Agrupa os clientes por sexo e uf. Retorna o total de clientes de cada sexo no campo total.
-- [ ] 7. Utilizando a mesma agregação do exercício anterior, adiciona um estágio de projeção para modificar os documentos de saída, de forma que se pareçam com o documento a seguir:
+- [x] 7. Utilizando a mesma agregação do exercício anterior, adiciona um estágio de projeção para modificar os documentos de saída, de forma que se pareçam com o documento a seguir:
 ```
 {
   "estado": "SP",
