@@ -2,15 +2,18 @@
 ### `Dia 3 - Updates Complexos - Arrays - Parte 2`
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre MongoDB e os operadores de update que podem ser utilizados em arrays.
-- Utilizar o operador $all para filtrar documentos
-- Utilizar o operador $elemMatch para filtrar documentos
-- Utilizar o operador $size para filtrar documentos pelo tamanho de arrays 
-- Utilizar o operador $expr para criar expressões de agregação
-- Utilizar expressões regulares e o operador $regex para buscar documentos
-- Utilizar o índice textual e o operador $text para buscar textos
-- Utilizar o operador $mod para executar a operação matemática módulo
+  - Utilizar o operador $all para filtrar documentos
+  - Utilizar o operador $elemMatch para filtrar documentos
+  - Utilizar o operador $size para filtrar documentos pelo tamanho de arrays 
+  - Utilizar o operador $expr para criar expressões de agregação
+  - Utilizar expressões regulares e o operador $regex para buscar documentos
+  - Utilizar o índice textual e o operador $text para buscar textos
+  - Utilizar o operador $mod para executar a operação matemática módulo
 
 **Exercícios**
+Para os exercícios foi utilizada a coleção movies do banco de dados class. 
+Após cada execução foi utilizado o método find() para conferir as alterações nos documentos.
+
 - [ ] 1. Utilizando o operador $all, retorna todos os filmes que contenham action e adventure no array category.
 - [ ] 2. Retorna os filmes que contenham action no array category e possuem nota do IMDB maior do que 7.
 - [ ] 3. Adiciona um array chamado ratings ao filme Batman com os seguintes valores: [85, 100, 102, 105].
