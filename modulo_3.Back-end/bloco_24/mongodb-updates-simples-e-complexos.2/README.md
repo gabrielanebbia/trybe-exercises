@@ -42,7 +42,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
   "character": "Coringa"
 }
 ```
-- [ ] 11. Produz três querys para o filme Batman:
+- [x] 11. Produz três querys para o filme Batman:
   - Adiciona o campo actor, que deve ser um array com o valor Christian Bale, ao array de cast em que o campo character seja igual a Batman;
   - Adiciona o campo actor, que deve ser um array com o valor Michael Caine, ao array de cast em que o campo character seja igual a Alfred;
   - Adiciona o campo actor, que deve ser um array com o valor Heath Ledger, ao array de cast em que o campo character seja igual a Coringa.
