@@ -25,7 +25,7 @@ Após cada execução foi utilizado o método find() para conferir as alteraçõ
 - [x] 9. Retorna os filmes da categoria adventure e com ratings maior do que 103 , exibindo apenas os campos title, ratings e category.
 - [x] 10. Retorna somente o título de todos os filmes com dois elementos no array category.
 - [x] 11. Retorna somente o título de todos os filmes com quatro elementos no array ratings.
-- [ ] 12. Busca os filmes em que o módulo 5 do campo budget seja 0 e que o array category tenha tamanho 2.
+- [x] 12. Busca os filmes em que o módulo 5 do campo budget seja 0 e que o array category tenha tamanho 2.
 - [ ] 13. Retorna os filmes da categoria "sci-fi" ou que possua o ratings maior do que 199, exibindo apenas os campos title, ratings e category.
 - [ ] 14. Retorna os filmes em que o ratings possua tamanho 4 e que seja da category "adventure" ou "family", mas que não tenha o imdbRating menor que 7.
 - [ ] 15. Adiciona o campo description no filme Batman com o seguinte valor: "The Dark Knight of Gotham City begins his war on crime with his first major enemy being Jack Napier, a criminal who becomes the clownishly homicidal Joker." .
