@@ -30,7 +30,7 @@ Após cada execução foi utilizado o método find() para conferir as alteraçõ
 - [x] 14. Retorna os filmes em que o ratings possua tamanho 4 e que seja da category "adventure" ou "family", mas que não tenha o imdbRating menor que 7.
 - [x] 15. Adiciona o campo description no filme Batman com o seguinte valor: "The Dark Knight of Gotham City begins his war on crime with his first major enemy being Jack Napier, a criminal who becomes the clownishly homicidal Joker." .
 - [x] 16. Adiciona o campo description no filme Godzilla com o seguinte valor: "The world is beset by the appearance of monstrous creatures, but one of them may be the only one who can save humanity.".
-- [] 17. Adiciona o campo description no filme Home Alone com o seguinte valor: "An eight-year-old troublemaker must protect his house from a pair of burglars when he is accidentally left home alone by his family during Christmas vacation." .
+- [x] 17. Adiciona o campo description no filme Home Alone com o seguinte valor: "An eight-year-old troublemaker must protect his house from a pair of burglars when he is accidentally left home alone by his family during Christmas vacation." .
 - [ ] 18. Utilizando o operador $regex, retorna todos os filmes em que a descrição comece com a palavra "The".
 - [ ] 19. Utilizando o operador $regex, retorna todos os filmes em que a descrição termine com a palavra "humanity.".
 - [ ] 20. Cria um índice do tipo text no campo description.
