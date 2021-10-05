@@ -36,4 +36,4 @@ Após cada execução foi utilizado o método find() para conferir as alteraçõ
 - [x] 20. Cria um índice do tipo text no campo description.
 - [x] 21. Utilizando o operador $text, busca por filmes que contenham o termo "vacation".
 - [x] 22. Utilizando o operador $text, busca por filmes que contenham os termos "monstrous" ou "criminal".
-- [ ] 23. Utilizando o operador $text, busca por filmes que contenham a frase "when he is accidentally".
+- [x] 23. Utilizando o operador $text, busca por filmes que contenham a frase "when he is accidentally".
