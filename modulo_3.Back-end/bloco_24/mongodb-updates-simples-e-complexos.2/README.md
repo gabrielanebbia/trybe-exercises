@@ -30,7 +30,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 }
 ```
 - [x] 9. Adiciona o campo character com o valor Marv ao array de cast em que o campo actor seja igual a Daniel Stern no filme Home Alone.
-- [ ] 10. Cria um array de documentos chamado cast para o filme Batman com os seguintes dados:
+- [x] 10. Cria um array de documentos chamado cast para o filme Batman com os seguintes dados:
 ```
 {
   "character": "Batman"
