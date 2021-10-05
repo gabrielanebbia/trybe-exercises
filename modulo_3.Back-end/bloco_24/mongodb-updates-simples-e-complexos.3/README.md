@@ -34,6 +34,6 @@ Após cada execução foi utilizado o método find() para conferir as alteraçõ
 - [x] 18. Utilizando o operador $regex, retorna todos os filmes em que a descrição comece com a palavra "The".
 - [x] 19. Utilizando o operador $regex, retorna todos os filmes em que a descrição termine com a palavra "humanity.".
 - [x] 20. Cria um índice do tipo text no campo description.
-- [ ] 21. Utilizando o operador $text, busca por filmes que contenham o termo "vacation".
+- [x] 21. Utilizando o operador $text, busca por filmes que contenham o termo "vacation".
 - [ ] 22. Utilizando o operador $text, busca por filmes que contenham os termos "monstrous" ou "criminal".
 - [ ] 23. Utilizando o operador $text, busca por filmes que contenham a frase "when he is accidentally".
