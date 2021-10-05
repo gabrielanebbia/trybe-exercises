@@ -14,7 +14,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 Para os exercícios foi utilizada a coleção movies do banco de dados class. 
 Após cada execução foi utilizado o método find() para conferir as alterações nos documentos.
 
-- [ ] 1. Utilizando o operador $all, retorna todos os filmes que contenham action e adventure no array category.
+- [x] 1. Utilizando o operador $all, retorna todos os filmes que contenham action e adventure no array category.
 - [ ] 2. Retorna os filmes que contenham action no array category e possuem nota do IMDB maior do que 7.
 - [ ] 3. Adiciona um array chamado ratings ao filme Batman com os seguintes valores: [85, 100, 102, 105].
 - [ ] 4. Adiciona um array chamado ratings ao filme Godzilla com os seguintes valores: [78, 52, 95, 102].
