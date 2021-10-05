@@ -28,7 +28,7 @@ Para os exercícios foi utilizado o dataset que contém três coleções: client
 ```
 - [x] 8. Descobre quais são os 5 clientes que gastaram o maior valor.
 - [x] 9. Descobre quais são os 10 clientes que gastaram o maior valor no ano de 2019.
-- [ ] 10. Descobre quantos clientes compraram mais de 5 vezes. Retorna um documento que contenha somente o campo clientes com o total de clientes.
+- [x] 10. Descobre quantos clientes compraram mais de 5 vezes. Retorna um documento que contenha somente o campo clientes com o total de clientes.
 - [ ] 11. Descobre quantos clientes compraram menos de três vezes entre os meses de Janeiro de 2020 e Março de 2020.
 - [ ] 12. Descobre quais as três uf s que mais compraram no ano de 2020. Retorna os documentos no seguinte formato:
 ```
