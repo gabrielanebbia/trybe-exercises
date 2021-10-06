@@ -20,9 +20,9 @@
 - [x] 22-3: _Projeto One For All_
 
 #### `Bloco 23: Introdução - NoSQL - MongoDB`
-- [ ] 23-1: _MongoDB - Introdução_
-- [ ] 23-2: _Filter Operators_
-- [ ] 23-3: _Projeto Data Flights_
+- [x] 23-1: _MongoDB - Introdução_
+- [x] 23-2: _Filter Operators_
+- [x] 23-3: _Projeto Data Flights_
 
 #### `Bloco 24: MongoDB: Updates simples e Complexos`
 - [ ] 24-1: _Updates Simples_
