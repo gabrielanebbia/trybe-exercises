@@ -29,4 +29,4 @@ A ideia do exercício era começar com um pipeline pequeno e ir adicionando est�
 - [x] 8. Seleciona todas as vendas do mês de Março de 2020, com status EM SEPARACAO. Acrescenta um campo chamado dataEntregaPrevista com valor igual a três dias após a data da venda. Retorna apenas os campos clienteId, dataVenda e dataEntregaPrevista.
 
 **Exercício Bônus**
-- [ ] 9. Calcula a diferença absoluta em dias entre a data da primeira entrega prevista e a última, considerando o pipeline do exercício 8.
+- [x] 9. Calcula a diferença absoluta em dias entre a data da primeira entrega prevista e a última, considerando o pipeline do exercício 8.
