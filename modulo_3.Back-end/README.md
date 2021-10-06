@@ -14,10 +14,10 @@
 - [x] 21-4: _Projeto Vocabulary Booster_
 
 #### `Bloco 22: Bancos de dados relacionais - Normalização e Modelagem de Bancos de Dados`
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _Normalização, Formas Normais e Dumps_
-- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 22-3: _Projeto One For All_
+- [x] 22-1: _Transformando ideias em um modelo de banco de dados_
+- [x] 22-2: _Normalização, Formas Normais e Dumps_
+- [x] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [x] 22-3: _Projeto One For All_
 
 #### `Bloco 23: Introdução - NoSQL - MongoDB`
 - [ ] 23-1: _MongoDB - Introdução_
