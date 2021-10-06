@@ -25,10 +25,10 @@
 - [x] 23-3: _Projeto Data Flights_
 
 #### `Bloco 24: MongoDB: Updates simples e Complexos`
-- [ ] 24-1: _Updates Simples_
-- [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 24-4: _Projeto Commerce_
+- [x] 24-1: _Updates Simples_
+- [x] 24-2: _Updates Complexos - Arrays - Parte 1_
+- [x] 24-3: _Updates Complexos - Arrays - Parte 2_
+- [x] 24-4: _Projeto Commerce_
 
 #### `Bloco 25: MongoDB: Aggregation Framework`
 - [ ] 25-1: _Aggregation Framework - Part 1_
