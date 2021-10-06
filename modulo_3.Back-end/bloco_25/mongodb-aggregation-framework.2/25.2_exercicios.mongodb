@@ -181,7 +181,42 @@ db.clientes.aggregate([
   "uf": "UF DO CLIENTE",
   "totalConsumido": 100
 } */
-
+db.vendas.aggregate([
+  { $unwind: "$itens" },
+  {
+    $match: {
+      "itens.nome": "QUEIJO PRATO",
+    },
+  },
+  {
+    $group: {
+      _id: "$clienteId",
+      totalConsumo: {
+        $sum: "$itens.quantidade",
+      },
+    },
+  },
+  {
+    $sort: { totalConsumo: -1 },
+  },
+  { $limit: 1 },
+  {
+    $lookup: { 
+      localField: '_id',
+      foreignField: 'clienteId',
+      as: 'cliente',
+   },
+  },
+  { $unwind: "$cliente" },
+  {
+    $project: {
+      _id: 0,
+      nomeCliente: "$cliente.nome",
+      uf: "$cliente.endereco.uf",
+      totalConsumo: "$totalConsumo",
+    },
+  },
+]);
 
 // Exercício 8: Selecione todas as vendas do mês de Março de 2020, com status EM SEPARACAO. Acrescente um campo chamado dataEntregaPrevista com valor igual a três dias após a data da venda. Retorne apenas os campos clienteId , dataVenda e dataEntregaPrevista .
 
