@@ -14,21 +14,21 @@
 - [x] 21-4: _Projeto Vocabulary Booster_
 
 #### `Bloco 22: Bancos de dados relacionais - Normalização e Modelagem de Bancos de Dados`
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _Normalização, Formas Normais e Dumps_
-- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 22-3: _Projeto One For All_
+- [x] 22-1: _Transformando ideias em um modelo de banco de dados_
+- [x] 22-2: _Normalização, Formas Normais e Dumps_
+- [x] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [x] 22-3: _Projeto One For All_
 
 #### `Bloco 23: Introdução - NoSQL - MongoDB`
-- [ ] 23-1: _MongoDB - Introdução_
-- [ ] 23-2: _Filter Operators_
-- [ ] 23-3: _Projeto Data Flights_
+- [x] 23-1: _MongoDB - Introdução_
+- [x] 23-2: _Filter Operators_
+- [x] 23-3: _Projeto Data Flights_
 
 #### `Bloco 24: MongoDB: Updates simples e Complexos`
-- [ ] 24-1: _Updates Simples_
-- [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 24-4: _Projeto Commerce_
+- [x] 24-1: _Updates Simples_
+- [x] 24-2: _Updates Complexos - Arrays - Parte 1_
+- [x] 24-3: _Updates Complexos - Arrays - Parte 2_
+- [x] 24-4: _Projeto Commerce_
 
 #### `Bloco 25: MongoDB: Aggregation Framework`
 - [ ] 25-1: _Aggregation Framework - Part 1_
