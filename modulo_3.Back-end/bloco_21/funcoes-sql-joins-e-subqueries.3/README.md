@@ -1,5 +1,5 @@
-### Bloco 21 - Funções SQL, Joins e Subqueries
-### Dia 3 - Stored Routines, Stored Functions & Triggers
+### `Bloco 21 - Funções SQL, Joins e Subqueries`
+### `Dia 3 - Stored Routines, Stored Functions & Triggers`
 
 O objetivo dos exercícios desse dia foi colocar em pratica as ferramentas Stored Procedures e Stored Functions, que nos ajudam a criar blocos de código reutilizáveis dentro do banco de dados. Também praticar o uso dos TRIGGERS, que nos permite construir blocos de código que podem ser disparados automaticamente de acordo com alguma ação desejada (inserção, atualização, remoção).
 
