@@ -1,5 +1,5 @@
-### Bloco 23 - Introdução ao MongoDB
-### Dia 2 - Filter Operators
+### `Bloco 23 - Introdução ao MongoDB`
+### `Dia 2 - Filter Operators`
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre MongoDB e o uso de operadores de filtro, e como eles ajudam na recuperação dos dados das coleções.
 
