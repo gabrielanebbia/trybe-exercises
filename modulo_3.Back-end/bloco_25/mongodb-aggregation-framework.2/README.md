@@ -10,6 +10,8 @@ O objetivo dos exercícios desse dia foi colocar em prática os aprendizados sob
 **Exercícios**
 Para os exercícios foi utilizado o dataset que contém três coleções: clientes, produtos e vendas, do banco erp.
 
+A ideia do exercício era começar com um pipeline pequeno e ir adicionando estágios à medida que os exercícios foram evoluindo.
+
 - [ ] 1. Utilizando uma combinação das expressões aritméticas adiciona um campo chamado idade à coleção clientes.
 - [ ] 2. Utilizando o novo campo idade, conta quantos clientes têm entre 18 e 25 anos.
 - [ ] 3. Remove os estágios $count e $match do exercício anterior e adiciona um estágio no pipeline que coloque as compras do cliente no campo compras.
