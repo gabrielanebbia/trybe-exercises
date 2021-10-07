@@ -4,7 +4,7 @@
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre Node.js, por que utilizá-lo e como criar um script simples com ele.
 
 #### Passo 1:
-Cria um pacote Node.js chamado my-scripts utilizando o comando:
+- [x] Cria um pacote Node.js chamado my-scripts utilizando o comando:
 ```
 npm init
 ```
@@ -12,7 +12,7 @@ npm init
 #### Passo 2:
 **Exercício 1**
 Cria um script para calcular o Índice de Massa Corporal(IMC) de uma pessoa.
-- [ ] Utiliza valores fixos para peso e altura
+- [x] Utiliza valores fixos para peso e altura
 
 **Exercício 2**
 Permite que o script seja executado através do comando npm run imc.
