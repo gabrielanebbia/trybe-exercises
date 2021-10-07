@@ -36,7 +36,7 @@ Considera a seguinte tabela para classificar a situação do IMC:
 **Exercício 6**
 Cria um script para calcular a velocidade média de um carro numa corrida, sendo a fórmula para calcular velocidade média igual a distância / tempo.
 - [x] Armazena o script no arquivo velocidade.js
-- [ ] Permite que o script seja executado através do comando npm run velocidade. Para isso, cria a chave velocidade dentro do objeto scripts no package.json
+- [x] Permite que o script seja executado através do comando npm run velocidade. Para isso, cria a chave velocidade dentro do objeto scripts no package.json
 - [ ] Utiliza o readline-sync para solicitar os dados à pessoa
 - [ ] Considera a distância em metros e o tempo em segundos.
 
