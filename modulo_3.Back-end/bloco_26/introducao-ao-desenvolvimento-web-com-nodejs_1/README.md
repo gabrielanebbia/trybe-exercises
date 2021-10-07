@@ -42,7 +42,7 @@ Cria um script para calcular a velocidade média de um carro numa corrida, sendo
 
 **Exercício 7**
 Cria um "jogo de adivinhação" em que a pessoa ganha se acertar qual foi o número aleatório gerado.
-- [ ] O script é executado através do comando npm run sorteio
+- [x] O script é executado através do comando npm run sorteio
 - [ ] Utiliza o readline-sync para realizar input de dados
 - [ ] Armazena o script em sorteio.js 
 - [ ] O número gerado é um inteiro entre 0 e 10
