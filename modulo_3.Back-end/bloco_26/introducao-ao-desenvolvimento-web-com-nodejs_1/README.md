@@ -16,7 +16,7 @@ Cria um script para calcular o Índice de Massa Corporal(IMC) de uma pessoa.
 
 **Exercício 2**
 Permite que o script seja executado através do comando npm run imc.
-- [ ] O novo script criado contém o comando que chama o node para executar o arquivo imc.js
+- [x] O novo script criado contém o comando que chama o node para executar o arquivo imc.js
 
 **Exercício 3**
 Adiciona input de quem usa
