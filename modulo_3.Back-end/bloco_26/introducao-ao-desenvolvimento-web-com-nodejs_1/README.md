@@ -21,11 +21,11 @@ Permite que o script seja executado através do comando npm run imc.
 **Exercício 3**
 Adiciona input de quem usa
 Utilizando o pacote [readline-sync](https://www.npmjs.com/package/readline-sync#utility_methods):
-- [ ] Substitui os valores fixos de peso e altura por dados informados pela pessoa ao responder as perguntas "Qual seu peso?" e "Qual sua altura?" no terminal.
+- [x] Substitui os valores fixos de peso e altura por dados informados pela pessoa ao responder as perguntas "Qual seu peso?" e "Qual sua altura?" no terminal.
 
 **Exercício 4**
 Encontra solução para lidar com números nao inteiros do peso
-- [ ] Utiliza a solução para o peso
+- [x] Utiliza a solução para o peso
 
 **Exercício 5**
 Imprime o IMC na tela e também em qual categoria da tabela abaixo aquele IMC se enquadra:

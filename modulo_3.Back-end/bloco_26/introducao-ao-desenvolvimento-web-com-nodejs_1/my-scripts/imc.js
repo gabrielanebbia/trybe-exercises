@@ -1,6 +1,6 @@
 const readline = require('readline-sync');
 
-const pesoInput = readline.questionInt('Qual é o seu peso(kg)?');
+const pesoInput = readline.questionFloat('Qual é o seu peso(kg)?');
 const alturaInput = readline.questionInt('Qual é sua altura(cm)?');
 
 function calculaIMC(peso, altura) {
