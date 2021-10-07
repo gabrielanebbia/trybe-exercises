@@ -28,7 +28,7 @@ Encontra solução para lidar com números nao inteiros do peso
 - [x] Utiliza a solução para o peso
 
 **Exercício 5**
-Imprime o IMC na tela e também em qual categoria da tabela abaixo aquele IMC se enquadra:
+- [x] Imprime o IMC na tela e também em qual categoria da tabela abaixo aquele IMC se enquadra:
 Considera a seguinte tabela para classificar a situação do IMC:
 
 ![tabela-imc](images/tabela-imc.png)
