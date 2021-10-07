@@ -48,7 +48,7 @@ Cria um "jogo de adivinhação" em que a pessoa ganha se acertar qual foi o núm
 - [x] O número gerado é um inteiro entre 0 e 10
 - [x] Caso a pessoa acerte o número, exibe na tela "Parabéns, número correto!"
 - [x] Caso a pessoa erre o número, exibe na tela "Opa, não foi dessa vez. O número era [número sorteado]"
-- [ ] Ao final, pergunta se a pessoa deseja jogar novamente. Se sim, volta ao começo do script.
+- [x] Ao final, pergunta se a pessoa deseja jogar novamente. Se sim, volta ao começo do script.
 
 **Exercício 8**
 Cria um arquivo index.js que pergunta qual script deve ser executado.
