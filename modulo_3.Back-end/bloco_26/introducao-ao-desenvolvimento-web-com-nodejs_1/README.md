@@ -52,8 +52,8 @@ Cria um "jogo de adivinhação" em que a pessoa ganha se acertar qual foi o núm
 
 **Exercício 8**
 Cria um arquivo index.js que pergunta qual script deve ser executado.
-- [ ] O script é acionado através do comando npm start
-- [ ] Utiliza o readline-sync para realizar o input de dados
-- [ ] Quando executado, o script exibe uma lista numerada dos scripts disponíveis
-- [ ] Ao digitar o número de um script e pressionar enter, o script é executado
-- [ ] Utiliza o require para executar o script em questão.
+- [x] O script é acionado através do comando npm start
+- [x] Utiliza o readline-sync para realizar o input de dados
+- [x] Quando executado, o script exibe uma lista numerada dos scripts disponíveis
+- [x] Ao digitar o número de um script e pressionar enter, o script é executado
+- [x] Utiliza o require para executar o script em questão.
