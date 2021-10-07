@@ -1,5 +1,7 @@
-const pesoFixo = 60;
-const alturaFixa = 162;
+const readline = require('readline-sync');
+
+const pesoInput = readline.questionInt('Qual é o seu peso(kg)?');
+const alturaInput = readline.questionInt('Qual é sua altura(cm)?');
 
 function calculaIMC(peso, altura) {
   const alturaEmMetros = altura / 100;
@@ -10,4 +12,4 @@ function calculaIMC(peso, altura) {
   console.log(`IMC: ${IMC} kg/m²`);
 }
 
-calculaIMC(pesoFixo, alturaFixa);
+calculaIMC(pesoInput, alturaInput);
