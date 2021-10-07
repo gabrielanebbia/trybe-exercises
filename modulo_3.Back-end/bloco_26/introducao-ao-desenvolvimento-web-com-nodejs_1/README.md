@@ -43,11 +43,11 @@ Cria um script para calcular a velocidade média de um carro numa corrida, sendo
 **Exercício 7**
 Cria um "jogo de adivinhação" em que a pessoa ganha se acertar qual foi o número aleatório gerado.
 - [x] O script é executado através do comando npm run sorteio
-- [ ] Utiliza o readline-sync para realizar input de dados
-- [ ] Armazena o script em sorteio.js 
-- [ ] O número gerado é um inteiro entre 0 e 10
-- [ ] Caso a pessoa acerte o número, exibe na tela "Parabéns, número correto!"
-- [ ] Caso a pessoa erre o número, exibe na tela "Opa, não foi dessa vez. O número era [número sorteado]"
+- [x] Utiliza o readline-sync para realizar input de dados
+- [x] Armazena o script em sorteio.js 
+- [x] O número gerado é um inteiro entre 0 e 10
+- [x] Caso a pessoa acerte o número, exibe na tela "Parabéns, número correto!"
+- [x] Caso a pessoa erre o número, exibe na tela "Opa, não foi dessa vez. O número era [número sorteado]"
 - [ ] Ao final, pergunta se a pessoa deseja jogar novamente. Se sim, volta ao começo do script.
 
 **Exercício 8**
