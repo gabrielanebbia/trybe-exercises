@@ -61,11 +61,11 @@ Cria um arquivo index.js que pergunta qual script deve ser executado.
 #### Bônus
 **Exercício Bônus 1**
 Cria um script que realiza o fatorial de um número n.
-- [ ] Armazena o script no arquivo fatorial.js.
-- [ ] Utiliza o readline-sync para realizar o input de dados.
-- [ ] O script é acionado através do comando npm run fatorial
-- [ ] Adiciona o script ao menu criado no exercício 5.
-- [ ] Adiciona validações para garantir que o valor informado seja um inteiro maior que 0.
+- [x] Armazena o script no arquivo fatorial.js.
+- [x] Utiliza o readline-sync para realizar o input de dados.
+- [x] O script é acionado através do comando npm run fatorial
+- [x] Adiciona o script ao menu criado no exercício 5.
+- [x] Adiciona validações para garantir que o valor informado seja um inteiro maior que 0.
 
 **Exercício Bônus 2**
 Cria um script que exibe o valor dos n primeiros elementos da sequência de fibonacci.
