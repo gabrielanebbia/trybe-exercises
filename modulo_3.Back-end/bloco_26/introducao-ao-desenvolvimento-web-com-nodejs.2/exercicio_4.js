@@ -23,14 +23,16 @@ function findById(id) {
         return JSON.parse(data);
       })
       .then((simpsons) => {
-        const result = simpsons.find((item) => item.id === id);
+        const result = simpsons.find(item => Number(item.id) === id);
         if(!result) {
           reject('id não encontrado');
         }    
-        resolve(result);
+        resolve(console.log(result));
       })
   });
 }
+findById(0);
+findById(1);
 
 // 4.3
 function deleteSimpsons() {
@@ -48,3 +50,5 @@ function deleteSimpsons() {
       })
   });
 }
+
+deleteSimpsons();
