@@ -1,0 +1,16 @@
+{
+  "name": "exercicios-parte-1",
+  "version": "1.0.0",
+  "description": "O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre testes e como testar scripts NodesJS. Revendo os conceitos de testes e os benefícios de escrever testes automatizados. Utilizando três ferramentas bastante populares para testes com NodeJS: Mocha , Chai e Sinon. Além disso, revisitar conceitos importantes como asserts, testes unitários e TDD.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha tests"
+  },
+  "author": "GN",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.2"
+  }
+}
