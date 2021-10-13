@@ -10,7 +10,7 @@ Estrutura os testes utilizando mocha e chai para um função que irá dizer se u
     - Quando o número passado for maior que 0 retorna "positivo", quando for menor que 0 retorna "negativo" e quando igual a 0 retorna "neutro"
 - [x] Descreve todos os cenário de teste utilizando describes
 - [x] Descreve todos os testes que serão feitos utilizando its
-- [ ] Crie as asserções validando se os retornos de cada cenário tem o tipo e o valor esperado
+- [x] Cria as asserções validando se os retornos de cada cenário tem o tipo e o valor esperado
 
 **Exercício 2**
 - [ ] Implementa a função apresentada no exercício 1, garantindo que ela irá passar em todos os testes escritos.
