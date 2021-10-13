@@ -1,0 +1,11 @@
+{
+  "name": "exercises_26.2",
+  "version": "1.0.0",
+  "description": "O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre como funciona uma operação assíncrona e qual a sua importância no Node.js. Realizando operações assíncronas utilizando callbacks ou Promises, ler e escrever arquivos localmente com Node.js, escrever scripts que criam e consomem Promises e reescrever códigos que usam callbacks para que usem Promises.",
+  "main": "exercicio_1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GN",
+  "license": "ISC"
+}

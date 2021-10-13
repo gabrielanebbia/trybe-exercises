@@ -23,7 +23,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 
 **Exercício 4**
 Utilizando o arquivo simpsons.json realiza os requisitos abaixo:
-- [ ] Cria uma função que lê todos os dados do arquivo e imprime cada personagem no formato id - Nome . Por exemplo: 1 - Homer Simpson.
+- [x] Cria uma função que lê todos os dados do arquivo e imprime cada personagem no formato id - Nome . Por exemplo: 1 - Homer Simpson.
 - [ ] Cria uma função que receba o id de uma personagem como parâmetro e retorna uma Promise que é resolvida com os dados da personagem que possui o id informado. Caso não haja uma personagem com o id informado, rejeita a Promise com o motivo "id não encontrado".
 - [ ] Cria uma função que altera o arquivo simpsons.json retirando os personagens com id 10 e 6.
 - [ ] Cria uma função que leia o arquivo simpsons.json e cria um novo arquivo, chamado simpsonFamily.json, contendo as personagens com id de 1 a 4.
