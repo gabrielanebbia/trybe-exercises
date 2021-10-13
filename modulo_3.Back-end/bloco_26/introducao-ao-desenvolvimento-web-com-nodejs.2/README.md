@@ -19,7 +19,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
         - Caso a Promise seja resolvida, escreve na tela o resultado do cálculo.
 
 **Exercício 3**
-- [ ] Reescreve o código do exercício anterior para que utilize async/await.
+- [x] Reescreve o código do exercício anterior para que utilize async/await.
 
 **Exercício 4**
 Utilizando o arquivo simpsons.json realiza os requisitos abaixo:
