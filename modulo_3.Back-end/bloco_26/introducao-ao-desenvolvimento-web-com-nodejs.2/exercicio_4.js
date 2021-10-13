@@ -52,3 +52,21 @@ function deleteSimpsons() {
 }
 
 deleteSimpsons();
+
+// 4.4
+function createSimpsonsFamily() {
+  return new Promise((resolve, reject) => {
+    fs.readFile('./simpsons.json', 'utf8')
+      .then((data) => {
+        return JSON.parse(data);
+      })
+      .then((simpsons) => {
+        const result = simpsons.filter(item => [1, 2, 3, 4].includes(item.id));
+        if(!result) {
+          reject('id não encontrado');
+        }     
+        resolve(fs.writeFile('./simpsonsFamily.json', JSON.stringify(result)));
+      })
+  });
+}
+createSimpsonsFamily();
