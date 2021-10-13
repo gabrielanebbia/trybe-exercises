@@ -13,7 +13,7 @@ Estrutura os testes utilizando mocha e chai para um função que irá dizer se u
 - [x] Cria as asserções validando se os retornos de cada cenário tem o tipo e o valor esperado
 
 **Exercício 2**
-- [ ] Implementa a função apresentada no exercício 1, garantindo que ela irá passar em todos os testes escritos.
+- [x] Implementa a função apresentada no exercício 1, garantindo que ela irá passar em todos os testes escritos.
 
 **Exercício 3** 
 Adiciona à função um tratamento para casos em que o parâmetro informado não seja do tipo Number.
