@@ -31,3 +31,20 @@ function findById(id) {
       })
   });
 }
+
+// 4.3
+function deleteSimpsons() {
+  return new Promise((resolve, reject) => {
+    fs.readFile('./simpsons.json', 'utf8')
+      .then((data) => {
+        return JSON.parse(data);
+      })
+      .then((simpsons) => {
+        const result = simpsons.filter(item => item.id !== '10' && item.id !== '6');
+        if(!result) {
+          reject('id não encontrado');
+        }    
+        resolve(fs.writeFile('./simpsons.json', JSON.stringify(result)));
+      })
+  });
+}
