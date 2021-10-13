@@ -11,7 +11,7 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
     - Caso o resultado seja maior que 50, resolve a Promise com o valor obtido.
 
 **Exercício 2**
-- [ ] Escreve um código para consumir a função construída no exercício anterior.
+- [x] Escreve um código para consumir a função construída no exercício anterior.
     - Gera um número aleatório de 1 a 100 para cada parâmetro que a função recebe. Para gerar um número aleatório, utilize o seguinte trecho de código: Math.floor(Math.random() * 100 + 1).
     - Chama a função do exercício anterior, passando os três números aleatórios como parâmetros.
     - Utiliza then e catch para manipular a Promise retornada pela função:
@@ -28,7 +28,7 @@ Utilizando o arquivo simpsons.json realiza os requisitos abaixo:
 - [ ] Cria uma função que altera o arquivo simpsons.json retirando os personagens com id 10 e 6.
 - [ ] Cria uma função que leia o arquivo simpsons.json e cria um novo arquivo, chamado simpsonFamily.json, contendo as personagens com id de 1 a 4.
 - [ ] Cria uma função que adiciona ao arquivo simpsonFamily.json o personagem Nelson Muntz.
-- [ ] Cria uma função que substitue o personagem Nelson Muntz pela personagem Maggie Simpson no arquivo simpsonFamily.json.
+- [ ] Cria uma função que substitui o personagem Nelson Muntz pela personagem Maggie Simpson no arquivo simpsonFamily.json.
 
 **Exercício 5**
 - [ ] Cria uma função que lê e escreve vários arquivos ao mesmo tempo.

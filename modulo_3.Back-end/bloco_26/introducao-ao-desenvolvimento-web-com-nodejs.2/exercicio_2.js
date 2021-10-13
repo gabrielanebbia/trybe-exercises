@@ -25,3 +25,11 @@ calculate('g', 5, 5)
 calculate(1, 1, 1)
   .then(resolve => console.log(resolve))
   .catch(error => console.log(error))
+
+function randomNumber() {
+  return Math.floor(Math.random() * 100 + 1);
+}
+
+calculate(randomNumber(), randomNumber(), randomNumber())
+  .then(resolve => console.log(resolve))
+  .catch(error => console.log(error))
