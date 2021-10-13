@@ -3,12 +3,13 @@
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre testes e como testar scripts NodesJS. Revendo os conceitos de testes e os benefícios de escrever testes automatizados. Utilizando três ferramentas bastante populares para testes com NodeJS: Mocha , Chai e Sinon. Além disso, revisitar conceitos importantes como asserts, testes unitários e TDD.
 
+#### Parte 1
 **Exercício 1** 
 Estrutura os testes utilizando mocha e chai para um função que irá dizer se um número é "positivo", "negativo" ou "neutro":
     - Essa função irá recebe um número como parâmetro e retorna uma string como resposta
     - Quando o número passado for maior que 0 retorna "positivo", quando for menor que 0 retorna "negativo" e quando igual a 0 retorna "neutro"
-- [ ] Descreve todos os cenário de teste utilizando describes
-- [ ] Descreve todos os testes que serão feitos utilizando its
+- [x] Descreve todos os cenário de teste utilizando describes
+- [x] Descreve todos os testes que serão feitos utilizando its
 - [ ] Crie as asserções validando se os retornos de cada cenário tem o tipo e o valor esperado
 
 **Exercício 2**
@@ -20,6 +21,7 @@ Adiciona à função um tratamento para casos em que o parâmetro informado não
 - [ ] Adiciona uma asserção para esperar que o valor retornado para esse caso seja igual uma string "o valor deve ser um número"
 - [ ] Implementa a função tal validação para que o teste passe
 
+#### Parte 2
 **Exercício 4** 
 Cria testes para uma função que escreve um conteúdo em um arquivo específico.
     - Essa função recebe dois parâmetros: o nome do arquivo e o conteúdo desse arquivo.
