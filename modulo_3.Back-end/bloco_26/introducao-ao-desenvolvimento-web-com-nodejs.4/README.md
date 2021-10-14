@@ -41,7 +41,7 @@ Cria uma rota POST /greetings
 
 Crie uma rota PUT /users/:name/:age.
 
-- [ ] A rota retorna o seguinte JSON: { "message": "Seu nome é <name> e você tem <age> anos de idade" }
+- [x] A rota retorna o seguinte JSON: { "message": "Seu nome é <name> e você tem <age> anos de idade" }
 
 #### Exercício 5
 
