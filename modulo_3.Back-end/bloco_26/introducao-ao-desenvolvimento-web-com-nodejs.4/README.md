@@ -47,10 +47,10 @@ Crie uma rota PUT /users/:name/:age.
 
 Cria uma API de dados das personagens de Simpsons
 
-- Utiliza o modulo fs do Node para ler/escrever arquivos
-- Caso algum erro ocorra, retorna um código 500 (Internal Server Error)
-- Caso dê tudo certo, a resposta volta com status 200 OK 
-- Para testar a API durante o desenvolvimento, utiliza ferramentas que permitem fazer requisições HTTP, como Postman, Insomnia ou httpie
+- [x] Utiliza o modulo fs do Node para ler/escrever arquivos
+- [x] Caso algum erro ocorra, retorna um código 500 (Internal Server Error)
+- [x] Caso dê tudo certo, a resposta volta com status 200 OK.
+Para testar a API durante o desenvolvimento, utiliza ferramentas que permitem fazer requisições HTTP, como Postman, Insomnia ou httpie
 
 #### Exercício 6
 
