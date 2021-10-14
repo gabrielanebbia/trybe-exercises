@@ -33,9 +33,9 @@ Cria uma rota POST /hello
 
 Cria uma rota POST /greetings
 
-- [ ] A rota recebe o seguinte JSON: { "name": "<nome do usuário>", "age": <idade do usuário> }
-- [ ] Caso a pessoa usuária tenha idade superior a 17 anos, devolve o JSON { "message": "Hello, <nome do usuário>!" } com o status code 200 - OK
-- [ ] Caso a pessoa usuária tenha 17 anos ou menos, devolve o JSON { "message": "Unauthorized" } com o status code 401 - Unauthorized
+- [x] A rota recebe o seguinte JSON: { "name": "<nome do usuário>", "age": <idade do usuário> }
+- [x] Caso a pessoa usuária tenha idade superior a 17 anos, devolve o JSON { "message": "Hello, <nome do usuário>!" } com o status code 200 - OK
+- [x] Caso a pessoa usuária tenha 17 anos ou menos, devolve o JSON { "message": "Unauthorized" } com o status code 401 - Unauthorized
 
 #### Exercício 4
 
