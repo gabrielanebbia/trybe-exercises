@@ -5,3 +5,11 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(cors());
 app.use(bodyParser.json());
+
+app.get('/ping', function(req, res) {
+  res.json({ message: 'pong' })
+;});
+
+app.listen(3001, () => {
+  console.log('Aplicação ouvindo na porta 3001');
+});

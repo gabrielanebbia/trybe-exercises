@@ -20,7 +20,7 @@ Inicia os exercícios criando uma aplicação Node.js com os comandos já aprend
 
 Cria uma rota GET /ping
 
-- [ ] A rota retorna o seguinte JSON: { message: 'pong' }
+- [x] A rota retorna o seguinte JSON: { message: 'pong' }
 
 #### Exercício 2
 
