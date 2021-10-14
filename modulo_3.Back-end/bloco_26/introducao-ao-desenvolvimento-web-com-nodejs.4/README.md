@@ -26,8 +26,8 @@ Cria uma rota GET /ping
 
 Cria uma rota POST /hello
 
-- [ ] A rota recebe, no body da requisição, o seguinte JSON: { "name": "<nome do usuário>" }
-- [ ] A rota retorna o seguinte JSON: { "message": "Hello, <nome do usuário>!" }
+- [x] A rota recebe, no body da requisição, o seguinte JSON: { "name": "<nome do usuário>" }
+- [x] A rota retorna o seguinte JSON: { "message": "Hello, <nome do usuário>!" }
 
 #### Exercício 3
 
