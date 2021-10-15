@@ -8,10 +8,6 @@ app.use(bodyParser.json());
 
 const simpsonsUtils = require('./fs-utils-simpsons');
 
-app.use(function (err, req, res) {
-  res.status(500).send(`Algo deu errado! Mensagem: ${err.message}`);
-});
-
 app.get('/simpsons', function (req, res) {
   const simpsons = simpsonsUtils.getSimpsons();
 

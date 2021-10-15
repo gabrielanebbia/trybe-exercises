@@ -56,7 +56,7 @@ Para testar a API durante o desenvolvimento, utiliza ferramentas que permitem fa
 
 Cria um endpoint GET /simpsons
 
-- [ ] O endpoint retorna um array com todos os simpsons
+- [x] O endpoint retorna um array com todos os simpsons
 
 #### Exercício 7
 
