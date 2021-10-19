@@ -94,7 +94,7 @@ Cria um script que realiza o fatorial de um número n.
 Cria um script que exibe o valor dos n primeiros elementos da sequência de fibonacci.
 A sequência de fibonacci começa com 0 e 1 e os números seguintes são sempre a soma dos dois números anteriores.
 
-- [ ] Armazena o script no arquivo fibonacci.js.
+- [x] Armazena o script no arquivo fibonacci.js.
 - [ ] Utiliza o readline-sync para realizar o input de dados.
 - [ ] O script é acionado através do comando npm run fibonacci.
 - [ ] Adiciona o script ao menu criado no exercício 5.
