@@ -96,7 +96,7 @@ A sequência de fibonacci começa com 0 e 1 e os números seguintes são sempre 
 
 - [x] Armazena o script no arquivo fibonacci.js.
 - [x] Utiliza o readline-sync para realizar o input de dados.
-- [ ] O script é acionado através do comando npm run fibonacci.
+- [x] O script é acionado através do comando npm run fibonacci.
 - [ ] Adiciona o script ao menu criado no exercício 5.
 - [ ] Não imprime o valor 0, uma vez que ele não está incluso na sequência.
 - [ ] Quando n = 10, exatamente 10 elementos são exibidos.
