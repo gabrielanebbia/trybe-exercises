@@ -5,6 +5,7 @@ const scripts = [
   { name: 'Calcular velocidade média', script: './velocidade.js' },
   { name: 'Jogo de adivinhação', script: './sorteio.js' },
   { name: 'Calcular fatorial', script: './fatorial.js' },
+  { name: 'Calcular fibonacci', script: './fibonacci.js' },
 ];
 
 const listScripts = scripts.map((script, index) => `\n ${index + 1} - ${script.name}`);
