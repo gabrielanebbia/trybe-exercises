@@ -4,14 +4,15 @@
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre Node.js, por que utilizá-lo e como criar um script simples com ele.
 
-#### Passo 1:
+#### Passo 1
 
 - [x] Cria um pacote Node.js chamado my-scripts utilizando o comando:
+
 ```
 npm init
 ```
 
-#### Passo 2:
+#### Passo 2
 
 #### Exercício 1
 

@@ -15,6 +15,7 @@ function fibonacci(num) {
       ultimo = result;
     }
   }
+  
   return fibArray;
 }
 
@@ -24,6 +25,7 @@ function getNum() {
   if (num <= 0) return console.log('Digite um número inteiro maior que zero');
 
   console.log(`Número: ${num}`);
+
   fibonacci(num);
 }
 
