@@ -95,7 +95,7 @@ Cria um script que exibe o valor dos n primeiros elementos da sequência de fibo
 A sequência de fibonacci começa com 0 e 1 e os números seguintes são sempre a soma dos dois números anteriores.
 
 - [x] Armazena o script no arquivo fibonacci.js.
-- [ ] Utiliza o readline-sync para realizar o input de dados.
+- [x] Utiliza o readline-sync para realizar o input de dados.
 - [ ] O script é acionado através do comando npm run fibonacci.
 - [ ] Adiciona o script ao menu criado no exercício 5.
 - [ ] Não imprime o valor 0, uma vez que ele não está incluso na sequência.

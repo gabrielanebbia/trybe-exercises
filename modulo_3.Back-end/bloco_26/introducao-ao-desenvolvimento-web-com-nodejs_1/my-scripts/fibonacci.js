@@ -1,3 +1,5 @@
+const readline = require('readline-sync');
+
 function fibonacci(num) {
   let penultimo = 0;
   let ultimo = 1;
@@ -16,4 +18,11 @@ function fibonacci(num) {
   return fibArray;
 }
 
-console.log(fibonacci(10));
+function getNum() {
+  const num = readline.questionInt('Digite um número: ');
+
+  console.log(`Número: ${num}`);
+  fibonacci(num);
+}
+
+getNum();
