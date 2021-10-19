@@ -21,6 +21,8 @@ function fibonacci(num) {
 function getNum() {
   const num = readline.questionInt('Digite um número: ');
 
+  if (num <= 0) return console.log('Digite um número inteiro maior que zero');
+
   console.log(`Número: ${num}`);
   fibonacci(num);
 }
