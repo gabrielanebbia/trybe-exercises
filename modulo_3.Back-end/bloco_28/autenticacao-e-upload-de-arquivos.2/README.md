@@ -20,7 +20,7 @@ npm init @tryber/backend multer-exercises
 
 ### Passo 2
 
-instala o multer acessando a pasta e executando o comando:
+Instala o multer acessando a pasta e executando o comando:
 
 ```
 npm i multer
