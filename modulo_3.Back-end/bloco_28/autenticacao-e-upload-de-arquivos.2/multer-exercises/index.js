@@ -3,12 +3,18 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 
+const multer = require('multer');
+
 const { PORT } = process.env;
 
 const controllers = require('./controllers');
 const middlewares = require('./middlewares');
 
 const app = express();
+
+app.use(express.static(path.resolve(__dirname, 'uploads')));
+
+const upload = multer({ dest: 'uploads' });
 
 app.use(
   cors({
