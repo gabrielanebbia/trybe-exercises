@@ -32,8 +32,8 @@ Cria o endpoint POST /upload
 
 - [x] O endpoint recebe apenas um arquivo no campo file
 - [x] O arquivo é armazenado na pasta uploads
-- [ ] O arquivo armazenado tem o timestamp do upload (obtido com Date.now() ) seguido do nome original do arquivo.
-- [ ] Retorna o status 200 OK se der tudo certo.
+- [x] O arquivo armazenado tem o timestamp do upload (obtido com Date.now()) seguido do nome original do arquivo.
+- [x] Retorna o status 200 OK se der tudo certo.
 
 ### Exercício 2
 

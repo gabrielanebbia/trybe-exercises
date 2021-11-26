@@ -14,7 +14,12 @@ const app = express();
 
 app.use(express.static(path.resolve(__dirname, 'uploads')));
 
-const upload = multer({ dest: 'uploads' });
+const storage = multer.diskStorage({
+  destination: (req, file, callback) => { callback(null, 'uploads') },
+  filename: (req, file, callback) => { callback(null, `${Date.now()}-${file.originalname }`) }
+})
+
+const upload = multer({ storage });
 
 app.use(
   cors({
@@ -27,9 +32,7 @@ app.use(
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.post('/upload', upload.single('file'), (req, res) => {
-  res.status(200).json({ body: req.body, file: req.file });
-});
+app.post('/upload', upload.single('file'), controllers.upload);
 
 app.get('/ping', controllers.ping);
 
