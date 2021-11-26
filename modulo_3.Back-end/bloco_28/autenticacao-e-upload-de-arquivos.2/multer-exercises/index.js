@@ -21,6 +21,10 @@ app.use(
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+app.post('/upload', upload.single('file'), (req, res) => {
+  res.status(200).json({ body: req.body, file: req.file });
+});
+
 app.get('/ping', controllers.ping);
 
 app.use(middlewares.error);

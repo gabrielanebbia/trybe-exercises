@@ -30,7 +30,7 @@ npm i multer
 
 Cria o endpoint POST /upload
 
-- [ ] O endpoint recebe apenas um arquivo no campo file
+- [x] O endpoint recebe apenas um arquivo no campo file
 - [ ] O arquivo é armazenado na pasta uploads
 - [ ] O arquivo armazenado tem o timestamp do upload (obtido com Date.now() ) seguido do nome original do arquivo.
 - [ ] Retorna o status 200 OK se der tudo certo.
