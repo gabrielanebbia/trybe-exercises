@@ -41,8 +41,8 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 
 ## Módulo 2 - Desenvolvimento Front-end
 
-- [ ] _Bloco 11: Introdução à React_
-  - _Projeto Movie Cards Library_
+- [x] _Bloco 11: Introdução à React_
+  - [_Projeto Movie Cards Library_](https://github.com/tryber/sd-011-project-movie-cards-library/pull/97)
 
 - [ ] _Bloco 12: React: Componentes com Estado, Eventos e Formulários_
   - _Projeto Movie Cards Library Stateful_
