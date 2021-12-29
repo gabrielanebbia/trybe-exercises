@@ -7,37 +7,37 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 
 ## Módulo 1 - Fundamentos do Desenvolvimento Web
 
-- [x] _Bloco 1: Introdução - Unix & Shell_ 
+- [x] _Bloco 1: Introdução - Unix & Shell_
 
 - [x] _Bloco 2: Git, GitHub e Internet_
 
 - [x] _Bloco 3: Introdução - HTML & CSS_
-  - _Projeto Lessons Learned_
+  - [_Projeto Lessons Learned_](https://github.com/tryber/sd-011-project-lessons-learned/pull/97)
 
 - [x] _Bloco 4: Introdução à JavaScript e Lógica da Programação_
-  - _Projeto Playground Functions_
+  - [_Projeto Playground Functions_](https://github.com/tryber/sd-011-project-playground-functions/pull/96)
 
 - [x] _Bloco 5: JavaScript: DOM, Eventos e Web Storage_
-  - _Projeto Arte com Pixels_
-  - _Projeto Lista de tarefas_
-  - _Projeto (Bônus) Meme Generator_
-  - _Projeto (Bônus) Adivinhe a Cor_
-  - _Projeto (Bônus) Carta Misteriosa_ 
- 
+  - [_Projeto Arte com Pixels_](https://github.com/tryber/sd-011-project-pixels-art/pull/56)
+  - [_Projeto Lista de tarefas_](https://github.com/tryber/sd-011-project-todo-list/pull/80)
+  - [_Projeto (Bônus) Meme Generator_](https://github.com/tryber/sd-011-project-meme-generator/pull/46)
+  - [_Projeto (Bônus) Adivinhe a Cor_](https://github.com/tryber/sd-011-project-color-guess/pull/34)
+  - [_Projeto (Bônus) Carta Misteriosa_](https://github.com/tryber/sd-011-project-mistery-letter/pull/26)
+
 - [x] _Bloco 6: HTML & CSS avançado - Forms, Flexbox e Responsivo_
-  - _Projeto Trybewarts_
+  - [_Projeto Trybewarts_](https://github.com/tryber/sd-011-project-trybewarts/pull/151)
 
 - [x] _Bloco 7: Introdução ao JavaScript ES6 & Testes Unitários_
-  - _Projeto JavaScript Testes Unitários_
+  - [_Projeto JavaScript Testes Unitários_](https://github.com/tryber/sd-011-project-js-unit-tests/pull/51)
 
 - [x] _Bloco 8: JavaScript ES6: Higher Order Functions_
-  - _Projeto Zoo functions_
+  - [_Projeto Zoo functions_](https://github.com/tryber/sd-011-project-zoo-functions/pull/87)
 
 - [x] _Bloco 9: Assincronicidade, Promises e Callbacks_
-  - _Projeto Carrinho de Compras_
+  - [_Projeto Carrinho de Compras_](https://github.com/tryber/sd-011-project-shopping-cart/pull/72)
 
 - [x] _Bloco 10: Testes Automatizados com Jest_
-  - _Projeto Jest Assíncrono e Mocking_
+  - [_Projeto Jest Assíncrono e Mocking_](https://github.com/tryber/sd-011-project-jest/pull/114)
 
 ## Módulo 2 - Desenvolvimento Front-end
 
