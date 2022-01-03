@@ -50,8 +50,8 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 - [x] _Bloco 13: React: Ciclo de Vida de Componentes e React Router_
   - [_Projeto Movie Cards Library CRUD_](https://github.com/tryber/sd-011-project-movie-card-library-crud/pull/91)
 
-- [ ] _Bloco 14: Metodologias Ágeis_
-  - _Projeto Frontend Online Store_
+- [x] _Bloco 14: Metodologias Ágeis_
+  - [_Projeto Frontend Online Store_](https://github.com/tryber/sd-011-project-frontend-online-store/tree/main-group-12)
 
 - [ ] _Bloco 15: Testes Automatizados com React Testing Library_
   - _Projeto Testes em React_
