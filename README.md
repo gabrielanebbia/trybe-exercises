@@ -82,8 +82,8 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 - [x] _Bloco 23: Introdução - NoSQL - MongoDB_
   - [_Projeto Data Flights_](https://github.com/tryber/sd-011-mongodb-dataflights/pull/92)
 
-- [ ] _Bloco 24: MongoDB: Updates simples e Complexos_
-  - _Projeto Commerce_
+- [x] _Bloco 24: MongoDB: Updates simples e Complexos_
+  - [_Projeto Commerce_](https://github.com/tryber/sd-011-mongodb-commerce/pull/112)
 
 - [ ] _Bloco 25: MongoDB: Aggregation Framework_
   - _Projeto Aggregations_
