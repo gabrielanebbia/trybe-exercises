@@ -41,32 +41,32 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 
 ## Módulo 2 - Desenvolvimento Front-end
 
-- [ ] _Bloco 11: Introdução à React_
-  - _Projeto Movie Cards Library_
+- [x] _Bloco 11: Introdução à React_
+  - [_Projeto Movie Cards Library_](https://github.com/tryber/sd-011-project-movie-cards-library/pull/97)
 
-- [ ] _Bloco 12: React: Componentes com Estado, Eventos e Formulários_
-  - _Projeto Movie Cards Library Stateful_
+- [x] _Bloco 12: React: Componentes com Estado, Eventos e Formulários_
+  - [_Projeto Movie Cards Library Stateful_](https://github.com/tryber/sd-011-project-movie-cards-library-stateful/pull/75)
 
-- [ ] _Bloco 13: React: Ciclo de Vida de Componentes e React Router_
-  - _Projeto Movie Cards Library CRUD_
+- [x] _Bloco 13: React: Ciclo de Vida de Componentes e React Router_
+  - [_Projeto Movie Cards Library CRUD_](https://github.com/tryber/sd-011-project-movie-card-library-crud/pull/91)
 
-- [ ] _Bloco 14: Metodologias Ágeis_
-  - _Projeto Frontend Online Store_
+- [x] _Bloco 14: Metodologias Ágeis_
+  - [_Projeto Frontend Online Store_](https://github.com/tryber/sd-011-project-frontend-online-store/tree/main-group-12)
 
-- [ ] _Bloco 15: Testes Automatizados com React Testing Library_
-  - _Projeto Testes em React_
+- [x] _Bloco 15: Testes Automatizados com React Testing Library_
+  - [_Projeto Testes em React_](https://github.com/tryber/sd-011-project-react-testing-library/pull/52)
 
-- [ ] _Bloco 16: Introdução ao Redux - Gerenciamento de Estado_
-  - _Projeto Tabela com filtros de dados_
+- [x] _Bloco 16: Introdução ao Redux - Gerenciamento de Estado_
+  - [_Projeto Tabela com filtros de dados - Trybe Wallet_](https://github.com/tryber/sd-011-project-trybewallet/pull/118)
 
-- [ ] _Bloco 17:  Projeto em React_
-  - _Projeto Jogo de Trivia_
+- [x] _Bloco 17:  Projeto em React_
+  - [_Projeto Jogo de Trivia_](https://github.com/tryber/sd-011-project-trivia-react-redux/pull/193)
 
-- [ ] _Bloco 18: React, Context API e React Hooks_
-  - _Projeto StarWars Datatable com Context API e Hooks_
+- [x] _Bloco 18: React, Context API e React Hooks_
+  - [_Projeto StarWars Search - Datatable com Context API e Hooks_](https://github.com/tryber/sd-011-project-starwars-planets-search/pull/48)
 
-- [ ] _Bloco 19:  Projeto Final de Front-end_
-  - _Projeto App de Receitas_
+- [x] _Bloco 19:  Projeto Final de Front-end_
+  - [_Projeto App de Receitas_](https://github.com/tryber/sd-011-project-recipes-app/pull/5)
 
 ## Módulo 3 - Desenvolvimento Back-end :hourglass_flowing_sand:
 
