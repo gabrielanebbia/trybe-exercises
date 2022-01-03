@@ -59,8 +59,8 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 - [x] _Bloco 16: Introdução ao Redux - Gerenciamento de Estado_
   - [_Projeto Tabela com filtros de dados - Trybe Wallet_](https://github.com/tryber/sd-011-project-trybewallet/pull/118)
 
-- [ ] _Bloco 17:  Projeto em React_
-  - _Projeto Jogo de Trivia_
+- [x] _Bloco 17:  Projeto em React_
+  - [_Projeto Jogo de Trivia_](https://github.com/tryber/sd-011-project-trivia-react-redux/pull/193)
 
 - [ ] _Bloco 18: React, Context API e React Hooks_
   - _Projeto StarWars Datatable com Context API e Hooks_
