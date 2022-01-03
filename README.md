@@ -88,8 +88,8 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 - [x] _Bloco 25: MongoDB: Aggregation Framework_
   - [_Projeto Aggregations_](https://github.com/tryber/sd-011-mongodb-aggregations/pull/74)
 
-- [ ] _Bloco 26: Introdução ao desenvolvimento WEB com NodeJS_
-  - _Projeto Talker Manager_
+- [x] _Bloco 26: Introdução ao desenvolvimento WEB com NodeJS_
+  - [_Projeto Talker Manager_](https://github.com/tryber/sd-011-project-talker-manager/pull/104)
 
 - [ ] _Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful_
   - _Projeto Store Manager_
