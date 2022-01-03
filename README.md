@@ -56,8 +56,8 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 - [x] _Bloco 15: Testes Automatizados com React Testing Library_
   - [_Projeto Testes em React_](https://github.com/tryber/sd-011-project-react-testing-library/pull/52)
 
-- [ ] _Bloco 16: Introdução ao Redux - Gerenciamento de Estado_
-  - _Projeto Tabela com filtros de dados_
+- [x] _Bloco 16: Introdução ao Redux - Gerenciamento de Estado_
+  - [_Projeto Tabela com filtros de dados - Trybe Wallet_](https://github.com/tryber/sd-011-project-trybewallet/pull/118)
 
 - [ ] _Bloco 17:  Projeto em React_
   - _Projeto Jogo de Trivia_
