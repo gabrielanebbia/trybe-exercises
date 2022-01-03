@@ -76,8 +76,8 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 - [x] _Bloco 21: Bancos de dados relacionais - Funções SQL, Joins e Subqueries_
   - [_Projeto Vocabulary Booster_](https://github.com/tryber/sd-011-mysql-vocabulary-booster/pull/59)
 
-- [ ] _Bloco 22: Bancos de dados relacionais - Normalização e Modelagem de Bancos de Dados_
-  - _Projeto One For All_
+- [x] _Bloco 22: Bancos de dados relacionais - Normalização e Modelagem de Bancos de Dados_
+  - [_Projeto One For All_](https://github.com/tryber/sd-011-mysql-one-for-all/pull/90)
 
 - [ ] _Bloco 23: Introdução - NoSQL - MongoDB_
   - _Projeto Data Flights_
