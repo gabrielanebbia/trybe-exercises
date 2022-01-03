@@ -79,8 +79,8 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 - [x] _Bloco 22: Bancos de dados relacionais - Normalização e Modelagem de Bancos de Dados_
   - [_Projeto One For All_](https://github.com/tryber/sd-011-mysql-one-for-all/pull/90)
 
-- [ ] _Bloco 23: Introdução - NoSQL - MongoDB_
-  - _Projeto Data Flights_
+- [x] _Bloco 23: Introdução - NoSQL - MongoDB_
+  - [_Projeto Data Flights_](https://github.com/tryber/sd-011-mongodb-dataflights/pull/92)
 
 - [ ] _Bloco 24: MongoDB: Updates simples e Complexos_
   - _Projeto Commerce_
