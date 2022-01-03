@@ -65,8 +65,8 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 - [x] _Bloco 18: React, Context API e React Hooks_
   - [_Projeto StarWars Search - Datatable com Context API e Hooks_](https://github.com/tryber/sd-011-project-starwars-planets-search/pull/48)
 
-- [ ] _Bloco 19:  Projeto Final de Front-end_
-  - _Projeto App de Receitas_
+- [x] _Bloco 19:  Projeto Final de Front-end_
+  - [_Projeto App de Receitas_](https://github.com/tryber/sd-011-project-recipes-app/pull/5)
 
 ## Módulo 3 - Desenvolvimento Back-end :hourglass_flowing_sand:
 
