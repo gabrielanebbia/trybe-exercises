@@ -70,8 +70,8 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 
 ## Módulo 3 - Desenvolvimento Back-end :hourglass_flowing_sand:
 
-- [ ] _Bloco 20: Introdução - Bancos de dados relacionais - SQL_
-  - _Projeto All For One_
+- [x] _Bloco 20: Introdução - Bancos de dados relacionais - SQL_
+  - [_Projeto All For One_](https://github.com/tryber/sd-011-project-mysql-all-for-one/pull/99)
 
 - [ ] _Bloco 21: Bancos de dados relacionais - Funções SQL, Joins e Subqueries_
   - _Projeto Vocabulary Booster_
