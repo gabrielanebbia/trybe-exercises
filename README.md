@@ -91,8 +91,8 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 - [x] _Bloco 26: Introdução ao desenvolvimento WEB com NodeJS_
   - [_Projeto Talker Manager_](https://github.com/tryber/sd-011-project-talker-manager/pull/104)
 
-- [ ] _Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful_
-  - _Projeto Store Manager_
+- [x] _Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful_
+  - [_Projeto Store Manager_](https://github.com/tryber/sd-011-store-manager/pull/103)
 
 - [ ] _Bloco 28: NodeJS: Autenticação e Upload de Arquivos_
   - _Projeto Cookmaster_
