@@ -70,35 +70,36 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 
 ## Módulo 3 - Desenvolvimento Back-end :hourglass_flowing_sand:
 
-- [ ] _Bloco 20: Introdução - Bancos de dados relacionais - SQL_
-  - _Projeto All For One_
+- [x] _Bloco 20: Introdução - Bancos de dados relacionais - SQL_
+  - [_Projeto All For One_](https://github.com/tryber/sd-011-project-mysql-all-for-one/pull/99)
 
-- [ ] _Bloco 21: Bancos de dados relacionais - Funções SQL, Joins e Subqueries_
-  - _Projeto Vocabulary Booster_
+- [x] _Bloco 21: Bancos de dados relacionais - Funções SQL, Joins e Subqueries_
+  - [_Projeto Vocabulary Booster_](https://github.com/tryber/sd-011-mysql-vocabulary-booster/pull/59)
 
-- [ ] _Bloco 22: Bancos de dados relacionais - Normalização e Modelagem de Bancos de Dados_
-  - _Projeto One For All_
+- [x] _Bloco 22: Bancos de dados relacionais - Normalização e Modelagem de Bancos de Dados_
+  - [_Projeto One For All_](https://github.com/tryber/sd-011-mysql-one-for-all/pull/90)
 
-- [ ] _Bloco 23: Introdução - NoSQL - MongoDB_
-  - _Projeto Data Flights_
+- [x] _Bloco 23: Introdução - NoSQL - MongoDB_
+  - [_Projeto Data Flights_](https://github.com/tryber/sd-011-mongodb-dataflights/pull/92)
 
-- [ ] _Bloco 24: MongoDB: Updates simples e Complexos_
-  - _Projeto Commerce_
+- [x] _Bloco 24: MongoDB: Updates simples e Complexos_
+  - [_Projeto Commerce_](https://github.com/tryber/sd-011-mongodb-commerce/pull/112)
 
-- [ ] _Bloco 25: MongoDB: Aggregation Framework_
-  - _Projeto Aggregations_
+- [x] _Bloco 25: MongoDB: Aggregation Framework_
+  - [_Projeto Aggregations_](https://github.com/tryber/sd-011-mongodb-aggregations/pull/74)
 
-- [ ] _Bloco 26: Introdução ao desenvolvimento WEB com NodeJS_
-  - _Projeto Talker Manager_
+- [x] _Bloco 26: Introdução ao desenvolvimento WEB com NodeJS_
+  - [_Projeto Talker Manager_](https://github.com/tryber/sd-011-project-talker-manager/pull/104)
 
-- [ ] _Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful_
-  - _Projeto Store Manager_
+- [x] _Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful_
+  - [_Projeto Store Manager_](https://github.com/tryber/sd-011-store-manager/pull/103)
 
-- [ ] _Bloco 28: NodeJS: Autenticação e Upload de Arquivos_
-  - _Projeto Cookmaster_
+- [x] _Bloco 28: NodeJS: Autenticação e Upload de Arquivos_
+  - [_Projeto Cookmaster_](https://github.com/tryber/sd-012-cookmaster/pull/50)
 
-- [ ] _Bloco 29: NodeJS: Introdução Deployment_
-  - _Projeto Stranger Things_
+- [x] _Bloco 29: NodeJS: Introdução Deployment_
+  - [_Projeto Stranger Things - Back End_](https://github.com/tryber/sd-012-stranger-things-backend/pull/103)
+  - [_Projeto Stranger Things - Front End_](https://github.com/tryber/sd-012-stranger-things-frontend/pull/91)
 
 - [ ] _Bloco 30: Arquitetura de Software: SOLID e ORM_
   - _Projeto API de Blogs_
