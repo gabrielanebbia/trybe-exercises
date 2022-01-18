@@ -24,10 +24,13 @@ function findById(id) {
       })
       .then((simpsons) => {
         const result = simpsons.find(item => Number(item.id) === id);
-        if(!result) {
+        if (!result) {
           reject('id não encontrado');
-        }    
+        }
         resolve(console.log(result));
+      })
+      .catch((err) => {
+        console.error(err.message);
       })
   });
 }
@@ -43,14 +46,16 @@ function deleteSimpsons() {
       })
       .then((simpsons) => {
         const result = simpsons.filter(item => item.id !== '10' && item.id !== '6');
-        if(!result) {
+        if (!result) {
           reject('id não encontrado');
-        }    
+        }
         resolve(fs.writeFile('./simpsons.json', JSON.stringify(result)));
+      })
+      .catch((err) => {
+        console.error(err.message);
       })
   });
 }
-
 deleteSimpsons();
 
 // 4.4
@@ -62,10 +67,13 @@ function createSimpsonsFamily() {
       })
       .then((simpsons) => {
         const result = simpsons.filter(item => [1, 2, 3, 4].includes(item.id));
-        if(!result) {
+        if (!result) {
           reject('id não encontrado');
-        }     
+        }
         resolve(fs.writeFile('./simpsonsFamily.json', JSON.stringify(result)));
+      })
+      .catch((err) => {
+        console.error(err.message);
       })
   });
 }
