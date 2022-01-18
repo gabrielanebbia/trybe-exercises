@@ -1,7 +1,7 @@
 // 4.1
 const fs = require('fs').promises;
 
-fs.readFile('./simpsons.json', 'utf8')
+/* fs.readFile('./simpsons.json', 'utf8')
   .then((data) => {
     return JSON.parse(data);
   })
@@ -78,4 +78,31 @@ function createSimpsonsFamily() {
       })
   });
 }
-createSimpsonsFamily();
+createSimpsonsFamily(); */
+
+// 4.5
+function addNewSimpsons() {
+  return new Promise((resolve, reject) => {
+    fs.readFile('./simpsonsFamily.json', 'utf8')
+      .then((data) => {
+        return JSON.parse(data);
+      })
+      .then((simpsonsFamily) => {
+        if (!simpsonsFamily) {
+          reject('simpsons não encontrados');
+        }
+        simpsonsFamily.push(
+          { 
+            "id": "8",
+            "name": "Nelson Muntz"
+          }
+        );
+        const newFile = fs.writeFile('./simpsonsFamily.json', JSON.stringify(simpsonsFamily));
+        resolve(newFile);
+      })
+      .catch((err) => {
+        console.error(err.message);
+      })
+  });
+}
+addNewSimpsons();
