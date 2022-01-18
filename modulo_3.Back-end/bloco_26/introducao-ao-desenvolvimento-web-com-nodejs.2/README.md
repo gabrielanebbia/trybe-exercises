@@ -34,7 +34,7 @@ Utilizando o arquivo simpsons.json realiza os requisitos abaixo:
 - [x] 3. Cria uma função que altera o arquivo simpsons.json retirando os personagens com id 10 e 6.
 - [x] 4. Cria uma função que leia o arquivo simpsons.json e cria um novo arquivo, chamado simpsonFamily.json, contendo as personagens com id de 1 a 4.
 - [x] 5. Cria uma função que adiciona ao arquivo simpsonFamily.json o personagem Nelson Muntz.
-- [ ] 6. Cria uma função que substitui o personagem Nelson Muntz pela personagem Maggie Simpson no arquivo simpsonFamily.json.
+- [x] 6. Cria uma função que substitui o personagem Nelson Muntz pela personagem Maggie Simpson no arquivo simpsonFamily.json.
 
 Exercício 5
 

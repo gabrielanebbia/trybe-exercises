@@ -78,7 +78,7 @@ function createSimpsonsFamily() {
       })
   });
 }
-createSimpsonsFamily(); */
+createSimpsonsFamily();
 
 // 4.5
 function addNewSimpsons() {
@@ -105,4 +105,34 @@ function addNewSimpsons() {
       })
   });
 }
-addNewSimpsons();
+addNewSimpsons(); */
+
+// 4.6
+function changeSimpsons() {
+  return new Promise((resolve, reject) => {
+    fs.readFile('./simpsonsFamily.json', 'utf8')
+      .then((data) => {
+        return JSON.parse(data);
+      })
+      .then((simpsonsFamily) => {
+        const simpsonsWithoutNelson = simpsonsFamily.filter(item => item.name !== 'Nelson Muntz');
+        if (!simpsonsWithoutNelson) {
+          reject('name não encontrado');
+        }
+        simpsonsWithoutNelson.concat(
+          [
+            {
+              id: '8',
+              name: 'Maggie Simpson'
+            }
+          ]
+        )
+        const newFamily = fs.writeFile('./simpsonsFamily.json', JSON.stringify(simpsonsWithoutNelson));
+        resolve(newFamily);
+      })
+      .catch((err) => {
+        console.error(err.message);
+      })
+  });
+}
+changeSimpsons();
