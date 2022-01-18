@@ -66,11 +66,12 @@ function createSimpsonsFamily() {
         return JSON.parse(data);
       })
       .then((simpsons) => {
-        const result = simpsons.filter(item => [1, 2, 3, 4].includes(item.id));
+        const result = simpsons.filter(item => item.id < 5);
         if (!result) {
           reject('id não encontrado');
         }
-        resolve(fs.writeFile('./simpsonsFamily.json', JSON.stringify(result)));
+        const newFile = fs.writeFile('./simpsonsFamily.json', JSON.stringify(result));
+        resolve(newFile);
       })
       .catch((err) => {
         console.error(err.message);
