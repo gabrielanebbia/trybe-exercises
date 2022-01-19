@@ -21,11 +21,11 @@ O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendi
 a. Caso a Promise seja rejeitada, escreve na tela o motivo da rejeição.
 b. Caso a Promise seja resolvida, escreve na tela o resultado do cálculo.
 
-Exercício 3
+#### Exercício 3
 
 - [x] Reescreve o código do exercício anterior para que utilize async/await.
 
-Exercício 4
+#### Exercício 4
 
 Utilizando o arquivo simpsons.json realiza os requisitos abaixo:
 
@@ -36,7 +36,7 @@ Utilizando o arquivo simpsons.json realiza os requisitos abaixo:
 - [x] 5. Cria uma função que adiciona ao arquivo simpsonFamily.json o personagem Nelson Muntz.
 - [x] 6. Cria uma função que substitui o personagem Nelson Muntz pela personagem Maggie Simpson no arquivo simpsonFamily.json.
 
-Exercício 5
+#### Exercício 5
 
 Cria uma função que lê e escreve vários arquivos ao mesmo tempo, utilizando o Promise.all.
 
