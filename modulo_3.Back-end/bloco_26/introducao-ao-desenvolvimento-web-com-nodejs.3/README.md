@@ -26,7 +26,7 @@ Adiciona à função um tratamento para casos em que o parâmetro informado não
 
 - [x] Adiciona o cenário no arquivo de testes onde o valor passado é diferente de Number
 - [x] Adiciona uma asserção para esperar que o valor retornado para esse caso seja igual uma string "o valor deve ser um número"
-- [ ] Implementa a função tal validação para que o teste passe
+- [x] Implementa a função tal validação para que o teste passe
 
 ### `Parte 2`
 
@@ -36,9 +36,9 @@ Cria testes para uma função que escreve um conteúdo em um arquivo específico
     - Essa função recebe dois parâmetros: o nome do arquivo e o conteúdo desse arquivo.
     - Após concluir a escrita do arquivo ela retorna um ok
 
-- [ ] Descreve todos os cenários de teste utilizando describes
-- [ ] Descreve todos os testes que serão feitos utilizando its
-- [ ] Cria as asserções validando se o retorno da função possui o valor e tipo esperado
+- [x] Descreve todos os cenários de teste utilizando describes
+- [x] Descreve todos os testes que serão feitos utilizando its
+- [x] Cria as asserções validando se o retorno da função possui o valor e tipo esperado
 
 ### Exercício 5 - função
 
