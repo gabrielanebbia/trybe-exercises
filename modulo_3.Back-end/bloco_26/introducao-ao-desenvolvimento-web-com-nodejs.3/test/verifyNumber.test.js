@@ -1,8 +1,8 @@
 const { expect } = require('chai');
-const verifyNumber = require('./verifyNumber');
+const verifyNumber = require('../verifyNumber');
 
 describe('Executa a função verifyNumber', () => {
-  describe('quando o número for maior que zero', () => {
+  describe('1 - Quando o número for maior que zero', () => {
     describe('a resposta', () => {
       it('é uma "string"', () => {
         const resposta = verifyNumber(1);
@@ -18,7 +18,7 @@ describe('Executa a função verifyNumber', () => {
     });
   });
 
-  describe('quando o número for menor que zero', () => {
+  describe('2 - Quando o número for menor que zero', () => {
     describe('a resposta', () => {
       it('é uma "string"', () => {
         const resposta = verifyNumber(-1);
@@ -34,7 +34,7 @@ describe('Executa a função verifyNumber', () => {
     });
   });
 
-  describe('quando o número for igual a zero', () => {
+  describe('3 - Quando o número for igual a zero', () => {
     describe('a resposta', () => {
       it('é uma "string"', () => {
         const resposta = verifyNumber(0);
