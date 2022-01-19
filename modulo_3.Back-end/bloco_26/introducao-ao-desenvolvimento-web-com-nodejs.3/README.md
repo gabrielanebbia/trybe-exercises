@@ -44,6 +44,6 @@ Cria testes para uma função que escreve um conteúdo em um arquivo específico
 
 Implementa a função descrita no exercício 4.
 
-- [ ] Cria a função descrita no exercício 4 utilizando o módulo fs do node.
-- [ ] Adapta os testes adicionando stub ao módulo utilizado do fs, isolando assim o teste.
-- [ ] Garante que todos os testes escritos no exercício 4 passam com sucesso
+- [x] Cria a função descrita no exercício 4 utilizando o módulo fs do node.
+- [x] Adapta os testes adicionando stub ao módulo utilizado do fs, isolando assim o teste.
+- [x] Garante que todos os testes escritos no exercício 4 passam com sucesso
