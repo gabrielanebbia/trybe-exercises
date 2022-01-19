@@ -50,3 +50,13 @@ describe('Executa a função verifyNumber', () => {
     });
   });
 });
+
+describe('4 - Quando o parâmetro não for um número', () => {
+  describe('a resposta', () => {
+    it('é uma "string"', () => {
+      const resposta = verifyNumber('abc');
+
+      expect(resposta).to.be.a('string');
+    });
+  });
+});
