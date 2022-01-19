@@ -58,5 +58,11 @@ describe('4 - Quando o parâmetro não for um número', () => {
 
       expect(resposta).to.be.a('string');
     });
+
+    it('é igual a "o valor deve ser um número"', () => {
+      const resposta = verifyNumber('abc');
+
+      expect(resposta).to.be.equals('o valor deve ser um número');
+    });
   });
 });

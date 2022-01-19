@@ -25,7 +25,7 @@ Estrutura os testes utilizando mocha e chai para um função que irá dizer se u
 Adiciona à função um tratamento para casos em que o parâmetro informado não seja do tipo Number.
 
 - [x] Adiciona o cenário no arquivo de testes onde o valor passado é diferente de Number
-- [ ] Adiciona uma asserção para esperar que o valor retornado para esse caso seja igual uma string "o valor deve ser um número"
+- [x] Adiciona uma asserção para esperar que o valor retornado para esse caso seja igual uma string "o valor deve ser um número"
 - [ ] Implementa a função tal validação para que o teste passe
 
 ### `Parte 2`
