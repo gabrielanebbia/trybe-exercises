@@ -38,7 +38,7 @@ Utilizando o arquivo simpsons.json realiza os requisitos abaixo:
 
 Exercício 5
 
-- [ ] Cria uma função que lê e escreve vários arquivos ao mesmo tempo.
-  - Utiliza o Promise.all para manipular vários arquivos ao mesmo tempo.
-  - Dado o seguinte array de strings: ['Finalmente', 'estou', 'usando', 'Promise.all', '!!!'] faz com que sua função crie um arquivo contendo cada string, sendo o nome de cada arquivo igual a file<index + 1>.txt. Por exemplo, para a string "Finalmente", o nome do arquivo é file1.txt.
-  - Programa a função para que ela faça a leitura de todos os arquivos criados no item anterior, armazena essa informação e escreva em um arquivo chamado fileAll.txt.
+Cria uma função que lê e escreve vários arquivos ao mesmo tempo, utilizando o Promise.all.
+
+- [x] Dado o seguinte array de strings: ['Finalmente', 'estou', 'usando', 'Promise.all', '!!!'] faz uma função que cria um arquivo contendo cada string, sendo o nome de cada arquivo igual a file<index + 1>.txt.
+- [x] Programa a função para que ela faça a leitura de todos os arquivos criados no item anterior, armazena essa informação e escreve-a em um arquivo chamado fileAll.txt.
