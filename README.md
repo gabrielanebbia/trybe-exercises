@@ -101,11 +101,11 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
   - [_Projeto Stranger Things - Back End_](https://github.com/tryber/sd-012-stranger-things-backend/pull/103)
   - [_Projeto Stranger Things - Front End_](https://github.com/tryber/sd-012-stranger-things-frontend/pull/91)
 
-- [ ] _Bloco 30: Arquitetura de Software: SOLID e ORM_
-  - _Projeto API de Blogs_
+- [x] _Bloco 30: Arquitetura de Software: SOLID e ORM_
+  - [_Projeto API de Blogs_](https://github.com/tryber/sd-012-project-blogs-api/pull/31)
 
-- [ ] _Bloco 31: Arquitetura de Software: Sockets_
-  - _Projeto Webchat_
+- [x] _Bloco 31: Arquitetura de Software: Sockets_
+  - [_Projeto Webchat_](https://github.com/tryber/sd-012-project-webchat/pull/79)
 
 - [ ] _Bloco 32: Arquitetura de Software: Projeto_
   - _Projeto App de Delivery_
