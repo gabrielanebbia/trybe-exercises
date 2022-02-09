@@ -3,6 +3,7 @@
 ### Este repositório contém todas as atividades de aprendizagem desenvolvidas por mim enquanto estudante da [Trybe](https://www.betrybe.com/formacao-desenvolvimento-web) :computer: :books:
 
 # Curso de Desenvolvimento Web da Trybe
+
 O programa do curso conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
 ## Módulo 1 - Fundamentos do Desenvolvimento Web
@@ -68,7 +69,7 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 - [x] _Bloco 19:  Projeto Final de Front-end_
   - [_Projeto App de Receitas_](https://github.com/tryber/sd-011-project-recipes-app/pull/5)
 
-## Módulo 3 - Desenvolvimento Back-end :hourglass_flowing_sand:
+## Módulo 3 - Desenvolvimento Back-end
 
 - [x] _Bloco 20: Introdução - Bancos de dados relacionais - SQL_
   - [_Projeto All For One_](https://github.com/tryber/sd-011-project-mysql-all-for-one/pull/99)
@@ -107,8 +108,8 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 - [x] _Bloco 31: Arquitetura de Software: Sockets_
   - [_Projeto Webchat_](https://github.com/tryber/sd-012-project-webchat/pull/79)
 
-- [ ] _Bloco 32: Arquitetura de Software: Projeto_
-  - _Projeto App de Delivery_
+- [x] _Bloco 32: Arquitetura de Software: Projeto_
+  - [_Projeto App de Delivery_](https://github.com/tryber/sd-012-project-delivery-app/pull/68)
 
 ## Módulo 4 - Ciência da Computação :hourglass_flowing_sand:
 
