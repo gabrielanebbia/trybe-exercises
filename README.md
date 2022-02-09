@@ -3,6 +3,7 @@
 ### Este repositório contém todas as atividades de aprendizagem desenvolvidas por mim enquanto estudante da [Trybe](https://www.betrybe.com/formacao-desenvolvimento-web) :computer: :books:
 
 # Curso de Desenvolvimento Web da Trybe
+
 O programa do curso conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
 ## Módulo 1 - Fundamentos do Desenvolvimento Web
