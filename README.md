@@ -68,7 +68,7 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 - [x] _Bloco 19:  Projeto Final de Front-end_
   - [_Projeto App de Receitas_](https://github.com/tryber/sd-011-project-recipes-app/pull/5)
 
-## Módulo 3 - Desenvolvimento Back-end :hourglass_flowing_sand:
+## Módulo 3 - Desenvolvimento Back-end
 
 - [x] _Bloco 20: Introdução - Bancos de dados relacionais - SQL_
   - [_Projeto All For One_](https://github.com/tryber/sd-011-project-mysql-all-for-one/pull/99)
