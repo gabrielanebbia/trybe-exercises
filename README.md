@@ -107,8 +107,8 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
 - [x] _Bloco 31: Arquitetura de Software: Sockets_
   - [_Projeto Webchat_](https://github.com/tryber/sd-012-project-webchat/pull/79)
 
-- [ ] _Bloco 32: Arquitetura de Software: Projeto_
-  - _Projeto App de Delivery_
+- [x] _Bloco 32: Arquitetura de Software: Projeto_
+  - [_Projeto App de Delivery_](https://github.com/tryber/sd-012-project-delivery-app/pull/68)
 
 ## Módulo 4 - Ciência da Computação :hourglass_flowing_sand:
 
