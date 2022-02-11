@@ -26,4 +26,4 @@ Considerando que a cobertura da tinta é de 1 litro para cada 3 metros quadrados
 
 ### Exercício 6
 
-- [ ] Cria uma função que recebe os três lado de um triângulo e informa qual o tipo de triângulo formado ou "não é triangulo", caso não seja possível formar um triângulo.
+- [x] Cria uma função que recebe os três lado de um triângulo e informa qual o tipo de triângulo formado ou "não é triangulo", caso não seja possível formar um triângulo.
