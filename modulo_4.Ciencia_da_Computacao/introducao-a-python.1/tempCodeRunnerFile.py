@@ -1,6 +1,8 @@
-def square(n):
-    size = range(n)
-    for row in size:
-        print(n * '*')
+def get_biggest_word(name_list):
+    biggest_word = ''
+    for name in name_list:
+        if len(name) > len(biggest_word):
+            biggest_word = name
+    return biggest_word
 
-print(square(5))
+print(get_biggest_word(["nome", "lista", "palavra"]))
