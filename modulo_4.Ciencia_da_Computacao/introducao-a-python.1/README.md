@@ -16,7 +16,7 @@
 
 ### Exercício 4
 
-- [ ] Cria uma função que recebe uma lista de nomes e retorna o nome com a maior quantidade de caracteres.
+- [x] Cria uma função que recebe uma lista de nomes e retorna o nome com a maior quantidade de caracteres.
 
 ### Exercício 5
 
