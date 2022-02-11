@@ -4,15 +4,15 @@
 
 ### Exercício 1
 
-- [ ] Cria uma função que recebe dois números e retorna o maior deles.
+- [x] Cria uma função que recebe dois números e retorna o maior deles.
 
 ### Exercício 2
 
-- [ ] Calcula a média aritmética dos valores contidos em uma lista.
+- [x] Calcula a média aritmética dos valores contidos em uma lista.
 
 ### Exercício 3
 
-- [ ] Faz um programa que, dado um valor n qualquer, tal que n > 1 , imprime na tela um quadrado feito de asteriscos de lado de tamanho n.
+- [x] Faz um programa que, dado um valor n qualquer, tal que n > 1, imprime na tela um quadrado feito de asteriscos de lado de tamanho n.
 
 ### Exercício 4
 

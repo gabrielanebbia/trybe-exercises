@@ -15,3 +15,12 @@ def average(list):
     for number in list:
         sum += number
     return sum / len(list)
+
+
+""" Exercício 3 """
+
+
+def square(n):
+    size = range(n)
+    for row in size:
+        print(n * '*')
