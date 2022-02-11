@@ -1,6 +1,8 @@
-# Bloco 33 - Introdução à Python
+### `Bloco 33 - Introdução à Python`
 
-## Dia 1 - Aprendendo Python
+### `Dia 1 - Aprendendo Python`
+
+O objetivo dos exercícios desse dia foi colocar em prática os primeiros aprendizados sobre a linguagem de programação Python.
 
 ### Exercício 1
 
@@ -26,4 +28,4 @@ Considerando que a cobertura da tinta é de 1 litro para cada 3 metros quadrados
 
 ### Exercício 6
 
-- [x] Cria uma função que recebe os três lado de um triângulo e informa qual o tipo de triângulo formado ou "não é triangulo", caso não seja possível formar um triângulo.
+- [x] Cria uma função que recebe os três lado de um triângulo e informa qual o tipo de triângulo formado ou "não é triângulo", caso não seja possível formar um triângulo.
