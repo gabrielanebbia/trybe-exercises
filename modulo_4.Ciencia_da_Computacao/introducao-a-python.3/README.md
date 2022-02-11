@@ -2,6 +2,10 @@
 
 ## Dia 3 - Testes
 
+### Exercícios
+
+Em todos os exercícios, os problemas foram resolvidos com testes automatizados (ao menos 4 por exercício) e prevenindo possíveis erros na entrada de dados e na execução do programa.
+
 ### Exercício 1
 
 - [ ] Escreve um programa que retorna uma lista com os valores numéricos de 1 a N
