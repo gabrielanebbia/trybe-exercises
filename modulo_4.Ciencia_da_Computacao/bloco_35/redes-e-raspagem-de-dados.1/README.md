@@ -19,8 +19,8 @@ Utilizando um server HTTP e a ferramenta cURL para realizar uma chamada.
 
 Ainda utilizando o cURL para explorar mais alguns conceitos do HTTP:
 
-- [ ] Faz uma chamada GET, utilizando o cURL, para "google.com"
-- [ ] Faz uma nova chamada a "google.com", porém agora utilizando o parâmetro -L ou --location , que serve para "seguir redirecionamentos"
+- [x] Faz uma chamada GET, utilizando o cURL, para "google.com"
+- [x] Faz uma nova chamada a "google.com", porém agora utilizando o parâmetro -L ou --location , que serve para "seguir redirecionamentos"
 
 #### Exercício 3
 
