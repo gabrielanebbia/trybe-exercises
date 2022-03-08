@@ -4,21 +4,23 @@
 
 ### Exercícios do dia
 
+O objetivo dos exercícios foi testar requisições utilizando [comandos curl](https://curl.se/docs/), ferramenta de linha de comando que permite lidar com transferência de dados por meio de diferentes protocolos.
+
 #### Exercício 1
 
 Utilizando um server HTTP e a ferramenta cURL para realizar uma chamada.
-O projeto tem rotas GET e POST, para que seja possível enviar requisições para os endpoints e receber respostas.
 
-- [ ] Faz uma chamada GET, utilizando o cURL.
-- [ ] Faz uma chamada POST, utilizando o cURL, passando um JSON no body da requisição.
-- [ ] Faz uma chamada qualquer, utilizando o cURL, passando um header na requisição.
+- [ ] Cria um projeto com as rotas GET e POST, para que seja possível enviar requisições para os endpoints e receber respostas.
+- [ ] Faz uma chamada GET, utilizando o cURL
+- [ ] Faz uma chamada POST, utilizando o cURL, passando um JSON no body da requisição
+- [ ] Faz uma chamada qualquer, utilizando o cURL, passando um header na requisição
 
 #### Exercício 2
 
 Ainda utilizando o cURL para explorar mais alguns conceitos do HTTP:
 
-- [ ] Faz uma chamada GET, utilizando o cURL, para "google.com".
-- [ ] Faz uma nova chamada a "google.com", porém agora utilizando o parâmetro -L ou --location , que serve para "seguir redirecionamentos".
+- [ ] Faz uma chamada GET, utilizando o cURL, para "google.com"
+- [ ] Faz uma nova chamada a "google.com", porém agora utilizando o parâmetro -L ou --location , que serve para "seguir redirecionamentos"
 
 #### Exercício 3
 
@@ -26,7 +28,6 @@ Utilizando o wget:
 
 - [ ] Pega o conteúdo da página do site da [Trybe](https://www.betrybe.com)
 - [ ] Depois abre o arquivo HTML baixado no navegador
-- [ ] Faz o mesmo processo com outras páginas web
 
 #### Exercício 4
 
