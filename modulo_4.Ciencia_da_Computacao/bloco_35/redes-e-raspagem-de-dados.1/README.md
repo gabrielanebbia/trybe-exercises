@@ -2,7 +2,7 @@
 
 ## `Dia 1 - Arquitetura de redes`
 
-### Exercícios
+### Exercícios do dia
 
 #### Exercício 1
 
@@ -15,7 +15,58 @@ O projeto tem rotas GET e POST, para que seja possível enviar requisições par
 
 #### Exercício 2
 
-Ainda utilizando o cURL para explorar mais alguns conceitos do HTTP.
+Ainda utilizando o cURL para explorar mais alguns conceitos do HTTP:
 
 - [ ] Faz uma chamada GET, utilizando o cURL, para "google.com".
 - [ ] Faz uma nova chamada a "google.com", porém agora utilizando o parâmetro -L ou --location , que serve para "seguir redirecionamentos".
+
+#### Exercício 3
+
+Utilizando o wget:
+
+- [ ] Pega o conteúdo da página do site da [Trybe](https://www.betrybe.com)
+- [ ] Depois abre o arquivo HTML baixado no navegador
+- [ ] Faz o mesmo processo com outras páginas web
+
+#### Exercício 4
+
+Na camada de transporte:
+
+Cria um servidor TCP usando o módulo socketserver que já vem embutido com o Python que:
+
+- [ ] Responde com um "Olá, client", logo quando estabelece uma conexão
+- [ ] Imprime no console todo dado recebido
+- [ ] Responde com os dados recebidos (como um eco)
+- [ ] Utiliza a porta 8085
+
+#### Exercício 5
+
+Utilizando o comando telnet ou o Netcat(nc):
+
+- [ ] Conecta no server do exercício anterior e envia informações. O server deverá imprime as mensagens enviadas no console.
+- [ ] Para o servidor e verifica o que acontece com a conexão que estava aberta com o comando telnet ou nc.
+
+#### Exercício 6
+
+Reinicia o servidor TCP e faz uma requisição utilizando o cURL (HTTP) que:
+
+- [ ] Retorna o que é exibido no console do server
+
+#### Exercício 7
+
+Para explorar outro protocolo de transporte cria um servidor UDP usando o mesmo módulo socketserver.
+
+O servidor UDP:
+
+- [ ] Imprime no console toda mensagem recebida
+- [ ] Responde com os dados recebidos (como um eco).
+- [ ] Utiliza a porta 8084.
+
+#### Exercício 8
+
+- [ ] Envia pacotes para o servidor UDP utilizando o Netcat(nc).
+- [ ] Em seguida para o servidor e e verifica a conexão no sentido do client
+
+#### Exercício 9
+
+- [ ] Faz uma chamada ao server utilizando o cURL
