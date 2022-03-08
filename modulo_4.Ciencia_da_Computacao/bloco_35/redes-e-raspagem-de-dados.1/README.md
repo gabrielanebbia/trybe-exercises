@@ -10,7 +10,7 @@ O objetivo dos exercícios foi testar requisições utilizando [comandos curl](h
 
 Utilizando um server HTTP e a ferramenta cURL para realizar uma chamada.
 
-- [ ] Cria um projeto com as rotas GET e POST, para que seja possível enviar requisições para os endpoints e receber respostas.
+- [x] Cria um projeto com as rotas GET e POST, para que seja possível enviar requisições para os endpoints e receber respostas.
 - [ ] Faz uma chamada GET, utilizando o cURL
 - [ ] Faz uma chamada POST, utilizando o cURL, passando um JSON no body da requisição
 - [ ] Faz uma chamada qualquer, utilizando o cURL, passando um header na requisição
