@@ -44,7 +44,7 @@ Cria um servidor TCP usando o módulo socketserver que já vem embutido com o Py
 
 Utilizando o comando telnet ou o Netcat(nc):
 
-- [ ] Conecta no server do exercício anterior e envia informações. O server deverá imprime as mensagens enviadas no console.
+- [x] Conecta no server do exercício anterior e envia informações. O server imprime as mensagens enviadas no console.
 - [ ] Para o servidor e verifica o que acontece com a conexão que estava aberta com o comando telnet ou nc.
 
 #### Exercício 6
