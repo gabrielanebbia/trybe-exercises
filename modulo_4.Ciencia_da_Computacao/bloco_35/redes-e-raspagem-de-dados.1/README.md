@@ -45,13 +45,13 @@ Cria um servidor TCP usando o módulo socketserver que já vem embutido com o Py
 Utilizando o comando telnet ou o Netcat(nc):
 
 - [x] Conecta no server do exercício anterior e envia informações. O server imprime as mensagens enviadas no console.
-- [ ] Para o servidor e verifica o que acontece com a conexão que estava aberta com o comando telnet ou nc.
+- [x] Para o servidor e verifica o que acontece com a conexão que estava aberta com o comando telnet ou nc.
 
 #### Exercício 6
 
-Reinicia o servidor TCP e faz uma requisição utilizando o cURL (HTTP) que:
+Reinicia o servidor TCP e faz uma requisição utilizando o cURL (HTTP)
 
-- [ ] Retorna o que é exibido no console do server
+- [x] Retorna o que é exibido no console do server
 
 #### Exercício 7
 
