@@ -16,7 +16,7 @@ Utilizando [iptables](https://www.netfilter.org/documentation/):
 
 #### Exercício 2
 
-- [ ] Exclui a regra anterior utilizando o parâmetro -D
+- [x] Exclui a regra anterior utilizando o parâmetro -D
 
 #### Exercício 3
 
