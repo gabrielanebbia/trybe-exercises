@@ -26,8 +26,8 @@ Ainda utilizando o cURL para explorar mais alguns conceitos do HTTP:
 
 Utilizando o wget:
 
-- [ ] Pega o conteúdo da página do site da [Trybe](https://www.betrybe.com)
-- [ ] Depois abre o arquivo HTML baixado no navegador
+- [x] Pega o conteúdo da página do site da [Trybe](https://www.betrybe.com)
+- [x] Depois abre o arquivo HTML baixado no navegador
 
 #### Exercício 4
 
@@ -35,10 +35,10 @@ Na camada de transporte:
 
 Cria um servidor TCP usando o módulo socketserver que já vem embutido com o Python que:
 
-- [ ] Responde com um "Olá, client", logo quando estabelece uma conexão
-- [ ] Imprime no console todo dado recebido
-- [ ] Responde com os dados recebidos (como um eco)
-- [ ] Utiliza a porta 8085
+- [x] Responde com um "Olá, client", logo quando estabelece uma conexão
+- [x] Imprime no console todo dado recebido
+- [x] Responde com os dados recebidos (como um eco)
+- [x] Utiliza a porta 8085
 
 #### Exercício 5
 
