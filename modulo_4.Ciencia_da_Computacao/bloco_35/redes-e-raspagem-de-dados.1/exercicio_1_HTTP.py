@@ -7,18 +7,18 @@ class HTTPHandler(BaseHTTPRequestHandler):
         self.send_header('Content-type', 'text/html')
         self.end_headers()
 
-        message = "Hi, client! This is a GET method response\n"
+        message = "Hi, client! This is a GET method response"
 
-        self.wfile.write(bytes(message, "utf8"))
+        self.wfile.write(bytes(message + "\n", "utf-8"))
 
     def do_POST(self):
         self.send_response(200)
         self.send_header('Content-type', 'application/json')
         self.end_headers()
 
-        message = "Hi, client! This is a POST method response\n"
+        message = "Hi, client! This is a POST method response"
 
-        self.wfile.write(bytes(message, "utf8"))
+        self.wfile.write(bytes(message + "\n", "utf-8"))
 
 
 with HTTPServer(("localhost", 8000), HTTPHandler) as server:
