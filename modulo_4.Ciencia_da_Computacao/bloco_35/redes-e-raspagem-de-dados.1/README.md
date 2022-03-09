@@ -65,8 +65,8 @@ O servidor UDP:
 
 #### Exercício 8
 
-- [ ] Envia pacotes para o servidor UDP utilizando o Netcat(nc).
-- [ ] Em seguida para o servidor e e verifica a conexão no sentido do client
+- [x] Envia pacotes para o servidor UDP utilizando o Netcat(nc).
+- [x] Em seguida para o servidor e e verifica a conexão no sentido do client
 
 #### Exercício 9
 
