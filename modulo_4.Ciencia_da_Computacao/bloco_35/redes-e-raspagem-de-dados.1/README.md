@@ -59,9 +59,9 @@ Para explorar outro protocolo de transporte cria um servidor UDP usando o mesmo 
 
 O servidor UDP:
 
-- [ ] Imprime no console toda mensagem recebida
-- [ ] Responde com os dados recebidos (como um eco).
-- [ ] Utiliza a porta 8084.
+- [x] Imprime no console toda mensagem recebida
+- [x] Responde com os dados recebidos (como um eco).
+- [x] Utiliza a porta 8084.
 
 #### Exercício 8
 
