@@ -8,9 +8,11 @@ O objetivo dos exercícios do dia foi utilizar os conhecimentos aprendidos sobre
 
 #### Exercício 1
 
-- [ ] Define uma regra de firewall utilizando o comando iptables -A, que bloqueia(block ou REJECT/DROP) toda a entrada (in ou INPUT) de pacotes utilizando o protocolo ICMP, impedindo assim que a máquina responda ao comando ping.
-- [ ] Executa o comando ping para validar se a regra está funcionando corretamente.
-- [ ] Adiciona o parâmetro -O para exibir os pings rejeitados.
+Utilizando [iptables](https://www.netfilter.org/documentation/):
+
+- [x] Define uma regra de firewall utilizando o comando iptables -A, que bloqueia (block ou REJECT/DROP) toda a entrada (in ou INPUT) de pacotes utilizando o protocolo ICMP, impedindo assim que a máquina responda ao comando ping.
+- [x] Executa o comando ping para validar se a regra está funcionando corretamente.
+- [x] Adiciona o parâmetro -O para exibir os pings rejeitados.
 
 #### Exercício 2
 
@@ -26,9 +28,8 @@ Cria uma regra para bloquear o tráfego HTTPS.
 
 #### Exercício 4
 
-Bloqueie agora o tráfego de saída para HTTP.
-Lembre-se, também é utilizado o protocolo tcp e a porta 80 .
-Para testar sua regra, tente acessar um site pelo navegador que use HTTP .
+- [ ] Bloqueia agora o tráfego de saída para HTTP.
+- [ ] Testa a regra acessando um site pelo navegador que use HTTP.
 
 #### Exercício 5
 
@@ -36,7 +37,7 @@ Para testar sua regra, tente acessar um site pelo navegador que use HTTP .
 
 #### Exercício 6
 
-Utilizando um tipo de proxy que pode ser bastante útil no nosso dia como pessoas desenvolvedoras: o NGROK, com ele conseguimos criar um túnel para o nosso localhost.
+Utilizar um tipo de proxy que pode ser bastante útil no nosso dia como pessoas desenvolvedoras: o NGROK, com ele conseguimos criar um túnel para o nosso localhost.
 
 - [ ] Cria um servidor HTTP na máquina executando na porta 80
 - [ ] Baixa o ngrok
