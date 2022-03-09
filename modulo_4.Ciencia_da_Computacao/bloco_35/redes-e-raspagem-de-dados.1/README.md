@@ -71,3 +71,9 @@ O servidor UDP:
 #### Exercício 9
 
 - [x] Faz uma chamada ao server utilizando o cURL
+
+### Exercícios Bônus
+
+- [x] Identifica o IP interno e externo da sua máquina
+- [x] Identifica as interfaces de redes utilizadas na sua máquina
+- [x] Identifica qual está em uso no momento
