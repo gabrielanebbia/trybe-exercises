@@ -70,4 +70,4 @@ O servidor UDP:
 
 #### Exercício 9
 
-- [ ] Faz uma chamada ao server utilizando o cURL
+- [x] Faz uma chamada ao server utilizando o cURL
