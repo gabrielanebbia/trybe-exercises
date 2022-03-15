@@ -25,7 +25,7 @@ O resultado é a criação de um site simples com um gerador de piadas ruins uti
 
 ##### Exercício 2
 
-Fendo passo a passo uma Promise
+**Cria passo a passo uma Promise:**
 
 - [ ] Instancia uma Promise
 - [ ] Dentro dela produzir um array com dez números aleatórios de 1 a 50 e elevá-los todos ao quadrado
@@ -33,22 +33,13 @@ Fendo passo a passo uma Promise
 - [ ] No caso contrário do item anterior ela deve ser rejeitada
 - [ ] Acresce um then, com um console.log('Promise resolvida') e um catch, com um console.log('Promise rejeitada') à Promise, só para que o código funcione e possamos ver o resultado
 
-##### Exercício 3
+**Adiciona retornos para os casos quando a promessa for:**
 
-- [ ] Quando a promise for resolvida com sucesso, retorna um array com 4 itens, sendo eles o resultado da divisão do numero resultante por 2, 3, 5 e 10
+- [ ] Resolvida com sucesso, retorna um array com 4 itens, sendo eles o resultado da divisão do numero resultante por 2, 3, 5 e 10
+- [ ] Rejeitada, imprima, via console.log, a frase "É mais de oito mil! Essa promise deve estar quebrada!"
+- [ ] Bem-sucedida, encadeia nela uma segunda Promise que some os elementos do array
 
-##### Exercício 4
+**Refatora o exercício anterior para:**
 
-- [ ] Quando a Promise for rejeitada, imprima, via console.log, a frase "É mais de oito mil! Essa promise deve estar quebrada!"
-
-##### Exercício 5
-
-- [ ] Quando a Promise for bem-sucedida, encadeia nela uma segunda Promise que some os elementos do array
-
-##### Exercício 6
-
-- [ ] Utiliza somente Higher Order Functions para fazer as operações com o array
-
-##### Exercício 7
-
-- [ ] Refatora a Promise para utilizar somente async e await
+- [ ] Utilizar somente Higher Order Functions para fazer as operações com o array
+- [ ] Utilizar somente async e await
