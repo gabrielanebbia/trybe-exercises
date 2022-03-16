@@ -42,3 +42,5 @@ Consulta a uma API que fornece os valores de [crypto moedas](https://docs.coinca
 - [x] Faz com que as moedas apareçam na página
 - [x] Usa uma Higher Order Function para filtrar o array das moedas e mostrar apenas as 10 primeiras
 - [x] Estiliza a página
+
+![pagina crypto coins](./img/crypto.png)
