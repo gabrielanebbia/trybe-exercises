@@ -27,11 +27,11 @@ O resultado é a criação de um site simples com um gerador de piadas ruins uti
 
 **Cria passo a passo uma Promise:**
 
-- [ ] Instancia uma Promise
-- [ ] Dentro dela produzir um array com dez números aleatórios de 1 a 50 e elevá-los todos ao quadrado
-- [ ] Se a soma de todos esses elementos for inferior a 8000, a promise deve ser resolvida
-- [ ] No caso contrário do item anterior ela deve ser rejeitada
-- [ ] Acresce um then, com um console.log('Promise resolvida') e um catch, com um console.log('Promise rejeitada') à Promise, só para que o código funcione e possamos ver o resultado
+- [x] Instancia uma Promise
+- [x] Dentro dela produz um array com dez números aleatórios de 1 a 50 e eleva todos ao quadrado
+- [ ] Se a soma de todos esses elementos for inferior a 8000, a promise é resolvida
+- [ ] No caso contrário do item anterior ela é rejeitada
+- [ ] Acrescenta um then, com um console.log('Promise resolvida') e um catch, com um console.log('Promise rejeitada') à Promise, para que os resultados possam ser exibidos
 
 **Adiciona retornos para os casos quando a promessa for:**
 
