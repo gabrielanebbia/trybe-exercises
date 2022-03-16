@@ -23,3 +23,7 @@ const promise = () => {
     };
   })
 }
+
+promise()
+  .then(console.log('Promise resolvida'))
+  .catch(console.log('Promise rejeitada'))

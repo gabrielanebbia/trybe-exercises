@@ -31,7 +31,7 @@ O resultado é a criação de um site simples com um gerador de piadas ruins uti
 - [x] Dentro dela produz um array com dez números aleatórios de 1 a 50 e eleva todos ao quadrado
 - [x] Se a soma de todos esses elementos for inferior a 8000, a promise é resolvida
 - [x] No caso contrário do item anterior ela é rejeitada
-- [ ] Acrescenta um then, com um console.log('Promise resolvida') e um catch, com um console.log('Promise rejeitada') à Promise, para que os resultados possam ser exibidos
+- [x] Acrescenta um then, com um console.log('Promise resolvida') e um catch, com um console.log('Promise rejeitada') à Promise, para que os resultados possam ser exibidos
 
 **Adiciona retornos para os casos quando a promessa for:**
 
