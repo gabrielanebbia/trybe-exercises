@@ -38,7 +38,7 @@ O resultado é a criação de um site simples com um gerador de piadas ruins uti
 Consulta a uma API que fornece os valores de [crypto moedas](https://docs.coincap.io/) e mostra as 10 primeiras.
 
 - [x] Criar o arquivo (api.js) e dentro dele a função para pegar o array com as moedas
-- [ ] Cria o arquivo HTML (index.html) que contém a tag para listar as crypto moedas
+- [x] Cria o arquivo HTML (index.html) que contém a tag para listar as crypto moedas
 - [ ] Faz com que as moedas apareçam na tela.
 - [ ] Usa uma Higher Order Function para filtrar o array das moedas e mostrar apenas as 10 primeiras
 - [ ] Estilize a página
