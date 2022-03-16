@@ -14,6 +14,12 @@ const promise = () => {
       return total.toFixed(2);
     }
 
-    console.log(sumRandomNumbers())
+    console.log(sumRandomNumbers());
+
+    if (arrayOfNumbers() < 8000) {
+      resolve()
+    } else {
+      reject(new Error('Valor inválido. Resultado maior que 8000'))
+    };
   })
 }
