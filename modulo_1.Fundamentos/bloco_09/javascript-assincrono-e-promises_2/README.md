@@ -40,5 +40,5 @@ Consulta a uma API que fornece os valores de [crypto moedas](https://docs.coinca
 - [x] Criar o arquivo (api.js) e dentro dele a função para pegar o array com as moedas
 - [x] Cria o arquivo HTML (index.html) que contém a tag para listar as crypto moedas
 - [x] Faz com que as moedas apareçam na página
-- [ ] Usa uma Higher Order Function para filtrar o array das moedas e mostrar apenas as 10 primeiras
+- [x] Usa uma Higher Order Function para filtrar o array das moedas e mostrar apenas as 10 primeiras
 - [ ] Estiliza a página

@@ -18,12 +18,14 @@ const setCoins = async () => {
 
   const coinsList = document.getElementById('coins');
 
-  for(index = 0; index < coins.length; index += 1) {
-    const li = document.createElement('li');
-    const price = Number(coins[index].priceUsd);
-    li.innerText = `${coins[index].name} (${coins[index].symbol}): ${price.toFixed(2)}`;
-    coinsList.appendChild(li);
-  }
+  coins
+    .filter((coin) => Number(coin.rank) <= 10)
+    .forEach((coin) => {
+      const li = document.createElement('li');
+      const price = Number(coin.priceUsd);
+      li.innerText = `${coin.name} (${coin.symbol}): ${price.toFixed(2)}`;
+      coinsList.appendChild(li);
+    });
 }
 
 window.onload = () => setCoins();
