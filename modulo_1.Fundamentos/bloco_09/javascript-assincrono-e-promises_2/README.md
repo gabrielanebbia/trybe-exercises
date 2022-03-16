@@ -41,4 +41,4 @@ Consulta a uma API que fornece os valores de [crypto moedas](https://docs.coinca
 - [x] Cria o arquivo HTML (index.html) que contém a tag para listar as crypto moedas
 - [x] Faz com que as moedas apareçam na página
 - [x] Usa uma Higher Order Function para filtrar o array das moedas e mostrar apenas as 10 primeiras
-- [ ] Estiliza a página
+- [x] Estiliza a página
