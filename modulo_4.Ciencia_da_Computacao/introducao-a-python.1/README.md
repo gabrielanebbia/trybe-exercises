@@ -58,4 +58,4 @@ Um posto está vendendo combustíveis com a seguinte tabela de descontos:
 
 O preço do litro da gasolina é R$ 2,50, e o preço do litro do álcool é R$ 1,90
 
-- [ ] Escreve uma função que recebe o número de litros vendidos, o tipo de combustível (da seguinte forma: A - álcool, G - gasolina), e retorna o valor a ser pago pelo cliente.
+- [x] Escreve uma função que recebe o número de litros vendidos, o tipo de combustível (da seguinte forma: A - álcool, G - gasolina), e retorna o valor a ser pago pelo cliente.
