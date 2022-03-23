@@ -6,7 +6,9 @@
 
 ### Exercício 1
 
-- [ ] Faz um programa que recebe um nome e imprime o mesmo na vertical em escada invertida
+- [x] Faz um programa que solicite o nome de uma pessoa usuária
+- [x] Imprime o nome na vertical
+- [x] Faz outro programa que imprime o mesmo nome na vertical em escada invertida.
 
 ### Exercício 2
 
