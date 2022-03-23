@@ -36,7 +36,7 @@ Considerando que a cobertura da tinta é de 1 litro para cada 3 metros quadrados
 
 ### Exercício Bônus - 1
 
-- [ ] Dada uma lista, descobre o menor elemento.
+- [x] Dada uma lista, descobre o menor elemento.
 
 ### Exercício Bônus 2
 
