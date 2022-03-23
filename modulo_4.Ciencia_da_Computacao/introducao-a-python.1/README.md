@@ -40,7 +40,7 @@ Considerando que a cobertura da tinta é de 1 litro para cada 3 metros quadrados
 
 ### Exercício Bônus 2
 
-- [ ] Faz um programa que, dado um valor n qualquer, tal que n > 1 , imprime na tela um triângulo retângulo com n asteriscos de base.
+- [x] Faz um programa que, dado um valor n qualquer, tal que n > 1, imprime na tela um triângulo retângulo com n asteriscos de base.
 
 ### Exercício Bônus 3
 
