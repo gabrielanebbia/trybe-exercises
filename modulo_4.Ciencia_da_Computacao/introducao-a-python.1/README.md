@@ -44,7 +44,7 @@ Considerando que a cobertura da tinta é de 1 litro para cada 3 metros quadrados
 
 ### Exercício Bônus 3
 
-- [ ] Cria uma função que recebe um número inteiro N e retorna o somatório de todos os números de 1 até N.
+- [x] Cria uma função que recebe um número inteiro N e retorna o somatório de todos os números de 1 até N.
 
 ### Exercício Bônus 4
 
