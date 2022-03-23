@@ -1,0 +1,27 @@
+""" Exercício 2 """
+
+import random
+
+words = ["Maça", "Cidade", "Gato"]
+
+
+def random_word(words):
+    word = random.choice(words)
+    shuffle_word = "".join(random.sample(word, len(word)))
+    return word, shuffle_word
+
+
+def get_guesses():
+    guesses = list()
+    max_attempts = 3
+    for attempt in range(max_attempts):
+        guess = input(f"Qual a palavra?(tentativa {attempt}/{max_attempts})")
+        guess.append(guesses)
+    return guesses
+
+
+def check_guesses(guesses, word):
+    if word in guesses:
+        print(f"Acertou! A palavra era {word}")
+    else:
+        print(f"Errou :( A palavra era {word}")
