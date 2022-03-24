@@ -11,7 +11,7 @@
   <h1>Formulário de Currículo</h1>
 
   <form id="forms" action="" method="GET">
-    <fieldset id="part1">
+    <fieldset id="section1">
       <legend>Cadastro de Currículo</legend>
 
       <p>Nome</p>
@@ -23,49 +23,49 @@
       <label for="UserEmail"></label>
 
       <p>CPF</p>
-      <input type="text" id="userCpf" name="cpf" maxlength="11" required>
-      <label for="userCpf"></label>
+      <input type="text" id="userCPF" name="cpf" maxlength="11" required>
+      <label for="userCPF"></label>
 
       <p>Endereço</p>
-      <input type="text" id="userEndereco" name="endereco" maxlength="200" required>
-      <label for="userEndereco"></label>
+      <input type="text" id="userAddress" name="address" maxlength="200" required>
+      <label for="userAddress"></label>
 
       <p>Cidade</p>
-      <input type="text" id="userCidade" name="cidade" maxlength="28" required>
-      <label for="userCidade"></label>
+      <input type="text" id="userCity" name="city" maxlength="28" required>
+      <label for="userCity"></label>
 
       <p>Estado</p>
-      <select id="userEstado" name="estado"></select required>
-      <label for="userEstado"></label>
+      <select id="userState" name="state"></select required>
+      <label for="userState"></label>
 
       <p>Tipo de moradia</p>
-      <label for="userTipo" required></label>
-      <input type="radio" id="userTipoCasa" name="tipo" value="casa">Casa
-      <input type="radio" id="userTipoApartamento" name="tipo" value="apartamento">Apartamento
+      <label for="userTypeHousing" required></label>
+      <input type="radio" id="userTypeHouse" name="houseType" value="house">Casa
+      <input type="radio" id="userTypeApt" name="aptType" value="apt">Apartamento
 
     </fieldset>
-    <fieldset id="part2">
+    <fieldset id="section2">
       <legend>Dados do seu último emprego</legend>
 
       <p>Resumo do currículo</p>
       <textarea name="resumo" id="userResumo" maxlength="1000" cols="100" rows="20" required></textarea>
 
       <p>Cargo</p>
-      <input type="text" id="userCargo" name="cargo" maxlength="40" required>
+      <input type="text" id="userJob" name="Job" maxlength="40" required>
 
       <p>Descrição do cargo</p>
-      <input type="text" id="userDescricao" name="descricao" maxlength="500" required>
+      <input type="text" id="userDescription" name="description" maxlength="500" required>
 
       <p>Data de início</p>
-      <input type="text" id="userDataInicio" name="dataInicio" placeholder="dd-mm-aaaa" onkeyup="testDataInicial()"
+      <input type="text" id="userInitialDate" name="initialDate" placeholder="dd-mm-aaaa" onkeyup="testInitialDate()"
         maxlength="8" required>
     </fieldset>
 
-    <button type="submit" id="buttonCriar">Enviar</button>
+    <button type="submit" id="buttonCreateResume">Enviar</button>
 
   </form>
 
-  <div id="curriculo"></div>
+  <div id="resume"></div>
 
   <script src="script.js"></script>
 </body>
