@@ -6,6 +6,7 @@ let selectState = document.querySelector('#userState');
 for (let index = 0; index < states.length; index += 1) {
   let newState = document.createElement('option');
   newState.innerText = states[index];
+  newState.value = states[index];
   selectState.appendChild(newState);
 }
 
