@@ -39,9 +39,9 @@ let buttonCreateResume = document.getElementById('buttonCreateResume');
 
 forms.addEventListener('submit', function (event) {
   event.preventDefault();
-  let isValid = false;
+  let valid = false;
 
-  if (isValid = true) {
+  if (valid = true) {
     buttonCreateResume.addEventListener('click', createResume())
   }
 });

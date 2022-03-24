@@ -27,7 +27,6 @@
           <label for="userCPF">CPF</label>
           <input type="text" id="userCPF" name="cpf" maxlength="11" required>
         </div>
-  
         <div>
           <label for="userAddress">Endereço</label>
           <input type="text" id="userAddress" name="address" maxlength="200" required>
@@ -53,18 +52,23 @@
 
       <fieldset id="section2">
         <legend>Dados do seu último emprego</legend>
-        <p>Resumo do currículo</p>
-        <textarea name="resumo" id="userResumo" maxlength="1000" cols="100" rows="20" required></textarea>
-  
-        <p>Cargo</p>
-        <input type="text" id="userJob" name="Job" maxlength="40" required>
-  
-        <p>Descrição do cargo</p>
-        <input type="text" id="userDescription" name="description" maxlength="500" required>
-  
-        <p>Data de início</p>
-        <input type="text" id="userInitialDate" name="initialDate" placeholder="dd-mm-aaaa" onkeyup="testInitialDate()"
-          maxlength="8" required>
+        <div>
+          <label for="userResume">Resumo do currículo</label>
+          <textarea name="resume" id="userResume" maxlength="1000" cols="100" rows="20" required></textarea>
+        </div>
+        <div>
+          <label for="userJob">Cargo</label>
+          <input type="text" id="userJob" name="job" maxlength="40" required>
+        </div>
+        <div>
+          <label for="userDescription"></label>
+          <input type="text" id="userDescription" name="description" maxlength="500" required>
+        </div>
+        <div>
+          <label for="userInitialDate"></label>
+          <input type="text" id="userInitialDate" name="initialDate" placeholder="dd-mm-aaaa" onkeyup="testInitialDate()"
+            maxlength="8" required>
+        </div>
       </fieldset>
   
       <button type="submit" id="buttonCreateResume">Enviar</button>
