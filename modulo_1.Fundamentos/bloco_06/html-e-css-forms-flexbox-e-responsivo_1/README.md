@@ -61,10 +61,10 @@ Cria outro `<fieldset>` para dados do seu último emprego:
 Logo abaixo do formulário, cria um botão que:
 
 - [x] Chama uma função JavaScript que interrompe o fluxo automático do form utilizando o preventDefault() - impede as validações do HTML ao fazer o submit.
-- [ ] Implementa, no Javascript as validações que foram pedidas ao longo da montagem do formulário.
-Caso todos os dados sejam válidos, monta uma `<div>` com o consolidado dos dados que foram inseridos no formulário.
-Caso haja algum dado inválido, mostra em uma `<div>` uma mensagem de erro. Se o erro for na Data de Início, a mensagem é contextualizada.
+- [x] Implementa, no Javascript as validações que foram pedidas ao longo da montagem do formulário.
+- [ ] Caso todos os dados sejam válidos, monta uma `<div>` com o consolidado dos dados que foram inseridos no formulário.
+- [ ] Caso haja algum dado inválido, mostra em uma `<div>` uma mensagem de erro. Se o erro for na Data de Início, a mensagem é contextualizada.
 
 #### Exercício 4
 
-- [ ] Cria um botão Limpar que limpa todos os campos do formulário e a `<div>` com seu currículo também.
+- [x] Cria um botão Limpar que limpa todos os campos do formulário e a `<div>` com seu currículo também.
