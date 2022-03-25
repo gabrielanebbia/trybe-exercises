@@ -12,7 +12,7 @@ Para os exercícios foi obrigatório fazer uso de, no mínimo, 6 elementos com a
 
 #### Exercício 1
 
-- [ ] Adiciona um cabeçalho na página contendo o título `Soco a 80km/h: Conheça o Stomatopoda`.
+- [x] Adiciona um cabeçalho na página contendo o título `Soco a 80km/h: Conheça o Stomatopoda`.
 
 #### Exercício 2
 
