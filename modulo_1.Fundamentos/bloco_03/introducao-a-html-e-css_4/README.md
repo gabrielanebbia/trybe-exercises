@@ -2,7 +2,7 @@
 
 ### `Dia 4 - HTML & CSS - HTML Semântico`
 
-O objetivo dos exercícios do dia foi colocar em prática o que havia aprendido sobre HTML semântico.
+O objetivo dos exercícios do dia foi colocar em prática o que havia aprendido sobre os elementos semânticos do HTML 5, entre eles, header, nav, aside, article, section, footer e img.
 
 #### Exercícios
 
