@@ -1,14 +1,13 @@
 // Cria através de uma estrutura de repetição os <option>
-let states = ['Selecione','Acre', 'Alagoas', 'Amapá', 'Amazonas', 'Bahia', 'Ceará', 'Distrito Federal',  'Espírito Santo', 'Goiás', 'Maranhão', 'Mato Grosso', 'Mato Grosso do Sul', 'Minas Gerais', 'Pará', 'Paraíba', 'Pernambuco', 'Piauí', 'Rio de Janeiro', 'Rio Grande do Norte', 'Rio Grande do Sul', 'Rondônia', 'Roraima', 'Santa Catarina', 'São Paulo', 'Sergipe', 'Tocantins'];
-
-let selectState = document.querySelector('#userState');
-
-for (let index = 0; index < states.length; index += 1) {
-  let newState = document.createElement('option');
-  newState.innerText = states[index];
-  newState.value = states[index];
-  selectState.appendChild(newState);
-}
+  let states = ['Selecione','Acre', 'Alagoas', 'Amapá', 'Amazonas', 'Bahia', 'Ceará', 'Distrito Federal',  'Espírito Santo', 'Goiás', 'Maranhão', 'Mato Grosso', 'Mato Grosso do Sul', 'Minas Gerais', 'Pará', 'Paraíba', 'Pernambuco', 'Piauí', 'Rio de Janeiro', 'Rio Grande do Norte', 'Rio Grande do Sul', 'Rondônia', 'Roraima', 'Santa Catarina', 'São Paulo', 'Sergipe', 'Tocantins'];
+  let selectState = document.querySelector('#userState');
+  
+  for (let index = 0; index < states.length; index += 1) {
+    let newState = document.createElement('option');
+    newState.innerText = states[index];
+    newState.value = states[index];
+    selectState.appendChild(newState);
+  }
 
 //Cria alertas de erro para datas inválidas
 function testInitialDate() {
@@ -53,3 +52,17 @@ function createResume() {
 }
 
 buttonCreateResume.addEventListener('click', createResume);
+
+function clearFields() {
+  let formElements = document.querySelectorAll('input');
+  let textArea = document.querySelector('textarea')
+
+  for (let index = 0; index < formElements.length; index += 1) {
+    let userInput = formElements[index];
+    userInput.value = '';
+    textArea.value = '';
+  }
+}
+
+let clearButton = document.querySelector('#buttonClearResume');
+clearButton.addEventListener('click', clearFields);

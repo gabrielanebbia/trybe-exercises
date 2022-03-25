@@ -58,4 +58,4 @@ Cria outro `<fieldset>` para dados do seu último emprego:
 
 #### Exercício 3
 
-- [ ] Cria um botão Limpar que limpa todos os campos do formulário.
+- [x] Cria um botão Limpar que limpa todos os campos do formulário.
