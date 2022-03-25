@@ -1,0 +1,26 @@
+.preferences {
+  border-style: solid;
+  text-align: center;
+}
+
+.preferences div {
+  display: inline-block; 
+  margin: 0%;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  margin: 10px 100px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.paragraph {
+  margin: 50px 100px;
+  text-align: justify;
+}
+
+.footer {
+  text-align: center;
+}

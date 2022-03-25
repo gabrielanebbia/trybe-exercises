@@ -1,1 +1,0 @@
-Exercício para a prática do conteúdo de introdução ao HTML e CSS.
