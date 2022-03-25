@@ -49,7 +49,7 @@ Divide o artigo em seções, organizando-o da seguinte forma:
 
 #### Exercício 5
 
-- [ ] Adiciona um conteúdo adjacente ao artigo disponibilizando um link para este vídeo, que mostra o animal em ação.
+- [x] Adiciona um conteúdo adjacente ao artigo disponibilizando um link para um vídeo, que mostra o animal em ação.
 
 #### Exercício 6
 
