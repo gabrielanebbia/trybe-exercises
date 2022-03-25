@@ -39,9 +39,9 @@ Divide o artigo em seções, organizando-o da seguinte forma:
 
 2. Outras seções a respeito aos fatos interessantes acerca do animal.
 
-- [ ] Adiciona para cada seção um subtítulo referente ao fato escolhido.
-- [ ] Adiciona para cada seção parágrafo(s) descrevendo o fato escolhido.
-- [ ] Adiciona para cada seção uma imagem como forma de ilustrar o fato.
+- [x] Adiciona para cada seção um subtítulo referente ao fato escolhido.
+- [x] Adiciona para cada seção parágrafo(s) descrevendo o fato escolhido.
+- [x] Adiciona para cada seção uma imagem como forma de ilustrar o fato.
 
 3. Uma seção de referências bibliográficas.
 
