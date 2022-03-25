@@ -24,8 +24,8 @@ Adiciona um conjunto de links que representam a área de navegação do site.
 
 #### Exercício 3
 
-- [ ] Cria um artigo que contém os fatos interessantes sobre o Stomatopoda.
-- [ ] O artigo tem o subtítulo `Fatos sobre o Stomatopoda`.
+- [x] Cria um artigo que contém os fatos interessantes sobre o Stomatopoda.
+- [x] O artigo tem o subtítulo `Fatos sobre o Stomatopoda`.
 
 #### Exercício 4
 
