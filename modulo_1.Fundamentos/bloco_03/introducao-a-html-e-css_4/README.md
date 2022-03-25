@@ -53,4 +53,4 @@ Divide o artigo em seções, organizando-o da seguinte forma:
 
 #### Exercício 6
 
-- [ ] Adiciona um rodapé na página.
+- [x] Adiciona um rodapé na página.
