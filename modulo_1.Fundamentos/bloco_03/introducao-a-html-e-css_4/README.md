@@ -18,9 +18,9 @@ Para os exercícios foi obrigatório fazer uso de, no mínimo, 6 elementos com a
 
 Adiciona um conjunto de links que representam a área de navegação do site.
 
-- [ ] Cria um link chamado `Página Inicial`
-- [ ] Cria um link chamado `Sobre`.
-- [ ] Cria um link chamado `Contato`.
+- [x] Cria um link chamado `Página Inicial`
+- [x] Cria um link chamado `Sobre`.
+- [x] Cria um link chamado `Contato`.
 
 #### Exercício 3
 
