@@ -33,9 +33,9 @@ Divide o artigo em seções, organizando-o da seguinte forma:
 
 1. Uma primeira seção contendo as seguintes informações gerais a respeito do animal.
 
-- [ ] Subtítulo da seção.
-- [ ] Nome científico em itálico.
-- [ ] Informação tabular a respeito da classificação científica, em específico: Reino, Filo, Subfilo, Classe, Subclasse e Ordem.
+- [x] Subtítulo da seção.
+- [x] Nome científico em itálico.
+- [x] Informação tabular a respeito da classificação científica, em específico: Reino, Filo, Subfilo, Classe, Subclasse e Ordem.
 
 2. Outras seções a respeito aos fatos interessantes acerca do animal.
 
