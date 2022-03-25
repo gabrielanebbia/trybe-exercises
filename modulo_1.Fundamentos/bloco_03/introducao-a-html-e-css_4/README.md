@@ -45,7 +45,7 @@ Divide o artigo em seções, organizando-o da seguinte forma:
 
 3. Uma seção de referências bibliográficas.
 
-- [ ] Contendo uma lista de todos os links que foram usados como base para compilar a página em questão.
+- [x] Contendo uma lista de todos os links que foram usados como base para compilar a página em questão.
 
 #### Exercício 5
 
