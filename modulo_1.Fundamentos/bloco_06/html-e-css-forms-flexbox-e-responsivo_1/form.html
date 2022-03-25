@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>6.1 - HTML & CSS - Forms</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Formulário de Currículo</h1>
+  </header>
+  <main>
+    <form id="forms" action="" method="GET">
+      <fieldset id="section1">
+        <legend>Cadastro de Currículo</legend>
+        <div>
+          <label for="fullName">Nome</label>
+          <input type="text" id="fullName" name="name" maxlength="40" required>
+        </div>
+        <div>
+          <label for="UserEmail">Email</label>
+          <input type="text" id="userEmail" name="email" maxlength="50" required>
+        </div>
+        <div>
+          <label for="userCPF">CPF</label>
+          <input type="text" id="userCPF" name="cpf" maxlength="11" required>
+        </div>
+        <div>
+          <label for="userAddress">Endereço</label>
+          <input type="text" id="userAddress" name="address" maxlength="200" required>
+        </div>
+        <div>
+          <label for="userCity">Cidade</label>
+          <input type="text" id="userCity" name="city" maxlength="28" required>
+        </div>
+        <div>
+          <label for="userState">Estado</label>
+            <select id="userState" name="state" required>
+              <option>Selecione seu estado</option>
+            </select>
+        </div>
+        <div>
+          <label for="userHouseType">Tipo de moradia</label>
+          <input type="radio" id="userHouseType" name="houseType" value="house" required>
+          <span>Casa</span>
+          <input type="radio" id="userTypeApartment" name="houseType" value="apartment" required>
+          <span>Apartamento</span>
+        </div>
+      </fieldset>
+
+      <fieldset id="section2">
+        <legend>Dados do seu último emprego</legend>
+        <div>
+          <label for="userResume">Resumo do currículo</label>
+          <textarea name="resume" id="userResume" maxlength="1000" cols="100" rows="20" required></textarea>
+        </div>
+        <div>
+          <label for="userJob">Cargo</label>
+          <input type="text" id="userJob" name="job" maxlength="40" required>
+        </div>
+        <div>
+          <label for="userDescription"></label>
+          <input type="text" id="userDescription" name="description" maxlength="500" required>
+        </div>
+        <div>
+          <label for="userInitialDate"></label>
+          <input type="text" id="userInitialDate" name="initialDate" placeholder="dd-mm-aaaa" onkeyup="testInitialDate()"
+            maxlength="8" required>
+        </div>
+      </fieldset>
+      <div>
+        <button type="submit" id="buttonCreateResume">Enviar</button>
+        <button type="button" id="buttonClearResume">Limpar</button>
+      </div>
+    </form>
+  </main>
+  <div id="resume"></div>
+  <script src="script.js"></script>
+</body>
+</html>
