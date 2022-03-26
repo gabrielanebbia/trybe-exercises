@@ -21,6 +21,10 @@ class Dogs extends Component {
     return true;
   }
 
+  componentDidUpdate(prevProps, prevState) {
+    localStorage.setItem("URL", this.state.data.message);
+  }
+
   fetchDog() {
     fetch("https://dog.ceo/api/breeds/image/random")
     .then(response => response.json())

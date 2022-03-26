@@ -26,7 +26,7 @@ Cria uma aplicação que consume uma API de fotos aleatórias de cachorros.
 #### Exercício 2
 
 - [x] A cada tentativa de atualização do componente, verifica se o campo message tem a palavra terrier. Se sim, não atualiza o componente.
-- [ ] Guarda a url da última imagem gerada no localStorage após cada atualização.
+- [x] Guarda a url da última imagem gerada no localStorage após cada atualização.
 - [ ] Após a atualização do componente, exiba um alert com a raça.
 
 #### Bônus
