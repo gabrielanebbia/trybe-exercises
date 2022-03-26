@@ -20,7 +20,7 @@ Os exercícios realizados foram retirados do repositório [flaviosugano/exercise
 Cria uma aplicação que consume uma API de fotos aleatórias de cachorros.
 
 - [x] Assim que a página é montada, uma primeira requisição acontece, e a imagem é mostrada na tela.
-- [ ] Enquanto a requisição é feita, o texto 'Loading...' deve ser a única coisa presente na tela.
+- [x] Enquanto a requisição é feita, o texto 'Loading...' deve ser a única coisa presente na tela.
 - [ ] Cria um botão que a cada clique busca mais um cachorro.
 
 #### Exercício 2

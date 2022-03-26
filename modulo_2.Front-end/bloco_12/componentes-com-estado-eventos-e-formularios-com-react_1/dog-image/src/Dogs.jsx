@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Loading from './Loading';
 
 class Dogs extends Component {
   constructor(props) {
@@ -20,6 +21,7 @@ class Dogs extends Component {
   }
 
   render() {
+    if (this.state.data === "") return <Loading />
     return (
       <div>
         <img src={this.state.data.message} alt="Cachorro aleatório" />
