@@ -6,10 +6,10 @@ O objetivo dos exercícios do dia foi aplicar um conceito fundamental para a cor
 
 As funções de ciclo de vida do componente utilizadas:
 
-- componentDidMount para executar uma ação após o componente ser inserido no DOM
-- shouldComponentUpdate para avaliar se uma atualização do componente deve ou não acontecer naquele momento
-- componentDidUpdate para executar uma ação após o componente ser atualizado
-- componentWillUnmount para realizar uma ação antes de o componente ser desmontado
+- **componentDidMount** -> para executar uma ação após o componente ser inserido no DOM.
+- **shouldComponentUpdate** -> para avaliar se uma atualização do componente deve ou não acontecer naquele momento.
+- **componentDidUpdate** -> para executar uma ação após o componente ser atualizado.
+- **componentWillUnmount** -> para realizar uma ação antes de o componente ser desmontado.
 
 #### Exercícios
 
@@ -17,10 +17,11 @@ Os exercícios realizados foram retirados do repositório [flaviosugano/exercise
 
 #### Exercício 1
 
-- [ ] Cria uma aplicação que consume uma API de fotos aleatórias de cachorros.
-- [ ] Assim que a página é montada, uma primeira requisição acontece, e a imagem é mostrada na tela
-- [ ] Enquanto a requisição é feita, o texto 'Loading...' deve ser a única coisa presente na tela
-- [ ] Cria um botão que a cada clique busca mais um cachorro
+Cria uma aplicação que consume uma API de fotos aleatórias de cachorros.
+
+- [x] Assim que a página é montada, uma primeira requisição acontece, e a imagem é mostrada na tela.
+- [ ] Enquanto a requisição é feita, o texto 'Loading...' deve ser a única coisa presente na tela.
+- [ ] Cria um botão que a cada clique busca mais um cachorro.
 
 #### Exercício 2
 
