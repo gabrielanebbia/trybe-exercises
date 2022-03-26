@@ -21,8 +21,11 @@ class Dogs extends Component {
     return true;
   }
 
-  componentDidUpdate(prevProps, prevState) {
+  componentDidUpdate(_prevProps, _prevState) {
     localStorage.setItem("URL", this.state.data.message);
+
+    const breed = this.state.data.message.split("/")[4];
+    alert(breed);
   }
 
   fetchDog() {
