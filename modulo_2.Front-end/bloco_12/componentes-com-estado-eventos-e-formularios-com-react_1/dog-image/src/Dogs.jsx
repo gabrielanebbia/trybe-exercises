@@ -14,6 +14,13 @@ class Dogs extends Component {
     this.fetchDog();
   }
 
+  shouldComponentUpdate(_nextProps, nextState) {
+    if (nextState.data.message.includes("terrier")) {
+      return false;
+    }
+    return true;
+  }
+
   fetchDog() {
     fetch("https://dog.ceo/api/breeds/image/random")
     .then(response => response.json())
@@ -25,6 +32,7 @@ class Dogs extends Component {
     return (
       <div>
         <img src={this.state.data.message} alt="Cachorro aleatório" />
+        <button onClick={this.fetchDog}>Novo cachorrinho!</button>
       </div>
     );
   }
