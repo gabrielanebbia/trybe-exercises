@@ -43,4 +43,4 @@ Faz os botões de filtragem serem dinâmicos:
 
 #### Bônus 5
 
-- [ ] Faz o botão de próximo pokémon ser desabilitado se a lista filtrada de pokémons tiver um só pokémon.
+- [x] Faz o botão de próximo pokémon ser desabilitado se a lista filtrada de pokémons tiver um só pokémon.
