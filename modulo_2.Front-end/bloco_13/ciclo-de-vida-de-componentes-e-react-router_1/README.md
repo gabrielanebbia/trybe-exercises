@@ -1,6 +1,6 @@
-## `Bloco 12 - Componentes com Estado, Eventos e Formulários com React`
+## `Bloco 13 - Ciclo de Vida de Componentes e React Router`
 
-### `Dia 1 - Componentes com estado e eventos`
+### `Dia 1 - Ciclo de vida de componentes`
 
 O objetivo dos exercícios do dia foi aplicar um conceito fundamental para a correta construção de aplicações em React, o Lifecycle (ciclo de vida de um componente) e as suas funções. Praticando a utilização correta de cada recurso e garantindo que a assincronicidade do React não prejudique a lógica do que se está tentando executar.
 
