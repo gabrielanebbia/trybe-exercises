@@ -1,0 +1,60 @@
+li {
+    background-color: yellow;
+    font-size: 20px;
+}
+
+.par {
+    color: green;
+}
+
+.primo {
+    text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: red;
+}
+
+em {
+    font-size: 40px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+li em {
+    font-weight: bold;
+}
+
+.linguagens {
+    color: blue;
+}
+
+.java {
+    background-color: pink;
+}
+
+.stack:hover {
+    text-decoration: solid;
+    color: orange;
+}
+
+.w3:hover {
+    text-decoration: solid;
+    color: greenyellow;
+}
+
+.mdn:hover {
+    text-decoration: solid;
+    color: black;
+}
+
+.devdocs:hover {
+    text-decoration: solid;
+    color: yellow
+}
+
+.trybe:hover {
+    text-decoration: solid;
+    color: green;
+}

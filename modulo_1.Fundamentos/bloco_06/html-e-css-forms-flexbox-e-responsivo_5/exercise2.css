@@ -1,0 +1,160 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: grey;
+  display: flex;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  aside li{
+    font-size: small;
+    list-style: none;  
+  }
+
+  body {
+    background-color:aqua;
+    text-align: justify;
+  }
+
+  h1 {
+    font-size: x-large;
+    text-align: center;
+    padding: 10px 50px;
+  }
+
+  h2 {
+    font-size: large;
+  }
+
+  h3 {
+    font-size: larger;
+    text-align: center;
+  }
+
+  header {
+   padding: 0 20px; 
+  }
+
+  nav {
+    display: none;
+  }
+  
+  p {
+    font-size:medium;
+  }
+
+  .text {
+    margin: 2em;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  aside li{
+   font-size: medium;
+   list-style: none;  
+  }
+
+  body {
+    background-color:coral;
+    text-align: justify;
+  }
+  
+  h1 {
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px 50px;
+  }
+  
+  h2 {
+    font-size: x-large;
+  }
+  
+  h3 {
+    font-size: large;
+    text-align: center;
+  }
+
+  header {
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+ }
+ 
+ .menu li{
+   padding: 10px;
+ }
+
+ .menu ul{
+   list-style: none;
+   display: flex;
+   align-items: center;
+  }
+  
+  p {
+    font-size:larger;
+  }
+
+  .text {
+    margin: 3em;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  aside li{
+    font-size: medium;
+    list-style: none;  
+  }
+  
+  body {
+    background-color:burlywood;
+    text-align: justify;
+  }
+
+  h1 {
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px 50px;
+  }
+  
+  h2 {
+    font-size: x-large;
+  }
+  
+  h3 {
+    font-size: large;
+    text-align: center;
+  }
+
+  header {
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+   }
+  
+   .menu ul{
+     list-style: none;
+     display: flex;
+     align-items: center;
+   }
+   
+   .menu li{
+     padding: 10px;
+   }
+   
+   p {
+     font-size:larger;
+     line-height: 1.5;
+    }
+    
+    .text {
+      margin: 10em;
+    }
+}
