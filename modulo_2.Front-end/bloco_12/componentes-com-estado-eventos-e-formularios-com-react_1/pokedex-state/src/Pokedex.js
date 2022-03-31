@@ -10,12 +10,24 @@ class Pokedex extends React.Component {
         };
     }
 
+    nextPokemon() {
+        this.setState(state => ({
+            index: (state.index + 1),
+        }));
+    }
+
     render() {
         const { pokemons } = this.props;
 
         return (
             <div className="pokedex">
                 <Pokemon pokemon={pokemons[this.state.index]} />
+                <button
+                    className="pokedex-button"
+                    onClick={() => this.nextPokemon()}
+                >
+                    Next
+                </button>
             </div>
         );
     }
