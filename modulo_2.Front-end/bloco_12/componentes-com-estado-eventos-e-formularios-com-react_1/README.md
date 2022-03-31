@@ -22,7 +22,7 @@ Para isso foram utilizados os arquivos do exercício de [criação de uma Pokede
 
 #### Bônus 1
 
-- [ ] Separa os estilos de CSS por componente, fazendo um arquivo .css para cada.
+- [x] Separa os estilos de CSS por componente, fazendo um arquivo .css para cada.
 
 #### Bônus 2
 
