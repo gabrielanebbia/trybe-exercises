@@ -15,7 +15,7 @@ Para isso foram utilizados os arquivos do exercício de [criação de uma Pokede
 #### Exercício 2
 
 - [x] A pokedex contém dois botões contendo os tipos de pokémon.
-- [ ] Ao selecionar um dos botões criados acima, a pokedex passa a circular somente pelos pokémons daquele tipo.
+- [x] Ao selecionar um dos botões criados acima, a pokedex passa a circular somente pelos pokémons daquele tipo.
 - [x] Ao carregar a página um desses filtros já está selecionado.
 
 #### Bônus
@@ -26,9 +26,9 @@ Para isso foram utilizados os arquivos do exercício de [criação de uma Pokede
 
 #### Bônus 2
 
-- [ ] A pokedex tem um terceiro botão chamado All para resetar o filtro.
-- [ ] Após clicá-lo, a pokedex volta a circular por todos os pokémons.
-- [ ] Quando a página carrega, o filtro selecionado deve ser o All.
+- [x] A pokedex tem um terceiro botão chamado All para resetar o filtro.
+- [x] Após clicá-lo, a pokedex volta a circular por todos os pokémons.
+- [x] Quando a página carrega, o filtro selecionado deve ser o All.
 
 #### Bônus 3
 
@@ -38,8 +38,8 @@ Para isso foram utilizados os arquivos do exercício de [criação de uma Pokede
 
 Faz os botões de filtragem serem dinâmicos:
 
-- [ ] A pokedex gera um botão de filtragem para cada tipo de pokémon disponível nos dados, independente de quais ou quantos sejam, sem repetição de tipos.
-- [ ] Mantém o botão All.
+- [x] A pokedex gera um botão de filtragem para cada tipo de pokémon disponível nos dados, independente de quais ou quantos sejam, sem repetição de tipos.
+- [x] Mantém o botão All.
 
 #### Bônus 5
 

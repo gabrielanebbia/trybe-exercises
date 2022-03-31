@@ -8,20 +8,18 @@ class Pokedex extends React.Component {
         super(props);
         this.state = {
             index: 0,
-            filteredType: 'Fire',
+            filteredType: 'all',
         };
+    }
+
+    filterPokemons(filteredType) {
+        this.setState({ filteredType, index: 0 });
     }
 
     nextPokemon(numberOfPokemons) {
         this.setState(state => ({
             index: (state.index + 1) % numberOfPokemons,
         }));
-    }
-
-    fetchPokemonTypes() {
-        const { pokemons } = this.props;
-
-        return [...new Set(pokemons.reduce((types, { type }) => [...types, type], []))];
     }
 
     fetchFilteredPokemons() {
@@ -34,6 +32,12 @@ class Pokedex extends React.Component {
         });
     }
 
+    fetchPokemonTypes() {
+        const { pokemons } = this.props;
+
+        return [...new Set(pokemons.reduce((types, { type }) => [...types, type], []))];
+    }
+
     render() {
         const filteredPokemons = this.fetchFilteredPokemons();
         const pokemonTypes = this.fetchPokemonTypes();
@@ -43,6 +47,12 @@ class Pokedex extends React.Component {
             <div className="pokedex">
                 <Pokemon pokemon={pokemon} />
                 <div className="pokedex-buttons-panel">
+                    <Button
+                        onClick={() => this.filterPokemons('all')}
+                        className="filter-button"
+                    >
+                        All
+                    </Button>
                     {pokemonTypes.map(type => (
                         <Button
                             key={type}
@@ -57,7 +67,7 @@ class Pokedex extends React.Component {
                     className="pokedex-button"
                     onClick={() => this.nextPokemon(filteredPokemons.length)}
                 >
-                    Next
+                    Próximo pokémon
                 </Button>
             </div>
         );
