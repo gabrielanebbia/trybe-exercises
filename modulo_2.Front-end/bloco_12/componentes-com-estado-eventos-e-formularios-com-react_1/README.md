@@ -14,9 +14,9 @@ Para isso foram utilizados os arquivos do exercício de [criação de uma Pokede
 
 #### Exercício 2
 
-- [ ] A pokedex contém dois botões contendo os tipos Fire e Psychic.
+- [x] A pokedex contém dois botões contendo os tipos de pokémon.
 - [ ] Ao selecionar um dos botões criados acima, a pokedex passa a circular somente pelos pokémons daquele tipo.
-- [ ] Ao carregar a página um desses filtros já está selecionado.
+- [x] Ao carregar a página um desses filtros já está selecionado.
 
 #### Bônus
 
@@ -32,7 +32,7 @@ Para isso foram utilizados os arquivos do exercício de [criação de uma Pokede
 
 #### Bônus 3
 
-- [ ] Cria um componente Button e usa-o para fazer os botões reutilizáveis.
+- [x] Cria um componente Button e usa-o para fazer os botões reutilizáveis.
 
 #### Bônus 4
 
