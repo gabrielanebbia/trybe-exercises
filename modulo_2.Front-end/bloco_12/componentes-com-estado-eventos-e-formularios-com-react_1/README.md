@@ -10,7 +10,7 @@ Para isso foram utilizados os arquivos do exercício de [criação de uma Pokede
 
 - [x] Altera a página para que ao invés de exibir toda a lista de pokémons ela exiba um pokémon por vez.
 - [x] Ao apertar o botão de próximo pokémon a página passa a exibir sucessivamente os próximos pokémons da lista.
-- [ ] Ao se chegar ao último pokémon da lista, a pokedex volta para o primeiro pokémon ao apertar do botão.
+- [x] Ao se chegar ao último pokémon da lista, a pokedex volta para o primeiro pokémon ao apertar do botão.
 
 #### Exercício 2
 
