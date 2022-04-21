@@ -32,11 +32,9 @@ class LinkedList:
             return self.insert_first(value)
         if position >= len(self):
             return self.insert_last(value)
-        current_value = self.head_value
-        while position > 1:
-            current_value = current_value.next
-            position -= 1
+
         next_value = Node(value)
+        current_value = self.__get_node_at(position - 1)
         next_value.next = current_value.next
         current_value.next = next_value
         self.__length += 1
