@@ -76,13 +76,10 @@ class LinkedList:
 
     def get_element_at(self, position):
         value_returned = None
-        value_to_be_returned = self.head_value
+        value_to_be_returned = self.__get_node_at(position - 1)
+
         if value_to_be_returned:
-            while position > 0 and value_to_be_returned.next:
-                value_to_be_returned = value_to_be_returned.next
-                position -= 1
-            if value_to_be_returned:
-                value_returned = Node(value_to_be_returned.value)
+            value_returned = Node(value_to_be_returned.value)
         return value_returned
 
     def is_empty(self):

@@ -26,7 +26,7 @@ Após criar as operações anteriores, refatora os seguintes métodos para que u
 - [x] insert_at
 - [x] remove_last
 - [x] remove_at
-- [ ] get_element_at
+- [x] get_element_at
 
 ---
 
