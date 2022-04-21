@@ -32,9 +32,9 @@ Após criar as operações anteriores, refatora os seguintes métodos para que u
 
 #### Exercício 2 - Nova busca
 
-- [ ] Cria uma função chamada `def index_of(self, value)` responsável por consultar na lista a existência do valor informado e retornar a posição da primeira ocorrência.
+- [x] Cria uma função chamada `def index_of(self, value)` responsável por consultar na lista a existência do valor informado e retornar a posição da primeira ocorrência.
 - [ ] Caso o valor não exista retorna `-1`.
-- [ ] A função respeita a complexidade O(n).
+- [x] A função respeita a complexidade O(n).
 
 ---
 
