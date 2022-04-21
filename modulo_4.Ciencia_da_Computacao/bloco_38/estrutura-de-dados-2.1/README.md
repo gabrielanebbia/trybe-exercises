@@ -22,8 +22,8 @@ Na [classe LinkedList](./linked_list_content.py), que atende as principais opera
 
 Após criar as operações anteriores, refatora os seguintes métodos para que utilizem a __get_node_at ante iterações:
 
+- [x] insert_last
 - [ ] insert_at
-- [ ] insert_last
 - [ ] remove_last
 - [ ] remove_at
 - [ ] get_element_at

@@ -19,15 +19,12 @@ class LinkedList:
         self.__length += 1
 
     def insert_last(self, value):
-        last_value = Node(value)
-        current_value = self.head_value
-
         if self.is_empty():
             return self.insert_first(value)
 
-        while current_value.next:
-            current_value = current_value.next
-        current_value.next = last_value
+        new_last_value = Node(value)
+        current_last_value = self.__get_node_at(len(self) - 1)
+        current_last_value.next = new_last_value
         self.__length += 1
 
     def insert_at(self, value, position):
