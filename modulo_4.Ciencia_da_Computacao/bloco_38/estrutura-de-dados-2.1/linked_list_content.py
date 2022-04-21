@@ -100,6 +100,14 @@ class LinkedList:
     def is_empty(self):
         return not self.__length
 
+    # def clear(self):
+    #    self.head_value = None
+    #    self.__length = 0
+    # Essa opção só funciona sem que ocorra vazamento de memória graças
+    # ao garbage collector do python.
+
     def clear(self):
-        self.head_value = None
-        self.__length = 0
+        while not self.is_empty():
+            self.remove_first()
+    # o mais indicado é essa opção, pois utiliza a própria estrutura
+    # para atribuir um novo comportamento.
