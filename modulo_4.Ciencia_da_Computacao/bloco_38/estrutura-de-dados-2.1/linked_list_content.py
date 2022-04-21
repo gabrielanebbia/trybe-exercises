@@ -2,7 +2,6 @@ from node import Node
 
 
 class LinkedList:
-
     def __init__(self):
         self.head_value = None
         self.__length = 0
@@ -111,3 +110,11 @@ class LinkedList:
             self.remove_first()
     # o mais indicado é essa opção, pois utiliza a própria estrutura
     # para atribuir um novo comportamento.
+
+    def __get_node_at(self, position):
+        value_to_be_returned = self.head_value
+        if value_to_be_returned:
+            while position > 0 and value_to_be_returned.next:
+                value_to_be_returned = value_to_be_returned.next
+                position -= 1
+        return value_to_be_returned

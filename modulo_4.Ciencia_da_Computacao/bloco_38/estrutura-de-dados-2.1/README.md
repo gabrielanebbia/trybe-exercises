@@ -18,7 +18,7 @@ O objetivo dos exercícios do dia foi colocar em prática o que havia aprendido 
 Na [classe LinkedList](./linked_list_content.py), que atende as principais operações que a TAD nos oferece, se adiciona os seguintes métodos:
 
 - [x] a. A operação clear para remover todos os Nodes da lista.
-- [ ] b. A operação __get_node_at para acessar o Node em qualquer posição da lista.
+- [x] b. A operação __get_node_at para acessar o Node em qualquer posição da lista.
 
 Após criar as operações anteriores, refatora os seguintes métodos para que utilizem a __get_node_at ante iterações:
 
