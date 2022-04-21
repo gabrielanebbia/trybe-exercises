@@ -99,3 +99,7 @@ class LinkedList:
 
     def is_empty(self):
         return not self.__length
+
+    def clear(self):
+        self.head_value = None
+        self.__length = 0
