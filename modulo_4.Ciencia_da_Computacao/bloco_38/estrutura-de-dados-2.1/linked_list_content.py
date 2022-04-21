@@ -64,14 +64,11 @@ class LinkedList:
         if position >= len(self):
             return self.remove_last()
 
-        previous_to_be_removed = self.head_value
-
-        while position > 1:
-            previous_to_be_removed = previous_to_be_removed.next
-            position -= 1
+        previous_to_be_removed = self.__get_node_at(position - 1)
 
         value_to_be_removed = previous_to_be_removed.next
         previous_to_be_removed.next = value_to_be_removed.next
+
         value_to_be_removed.next = None
         self.__length -= 1
 
