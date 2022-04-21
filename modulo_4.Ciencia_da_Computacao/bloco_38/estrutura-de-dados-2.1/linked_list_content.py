@@ -114,3 +114,4 @@ class LinkedList:
                 return position
             current_value = current_value.next
             position += 1
+        return -1
