@@ -42,9 +42,10 @@ Após criar as operações anteriores, refatora os seguintes métodos para que u
 
  > Atividade extraída e adaptada do [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/).
 
-- [ ] Implementa um algoritmo que recebe uma LinkedList como argumento.
+Implementa um algoritmo que recebe uma LinkedList como argumento e que:
+
 - [ ] Retorna uma nova lista sem elementos duplicados.
-- [ ] A função respeita a complexidade O(n).
+- [ ] Respeita a complexidade O(n).
 
 ---
 
@@ -52,5 +53,6 @@ Após criar as operações anteriores, refatora os seguintes métodos para que u
 
 > Atividade extraída e adaptada do [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/).
 
-- [ ] Implementa um algoritmo que recebe uma DoublyLinkedList como argumento.
+Implementa um algoritmo que recebe uma DoublyLinkedList como argumento e que:
+
 - [ ] Retorna uma nova lista, sem elementos que possuem mais de uma ocorrência.
