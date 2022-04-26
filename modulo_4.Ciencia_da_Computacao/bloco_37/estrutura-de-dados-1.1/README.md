@@ -4,6 +4,14 @@
 
 #### Exercícios
 
+O objetivo dos exercícios do dia foi colocar em prática o que havia aprendido sobre os principais conceitos da arquitetura das máquinas e dos sistemas que as gerenciam, os Sistemas Operacionais.
+
+- Conhecer os principais conceitos da arquitetura básica de computadores.
+- Entender o funcionamento básico de uma CPU e suas características.
+- Compreender o funcionamento da memória principal do computador.
+- Conhecer os tipos de memória e suas diferenças (RAM, HD, SSD, etc.).
+- Entender como os sistemas operacionais atuam nas máquinas e seus principais conceitos.
+
 #### Exercício 1 - Simulando um computador
 
 Cria um projeto que simula a arquitetura de computadores de uma maneira bem simples, ela tem um arquivo principal para a execução do programa que representa um Sistema Operacional e duas classes que representam a Memória Principal e a Secundária.
