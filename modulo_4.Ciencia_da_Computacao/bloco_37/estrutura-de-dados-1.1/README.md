@@ -32,3 +32,45 @@ Testando os conceitos:
 - [ ] Comenta os trechos de código que fazem a operação de limpeza (clean) da memória e executa o comando novamente
 - [ ] Comenta os trechos de código que fazem a operação de carregamento (load) da memória e executa novamente.
 - [ ] Compara o que aconteceu com os resultados das somas.
+
+#### Exercício 2 - Explorando o sistema que estamos utilizando
+
+> Utilizando o módulo [platform](https://docs.python.org/3/library/platform.html) do Python.
+
+Cria um script chamado my_platform.py e utiliza-o para exibir no console as informações solicitadas abaixo:
+
+- [ ] A plataforma que está sendo utilizada (linux, win32, darwin, etc).
+- [ ] A versão (release).
+- [ ] A arquitetura (x32 ou x64).
+
+#### Exercício 3 - Enviando programaticamente comandos para o shell
+
+> Utilizando o método check_output do módulo [subprocess](https://docs.python.org/3/library/subprocess.html) do Python.
+
+Cria um script chamado resources.py e utiliza-o para exibir no console as informações sobre a CPU abaixo:
+
+obs: no linux pode-se usar o comando `lscpu`, e no OSX pode-se usar o comando `sysctl -n machdep.cpu.brand_string`
+
+- [ ] O modelo
+- [ ] A quantidade de cores
+- [ ] A velocidade em Megahertz - MHz
+- [ ] A quantidade de cache (L1, L2, L3);
+- [ ] Informações sobre a memória RAM 
+obs: no linux pode-se usar comando `free`, e no OSX pode-se usar o comando `top -l 1 | head -n 10 | grep PhysMem`.
+- [ ] A quantidade total de memória RAM disponível em megabytes - MB e a a conversão também.
+- [ ] A quantidade total de memória RAM que está sendo utilizada em megabytes - MB.
+
+**Dicas:**
+
+- O método `decode("UTF-8")` é útil para ler os dados oriundos da check_output.
+- Os métodos `split` e `strip` são úteis para limpar e separar as informações obtidas com os comandos.
+O método `startswith` é útil para selecionar informações específicas.
+
+#### Exercício 4
+
+- [ ] Faz um script que a cada intervalo de segundo mostra no console a memória utilizada do sistema operacional vs a memória total (ambos em megabytes - MB).
+
+#### Exercício 5
+
+- [ ] Faz um script que exibe o seu respectivo `process id` utilizando o módulo `os` do Python e então fica em execução por um determinado tempo.
+- [ ] Utilizando os comandos de monitoramento visto no conteúdo, exibe os processos em execução e então identifica o seu processo.
