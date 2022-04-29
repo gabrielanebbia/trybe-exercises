@@ -21,7 +21,7 @@ Desenvolve um jogo em que a pessoa usuária tem que adivinhar uma palavra que é
 
 ### Exercício 3
 
-- [ ] Modifica o exercício anterior para que as palavras sejam lidas de um arquivo, com cada palavra em uma linha.
+- [x] Modifica o exercício anterior para que as palavras sejam lidas de um arquivo, com cada palavra em uma linha.
 
 ### Exercício 4
 
