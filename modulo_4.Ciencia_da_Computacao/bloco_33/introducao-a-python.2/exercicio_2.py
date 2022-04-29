@@ -1,8 +1,8 @@
-""" Exercício 2 """
+""" Exercício 3 """
 
 import random
 
-words = ["Maça", "Cidade", "Gato"]
+WORDS = ["maça", "cidade", "gato", "cachorro", "flor", "cadeira"]
 
 
 def random_word(words):
