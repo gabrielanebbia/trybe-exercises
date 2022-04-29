@@ -30,6 +30,7 @@ def check_guesses(guesses, word):
         print(f"Errou :( A palavra era {word} !")
 
 
-word, shuffle_word = random_word(WORDS)
-guesses = get_guesses()
-print(check_guesses(guesses, word))
+if __name__ == "__main__":
+    word, shuffle_word = random_word(WORDS)
+    guesses = get_guesses()
+    print(check_guesses(guesses, word))
