@@ -14,9 +14,10 @@ def random_word(words):
 def get_guesses():
     guesses = list()
     max_attempts = 3
+
     for attempt in range(max_attempts):
         guess = input(f"Qual a palavra?(tentativa {attempt}/{max_attempts})")
-        guess.append(guesses)
+        guesses.append(guess)
     return guesses
 
 
