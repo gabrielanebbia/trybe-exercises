@@ -1,4 +1,5 @@
 import json
+import csv
 
 
 def get_books_in_json_file(file_path):
@@ -25,13 +26,20 @@ def calculate_percentage_by_category(books_by_categories, total_books):
     return percentage
 
 
+def write_percentage_in_csv_file(file_path, books_percentagem):
+    header = ["categoria", "porcentagem"]
+
+    with open(file_path, "w") as file:
+        writer = csv.writer(file)
+        writer.writerow(header)
+        writer.writerows(books_percentagem)
+
+
 if __name__ == "__main__":
     books = get_books_in_json_file("exercicio_4.json")
     books_by_categories = count_books_by_categories(books)
-    print(books_by_categories)
     total_books = len(books)
-    print(total_books)
     percentagem_rows = calculate_percentage_by_category(
         books_by_categories, total_books
     )
-    print(percentagem_rows)
+    write_percentage_in_csv_file("percentage.csv", percentagem_rows)
