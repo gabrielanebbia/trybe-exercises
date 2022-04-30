@@ -53,5 +53,5 @@ Desenvolve um jogo em que a pessoa usuária tem que adivinhar uma palavra que é
 Utilizando o arquivo pokemons.json retirado em [pokeapi.co](https://pokeapi.co/)
 
 - [x] Escreve um programa que sorteia um pokemon aleatoriamente.
-- [ ] O programa pergunta à pessoa usuária "Quem é esse pokemon?", até que ela o acerte.
-- [ ] A cada erro, apresenta um número de letras do nome daquele pokemon igual ao número de erros.
+- [x] O programa pergunta à pessoa usuária "Quem é esse pokemon?", até que ela o acerte.
+- [x] A cada erro, apresenta um número de letras do nome daquele pokemon igual ao número de erros.
