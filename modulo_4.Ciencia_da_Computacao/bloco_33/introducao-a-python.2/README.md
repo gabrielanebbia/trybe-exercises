@@ -33,5 +33,5 @@ Desenvolve um jogo em que a pessoa usuária tem que adivinhar uma palavra que é
 
 ### Exercício 4 - Lendo arquivos
 
-- [ ] Dado um arquivo no formato JSON, lê seu conteúdo e calcula a porcentagem de livros em cada categoria, em relação ao número total de livros.
+- [x] Dado um arquivo no formato JSON, lê seu conteúdo e calcula a porcentagem de livros em cada categoria, em relação ao número total de livros.
 - [ ] O resultado é escrito em um arquivo no formato CSV.
