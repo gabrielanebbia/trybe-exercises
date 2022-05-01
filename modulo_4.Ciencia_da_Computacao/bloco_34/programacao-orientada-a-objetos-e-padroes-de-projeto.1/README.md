@@ -45,7 +45,7 @@ Modelando partes de um software de geometria.
 Como podemos definir um círculo? Qual seu nome, atributos e comportamentos?
 
 - [x] Cria a abstração de um círculo.
-- [ ] Implementa a abstração com Python.
+- [x] Implementa a abstração com Python.
 
 ---
 
