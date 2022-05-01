@@ -62,5 +62,5 @@ Como podemos abstrair um pedido composto por vários itens? Qual seu nome, atrib
 
 Como podemos modelar uma televisão? Qual seu nome, atributos e comportamentos?
 
-- [ ] Cria a abstração de uma televisão.
+- [x] Cria a abstração de uma televisão.
 - [ ] Implementa a abstração com Python.
