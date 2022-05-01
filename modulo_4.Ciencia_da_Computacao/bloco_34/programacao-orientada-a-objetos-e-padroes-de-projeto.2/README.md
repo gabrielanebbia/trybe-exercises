@@ -16,18 +16,18 @@ Utilizando o exercício de abstração da aula anterior, sobre o funcionamento d
 
 Atributos:
 
-- [ ] volume - inicializado com um valor de 50 e só pode estar entre 0 e 99
-- [ ] canal - inicializado com um valor de 1 e só pode estar entre 1 e 99
-- [ ] tamanho - inicializado com o valor do parâmetro
-- [ ] ligada - inicializado com o valor de False (desligado)
-- [ ] Todos os atributos são privados
+- [x] volume - inicializado com um valor de 50 e só pode estar entre 0 e 99
+- [x] canal - inicializado com um valor de 1 e só pode estar entre 1 e 99
+- [x] tamanho - inicializado com o valor do parâmetro
+- [x] ligada - inicializado com o valor de False (desligado)
+- [x] Todos os atributos são privados - __atributo
 
 Métodos:
 
-- [ ] aumentar_volume - aumenta o volume de 1 em 1 até o máximo de 99
-- [ ] diminuir_volume - diminui o volume de 1 em 1 até o mínimo de 0
-- [ ] modificar_canal - altera o canal de acordo com o parâmetro recebido e lança uma exceção (ValueError), caso o valor esteja fora dos limites
-- [ ] ligar_desligar - alterna o estado da TV entre ligado e desligado (True / False)
+- [x] aumentar_volume - aumenta o volume de 1 em 1 até o máximo de 99
+- [x] diminuir_volume - diminui o volume de 1 em 1 até o mínimo de 0
+- [x] modificar_canal - altera o canal de acordo com o parâmetro recebido e lança uma exceção (ValueError), caso o valor esteja fora dos limites
+- [x] ligar_desligar - alterna o estado da TV entre ligado e desligado (True / False)
 
 #### Exercício 2
 
