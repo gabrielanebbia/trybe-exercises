@@ -53,7 +53,7 @@ Como podemos definir um círculo? Qual seu nome, atributos e comportamentos?
 
 Como podemos abstrair um pedido composto por vários itens? Qual seu nome, atributos e comportamentos?
 
-- [ ] Cria a abstração de sistema de vendas de uma cafeteria.
+- [x] Cria a abstração de sistema de vendas de uma cafeteria.
 - [ ] Implementa a abstração com Python.
 
 ---
