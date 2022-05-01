@@ -4,6 +4,12 @@
 
 ### Exercícios
 
+O objetivo dos exercícios do dia foi colocar em prática o que havia aprendido sobre mais alguns dos recursos importantes do paradigma de Programação Orientada a Objetos (POO), Herança, Composição e Interfaces.
+
+- Como compartilhar lógica entre classes
+- Criar versões especializadas de classes
+- Como garantir consistência entre classes especializadas tendo como referência suas interfaces
+
 #### Exercício 1
 
 Utilizando o exercício de abstração da aula anterior, sobre o funcionamento de uma TV, implementa seus atributos e métodos, com algumas modificações.
