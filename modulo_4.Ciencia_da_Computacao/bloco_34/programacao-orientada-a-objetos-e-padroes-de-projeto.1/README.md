@@ -33,7 +33,7 @@ Modelando partes de um software de geometria.
 
 Como podemos modelar um objeto retângulo?
 
-- [ ] Cria a abstração de um retângulo.
+- [x] Cria a abstração de um retângulo.
 - [ ] Implementa a abstração com Python.
 
 ---
