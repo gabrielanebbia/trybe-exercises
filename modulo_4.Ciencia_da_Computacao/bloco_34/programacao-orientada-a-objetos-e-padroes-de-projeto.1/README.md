@@ -23,7 +23,7 @@ Para os exercícios a seguir foi necessário exercitar a capacidade de abstraç�
 
 #### Exercício 1 - Definindo conceitos da POO
 
-- [ ] Em um contexto de orientação a objetos como podemos definir os principais conceitos da POO.
+- [x] Em um contexto de orientação a objetos como podemos definir os principais conceitos da POO.
 
 ---
 
