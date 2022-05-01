@@ -2,7 +2,7 @@
 
 ## `Dia 2 - Herança, Composição e Interfaces`
 
-### Exercícios do dia
+### Exercícios
 
 #### Exercício 1
 
