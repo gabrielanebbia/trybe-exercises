@@ -129,4 +129,4 @@ O programa do curso conta com mais de 1.500 horas de aulas presenciais e online,
   - _Projeto Restaurant Orders_
 
 - [ ] _Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas_
-  - _Projeto TING - Trybe Is Not Google_
+  - _Projeto - TING - Trybe Is Not Google_
